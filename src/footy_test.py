@@ -1,17 +1,70 @@
 import pytest
+import pandas as pd
+
 import footy as footy
+from app_objects import Grid
 
-def test_check_grid_works():
+####################################################################################################################
+### INPUTS ###
+####################################################################################################################
 
-    answer = footy.main(3)
+@pytest.fixture
+def team_df() -> pd.DataFrame:
+    team_data = {"pos_1":["Tottenham","Chelsea"],
+           "pos_2":["West Ham","Liverpool"],
+           "pos_3": ["Man City","Bayern Munich"]}
+
+    team_df = pd.DataFrame(team_data)
+    return team_df
+
+@pytest.fixture
+def players_df() -> pd.DataFrame:
+    player_data = {
+    "Name": ['Raheem Sterling', 'Kai Havertz', 'Harry Kane'],
+    "Team": [['Chelsea', 'Man City', 'Liverpool'], ['Chelsea','Arsenal'], ['Tottenham', 'Bayern Munich']]
+        }
+
+    players_df = pd.DataFrame(player_data)
+    return players_df
+
+@pytest.fixture
+def grid() -> Grid:
+    return Grid()
+
+def test_get_teams_for_selected_player_from_db(players_df):
+    player_name = 'Raheem Sterling'
+    team_list = footy.get_teams_for_selected_player_from_db(players_df,player_name)
+    assert len(team_list) == 3
+
+
+####################################################################################################################
+### TESTS ###
+####################################################################################################################
+
+def test_get_teams_for_selected_player_from_db(players_df):
+    player_name = 'Raheem Sterling'
+    team_list = footy.get_teams_for_selected_player_from_db(players_df,player_name)
+    assert team_list[0] == 'Chelsea'
+
+def test_get_teams_from_grid_index(grid, team_df):
+    pos_number = 2
+    selected_teams = footy.get_teams_from_grid_index(team_df, grid, pos_number)
+    team_a = selected_teams[0]
+    assert team_a == 'Tottenham'
+
+def test_get_teams_from_grid_index_length(grid, team_df):
+    pos_number = 2
+    selected_teams = footy.get_teams_from_grid_index(team_df, grid, pos_number)
+    assert len(selected_teams) == 2
+
+def test_compare_player_correct(players_df):
+    player_name = 'Harry Kane'
+    selected_teams = ['Tottenham', 'Bayern Munich']
+    answer = footy.compare_player(players_df, player_name, selected_teams)
     assert answer == True
 
-def test_check_grid_works_two():
-
-    answer = footy.main(2)
+def test_compare_player_incorrect(players_df):
+    player_name = 'Kai Havertz'
+    selected_teams = ['Tottenham', 'Bayern Munich']
+    answer = footy.compare_player(players_df, player_name, selected_teams)
     assert answer == False
-
-def test_check_grid_works_three():
-
-    answer = footy.main(2)
-    assert answer == True
