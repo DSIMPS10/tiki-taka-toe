@@ -41,6 +41,7 @@ def main():
         }
 
     players_df = pd.DataFrame(players_data)
+    players_df['Name'] = players_df['Name'].apply(str.lower)
 
     grid = Grid()
 
@@ -49,8 +50,7 @@ def main():
 
     print(f"Selected teams are: {selected_teams}")
 
-    player_guess = input("Guess a player that played for both teams: ")
-
+    player_guess = input("Guess a player that played for both teams: ").lower()
     answer = compare_player(players_df, player_guess, selected_teams)
 
     if answer: 
