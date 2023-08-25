@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 
 import footy as footy
-from app_objects import Grid
+from utils.app_objects import Grid
 
 ####################################################################################################################
 ### INPUTS ###

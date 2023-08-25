@@ -1,4 +1,8 @@
 pandas
 numpy
+flask
 flask_sqlalchemy
-dotenv
+python-dotenv
+requests
+psycopg2-binary
+pytest

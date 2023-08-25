@@ -9,3 +9,7 @@ from .extensions import db
 # from .models import Athletes, Activities, Activity_maps, Activities_test
 
 main = Blueprint("main", __name__)
+
+@main.get("/")
+def home():
+    return 'Tiki Taka Toe app'

@@ -1,5 +1,7 @@
+import pandas as pd
+
+# from utils.app_objects import Team, Player
 from .extensions import db
-from app_objects import Team, Player
 
 
 ### DATABASE MODELS ###
@@ -21,13 +23,13 @@ class Football_teams(db.Model):
             'country':self.country,
             }
     
-    def as_obj(self):
-        team_obj = Team(
-            team_name=self.team_name,
-            league=self.league,
-            country=self.country,
-        )
-        return team_obj
+    # def as_obj(self):
+    #     team_obj = Team(
+    #         team_name=self.team_name,
+    #         league=self.league,
+    #         country=self.country,
+    #     )
+    #     return team_obj
 
     def __repr__(self):
         return f'<Team: {self.team_name} ({self.league})>'
@@ -50,13 +52,16 @@ class Players(db.Model):
             'team_id':self.team_id,
             }
     
-    def as_obj(self):
-        player_obj = Player(
-            first_name=self.first_name,
-            last_name=self.last_name,
-            team_id=self.team_id,
-        )
-        return player_obj
+    # def as_obj(self):
+    #     player_obj = Player(
+    #         first_name=self.first_name,
+    #         last_name=self.last_name,
+    #         team_id=self.team_id,
+    #     )
+    #     return player_obj
 
     def __repr__(self):
         return f'<Players: {self.first_name} {self.last_name}>'
+
+if __name__ == "__main__":
+    db.create_all()
