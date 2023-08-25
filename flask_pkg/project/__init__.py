@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from .extensions import db
 from .routes import main
 
-from flask_pkg.project.config import DevelopmentConfig, ProductionConfig
+from .config import DevelopmentConfig, ProductionConfig
 
 
 ### Load environment variables ###
