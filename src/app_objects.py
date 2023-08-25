@@ -19,3 +19,15 @@ class Grid():
         index = number - 1
         return grid_list[index]
 
+
+class Team():
+    def __init__(self, team_name, league, country):
+        self.team_name = team_name
+        self.league = league
+        self.country = country
+    
+    def __repr__(self):
+        return f'{self.team_name} (League: {self.league}, {self.country})'
+    
+    def __str__(self):
+        return f'{self.team_name} (League: {self.league}, {self.country})'
