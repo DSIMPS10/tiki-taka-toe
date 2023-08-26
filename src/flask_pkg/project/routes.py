@@ -45,5 +45,5 @@ def post_teams():
     team_dicts = json.loads(team_jsons)  
     teams_to_add = [Football_teams(**row) for row in team_dicts]
     db.session.add_all(teams_to_add)
-    db.session.commit()   
+    db.session.commit()
     return team_jsons
