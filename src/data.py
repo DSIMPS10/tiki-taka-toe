@@ -23,4 +23,4 @@ team_names = ['Arsenal',
 
 CURRENT_PREM_TEAMS =[Team(team_name=team, league='Premiership', country='England') for team in team_names]
 
-print(CURRENT_PREM_TEAMS)
+#print(CURRENT_PREM_TEAMS)

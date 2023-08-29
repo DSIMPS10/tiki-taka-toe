@@ -41,6 +41,24 @@ def get_teams(limit):
     teams_array = [team.as_dict() for team in teams]
     return jsonify(teams_array)
 
+@main.get("/api/get_all_football_teams")
+def get_all_teams(): 
+    teams = Football_teams.query.order_by(Football_teams.team_name).all()
+    teams_array = [team.as_dict() for team in teams]
+    return jsonify(teams_array)
+
+@main.get("/api/count_all_football_teams")
+def count_all_teams(): 
+    teams_count = Football_teams.query.count()
+    total_teams_dict = {'team_count': teams_count}
+    return jsonify(total_teams_dict)
+
+@main.get("/api/team_from_id/<int:id>")
+def get_team_from_id(id): 
+    teams
+    total_teams_dict = {'team_count': teams_count}
+    return jsonify(total_teams_dict)
+
 @main.post("/api/post_teams")
 def post_teams():
     team_jsons = request.get_json()

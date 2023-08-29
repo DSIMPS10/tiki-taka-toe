@@ -1,5 +1,5 @@
 import pandas as pd
-from app_objects import Grid
+from utils.app_objects import Grid
 
 def get_teams_for_selected_player_from_db(player_df, player_name):
     teams: list = player_df.loc[player_df['Name'] == player_name]['Team'].values[0]  
