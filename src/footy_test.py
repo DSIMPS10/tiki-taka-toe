@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 
 import footy as footy
-from app_objects import Grid
+from utils.app_objects import Grid
 
 ####################################################################################################################
 ### INPUTS ###
@@ -41,7 +41,7 @@ def test_get_teams_for_selected_player_from_db(players_df):
 ### TESTS ###
 ####################################################################################################################
 
-def test_get_teams_for_selected_player_from_db(players_df):
+def test_get_one_team_for_selected_player_from_db(players_df):
     player_name = 'Raheem Sterling'
     team_list = footy.get_teams_for_selected_player_from_db(players_df,player_name)
     assert team_list[0] == 'Chelsea'
