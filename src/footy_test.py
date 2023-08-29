@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 
-import footy as footy
+import app as app
 from utils.app_objects import Grid
 
 ####################################################################################################################
@@ -33,7 +33,7 @@ def grid() -> Grid:
 
 def test_get_teams_for_selected_player_from_db(players_df):
     player_name = 'Raheem Sterling'
-    team_list = footy.get_teams_for_selected_player_from_db(players_df,player_name)
+    team_list = app.get_teams_for_selected_player_from_db(players_df,player_name)
     assert len(team_list) == 3
 
 
@@ -43,28 +43,33 @@ def test_get_teams_for_selected_player_from_db(players_df):
 
 def test_get_one_team_for_selected_player_from_db(players_df):
     player_name = 'Raheem Sterling'
-    team_list = footy.get_teams_for_selected_player_from_db(players_df,player_name)
+    team_list = app.get_teams_for_selected_player_from_db(players_df,player_name)
     assert team_list[0] == 'Chelsea'
 
 def test_get_teams_from_grid_index(grid, team_df):
     pos_number = 2
-    selected_teams = footy.get_teams_from_grid_index(team_df, grid, pos_number)
+    selected_teams = app.get_teams_from_grid_index(team_df, grid, pos_number)
     team_a = selected_teams[0]
     assert team_a == 'Tottenham'
 
 def test_get_teams_from_grid_index_length(grid, team_df):
     pos_number = 2
-    selected_teams = footy.get_teams_from_grid_index(team_df, grid, pos_number)
+    selected_teams = app.get_teams_from_grid_index(team_df, grid, pos_number)
     assert len(selected_teams) == 2
 
 def test_compare_player_correct(players_df):
     player_name = 'Harry Kane'
     selected_teams = ['Tottenham', 'Bayern Munich']
-    answer = footy.compare_player(players_df, player_name, selected_teams)
+    answer = app.compare_player(players_df, player_name, selected_teams)
     assert answer == True
 
 def test_compare_player_incorrect(players_df):
     player_name = 'Kai Havertz'
     selected_teams = ['Tottenham', 'Bayern Munich']
-    answer = footy.compare_player(players_df, player_name, selected_teams)
+    answer = app.compare_player(players_df, player_name, selected_teams)
     assert answer == False
+    
+def test_get_teams_from_indices():
+    indices_list = [0,1]
+    test_list = app.get_teams_from_indices(indices_list)
+    assert test_list[0] == 'Arsenal'
