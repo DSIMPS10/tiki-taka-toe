@@ -8,6 +8,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from .extensions import db
 from .models import Football_teams, Players
 
+BASE = "http://127.0.0.1:5000/api/"
+
 main = Blueprint("main", __name__)
 
 #############################################################################################################################################################
