@@ -53,11 +53,11 @@ def count_all_teams():
     total_teams_dict = {'team_count': teams_count}
     return jsonify(total_teams_dict)
 
-@main.get("/api/team_from_id/<int:id>")
-def get_team_from_id(id): 
-    teams
-    total_teams_dict = {'team_count': teams_count}
-    return jsonify(total_teams_dict)
+@main.get("/api/team_name_from_id/<int:team_id>")
+def get_team_name_from_id(team_id): 
+    team_info = Football_teams.query.filter(Football_teams.id == team_id).first()
+    team_info_dict = team_info.as_dict() 
+    return jsonify(team_info_dict)
 
 @main.post("/api/post_teams")
 def post_teams():
