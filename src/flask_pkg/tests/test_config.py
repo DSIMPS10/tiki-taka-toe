@@ -1,7 +1,7 @@
 import pytest
 import os
 
-from flask_pkg.tests.conftest import app
+from .conftest import app
 
 from flask_pkg.project.config import (
     get_env_db_url,

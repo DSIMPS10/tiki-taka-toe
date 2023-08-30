@@ -42,7 +42,8 @@ def game():
         except Exception as e:
             logging.exception(e)
             continue
-
+        
+        move = str(move)
         if theBoard[move] == ' ':
             if run_footy(int(move)):
                 theBoard[move] = turn
