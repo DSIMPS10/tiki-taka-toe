@@ -1,4 +1,6 @@
 import pandas as pd
+from sqlalchemy.dialects.postgresql import ARRAY
+
 
 # from utils.app_objects import Team, Player
 from .extensions import db
@@ -62,6 +64,27 @@ class Players(db.Model):
 
     def __repr__(self):
         return f'<Players: {self.first_name} {self.last_name}>'
+
+if __name__ == "__main__":
+    db.create_all()
+
+class Guesses(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    player = db.Column(db.String(100))
+    teams = db.Column(ARRAY(db.String))
+    
+    def __init__(self, player, teams):
+        self.player = player
+        self.teams = teams
+        
+    def as_dict(self):
+        return {
+            'player':self.player,
+            'teams':self.teams,
+            }
+    
+    def __repr__(self):
+        return f'<{self.player}: [{self.teams}]>'
 
 if __name__ == "__main__":
     db.create_all()

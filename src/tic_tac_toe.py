@@ -96,13 +96,13 @@ def game():
         if check_move(move):      
             move = str(move)
             if theBoard[move] == ' ':
-                theBoard[move] = turn
-                count += 1
-                # if run_footy(int(move)):
-                #     theBoard[move] = turn
-                #     count += 1
-                # else:
-                #     continue
+                # theBoard[move] = turn
+                # count += 1
+                if run_footy(int(move)):
+                    theBoard[move] = turn
+                    count += 1
+                else:
+                    continue
             else:
                 print("That place is already filled.\nChoose a location?")
                 continue

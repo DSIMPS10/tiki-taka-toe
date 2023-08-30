@@ -11,10 +11,7 @@ from data import CURRENT_PREM_TEAMS # pylint: disable=import-error
 
 def post_teams_to_db(teams: list[Team]):
     # Convert activities to json
-    teams_array = [vars(team) for team in teams]
-    # for team in teams:
-    #     teams_array.append(vars(team))
-        
+    teams_array = [vars(team) for team in teams]       
     activitity_json_str = json.dumps(teams_array)
         
     # Post request
@@ -78,6 +75,7 @@ def get_teams_from_grid_index(team_df, grid: Grid, pos_number):
     teams_x = team_df.iloc[0].values
     teams_y = team_df.iloc[1].values
     selected_teams = [teams_x[row_a],teams_y[row_b]]
+    selected_teams.sort()
     return selected_teams
 
     
