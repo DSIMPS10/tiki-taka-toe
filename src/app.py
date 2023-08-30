@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import random
+import numpy as np
 
 # import tic_tac_toe as ttt
 from utils.app_objects import Team, Grid
@@ -92,6 +93,15 @@ def create_six_team_info(team_names_list)-> pd.DataFrame:
     
     return team_df
 
+def print_grid_as_df(team_names_list: list) -> pd.DataFrame:
+    grid_df = pd.DataFrame(columns=['Y\X', team_names_list[0], team_names_list[2], team_names_list[4]])
+    print(grid_df)
+    grid_df['Y\X']  = [team_names_list[1],team_names_list[3],team_names_list[5]]
+    grid_df[team_names_list[0]]  = [{'1,1': np.nan},{'1,2': np.nan},{'1,3': np.nan}]
+    grid_df[team_names_list[2]]  = [{'2,1': np.nan},{'2,2': np.nan},{'2,3': np.nan}]
+    grid_df[team_names_list[4]]  = [{'3,1': np.nan},{'3,2': np.nan},{'3,3': np.nan}]
+    return grid_df
+
 def run_footy():
     ### INPUTS ###
     six_indices = get_six_random_indices()
@@ -131,9 +141,12 @@ def main():
     # test = CURRENT_PREM_TEAMS
     # posted_teams = post_teams_to_db(CURRENT_PREM_TEAMS)
     # print(posted_teams)
-    six_indices = get_six_random_indices()
-    testing_list= get_teams_from_indices(six_indices)
-    print(testing_list)
+    # six_indices = get_six_random_indices()
+    # testing_list= get_teams_from_indices(six_indices)
+    # print(testing_list)
+    team_list = ['A','B','C','D','E','F']
+    grid_df = print_grid_as_df(team_list)
+    print(grid_df)
 
 if __name__ == "__main__":
     main()
