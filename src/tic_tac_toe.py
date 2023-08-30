@@ -17,7 +17,72 @@ def printBoard(board):
     print('-+-+-')
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
 
-# Now we'll write the main function which has all the gameplay functionality.
+def check_winner(count, turn):
+    is_there_a_winner: bool = False
+    if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top             
+        is_there_a_winner = True
+    elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
+        is_there_a_winner = True
+    elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
+        is_there_a_winner = True
+    elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left side
+        is_there_a_winner = True
+    elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
+        is_there_a_winner = True
+    elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right side
+        is_there_a_winner = True
+    elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
+        is_there_a_winner = True
+    elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
+        is_there_a_winner = True
+    
+    # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
+    if count == 9:
+        print("\nGame Over.\n")                
+        print("It's a Tie!!")
+        #Return true for game over
+        return True
+    
+    if is_there_a_winner:
+        printBoard(theBoard)
+        print("\nGame Over.\n")                
+        print(" **** " +turn + " won. ****")
+
+    return is_there_a_winner
+
+def switch_turn(turn):   
+    if turn =='X':
+        turn = 'O'
+    else:
+        turn = 'X'  
+    return turn
+
+def restart_game(restart):
+    if restart == "y" or restart == "Y":  
+        for key in board_keys:
+            theBoard[key] = " "
+        game()
+
+def check_move(move):
+    try: 
+        move = int(move)  
+    except ValueError as e:
+        print('Please chose an INTEGER value (between 1 and 9)')  
+        return False   
+
+    try:
+        if move > 9 or move < 1:
+            raise ValueError(move)
+    except ValueError as e:
+        print(move, 'is outside the randge 1 to 9. Please chose a new position')
+        return False
+    except Exception as e:
+        logging.exception(e)
+        return False
+    else:
+        return True
+
+
 def game():
 
     turn = 'X'
@@ -27,97 +92,34 @@ def game():
         printBoard(theBoard)
         print("It's your turn " + turn + ". Choose a location?")
 
-        try: 
-            move = int(input())  
-        except ValueError as e:
-            print('Please chose an INTEGER value (between 1 and 9)')  
-            continue   
-
-        try:
-            if move > 9 or move < 1:
-                raise ValueError(move)
-        except ValueError as e:
-            print(move, 'is outside the randge 1 to 9. Please chose a new position')
-            continue
-        except Exception as e:
-            logging.exception(e)
-            continue
-        
-        move = str(move)
-        if theBoard[move] == ' ':
-            if run_footy(int(move)):
+        move = input()
+        if check_move(move):      
+            move = str(move)
+            if theBoard[move] == ' ':
                 theBoard[move] = turn
                 count += 1
+                # if run_footy(int(move)):
+                #     theBoard[move] = turn
+                #     count += 1
+                # else:
+                #     continue
             else:
+                print("That place is already filled.\nChoose a location?")
                 continue
         else:
-            print("That place is already filled.\nChoose a location?")
             continue
 
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 5:
-            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")                
+            is_there_a_winner = check_winner(count, turn)
+            if is_there_a_winner:
                 break
-            elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break
-            elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break
-            elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left side
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break
-            elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break
-            elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right side
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break 
-            elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break
-            elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
-                printBoard(theBoard)
-                print("\nGame Over.\n")                
-                print(" **** " +turn + " won. ****")
-                break 
-
-        # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
-        if count == 9:
-            print("\nGame Over.\n")                
-            print("It's a Tie!!")
-
-        # Now we have to change the player after every move.
-        if turn =='X':
-            turn = 'O'
-        else:
-            turn = 'X'        
-    
-    # Now we will ask if player wants to restart the game or not.
+        # Switch player after each go
+        turn = switch_turn(turn)
+  
+    # Optional restart:
     restart = input("Do want to play Again?(y/n)")
-    if restart == "y" or restart == "Y":  
-        for key in board_keys:
-            theBoard[key] = " "
-
-        game()
+    restart_game(restart)
 
 if __name__ == "__main__":
     game()
-
-
-#Adding __name_ allows the functions within the file to be called in another file without running whole host file
