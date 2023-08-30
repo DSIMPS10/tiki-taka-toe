@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from utils.app_objects import Team, Player
-from flask_pkg.project.routes import get_request, BASE
+from src.utils.app_objects import Team, Player
+from src.flask_pkg.project.routes import get_request, BASE
 
 team_names = ['Arsenal',
                 'Aston Villa',

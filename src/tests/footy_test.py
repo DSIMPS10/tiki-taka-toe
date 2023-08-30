@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 
-import app as app
-from utils.app_objects import Grid
+import src.app as app
+from src.utils.app_objects import Grid
 
 ####################################################################################################################
 ### INPUTS ###
