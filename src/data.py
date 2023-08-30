@@ -55,6 +55,8 @@ def clean_players_data(player_df):
     "West Ham": "West Ham United",
     "Wolves": "Wolverhampton Wanderers"
     })
+    player_df[['first_name','last_name']] = player_df["name"].str.split(" ", n = 1, expand = True)
+    player_df = player_df.drop(columns = ['name'])
     return player_df
 
 def join_team_name_with_id(player_df,team_name_dict):
@@ -64,11 +66,22 @@ def join_team_name_with_id(player_df,team_name_dict):
     player_df['team_id'].astype(np.int64)
     return player_df
 
+def create_player_objects(player_df):
+    players_list = []
+    for i in player_df.index:
+        players_list.append(Player(first_name=player_df['first_name'][i], last_name=player_df['last_name'][i], team_id =player_df['team_id'][i]))
+    return players_list  
+
 def main():
     prem_22_data = pd.read_csv("C:\\Users\\domsi\\OneDrive\\Documents\\fantasy-football\\season_22.csv")
     team_name_dict = team_dict_from_db()
     player_df = clean_players_data(prem_22_data)
+    #print(player_df.head())
     player_df = join_team_name_with_id(player_df,team_name_dict).reset_index(drop=True)
+    #print(player_df.head())
+    players_22_23 = create_player_objects(player_df)
+    print(players_22_23)
+    print(type(players_22_23[0]))
     
 if __name__ == "__main__":
     main()
