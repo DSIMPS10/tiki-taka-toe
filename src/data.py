@@ -67,11 +67,8 @@ def join_team_name_with_id(player_df,team_name_dict):
 def main():
     prem_22_data = pd.read_csv("C:\\Users\\domsi\\OneDrive\\Documents\\fantasy-football\\season_22.csv")
     team_name_dict = team_dict_from_db()
-    print(team_name_dict)
     player_df = clean_players_data(prem_22_data)
-    player_df = join_team_name_with_id(player_df,team_name_dict)
-    print(player_df.head())
-    print(player_df.tail())
-
+    player_df = join_team_name_with_id(player_df,team_name_dict).reset_index(drop=True)
+    
 if __name__ == "__main__":
     main()
