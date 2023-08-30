@@ -1,9 +1,4 @@
-#Implementation of Two Player Tic-Tac-Toe game in Python.
-
-''' We will make the board using dictionary 
-    in which keys will be the location(i.e : top-left,mid-right,etc.)
-    and initialliy it's values will be empty space and then after every move 
-    we will change the value according to player's choice of move. '''
+from app import run_footy
 
 theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
@@ -13,10 +8,6 @@ board_keys = []
 
 for key in theBoard:
     board_keys.append(key)
-
-''' We will have to print the updated board after every move in the game and 
-    thus we will make a function in which we'll define the printBoard function
-    so that we can easily print the board everytime by calling this function. '''
 
 def printBoard(board):
     print(board['7'] + '|' + board['8'] + '|' + board['9'])
@@ -33,15 +24,23 @@ def game():
 
     for i in range(10):
         printBoard(theBoard)
-        print("It's your turn," + turn + ".Move to which place?")
+        print("It's your turn " + turn + ". Choose a location?")
 
-        move = input()        
+        move = input()   
+        try: 
+            move = int(move)
+        except:
+            print('Please chose an integer value between 1 and 9.')  
+            continue   
 
         if theBoard[move] == ' ':
-            theBoard[move] = turn
-            count += 1
+            if run_footy(int(move)):
+                theBoard[move] = turn
+                count += 1
+            else:
+                continue
         else:
-            print("That place is already filled.\nMove to which place?")
+            print("That place is already filled.\nChoose a location?")
             continue
 
         # Now we will check if player X or O has won,for every move after 5 moves. 
