@@ -39,12 +39,10 @@ def all_correct_answers(team_a, team_b) -> list:
     team_b_dict = get_request(BASE, f'team_from_name/{team_b}')
     team_id_a = team_a_dict['id']
     team_id_b = team_b_dict['id']
-
-
-    # Add code here
-    # GET request for all players based on teams (list of both teams)
-
-    return all_possible_players
+    taam_a_players = get_all_players_for_team_id(team_id_a)
+    team_b_players = get_all_players_for_team_id(team_id_b)
+    correct_players = get_players_for_two_teams(taam_a_players,team_b_players)
+    return correct_players
 
 #TODO: Get total number of guesses for each players
 def total_number_of_guess(all_possible_players) -> dict:
