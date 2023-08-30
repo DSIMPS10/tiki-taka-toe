@@ -5,9 +5,9 @@ import numpy as np
 import logging
 
 # import tic_tac_toe as ttt
-from utils.app_objects import Team, Grid
-from flask_pkg.project.routes import BASE, get_request, post_request
-from data import CURRENT_PREM_TEAMS
+from utils.app_objects import Team, Grid # pylint: disable=import-error
+from flask_pkg.project.routes import BASE, get_request, post_request # pylint: disable=import-error
+from data import CURRENT_PREM_TEAMS # pylint: disable=import-error
 
 def post_teams_to_db(teams: list[Team]):
     # Convert activities to json

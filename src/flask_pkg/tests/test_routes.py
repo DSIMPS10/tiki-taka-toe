@@ -1,11 +1,11 @@
 import pytest
 import json
 
-from flask_pkg.tests.conftest import app
-from flask_pkg.project import db
+from flask_pkg.tests.conftest import app # pylint: disable=import-error
+from flask_pkg.project import db # pylint: disable=import-error
 
-from flask_pkg.project.models import Football_teams, Players
-from flask_pkg.project.config import TestingConfig
+from flask_pkg.project.models import Football_teams, Players # pylint: disable=import-error
+from flask_pkg.project.config import TestingConfig # pylint: disable=import-error
 
 def test_add_multiple_teams(app):
     test_app = app(TestingConfig)

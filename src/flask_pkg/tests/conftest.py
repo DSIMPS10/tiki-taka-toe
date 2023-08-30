@@ -1,8 +1,8 @@
 import pytest
 
-from flask_pkg.project import create_app, db
-from flask_pkg.project.config import get_env_db_url
-from flask_pkg.project.config import TestingConfig
+from flask_pkg.project import create_app, db # pylint: disable=import-error
+from flask_pkg.project.config import get_env_db_url # pylint: disable=import-error
+from flask_pkg.project.config import TestingConfig # pylint: disable=import-error
 
 @pytest.yield_fixture()
 def app():
@@ -15,7 +15,7 @@ def app():
         if config_class is TestingConfig:
         # always starting with an empty DB
             db.drop_all()
-            from flask_pkg.project.models import Football_teams, Players
+            from flask_pkg.project.models import Football_teams, Players # pylint: disable=import-error
             db.create_all()
 
         return app, client

@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from dotenv import load_dotenv
+from dotenv import load_dotenv # pylint: disable=import-error
 
 from .extensions import db
 from .routes import main

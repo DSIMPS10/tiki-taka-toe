@@ -1,14 +1,8 @@
 import pytest
 import os
 
-from .conftest import app
-
-from flask_pkg.project.config import (
-    get_env_db_url,
-    TestingConfig,
-    DevelopmentConfig,
-    ProductionConfig,
-)
+from flask_pkg.tests.conftest import app # pylint: disable=import-error
+from flask_pkg.project.config import get_env_db_url,TestingConfig,DevelopmentConfig,ProductionConfig # pylint: disable=import-error
 
 
 # @pytest.mark.skipif(
