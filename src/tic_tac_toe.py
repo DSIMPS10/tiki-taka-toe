@@ -37,7 +37,7 @@ def check_winner(count, turn):
         is_there_a_winner = True
     
     # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
-    if count == 9:
+    elif count == 9 and is_there_a_winner == False:
         print("\nGame Over.\n")                
         print("It's a Tie!!")
         #Return true for game over
@@ -86,8 +86,9 @@ def check_move(move):
 def game():
     turn = 'X'
     count = 0
+    is_there_a_winner = False
 
-    for i in range(10):
+    while is_there_a_winner == False:
         printBoard(theBoard)
         print("It's your turn " + turn + ". Choose a location?")
 
@@ -111,8 +112,8 @@ def game():
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 5:
             is_there_a_winner = check_winner(count, turn)
-            if is_there_a_winner:
-                break
+            # if is_there_a_winner:
+            #     break
         # Switch player after each go
         turn = switch_turn(turn)
   
