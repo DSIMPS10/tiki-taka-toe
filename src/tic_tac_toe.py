@@ -1,3 +1,4 @@
+import logging
 from app import run_footy
 
 theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
@@ -26,12 +27,21 @@ def game():
         printBoard(theBoard)
         print("It's your turn " + turn + ". Choose a location?")
 
-        move = input()   
         try: 
-            move = int(move)
-        except:
-            print('Please chose an integer value between 1 and 9.')  
+            move = int(input())  
+        except ValueError as e:
+            print('Please chose an INTEGER value (between 1 and 9)')  
             continue   
+
+        try:
+            if move > 9 or move < 1:
+                raise ValueError(move)
+        except ValueError as e:
+            print(move, 'is outside the randge 1 to 9. Please chose a new position')
+            continue
+        except Exception as e:
+            logging.exception(e)
+            continue
 
         if theBoard[move] == ' ':
             if run_footy(int(move)):
