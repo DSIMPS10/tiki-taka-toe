@@ -3,7 +3,7 @@ import json
 import random
 
 # import tic_tac_toe as ttt
-from utils.app_objects import Team
+from utils.app_objects import Team, Grid
 from flask_pkg.project.routes import BASE, get_request, post_request
 from data import CURRENT_PREM_TEAMS
 
@@ -94,7 +94,9 @@ def create_six_team_info(team_names_list)-> pd.DataFrame:
 
 def run_footy():
     ### INPUTS ###
-    create_six_team_info
+    six_indices = get_six_random_indices()
+    team_names_list = get_teams_from_indices(six_indices)
+    team_df = create_six_team_info(team_names_list)
 
     players_data = {
     "Name": ['Raheem Sterling', 'Kai Havertz', 'Harry Kane'],
