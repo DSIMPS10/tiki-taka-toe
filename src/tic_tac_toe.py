@@ -84,7 +84,6 @@ def check_move(move):
 
 
 def game():
-
     turn = 'X'
     count = 0
 
