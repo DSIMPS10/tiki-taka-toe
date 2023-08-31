@@ -19,6 +19,16 @@ def post_teams_to_db(teams: list[Team]):
     print(f"New teams posted: {teams_posted}")
     return teams_posted
 
+def post_players_to_db(players: list[Player]):
+    # Convert activities to json
+    players_array = [vars(player) for player in players]       
+    activitity_json__players_str = json.dumps(players_array)
+        
+    # Post request
+    players_posted = post_request(BASE,"post_players",activitity_json__players_str)
+    print(f"New players posted: {players_posted}")
+    return players_posted
+
 
 def get_teams_from_db(limit):
     teams = get_request(BASE, f'get_football_teams/{limit}')

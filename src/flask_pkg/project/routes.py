@@ -79,3 +79,12 @@ def post_teams():
     db.session.add_all(teams_to_add)
     db.session.commit()
     return team_jsons
+
+@main.post("/api/post_players")
+def post_players():
+    player_jsons = request.get_json()
+    player_dicts = json.loads(player_jsons)  
+    players_to_add = [Players(**row) for row in player_dicts]
+    db.session.add_all(players_to_add)
+    db.session.commit()
+    return player_jsons
