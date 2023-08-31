@@ -7,46 +7,7 @@ import logging
 # import tic_tac_toe as ttt
 from utils.app_objects import Team, Grid, Player # pylint: disable=import-error
 from flask_pkg.project.routes import BASE, get_request, post_request # pylint: disable=import-error
-from data import CURRENT_PREM_TEAMS # pylint: disable=import-error
-
-def post_teams_to_db(teams: list[Team]):
-    # Convert activities to json
-    teams_array = [vars(team) for team in teams]       
-    activitity_json_str = json.dumps(teams_array)
-        
-    # Post request
-    teams_posted = post_request(BASE,"post_teams",activitity_json_str)
-    print(f"New teams posted: {teams_posted}")
-    return teams_posted
-
-def post_players_to_db(players: list[Player]):
-    # Convert activities to json
-    players_array = [vars(player) for player in players]       
-    activitity_json__players_str = json.dumps(players_array)
-        
-    # Post request
-    players_posted = post_request(BASE,"post_players",activitity_json__players_str)
-    print(f"New players posted: {players_posted}")
-    return players_posted
-
-
-def get_teams_from_db(limit):
-    teams = get_request(BASE, f'get_football_teams/{limit}')
-    df = pd.DataFrame.from_dict(teams)
-    return df
-
-def post_some_demo_teams():
-    chelsea = Team(team_name='Chelsea', league='Premiership', country='England')
-    tottenham = Team(team_name='Tottenham', league='Premiership', country='England')
-    arsenal = Team(team_name='Arsenal', league='Premiership', country='England')
-    teams_to_be_posted: Team = [chelsea, tottenham, arsenal]
-    teams_posted = post_teams_to_db(teams_to_be_posted)
-
-def post_some_demo_players():
-    sterling = Player(first_name='Raheem', last_name='Sterling', team_id='7')
-    kane = Player(first_name='Harry', last_name='Kane', team_id='18')
-    players_to_be_posted: Player = [sterling, kane]
-    players_posted = post_players_to_db(players_to_be_posted)
+from data.data_db import total_player_process
 
 
 # TODO: get 6 random indexes to select teams by (will need to get max index of DB and use the random lib)
@@ -163,6 +124,7 @@ def run_footy(move: int):
     return answer
 
 def main():
+    total_player_process()
     #teams = get_teams_from_db(3)
     #print(teams)
     #print(CURRENT_PREM_TEAMS)
@@ -177,8 +139,8 @@ def main():
     # team_list = ['A','B','C','D','E','F']
     # grid_df = print_grid_as_df(team_list)
     # print(grid_df)
-    test = post_some_demo_players()
-    print(test)
+    #test = players_22_23
+    #post_players_to_db(players_22_23)
 
 if __name__ == "__main__":
     main()
