@@ -5,7 +5,7 @@ import numpy as np
 import logging
 
 # import tic_tac_toe as ttt
-from utils.app_objects import Team, Grid # pylint: disable=import-error
+from utils.app_objects import Team, Grid, Player # pylint: disable=import-error
 from flask_pkg.project.routes import BASE, get_request, post_request # pylint: disable=import-error
 from data import CURRENT_PREM_TEAMS # pylint: disable=import-error
 
@@ -41,6 +41,13 @@ def post_some_demo_teams():
     arsenal = Team(team_name='Arsenal', league='Premiership', country='England')
     teams_to_be_posted: Team = [chelsea, tottenham, arsenal]
     teams_posted = post_teams_to_db(teams_to_be_posted)
+
+def post_some_demo_players():
+    sterling = Player(first_name='Raheem', last_name='Sterling', team_id='7')
+    kane = Player(first_name='Harry', last_name='Kane', team_id='18')
+    players_to_be_posted: Player = [sterling, kane]
+    players_posted = post_players_to_db(players_to_be_posted)
+
 
 # TODO: get 6 random indexes to select teams by (will need to get max index of DB and use the random lib)
 # Output: list[] of 6 integers
@@ -167,9 +174,11 @@ def main():
     # six_indices = get_six_random_indices()
     # testing_list= get_teams_from_indices(six_indices)
     # print(testing_list)
-    team_list = ['A','B','C','D','E','F']
-    grid_df = print_grid_as_df(team_list)
-    print(grid_df)
+    # team_list = ['A','B','C','D','E','F']
+    # grid_df = print_grid_as_df(team_list)
+    # print(grid_df)
+    test = post_some_demo_players()
+    print(test)
 
 if __name__ == "__main__":
     main()
