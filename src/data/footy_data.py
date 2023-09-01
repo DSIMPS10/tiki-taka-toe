@@ -2,6 +2,7 @@ import http.client
 import json
 import os 
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 api_key = os.getenv("FOOTBALL_API_KEY")
@@ -134,8 +135,10 @@ def main():
     total_pages = get_number_of_pages(39,2021)
     for i in range(total_pages):
         single_list = get_all_players_for_season(prem_league, season, i)
+        time.sleep(10)
         total_list += single_list
     print(total_list)
+    print(len(total_list))
     
 if __name__ == "__main__":
     main()
