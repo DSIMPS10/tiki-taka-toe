@@ -76,7 +76,41 @@ def get_all_teams_of_player(player_id: int, seasons:list) -> dict:
             continue
         
     return player_teams
-    
+
+def get_number_of_pages(league_id,season):
+    '''
+    Get number of pages for players
+    '''
+    conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    season_json = json.loads(decoded)
+    paging = season_json['paging']
+    total_pages = paging['total']
+    return total_pages
+
+def get_all_players_for_season(league_id, season, page):
+    # conn.request("GET", f"/players?league={league_id}&season={season}&page={page}", headers=headers)
+    conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
+
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    season_json = json.loads(decoded)
+    print(season_json)
+    season_response = season_json['response']
+    list_of_players = []
+    for player in season_response:
+        player_dict = {}
+        player_info = player['player']
+        team_info = player['statistics'][0]
+        player_dict['first_name'] = player_info['firstname']
+        player_dict['last_name'] = player_info['lastname']
+        player_dict['team'] = team_info['team']['name']
+        player_dict['season'] = season
+        list_of_players.append(player_dict)   
+    return list_of_players
 
 def main():
     #harry mag
@@ -88,10 +122,20 @@ def main():
     # player_data(player_id)
     # player_for_a_season(player_id, season)
     # print(player_for_a_season)
-    season_list = get_list_of_seasons(2016, 2022)
-    print(season_list)
-    player_teams = get_all_teams_of_player(player_id, season_list)
-    print(player_teams)
+    # season_list = get_list_of_seasons(2016, 2022)
+    # print(season_list)
+    # player_teams = get_all_teams_of_player(player_id, season_list)
+    # print(player_teams)
+    # test = get_all_players_for_season(39, 2021, 1)
+    # print(test)
+    total_list = []
+    season = 2021
+    prem_league = 39
+    total_pages = get_number_of_pages(39,2021)
+    for i in range(total_pages):
+        single_list = get_all_players_for_season(prem_league, season, i)
+        total_list += single_list
+    print(total_list)
     
 if __name__ == "__main__":
     main()
