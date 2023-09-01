@@ -4,6 +4,8 @@ import os
 from dotenv import load_dotenv
 import time
 
+from utils.app_objects import Player
+
 load_dotenv()
 api_key = os.getenv("FOOTBALL_API_KEY")
 conn = http.client.HTTPSConnection("v3.football.api-sports.io")
@@ -91,15 +93,13 @@ def get_number_of_pages(league_id,season):
     total_pages = paging['total']
     return total_pages
 
-def get_all_players_for_season(league_id, season, page):
-    # conn.request("GET", f"/players?league={league_id}&season={season}&page={page}", headers=headers)
-    conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
-
+def get_all_players_for_season_per_page(league_id, season, page):
+    conn.request("GET", f"/players?league={league_id}&season={season}&page={page}", headers=headers)
+    # conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
     res = conn.getresponse()
     data = res.read()
     decoded = data.decode("utf-8")
     season_json = json.loads(decoded)
-    print(season_json)
     season_response = season_json['response']
     list_of_players = []
     for player in season_response:
@@ -113,32 +113,41 @@ def get_all_players_for_season(league_id, season, page):
         list_of_players.append(player_dict)   
     return list_of_players
 
-def main():
-    #harry mag
-    # player_id = 2935
-
-    #wan bas
-    player_id = 18846
-    
-    # player_data(player_id)
-    # player_for_a_season(player_id, season)
-    # print(player_for_a_season)
-    # season_list = get_list_of_seasons(2016, 2022)
-    # print(season_list)
-    # player_teams = get_all_teams_of_player(player_id, season_list)
-    # print(player_teams)
-    # test = get_all_players_for_season(39, 2021, 1)
-    # print(test)
+def get_all_players_for_a_season(season, league):
     total_list = []
-    season = 2021
-    prem_league = 39
-    total_pages = get_number_of_pages(39,2021)
+    total_pages = get_number_of_pages(league,season)
     for i in range(total_pages):
-        single_list = get_all_players_for_season(prem_league, season, i)
+        single_list = get_all_players_for_season_per_page(league, season, i+1)
         time.sleep(10)
         total_list += single_list
-    print(total_list)
-    print(len(total_list))
+    return total_list
+
+def get_all_players_for_seasons(list_of_seasons, league):
+    all_players = []
+    for season in list_of_seasons:
+        season__players = get_all_players_for_a_season(season,league)
+        all_players += season__players
+    return all_players
+
+def convert_player_list_to_obj(player_list):
+    players = []
+    for player in player_list:
+        #TODO - get team Id and add in season column
+        team_id = 1
+        players.append(Player(first_name=player['first_name'], 
+                              last_name=player['last_name'], 
+                              team_id=team_id))
+    return players
+        
+        
+    
+def main():
+    season_list = get_list_of_seasons(2016, 2022)
+    print(season_list)
+    prem_league = 39
+    all_players = get_all_players_for_seasons(season_list, league=prem_league)
+    return all_players
     
 if __name__ == "__main__":
     main()
+

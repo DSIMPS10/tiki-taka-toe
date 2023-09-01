@@ -41,17 +41,24 @@ class Players(db.Model):
     first_name = db.Column(db.String(100))
     last_name = db.Column(db.String(100))
     team_id = db.Column(db.Integer)
+    start_season = db.Column(db.Integer)
+    end_season = db.Column(db.Integer)
+
     
-    def __init__(self, first_name, last_name, team_id):
+    def __init__(self, first_name, last_name, team_id, start_season, end_season):
         self.first_name = first_name
         self.last_name = last_name
         self.team_id = team_id
+        self.start_season = start_season
+        self.end_season = end_season
         
     def as_dict(self):
         return {
             'first_name':self.first_name,
             'last_name':self.last_name,
             'team_id':self.team_id,
+            'start_season':self.start_season,
+            'end_season': self.end_season
             }
     
     # def as_obj(self):
