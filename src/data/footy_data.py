@@ -134,11 +134,18 @@ def convert_player_list_to_obj(player_list):
     for player in player_list:
         #TODO - get team Id and add in season column
         team_id = 1
+        start_season = 2020
+        end_season = 2022
         players.append(Player(first_name=player['first_name'], 
                               last_name=player['last_name'], 
-                              team_id=team_id))
+                              team_id=team_id,
+                              start_season=start_season,
+                              end_season=end_season))
     return players
-        
+
+#TODO: only have start and end seasons for each player and club
+def season_for_player():
+    pass
         
     
 def main():
