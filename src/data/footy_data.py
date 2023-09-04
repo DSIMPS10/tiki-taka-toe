@@ -108,7 +108,7 @@ def get_all_players_for_season_per_page(league_id, season, page):
         team_info = player['statistics'][0]
         player_dict['first_name'] = player_info['firstname']
         player_dict['last_name'] = player_info['lastname']
-        player_dict['team'] = team_info['team']['name']
+        player_dict['team_name'] = team_info['team']['name']
         player_dict['season'] = season
         list_of_players.append(player_dict)   
     return list_of_players
@@ -146,6 +146,19 @@ def convert_player_list_to_obj(player_list):
 #TODO: only have start and end seasons for each player and club
 def season_for_player():
     pass
+
+def get_all_teams_for_season(league_id,season):
+    conn.request("GET", f"//teams?league={league_id}&season={season}", headers=headers)
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    print(type(decoded))
+    # test = decoded['response']
+    teams_json = json.loads(decoded)
+
+    list_of_team_names = []
+    return list_of_team_names
+
         
     
 def main():
