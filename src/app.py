@@ -120,28 +120,9 @@ def run_footy(move: int):
     
     return answer
 
-def main():
-    pass
-    # test_df= run_process()
-    # print(test_df)
-    # test = total_player_process()
-    # print(test)
-    #teams = get_teams_from_db(3)
-    #print(teams)
-    #print(CURRENT_PREM_TEAMS)
-    # test = post_some_demo_teams()
-    # print(test)
-    # test = CURRENT_PREM_TEAMS
-    # posted_teams = post_teams_to_db(CURRENT_PREM_TEAMS)
-    # print(posted_teams)
-    # six_indices = get_six_random_indices()
-    # testing_list= get_teams_from_indices(six_indices)
-    # print(testing_list)
-    # team_list = ['A','B','C','D','E','F']
-    # grid_df = print_grid_as_df(team_list)
-    # print(grid_df)
-    #test = players_22_23
-    #post_players_to_db(players_22_23)
+def main(move: int):
+    run_footy(move: int)
 
 if __name__ == "__main__":
-    main()
+    move = int(input('Chose a grid position to place a marker: '))
+    main(move)

@@ -8,7 +8,14 @@ from flask_pkg.project.routes import get_request, post_request, BASE # pylint: d
 ##########################################################################################################
 ### FUNCTION TO INTERACT WITH PG DATABASE ###
 ##########################################################################################################
+'''
+These functions all use the Flask API to interact with the PG database
+They are main POST and GET requestios
+'''
 
+##########################################################################################################
+### POST DATA ###
+##########################################################################################################
 
 def post_teams_to_db(teams: list[Team]):
     # Convert activities to json
@@ -29,12 +36,6 @@ def post_players_to_db(players: list[Player]):
     print(f"New players posted: {players_posted}")
     return players_posted
 
-
-def get_teams_from_db(limit):
-    teams = get_request(BASE, f'get_football_teams/{limit}')
-    df = pd.DataFrame.from_dict(teams)
-    return df
-
 def post_some_demo_teams():
     chelsea = Team(team_name='Chelsea', league='Premiership', country='England')
     tottenham = Team(team_name='Tottenham', league='Premiership', country='England')
@@ -42,11 +43,20 @@ def post_some_demo_teams():
     teams_to_be_posted: Team = [chelsea, tottenham, arsenal]
     teams_posted = post_teams_to_db(teams_to_be_posted)
 
-def post_some_demo_players():
-    sterling = Player(first_name='Raheem', last_name='Sterling', team_id='7')
-    kane = Player(first_name='Harry', last_name='Kane', team_id='18')
-    players_to_be_posted: Player = [sterling, kane]
-    players_posted = post_players_to_db(players_to_be_posted)
+# def post_some_demo_players():
+#     sterling = Player(first_name='Raheem', last_name='Sterling', team_id='7')
+#     kane = Player(first_name='Harry', last_name='Kane', team_id='18')
+#     players_to_be_posted: Player = [sterling, kane]
+#     players_posted = post_players_to_db(players_to_be_posted)
+    
+##########################################################################################################
+### GET DATA FROM DB ###
+##########################################################################################################
+
+def get_teams_from_db(limit):
+    teams = get_request(BASE, f'get_football_teams/{limit}')
+    df = pd.DataFrame.from_dict(teams)
+    return df
 
 def team_dict_from_db():
     teams = get_request(BASE, 'get_all_football_teams')
@@ -56,38 +66,8 @@ def team_dict_from_db():
     team_name_dict= df.set_index('id')['team_name'].to_dict()
     return team_name_dict
 
-def clean_team_names_data(player_df: pd.DataFrame) -> pd.DataFrame:
-    player_df['team_name'] = player_df['team_name'].replace({
-    "Bournemouth": "Bournemouth AFC",
-    "Brentford": "Brentford",
-    "Brighton": 'Brighton & Hove Albion',
-    # "Leeds":"Leeds United",
-    "Leicester":"Leicester City",
-    "Man City": "Manchester City",
-    "Man Utd": "Manchester United",
-    "Newcastle": "Newcastle United",
-    "Nott'm Forest": "Nottingham Forest",
-    "Spurs": "Tottenham Hotspur",
-    "West Ham": "West Ham United",
-    "Wolves": "Wolverhampton Wanderers"
-    })
-    return player_df
 
-def join_team_name_with_id(player_df,team_name_dict):
-    temp_dict = dict((v,k) for k,v in team_name_dict.items())
-    player_df['team_id'] = player_df['team_name'].apply(lambda team_name :temp_dict.get(team_name))
-    player_df['team_id'].astype(np.int64)
-    return player_df
-
-def create_player_objects(player_df) -> list(Player):
-    players_list = []
-    for i in player_df.index:
-        players_list.append(Player(full_name=player_df['full_name'][i], 
-                                   first_season=player_df['first_season'][i],
-                                   last_season=player_df['last_season'][i],
-                                   team_name = player_df['team_name'][i],
-                                   team_id =int(player_df['team_id'][i])))
-    return players_list  
+ 
 
 def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
     df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)

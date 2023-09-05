@@ -1,8 +1,10 @@
 import pandas as pd
 
+from utils.classes import Player
 from data.data_db_functions import (team_dict_from_db, 
                                     run_player_cleaning_process,
-                                    create_player_objects
+                                    create_player_objects,
+                                    post_players_to_db
 )
 
 ##########################################################################################################
@@ -29,12 +31,13 @@ def add_players_to_db_process():
     player_df: pd.DataFrame = run_player_cleaning_process(players_list)
     
     #3. Create Player object list
-    players = create_player_objects(player_df)
-    print(players)
+    players_to_post: list[Player] = create_player_objects(player_df)
+    print(players_to_post)
 
     #4. Post players to db
-    #TODO
-    
+    players_posted = post_players_to_db(players_to_post)
+    return players_posted
+
 def get_players_from_db_process():
     '''
     Full process to get player data from db
