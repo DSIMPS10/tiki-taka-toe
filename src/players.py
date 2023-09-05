@@ -16,8 +16,9 @@ def add_players_to_db_process():
     Full process to add a list of players to the database
     Step 1: Get data
     Step 2: Clean data
-    Step 3: Create player list
-    Step 4: Post list to db
+    Step 3: Check if player needs to be added
+    Step 4: Create player list
+    Step 5: Post list to db
     '''
 
     #1. Get list of players from football API 
@@ -29,11 +30,19 @@ def add_players_to_db_process():
     player_df: pd.DataFrame = convert_players_list_to_df(all_players_for_single_season)
     print(player_df)
     
-    #3. Create Player object list
+    #3. TODO: Check if player is already in DB, if yes update season info, if not add
+    '''
+    if: 
+        UPDATE Player row
+    else:
+        ADD player row
+    '''
+    
+    #4. Create Player object list
     players_to_post: list[Player] = create_player_objects(player_df)
     print(players_to_post)
 
-    #4. Post players to db
+    #5. Post players to db
     players_posted = post_players_to_db(players_to_post)
     print(players_posted)
     return players_posted

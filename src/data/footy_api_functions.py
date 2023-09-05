@@ -103,6 +103,7 @@ def get_all_players_for_a_season(season, league):
     total_pages = get_number_of_pages(league,season)
     for i in range(total_pages):
         single_list = get_all_players_for_season_per_page(league, season, i+1)
+        print(f'Current list: {single_list}')
         time.sleep(10)
         total_list += single_list
     return total_list
