@@ -1,11 +1,16 @@
 import http.client
 import json
 import os 
+import ssl
 from dotenv import load_dotenv
 import time
 # import sys
 # dir = os.getcwd()
 # sys.path.append(dir)
+
+if (not os.environ.get('PYTHONHTTPSVERIFY', '') and
+    getattr(ssl, '_create_unverified_context', None)):
+    ssl._create_default_https_context = ssl._create_unverified_context
 
 ##########################################################################################################
 ### FUNCTIONS TO INTERACT WITH 'API-FOOTBALL' API ###
@@ -99,6 +104,8 @@ def get_all_players_for_season_per_page(league_id, season, page):
     return list_of_players
 
 def get_all_players_for_a_season(season, league):
+    # if (not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None)):
+    #     ssl._create_default_https_context = ssl._create_unverified_context
     total_list = []
     total_pages = get_number_of_pages(league,season)
     for i in range(total_pages):

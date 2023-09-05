@@ -1,4 +1,6 @@
 import pandas as pd
+import ssl
+import os
 
 from utils.classes import Player
 from data.data_db_functions import ( post_players_to_db)
@@ -6,6 +8,7 @@ from data.data_helper_functions import(convert_players_list_to_df,
                                     create_player_objects,
                                     all_teams_dict_from_df)
 from data.footy_api_functions import (get_all_players_for_a_season)
+from utils.cert_helpers import (fixing_SSL_error)
 
 ##########################################################################################################
 ### PLAYERS ###

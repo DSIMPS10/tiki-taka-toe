@@ -1,12 +1,11 @@
 import pandas as pd
-import json
 import random
 import numpy as np
 import logging
 
 from utils.classes import Team, Grid, Player
 from flask_pkg.project.routes import BASE, get_request, post_request
-
+    
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
 ##########################################################################################################
