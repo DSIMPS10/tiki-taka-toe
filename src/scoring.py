@@ -1,5 +1,9 @@
 from src.flask_pkg.project.routes import BASE, get_request
 
+##########################################################################################################
+### SCORING ###
+##########################################################################################################
+
 def get_all_players_for_team_id(team_id):
     team_players_dict = get_request(BASE, f'get_players_for_team_id/{team_id}')
     return team_players_dict

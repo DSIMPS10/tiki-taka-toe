@@ -2,8 +2,13 @@ import pandas as pd
 import numpy as np
 import json
 
-from utils.app_objects import Team, Player # pylint: disable=import-error
+from utils.classes import Team, Player # pylint: disable=import-error
 from flask_pkg.project.routes import get_request, post_request, BASE # pylint: disable=import-error
+
+##########################################################################################################
+### FUNCTION TO INTERACT WITH PG DATABASE ###
+##########################################################################################################
+
 
 def post_teams_to_db(teams: list[Team]):
     # Convert activities to json
@@ -126,23 +131,6 @@ def run_player_cleaning_process(player_list: list) -> pd.DataFrame:
     cleaned_df = create_cleaned_player_df(player_df, unique_player_teams)
     cleaned_df = add_team_id_to_df(cleaned_df)
     return cleaned_df
-
-def total_player_process():
-
-    #1. Get list of players from football API 
-    players_list = [{'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2021}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Arsenal', 'season': 2021}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Wolves', 'season': 2021}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Everton', 'season': 1999},
-        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2020}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Arsenal', 'season': 2015}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2004}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Everton', 'season': 1996},
-        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2019}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Tottenham', 'season': 2010}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2003}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Liverpool', 'season': 1995},
-        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Chelsea', 'season': 1995}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Tottenham', 'season': 2005}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2003}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Liverpool', 'season': 1993}]
-
-
-    #2. Create a cleaned player df from list 
-    team_name_dict = team_dict_from_db()
-    player_df: pd.DataFrame = run_player_cleaning_process(players_list)
-
-    players = create_player_objects(player_df)
-    print(players)
-    # post_players_to_db(players_22_23)
 
 def main():
     pass

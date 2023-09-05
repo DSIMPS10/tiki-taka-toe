@@ -7,7 +7,12 @@ import time
 # dir = os.getcwd()
 # sys.path.append(dir)
 
-from utils.app_objects import Player
+from utils.classes import Player
+
+##########################################################################################################
+### FUNCTIONS TO INTERACT WITH 'API-FOOTBALL' API ###
+##########################################################################################################
+
 
 load_dotenv()
 api_key = os.getenv("FOOTBALL_API_KEY")

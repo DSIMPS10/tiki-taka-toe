@@ -5,12 +5,13 @@ import numpy as np
 import logging
 
 # import tic_tac_toe as ttt
-from utils.app_objects import Team, Grid, Player
+from utils.classes import Team, Grid, Player
 from flask_pkg.project.routes import BASE, get_request, post_request
-from data.data_db import total_player_process
 
-# TODO: get 6 random indexes to select teams by (will need to get max index of DB and use the random lib)
-# Output: list[] of 6 integers
+##########################################################################################################
+### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
+##########################################################################################################
+
 def get_six_random_indices()->list:
     team_count_dict = get_request(BASE,"count_all_football_teams")
     print(team_count_dict)
@@ -19,9 +20,6 @@ def get_six_random_indices()->list:
     six_indices = random.sample(range(1,team_count+1),6)
     return six_indices
 
-# TODO: use the list of 6 indexes to get the teams from the db
-# Output: list[] of 6 team objects
-# Later on will be able to add filter by country or league
 def get_teams_from_indices(six_indices:list)-> list:
     team_names_list = []
     for i in six_indices:
@@ -123,10 +121,11 @@ def run_footy(move: int):
     return answer
 
 def main():
+    pass
     # test_df= run_process()
     # print(test_df)
-    test = total_player_process()
-    print(test)
+    # test = total_player_process()
+    # print(test)
     #teams = get_teams_from_db(3)
     #print(teams)
     #print(CURRENT_PREM_TEAMS)

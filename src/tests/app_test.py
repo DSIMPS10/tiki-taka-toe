@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 
 import src.app as app
-from src.utils.app_objects import Grid
+from utils.classes import Grid
 
 ####################################################################################################################
 ### INPUTS ###
