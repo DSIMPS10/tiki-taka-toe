@@ -170,7 +170,7 @@ def main():
     # all_players = get_all_players_for_seasons(season_list, league=prem_league)
     # print(all_players)
     # return all_players
-    all_teams_for_season = get_all_teams_for_season(prem_league, 2019)
+    all_teams_for_season = get_all_team_names_for_season(prem_league, 2019)
     print(all_teams_for_season)
     
 if __name__ == "__main__":

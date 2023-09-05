@@ -120,7 +120,7 @@ def run_footy(move: int):
     return answer
 
 def main(move: int):
-    run_footy(move: int)
+    run_footy(move)
 
 if __name__ == "__main__":
     move = int(input('Chose a grid position to place a marker: '))
