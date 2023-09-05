@@ -123,7 +123,10 @@ def run_footy(move: int):
     return answer
 
 def main():
-    total_player_process()
+    # test_df= run_process()
+    # print(test_df)
+    test = total_player_process()
+    print(test)
     #teams = get_teams_from_db(3)
     #print(teams)
     #print(CURRENT_PREM_TEAMS)

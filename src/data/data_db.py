@@ -18,8 +18,7 @@ def post_teams_to_db(teams: list[Team]):
 def post_players_to_db(players: list[Player]):
     # Convert activities to json
     players_array = [vars(player) for player in players]       
-    activitity_json__players_str = json.dumps(players_array)
-        
+    activitity_json__players_str = json.dumps(players_array)  
     # Post request
     players_posted = post_request(BASE,"post_players",activitity_json__players_str)
     print(f"New players posted: {players_posted}")
@@ -44,34 +43,6 @@ def post_some_demo_players():
     players_to_be_posted: Player = [sterling, kane]
     players_posted = post_players_to_db(players_to_be_posted)
 
-
-team_names = ['Arsenal',
-                'Aston Villa',
-                'Bournemouth',
-                'Brentford',
-                'Brighton & Hove Albion',
-                'Chelsea',
-                'Crystal Palace',
-                'Everton',
-                'Fulham',
-                'Leeds',
-                'Leicester City'
-                'Liverpool',
-                'Manchester City',
-                'Manchester United',
-                'Newcastle United',
-                'Nottingham Forest',
-                'Southampton',
-                'Tottenham Hotspur',
-                'West Ham United',
-                'Wolverhampton Wanderers']
-
-CURRENT_PREM_TEAMS =[Team(team_name=team, league='Premiership', country='England') for team in team_names]
-
-#print(CURRENT_PREM_TEAMS)
-
-#create a function that calls draws the teams from db's with unique ids. create db from the json get request with the ids.
-
 def team_dict_from_db():
     teams = get_request(BASE, 'get_all_football_teams')
     df = pd.DataFrame.from_dict(teams)
@@ -80,8 +51,8 @@ def team_dict_from_db():
     team_name_dict= df.set_index('id')['team_name'].to_dict()
     return team_name_dict
 
-def clean_players_data(player_df):
-    player_df = player_df[['name','team']].drop_duplicates().replace({
+def clean_team_names_data(player_df: pd.DataFrame) -> pd.DataFrame:
+    player_df['team_name'] = player_df['team_name'].replace({
     "Bournemouth": "Bournemouth AFC",
     "Brentford": "Brentford",
     "Brighton": 'Brighton & Hove Albion',
@@ -95,31 +66,83 @@ def clean_players_data(player_df):
     "West Ham": "West Ham United",
     "Wolves": "Wolverhampton Wanderers"
     })
-    player_df[['first_name','last_name']] = player_df["name"].str.split(" ", n = 1, expand = True)
-    player_df = player_df.drop(columns = ['name'])
     return player_df
 
 def join_team_name_with_id(player_df,team_name_dict):
     temp_dict = dict((v,k) for k,v in team_name_dict.items())
-    player_df['team_id'] = player_df['team'].apply(lambda team_name :temp_dict.get(team_name))
+    player_df['team_id'] = player_df['team_name'].apply(lambda team_name :temp_dict.get(team_name))
     player_df['team_id'].astype(np.int64)
     return player_df
 
-def create_player_objects(player_df):
+def create_player_objects(player_df) -> list(Player):
     players_list = []
     for i in player_df.index:
-        players_list.append(Player(first_name=player_df['first_name'][i], last_name=player_df['last_name'][i], team_id =int(player_df['team_id'][i])))
+        players_list.append(Player(full_name=player_df['full_name'][i], 
+                                   first_season=player_df['first_season'][i],
+                                   last_season=player_df['last_season'][i],
+                                   team_name = player_df['team_name'][i],
+                                   team_id =int(player_df['team_id'][i])))
     return players_list  
 
+def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
+    df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
+    df['identifier'] = df['first_name'].map(str)+'-'+df['last_name'].map(str)+'-'+df['team_name'].map(str) 
+    return df
+
+def list_of_unique_player_teams(df: pd.DataFrame) -> list:
+    unique_player_teams: list = df['identifier'].unique()
+    return unique_player_teams
+
+def create_cleaned_player_df(df: pd.DataFrame, unique_player_teams: list) -> pd.DataFrame:
+    cleaned_df = pd.DataFrame(columns=['full_name', 'team_name', 'first_season', 'last_season'])
+
+    for player_team in unique_player_teams:
+        split_player = player_team.split('-')
+        team = split_player[-1]
+        name = f'{split_player[0]} {split_player[1]}'
+        temp_df = df[df['identifier'] == player_team]
+        first_season = temp_df['season'].min()
+        last_season = temp_df['season'].max()
+        new_row = [name, team, first_season, last_season]
+        cleaned_df.loc[len(cleaned_df)] = new_row
+
+    sorted_df = cleaned_df.sort_values(['full_name'])
+    return sorted_df
+
+def add_team_id_to_df(df: pd.DataFrame)-> pd.DataFrame:
+    team_dict = team_dict_from_db()
+    team_df = pd.DataFrame.from_dict(team_dict,orient='index').reset_index()#, columns=['team_id','team'])
+    team_df.columns = ['team_id','team_name']
+    print(team_df.dtypes)
+    print(df.dtypes)
+    df = df.merge(team_df, on = 'team_name', how='left')
+    return df
+
+def run_player_cleaning_process(player_list: list) -> pd.DataFrame:
+
+    df = pd.DataFrame(player_list)
+    player_df = add_cols_to_df(df)
+    unique_player_teams = list_of_unique_player_teams(df)
+    cleaned_df = create_cleaned_player_df(player_df, unique_player_teams)
+    cleaned_df = add_team_id_to_df(cleaned_df)
+    return cleaned_df
+
 def total_player_process():
-    prem_22_data = pd.read_csv("C:\\Users\\domsi\\OneDrive\\Documents\\fantasy-football\\season_22.csv")
+
+    #1. Get list of players from football API 
+    players_list = [{'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2021}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Arsenal', 'season': 2021}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Wolves', 'season': 2021}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Everton', 'season': 1999},
+        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2020}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Arsenal', 'season': 2015}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2004}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Everton', 'season': 1996},
+        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Leicester', 'season': 2019}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Tottenham', 'season': 2010}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2003}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Liverpool', 'season': 1995},
+        {'first_name': 'Patson', 'last_name': 'Daka', 'team_name': 'Chelsea', 'season': 1995}, {'first_name': 'Emile', 'last_name': 'Smith Rowe', 'team_name': 'Tottenham', 'season': 2005}, {'first_name': 'Daniel', 'last_name': 'Castelo Podence', 'team_name': 'Everton', 'season': 2003}, {'first_name': 'José Salomón', 'last_name': 'Rondón Giménez', 'team_name': 'Liverpool', 'season': 1993}]
+
+
+    #2. Create a cleaned player df from list 
     team_name_dict = team_dict_from_db()
-    player_df = clean_players_data(prem_22_data)
-    #print(player_df.head())
-    player_df = join_team_name_with_id(player_df,team_name_dict).reset_index(drop=True)
-    #print(player_df.head())
-    players_22_23 = create_player_objects(player_df)
-    post_players_to_db(players_22_23)
+    player_df: pd.DataFrame = run_player_cleaning_process(players_list)
+
+    players = create_player_objects(player_df)
+    print(players)
+    # post_players_to_db(players_22_23)
 
 def main():
     pass

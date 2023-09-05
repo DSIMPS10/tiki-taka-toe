@@ -38,24 +38,25 @@ class Football_teams(db.Model):
     
 class Players(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    first_name = db.Column(db.String(100))
-    last_name = db.Column(db.String(100))
+    full_name = db.Column(db.String(150))
     team_id = db.Column(db.Integer)
+    team_name = db.Column(db.String(100))
     start_season = db.Column(db.Integer)
     end_season = db.Column(db.Integer)
 
-    def __init__(self, first_name, last_name, team_id, start_season, end_season):
-        self.first_name = first_name
-        self.last_name = last_name
+    def __init__(self, full_name, team_id, team_name, start_season, end_season):
+        self.full_name = full_name
         self.team_id = team_id
+        self.team_name = team_name
         self.start_season = start_season
         self.end_season = end_season
+    
         
     def as_dict(self):
         return {
-            'first_name':self.first_name,
-            'last_name':self.last_name,
+            'full_name':self.full_name,
             'team_id':self.team_id,
+            'team_name':self.team_name,
             'start_season':self.start_season,
             'end_season': self.end_season
             }
@@ -69,7 +70,7 @@ class Players(db.Model):
     #     return player_obj
 
     def __repr__(self):
-        return f'<Players: {self.first_name} {self.last_name}>'
+        return f'<Players: {self.full_name}>'
 
 if __name__ == "__main__":
     db.create_all()
