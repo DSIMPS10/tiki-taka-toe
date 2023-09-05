@@ -3,6 +3,9 @@ import json
 import os 
 from dotenv import load_dotenv
 import time
+# import sys
+# dir = os.getcwd()
+# sys.path.append(dir)
 
 from utils.app_objects import Player
 
@@ -116,6 +119,7 @@ def get_all_players_for_season_per_page(league_id, season, page):
 def get_all_players_for_a_season(season, league):
     total_list = []
     total_pages = get_number_of_pages(league,season)
+    total_pages = 2
     for i in range(total_pages):
         single_list = get_all_players_for_season_per_page(league, season, i+1)
         time.sleep(10)
@@ -153,6 +157,7 @@ def main():
     print(season_list)
     prem_league = 39
     all_players = get_all_players_for_seasons(season_list, league=prem_league)
+    print(all_players)
     return all_players
     
 if __name__ == "__main__":

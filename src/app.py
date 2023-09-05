@@ -5,10 +5,9 @@ import numpy as np
 import logging
 
 # import tic_tac_toe as ttt
-from utils.app_objects import Team, Grid, Player # pylint: disable=import-error
-from flask_pkg.project.routes import BASE, get_request, post_request # pylint: disable=import-error
+from utils.app_objects import Team, Grid, Player
+from flask_pkg.project.routes import BASE, get_request, post_request
 from data.data_db import total_player_process
-
 
 # TODO: get 6 random indexes to select teams by (will need to get max index of DB and use the random lib)
 # Output: list[] of 6 integers
