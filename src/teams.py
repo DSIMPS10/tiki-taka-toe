@@ -15,6 +15,10 @@ def add_teams_to_db_process():
     Step 3: Create player list
     Step 4: Post list to db
     '''
+    #1. Get team data from footbal api
+    
+    #2. Clean team data
+    
     
     #3. Create list of teams to be posted
     teams_to_post: list[Team] = []

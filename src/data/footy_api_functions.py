@@ -7,12 +7,9 @@ import time
 # dir = os.getcwd()
 # sys.path.append(dir)
 
-from utils.classes import Player
-
 ##########################################################################################################
 ### FUNCTIONS TO INTERACT WITH 'API-FOOTBALL' API ###
 ##########################################################################################################
-
 
 load_dotenv()
 api_key = os.getenv("FOOTBALL_API_KEY")
@@ -24,16 +21,9 @@ headers = {
 
 # conn.request("GET", "/players/squads?team=33", headers=headers)
 
-def get_list_of_seasons(start_date=1993, end_date=2023):
-    season_list = [x for x in range(start_date, end_date+1)]
-    return season_list
-        
-
-def response_to_json(request):
-    res = conn.getresponse()
-    data = res.read()
-    decoded = data.decode("utf-8")
-    data_json = json.loads(decoded)
+##########################################################################################################
+### PLAYER FUNCTIONS ###
+##########################################################################################################
 
 def player_data(player_id):
    
@@ -68,7 +58,7 @@ def player_for_a_season(player_id, season):
     except IndexError as e:
         player_team = "No value"
     print(player_team)
-    
+        
 def get_all_teams_of_player(player_id: int, seasons:list) -> dict:
     player_teams: dict = {}
     for season in seasons:
@@ -86,20 +76,7 @@ def get_all_teams_of_player(player_id: int, seasons:list) -> dict:
         except IndexError as e:
             continue
         
-    return player_teams
-
-def get_number_of_pages(league_id,season):
-    '''
-    Get number of pages for players
-    '''
-    conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
-    res = conn.getresponse()
-    data = res.read()
-    decoded = data.decode("utf-8")
-    season_json = json.loads(decoded)
-    paging = season_json['paging']
-    total_pages = paging['total']
-    return total_pages
+    return player_teams    
 
 def get_all_players_for_season_per_page(league_id, season, page):
     conn.request("GET", f"/players?league={league_id}&season={season}&page={page}", headers=headers)
@@ -138,25 +115,11 @@ def get_all_players_for_seasons(list_of_seasons, league):
         all_players += season__players
     return all_players
 
-def convert_player_list_to_obj(player_list):
-    players = []
-    for player in player_list:
-        #TODO - get team Id and add in season column
-        team_id = 1
-        start_season = 2020
-        end_season = 2022
-        players.append(Player(first_name=player['first_name'], 
-                              last_name=player['last_name'], 
-                              team_id=team_id,
-                              start_season=start_season,
-                              end_season=end_season))
-    return players
+##########################################################################################################
+### TEAM FUNCTIONS ###
+##########################################################################################################
 
-#TODO: only have start and end seasons for each player and club
-def season_for_player():
-    pass
-
-def get_all_teams_for_season(league_id,season):
+def get_all_teams_for_season(league_id: int,season: int):
     conn.request("GET", f"//teams?league={league_id}&season={season}", headers=headers)
     res = conn.getresponse()
     data = res.read()
@@ -168,15 +131,47 @@ def get_all_teams_for_season(league_id,season):
     list_of_team_names = []
     return list_of_team_names
 
+
+##########################################################################################################
+### HELPER FUNCTIONS ###
+##########################################################################################################
+
+def get_list_of_seasons(start_date=1993, end_date=2023):
+    season_list = [x for x in range(start_date, end_date+1)]
+    return season_list
         
-    
+def response_to_json(request):
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    data_json = json.loads(decoded)
+
+def get_number_of_pages(league_id,season):
+    '''
+    Get number of pages for players
+    '''
+    conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    season_json = json.loads(decoded)
+    paging = season_json['paging']
+    total_pages = paging['total']
+    return total_pages
+
+##########################################################################################################
+### MAIN FUNCTION ###
+##########################################################################################################
+
 def main():
-    season_list = get_list_of_seasons(2016, 2022)
-    print(season_list)
+    # season_list = get_list_of_seasons(2016, 2022)
+    # print(season_list)
     prem_league = 39
-    all_players = get_all_players_for_seasons(season_list, league=prem_league)
-    print(all_players)
-    return all_players
+    # all_players = get_all_players_for_seasons(season_list, league=prem_league)
+    # print(all_players)
+    # return all_players
+    all_teams_for_season = get_all_teams_for_season(prem_league, 2019)
+    print(all_teams_for_season)
     
 if __name__ == "__main__":
     main()

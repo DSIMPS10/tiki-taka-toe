@@ -53,64 +53,18 @@ def post_some_demo_teams():
 ### GET DATA FROM DB ###
 ##########################################################################################################
 
-def get_teams_from_db(limit):
+def get_teams_from_db(limit: int) -> pd.DataFrame:
     teams = get_request(BASE, f'get_football_teams/{limit}')
     df = pd.DataFrame.from_dict(teams)
     return df
 
-def team_dict_from_db():
+def team_dict_from_db() -> dict:
     teams = get_request(BASE, 'get_all_football_teams')
     df = pd.DataFrame.from_dict(teams)
     df['id'] = df.index +1
     df = df[['team_name','id']]
     team_name_dict= df.set_index('id')['team_name'].to_dict()
     return team_name_dict
-
-
- 
-
-def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
-    df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
-    df['identifier'] = df['first_name'].map(str)+'-'+df['last_name'].map(str)+'-'+df['team_name'].map(str) 
-    return df
-
-def list_of_unique_player_teams(df: pd.DataFrame) -> list:
-    unique_player_teams: list = df['identifier'].unique()
-    return unique_player_teams
-
-def create_cleaned_player_df(df: pd.DataFrame, unique_player_teams: list) -> pd.DataFrame:
-    cleaned_df = pd.DataFrame(columns=['full_name', 'team_name', 'first_season', 'last_season'])
-
-    for player_team in unique_player_teams:
-        split_player = player_team.split('-')
-        team = split_player[-1]
-        name = f'{split_player[0]} {split_player[1]}'
-        temp_df = df[df['identifier'] == player_team]
-        first_season = temp_df['season'].min()
-        last_season = temp_df['season'].max()
-        new_row = [name, team, first_season, last_season]
-        cleaned_df.loc[len(cleaned_df)] = new_row
-
-    sorted_df = cleaned_df.sort_values(['full_name'])
-    return sorted_df
-
-def add_team_id_to_df(df: pd.DataFrame)-> pd.DataFrame:
-    team_dict = team_dict_from_db()
-    team_df = pd.DataFrame.from_dict(team_dict,orient='index').reset_index()#, columns=['team_id','team'])
-    team_df.columns = ['team_id','team_name']
-    print(team_df.dtypes)
-    print(df.dtypes)
-    df = df.merge(team_df, on = 'team_name', how='left')
-    return df
-
-def run_player_cleaning_process(player_list: list) -> pd.DataFrame:
-
-    df = pd.DataFrame(player_list)
-    player_df = add_cols_to_df(df)
-    unique_player_teams = list_of_unique_player_teams(df)
-    cleaned_df = create_cleaned_player_df(player_df, unique_player_teams)
-    cleaned_df = add_team_id_to_df(cleaned_df)
-    return cleaned_df
 
 def main():
     pass
