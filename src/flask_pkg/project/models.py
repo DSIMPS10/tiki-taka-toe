@@ -13,13 +13,15 @@ class Football_teams(db.Model):
     league = db.Column(db.String(100))
     country = db.Column(db.String(100))
     
-    def __init__(self, team_name, league, country):
+    def __init__(self, id, team_name, league, country):
+        self.id = id
         self.team_name = team_name
         self.league = league
         self.country = country
         
     def as_dict(self):
         return {
+            'team_id':self.id,
             'team_name':self.team_name,
             'league':self.league,
             'country':self.country,
@@ -41,15 +43,15 @@ class Players(db.Model):
     full_name = db.Column(db.String(150))
     team_id = db.Column(db.Integer)
     team_name = db.Column(db.String(100))
-    start_season = db.Column(db.Integer)
-    end_season = db.Column(db.Integer)
+    first_season = db.Column(db.Integer)
+    last_season = db.Column(db.Integer)
 
-    def __init__(self, full_name, team_id, team_name, start_season, end_season):
+    def __init__(self, full_name, team_id, team_name, first_season, last_season):
         self.full_name = full_name
         self.team_id = team_id
         self.team_name = team_name
-        self.start_season = start_season
-        self.end_season = end_season
+        self.first_season = first_season
+        self.last_season = last_season
     
         
     def as_dict(self):
@@ -57,8 +59,8 @@ class Players(db.Model):
             'full_name':self.full_name,
             'team_id':self.team_id,
             'team_name':self.team_name,
-            'start_season':self.start_season,
-            'end_season': self.end_season
+            'first_season':self.first_season,
+            'last_season': self.last_season
             }
     
     # def as_obj(self):

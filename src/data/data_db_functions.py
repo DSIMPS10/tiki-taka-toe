@@ -29,10 +29,10 @@ def post_teams_to_db(teams: list[Team]):
 
 def post_players_to_db(players: list[Player]):
     # Convert activities to json
-    players_array = [vars(player) for player in players]       
-    activitity_json__players_str = json.dumps(players_array)  
+    players_array = [vars(player) for player in players] 
+    activitity_json_players_str = json.dumps(players_array)  
     # Post request
-    players_posted = post_request(BASE,"post_players",activitity_json__players_str)
+    players_posted = post_request(BASE,"post_players",activitity_json_players_str)
     print(f"New players posted: {players_posted}")
     return players_posted
 

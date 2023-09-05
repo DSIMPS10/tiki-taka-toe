@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 from utils.classes import Player
+from data.data_db_functions import get_all_team_from_db
 
 ##########################################################################################################
 ### HELPER FUNCTIONS FOR THE FOOTBALL DATA ###
@@ -12,23 +13,6 @@ They do not use the Flaks API
 They do not interact with the DB directly
 '''
 
-def clean_team_names_data(player_df: pd.DataFrame) -> pd.DataFrame:
-    player_df['team_name'] = player_df['team_name'].replace({
-    "Bournemouth": "Bournemouth AFC",
-    "Brentford": "Brentford",
-    "Brighton": 'Brighton & Hove Albion',
-    # "Leeds":"Leeds United",
-    "Leicester":"Leicester City",
-    "Man City": "Manchester City",
-    "Man Utd": "Manchester United",
-    "Newcastle": "Newcastle United",
-    "Nott'm Forest": "Nottingham Forest",
-    "Spurs": "Tottenham Hotspur",
-    "West Ham": "West Ham United",
-    "Wolves": "Wolverhampton Wanderers"
-    })
-    return player_df
-
 def join_team_name_with_id(player_df,team_name_dict):
     temp_dict = dict((v,k) for k,v in team_name_dict.items())
     player_df['team_id'] = player_df['team_name'].apply(lambda team_name :temp_dict.get(team_name))
@@ -36,13 +20,16 @@ def join_team_name_with_id(player_df,team_name_dict):
     return player_df
 
 def create_player_objects(player_df: pd.DataFrame) -> list[Player]:
+    '''
+    Creates a list of player class objects from a dataframe
+    '''
     players_list = []
     for i in player_df.index:
         player_to_add = Player(full_name=player_df['full_name'][i], 
                                 team_id =int(player_df['team_id'][i]),
                                 team_name = player_df['team_name'][i],
-                                first_season=player_df['first_season'][i],
-                                last_season=player_df['last_season'][i],
+                                first_season=int(player_df['first_season'][i]),
+                                last_season=int(player_df['last_season'][i])
                                 )
         players_list.append(player_to_add)
     return players_list 
@@ -53,17 +40,27 @@ def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def list_of_unique_player_teams(df: pd.DataFrame) -> list:
+    '''
+    Creates a list of unique players from all players df
+    '''
     unique_player_teams: list = df['identifier'].unique()
     return unique_player_teams
 
-def create_cleaned_player_df(df: pd.DataFrame, unique_player_teams: list) -> pd.DataFrame:
+def create_cleaned_player_df(player_df: pd.DataFrame, unique_player_teams: list) -> pd.DataFrame:
+    '''
+    Inputs: 
+    1. Raw player df
+    2. List of unique player teams (e.g. [Harry-Kane-Tottenham, ...])
+    Outputs: Alphabetically sorted df with full name, team_name, first_season, last_season
+    Note: No team_id at this stage
+    '''
     cleaned_df = pd.DataFrame(columns=['full_name', 'team_name', 'first_season', 'last_season'])
 
     for player_team in unique_player_teams:
         split_player = player_team.split('-')
         team = split_player[-1]
         name = f'{split_player[0]} {split_player[1]}'
-        temp_df = df[df['identifier'] == player_team]
+        temp_df = player_df[player_df['identifier'] == player_team]
         first_season = temp_df['season'].min()
         last_season = temp_df['season'].max()
         new_row = [name, team, first_season, last_season]
@@ -72,40 +69,42 @@ def create_cleaned_player_df(df: pd.DataFrame, unique_player_teams: list) -> pd.
     sorted_df = cleaned_df.sort_values(['full_name'])
     return sorted_df
 
-def add_team_id_to_df(df: pd.DataFrame)-> pd.DataFrame:
-    team_dict = team_dict_from_db()
+def add_team_id_to_df(player_df_without_team_id: pd.DataFrame)-> pd.DataFrame:
+    '''
+    Input: Player df without team_id (only team_name and seasons)
+    Output: A new df with players and corresponding team ID
+    '''
+    all_teams_in_db_df: pd.DataFrame = get_all_team_from_db()
+    team_dict = all_teams_dict_from_df(all_teams_in_db_df)
     team_df = pd.DataFrame.from_dict(team_dict,orient='index').reset_index()#, columns=['team_id','team'])
     team_df.columns = ['team_id','team_name']
     print(team_df.dtypes)
-    print(df.dtypes)
-    df = df.merge(team_df, on = 'team_name', how='left')
-    return df
+    player_df_with_team_id = player_df_without_team_id.merge(team_df, on = 'team_name', how='left')
+    return player_df_with_team_id
 
-def run_player_cleaning_process(player_list: list) -> pd.DataFrame:
-
+def convert_players_list_to_df(player_list: list[dict]) -> pd.DataFrame:
+    '''
+    Input: player list from API 
+    Output: Cleaned dataframe with players (no duplicates) with max and min seasons
+    '''
     df = pd.DataFrame(player_list)
-    player_df = add_cols_to_df(df)
-    unique_player_teams = list_of_unique_player_teams(df)
+    # Adds full name and identifier column:
+    player_df: pd.DataFrame = add_cols_to_df(df)
+    # List of unique players
+    unique_player_teams: list[str] = list_of_unique_player_teams(df)
+    # Single entry with a max and min season per player
     cleaned_df = create_cleaned_player_df(player_df, unique_player_teams)
-    cleaned_df = add_team_id_to_df(cleaned_df)
-    return cleaned_df
-
-def convert_player_list_to_obj(player_list):
-    players = []
-    for player in player_list:
-        #TODO - get team Id and add in season column
-        team_id = 1
-        start_season = 2020
-        end_season = 2022
-        players.append(Player(first_name=player['first_name'], 
-                              last_name=player['last_name'], 
-                              team_id=team_id,
-                              start_season=start_season,
-                              end_season=end_season))
-    return players
+    print(cleaned_df)
+    # Adds corresponding team ID to df from PG db
+    cleaned_df_with_team_id = add_team_id_to_df(cleaned_df)
+    print(cleaned_df_with_team_id)
+    return cleaned_df_with_team_id 
 
 def all_teams_dict_from_df(all_teams_df: pd.DataFrame) -> dict:
-    all_teams_df['id'] = all_teams_df.index +1
-    all_teams_df = all_teams_df[['team_name','id']]
-    team_name_dict= all_teams_df.set_index('id')['team_name'].to_dict()
+    '''
+    Input: All teams from db as a df
+    Output: Dictionay in this format {team_id: team_name}
+    '''
+    all_teams_df_name_id_only = all_teams_df[['team_name','team_id']]
+    team_name_dict= all_teams_df_name_id_only.set_index('team_id')['team_name'].to_dict()
     return team_name_dict

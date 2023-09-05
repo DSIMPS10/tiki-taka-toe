@@ -33,12 +33,12 @@ class Team():
         return f'{self.team_name} (League: {self.league}, {self.country})'
 
 class Player():
-    def __init__(self, full_name, team_id, team_name, start_season, end_season):
+    def __init__(self, full_name, team_id, team_name, first_season, last_season):
         self.full_name = full_name
         self.team_id = team_id
         self.team_name = team_name
-        self.start_season = start_season
-        self.end_season = end_season
+        self.first_season = first_season
+        self.last_season = last_season
     
     def __repr__(self):
         return f'<Player: {self.full_name}>'

@@ -128,7 +128,7 @@ def get_all_team_names_for_season(league_id: int,season: int):
     teams_list = teams_json['response']
     number_of_teams = len(teams_list)
     list_of_team_names = [team['team']['name'] for team in teams_list]
-    print(list_of_team_names)
+    # print(list_of_team_names)
     return list_of_team_names
 
 
