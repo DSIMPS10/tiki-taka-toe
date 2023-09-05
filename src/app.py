@@ -4,7 +4,6 @@ import random
 import numpy as np
 import logging
 
-# import tic_tac_toe as ttt
 from utils.classes import Team, Grid, Player
 from flask_pkg.project.routes import BASE, get_request, post_request
 

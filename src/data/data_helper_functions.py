@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 from utils.classes import Player
-from data.data_db_functions import team_dict_from_db
 
 ##########################################################################################################
 ### HELPER FUNCTIONS FOR THE FOOTBALL DATA ###
@@ -36,7 +35,7 @@ def join_team_name_with_id(player_df,team_name_dict):
     player_df['team_id'].astype(np.int64)
     return player_df
 
-def create_player_objects(player_df) -> list(Player):
+def create_player_objects(player_df: pd.DataFrame) -> list[Player]:
     players_list = []
     for i in player_df.index:
         player_to_add = Player(full_name=player_df['full_name'][i], 
@@ -104,3 +103,9 @@ def convert_player_list_to_obj(player_list):
                               start_season=start_season,
                               end_season=end_season))
     return players
+
+def all_teams_dict_from_df(all_teams_df: pd.DataFrame) -> dict:
+    all_teams_df['id'] = all_teams_df.index +1
+    all_teams_df = all_teams_df[['team_name','id']]
+    team_name_dict= all_teams_df.set_index('id')['team_name'].to_dict()
+    return team_name_dict

@@ -119,16 +119,16 @@ def get_all_players_for_seasons(list_of_seasons, league):
 ### TEAM FUNCTIONS ###
 ##########################################################################################################
 
-def get_all_teams_for_season(league_id: int,season: int):
+def get_all_team_names_for_season(league_id: int,season: int):
     conn.request("GET", f"//teams?league={league_id}&season={season}", headers=headers)
     res = conn.getresponse()
     data = res.read()
     decoded = data.decode("utf-8")
-    print(type(decoded))
-    # test = decoded['response']
     teams_json = json.loads(decoded)
-
-    list_of_team_names = []
+    teams_list = teams_json['response']
+    number_of_teams = len(teams_list)
+    list_of_team_names = [team['team']['name'] for team in teams_list]
+    print(list_of_team_names)
     return list_of_team_names
 
 

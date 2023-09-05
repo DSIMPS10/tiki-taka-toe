@@ -58,13 +58,10 @@ def get_teams_from_db(limit: int) -> pd.DataFrame:
     df = pd.DataFrame.from_dict(teams)
     return df
 
-def team_dict_from_db() -> dict:
-    teams = get_request(BASE, 'get_all_football_teams')
-    df = pd.DataFrame.from_dict(teams)
-    df['id'] = df.index +1
-    df = df[['team_name','id']]
-    team_name_dict= df.set_index('id')['team_name'].to_dict()
-    return team_name_dict
+def get_all_team_from_db() -> pd.DataFrame:
+    all_teams = get_request(BASE, f'get_all_football_teams')
+    df = pd.DataFrame.from_dict(all_teams)
+    return df
 
 def main():
     pass
