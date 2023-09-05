@@ -101,7 +101,6 @@ def get_all_players_for_season_per_page(league_id, season, page):
 def get_all_players_for_a_season(season, league):
     total_list = []
     total_pages = get_number_of_pages(league,season)
-    total_pages = 2
     for i in range(total_pages):
         single_list = get_all_players_for_season_per_page(league, season, i+1)
         time.sleep(10)
