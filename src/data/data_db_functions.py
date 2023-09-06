@@ -1,9 +1,9 @@
 import pandas as pd
-import numpy as np
 import json
 
-from utils.classes import Team, Player # pylint: disable=import-error
-from flask_pkg.project.routes import get_request, post_request, BASE # pylint: disable=import-error
+from utils.classes import Team, Player 
+from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
+
 
 ##########################################################################################################
 ### FUNCTION TO INTERACT WITH PG DATABASE ###
@@ -62,6 +62,19 @@ def get_all_team_from_db() -> pd.DataFrame:
     all_teams = get_request(BASE, f'get_all_football_teams')
     df = pd.DataFrame.from_dict(all_teams)
     return df
+
+def get_all_players_from_db() -> pd.DataFrame:
+    all_players = get_request(BASE, f'get_all_players')
+    players_df = pd.DataFrame.from_dict(all_players)
+    return players_df
+
+##########################################################################################################
+### UPDATE DATA FROM DB ###
+##########################################################################################################
+
+def update_player_first_season_in_db(single_player_identifier:str,first_season:int)->dict:
+    updated_json = put_request(BASE,f'update_player_first_season/{single_player_identifier}/{first_season}')
+    return json.loads(updated_json)
 
 def main():
     pass

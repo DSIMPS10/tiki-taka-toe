@@ -26,6 +26,11 @@ def post_request(base, endpoint, data):
     json_response = response.json()
     return json_response
 
+def put_request(base, endpoint):
+    response = requests.post(base + endpoint)
+    json_response = response.json()
+    return json_response
+
 #############################################################################################################################################################
 ### ROUTES ###
 #############################################################################################################################################################
@@ -74,6 +79,12 @@ def get_players_for_team_id(team_id):
     team_players_dict = team_players.as_dict() 
     return jsonify(team_players_dict)
 
+@main.get("/api/get_all_players")
+def get_all_players(): 
+    all_players = Players.query.all()
+    all_players_array = [player.as_dict() for player in all_players]
+    return jsonify(all_players_array)
+
 #############################################################################################################################################################
 ### POST ENDPOINTS ###
 #############################################################################################################################################################
@@ -101,22 +112,12 @@ def post_players():
 #############################################################################################################################################################
 
 @main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
-def update_player_season(identifier, first_season):
-    
+def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling-Chelsea'    
     player_name = (" ").join(identifier.split("-")[:-1])
     player_team = identifier.split("-")[-1]
     updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).first()
     updated_season_row.first_season = first_season
     db.session.commit()
     player_info_dict = updated_season_row.as_dict() 
-
     return jsonify(player_info_dict)
-
-    #return print(f'{identifier} first season has been updated to {first_season}')
-
-    # player_jsons = request.get_json()
-    # player_dicts = json.loads(player_jsons)  
-    # players_to_add = [Players(**row) for row in player_dicts]
-    # db.session.add_all(players_to_add)
-    # db.session.commit()
      
