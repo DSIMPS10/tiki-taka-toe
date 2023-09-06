@@ -27,7 +27,7 @@ def post_request(base, endpoint, data):
     return json_response
 
 def put_request(base, endpoint):
-    response = requests.post(base + endpoint)
+    response = requests.put(base + endpoint)
     json_response = response.json()
     return json_response
 
@@ -112,9 +112,9 @@ def post_players():
 #############################################################################################################################################################
 
 @main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
-def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling-Chelsea'    
-    player_name = (" ").join(identifier.split("-")[:-1])
-    player_team = identifier.split("-")[-1]
+def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
+    player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
+    player_team = identifier.split("~")[1].replace('-', ' ') #Manchester-City or Chelsea    
     updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).first()
     updated_season_row.first_season = first_season
     db.session.commit()

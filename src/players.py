@@ -34,29 +34,31 @@ def add_players_to_db_process():
     {'first_name': 'Raheem Shaquille','last_name': 'Sterling','team_name': 'Manchester City', 'season': 2020}, 
     {'first_name': 'Dom', 'last_name': 'Simpson', 'team_name': 'Tottenham', 'season': 2022}]
 
-
     #2. Create a cleaned players df from list 
     players_df: pd.DataFrame = convert_players_list_to_df(all_players_for_single_season)
-    print(f'Players of the {season} season to be checked:{players_df}')
+    # print(f'Players of the {season} season to be checked:{players_df}')
     
     #3. Get a dataframe of all players already in db and loop through each new player
     all_players_in_db_df = get_all_players_from_db()
-    all_players_in_db_df['identifier'] = all_players_in_db_df['full_name'].map(str)+' '+all_players_in_db_df['team_name'].map(str)
-    players_to_upload_to_db = pd.DataFrame(columns=['full_name', 'team_name', 'first_season', 'last_season', 'team_id'])
+    all_players_in_db_df['identifier'] = all_players_in_db_df['full_name'].map(str)+'~'+all_players_in_db_df['team_name'].map(str)
+    players_to_upload_to_db_df = pd.DataFrame(columns=['full_name', 'team_name', 'first_season', 'last_season', 'team_id'])
 
     for i in range(len(players_df)): 
         # Create a df for each row of the new season players
         single_player_df = players_df.iloc[[i]]
         # Create an identifier for each player for new season
-        single_player_identifier = single_player_df['full_name'].map(str)+' '+single_player_df['team_name'].map(str)
+        single_player_identifier = single_player_df['full_name'].map(str)+'~'+single_player_df['team_name'].map(str)
+        single_player_identifier = single_player_identifier.values[-1]
+        print(f'Single player id: {single_player_identifier}')
         # First check for player and team combo
-        combo_match_df = all_players_in_db_df[all_players_in_db_df['identifier'].isin([single_player_identifier])]
+        combo_match_df = all_players_in_db_df.loc[all_players_in_db_df['identifier'].isin([single_player_identifier])]
+        # combo_match_df = all_players_in_db_df.loc[all_players_in_db_df['identifier']==single_player_identifier]
         print(f"Match df: {combo_match_df}")
         # If combo_match_df is empty then the player team combo doesn't exist and the player needs to be added
         if combo_match_df.empty:
             print(f"This player to be added: {single_player_df}")
             # Add player to list of players to be added
-            players_to_upload_to_db_df: pd.DataFrame = pd.concat([players_to_upload_to_db,single_player_df]).reset_index(drop=True)
+            players_to_upload_to_db_df: pd.DataFrame = pd.concat([players_to_upload_to_db_df,single_player_df]).reset_index(drop=True)
             print(players_to_upload_to_db_df)
         elif len(combo_match_df)  == 1:
             # The season needs to be updated
@@ -91,6 +93,11 @@ def check_if_player_is_in_db(all_players_in_db_df: pd.DataFrame, new_player_df: 
 def main():
 
     add_players_to_db_process()
+    # all_players_in_db_df = get_all_players_from_db()
+    # all_players_in_db_df['identifier'] = all_players_in_db_df['full_name'].map(str)+' '+all_players_in_db_df['team_name'].map(str)
+    # print(all_players_in_db_df['identifier'].head())
+    # print(all_players_in_db_df[all_players_in_db_df['full_name']=='Dom Simpson'])
+
 
 if __name__ == "__main__":
     main()

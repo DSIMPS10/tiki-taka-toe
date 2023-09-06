@@ -73,8 +73,10 @@ def get_all_players_from_db() -> pd.DataFrame:
 ##########################################################################################################
 
 def update_player_first_season_in_db(single_player_identifier:str,first_season:int)->dict:
-    updated_json = put_request(BASE,f'update_player_first_season/{single_player_identifier}/{first_season}')
-    return json.loads(updated_json)
+    single_player_identifier = single_player_identifier.replace(" ", "-")
+    print(single_player_identifier)
+    updated_player = put_request(BASE,f'update_player_first_season/{single_player_identifier}/{first_season}')
+    return updated_player
 
 def main():
     pass
