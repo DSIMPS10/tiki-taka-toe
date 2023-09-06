@@ -100,7 +100,7 @@ def post_players():
 ### UPDATE ENDPOINTS ###
 #############################################################################################################################################################
 
-@main.update("/api/update_player_first_season/<string:identifier>/<int:first_season>")
+@main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
 def update_player_season(identifier, first_season):
     player_name = identifier.split("-")[0]
     player_team = identifier.split("-")[1]
