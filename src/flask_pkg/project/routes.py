@@ -104,9 +104,10 @@ def post_players():
 def update_player_season(identifier, first_season):
     player_name = (" ").join(identifier.split("-")[:-1])
     player_team = identifier.split("-")[-1]
-    updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).update(first_season=first_season)
+    updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).first()
+    updated_season_row.first_season = first_season
     db.session.commit()
-    return print(f'{identifier} first season has been updated')
+    return print(f'{identifier} first season has been updated to {first_season}')
 
     # player_jsons = request.get_json()
     # player_dicts = json.loads(player_jsons)  
