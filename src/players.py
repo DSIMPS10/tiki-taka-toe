@@ -44,19 +44,19 @@ def add_players_to_db_process():
         single_player_identifier = single_player_df['name'].map(str)+' '+single_player_df['team_name'].map(str)
         # First check for player and team combo
         combo_match_df = all_players_in_db_df[all_players_in_db_df['identifier'] == single_player_identifier]
+        players_to_upload_to_db = pd.DataFrame()
         # If combo_match_df is empty then the player team combo doesn't exist and the player needs to be added
         if combo_match_df.empty:
             # Add player to list of players to be added
-            continue
+            players_to_upload_to_db = pd.concat([players_to_upload_to_db,single_player_df]).reset_index(drop = True)
+    
         elif len(combo_match_df)  == 1:
             # The season needs to be updated
+            
             continue
         elif len(combo_match_df)  > 1:
             # There is a duplicate ERROR
             print()
-        else:
-            # See if the player already exists for different team
-            player_match_df = all_players_in_db_df[all_players_in_db_df['name'] == single_player_df['name']]
         
         # Second check if player exists for different team
     
