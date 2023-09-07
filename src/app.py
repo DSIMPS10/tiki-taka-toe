@@ -11,6 +11,10 @@ from flask_pkg.project.routes import BASE, get_request, post_request
 ##########################################################################################################
 
 def get_six_random_indices()->list:
+    """
+    Input: No input
+    Output: List of 6 random indicies
+    """
     team_count_dict = get_request(BASE,"count_all_football_teams")
     print(team_count_dict)
     team_count = team_count_dict["team_count"]
@@ -19,6 +23,10 @@ def get_six_random_indices()->list:
     return six_indices
 
 def get_teams_from_indices(six_indices:list)-> list:
+    """
+    Input: List of 6 integers
+    Output: List of corresponding team names from the indices
+    """
     team_names_list = []
     for i in six_indices:
         
@@ -30,6 +38,11 @@ def get_teams_from_indices(six_indices:list)-> list:
     return team_names_list
         
 def get_teams_for_selected_player_from_db(player_df, player_name):
+    #TODO: need to change player_df['Name'] to player_df['full_name'] 
+    '''
+    Input: DataFrame of player info, and players full name
+    Output: List of all teams the player has played for
+    '''
     try:
         teams: list = player_df.loc[player_df['Name'] == player_name]['Team'].values[0]  
     except IndexError as e:
@@ -42,6 +55,7 @@ def get_teams_for_selected_player_from_db(player_df, player_name):
 
 
 def get_teams_from_grid_index(team_df, grid: Grid, pos_number):
+    
     pos_list = grid.number_to_index(pos_number)
     row_a = pos_list[0]-1
     row_b = pos_list[1]-1

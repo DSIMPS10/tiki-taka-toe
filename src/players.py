@@ -27,12 +27,13 @@ def add_players_to_db_process():
     '''
 
     #1. Get list of players from football API 
-    season = 2023
+    season = 2022
     prem_league = 39
     #all_players_for_single_season: list = get_all_players_for_a_season(season, prem_league)
-    all_players_for_single_season = [{'first_name': 'Raheem Shaquille', 'last_name': 'Sterling', 'team_name': 'Chelsea', 'season': 2021}, 
-    {'first_name': 'Raheem Shaquille','last_name': 'Sterling','team_name': 'Manchester City', 'season': 2020}, 
-    {'first_name': 'Dom', 'last_name': 'Simpson', 'team_name': 'Tottenham', 'season': 2022}]
+    all_players_for_single_season = [{'first_name': 'Raheem Shaquille', 'last_name': 'Sterling', 'team_name': 'Chelsea', 'season': 2022}]
+    # , 
+    # {'first_name': 'Raheem Shaquille','last_name': 'Sterling','team_name': 'Manchester City', 'season': 2020}, 
+    # {'first_name': 'Dom', 'last_name': 'Simpson', 'team_name': 'Tottenham', 'season': 2022}]
 
     #2. Create a cleaned players df from list 
     players_df: pd.DataFrame = convert_players_list_to_df(all_players_for_single_season)
