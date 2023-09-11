@@ -25,13 +25,16 @@ def create_player_objects(player_df: pd.DataFrame) -> list[Player]:
     '''
     players_list = []
     for i in player_df.index:
-        player_to_add = Player(full_name=player_df['full_name'][i], 
-                                team_id =int(player_df['team_id'][i]),
-                                team_name = player_df['team_name'][i],
-                                first_season=int(player_df['first_season'][i]),
-                                last_season=int(player_df['last_season'][i])
-                                )
-        players_list.append(player_to_add)
+        try:
+            player_to_add = Player(full_name=player_df['full_name'][i], 
+                                    team_id =int(player_df['team_id'][i]),
+                                    team_name = player_df['team_name'][i],
+                                    first_season=int(player_df['first_season'][i]),
+                                    last_season=int(player_df['last_season'][i])
+                                    )
+            players_list.append(player_to_add)
+        except ValueError as e:
+            print(f"The error in the loop is Player name : {player_df['full_name'][i]}, team name : {player_df['team_name'][i]}")
     return players_list 
 
 def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
@@ -69,16 +72,28 @@ def create_cleaned_player_df(player_df: pd.DataFrame, unique_player_teams: list)
     sorted_df = cleaned_df.sort_values(['full_name'])
     return sorted_df
 
+def check_team_name_exists_in_db(player_df_without_team_id,team_df):
+    unique_player_teams: list[str] = player_df_without_team_id['team_name'].unique().tolist()
+    unique_db_teams: list[str] = team_df['team_name'].unique().tolist()
+    invalid_teams = [team for team in unique_player_teams if team not in unique_db_teams]
+    return invalid_teams
+
 def add_team_id_to_df(player_df_without_team_id: pd.DataFrame)-> pd.DataFrame:
     '''
     Input: Player df without team_id (only team_name and seasons)
     Output: A new df with players and corresponding team ID
     '''
     all_teams_in_db_df: pd.DataFrame = get_all_team_from_db()
+    season = player_df_without_team_id['first_season'].values[0]
     team_dict = all_teams_dict_from_df(all_teams_in_db_df)
     team_df = pd.DataFrame.from_dict(team_dict,orient='index').reset_index()#, columns=['team_id','team'])
     team_df.columns = ['team_id','team_name']
-    print(team_df.dtypes)
+    invalid_teams = check_team_name_exists_in_db(player_df_without_team_id,team_df)
+    print(invalid_teams)
+    invalid_team_df = player_df_without_team_id.loc[player_df_without_team_id['team_name'].isin(invalid_teams)]
+    print(f'Invalid team df : {invalid_team_df}')
+    invalid_team_df.to_csv(f".\src\data\season_data\season_{season}_invalid.csv")
+    player_df_without_team_id = player_df_without_team_id.loc[~player_df_without_team_id['team_name'].isin(invalid_teams)]
     player_df_with_team_id = player_df_without_team_id.merge(team_df, on = 'team_name', how='left')
     return player_df_with_team_id
 
@@ -92,9 +107,11 @@ def convert_players_list_to_df(player_list: list[dict]) -> pd.DataFrame:
     player_df: pd.DataFrame = add_cols_to_df(df)
     # List of unique players
     unique_player_teams: list[str] = list_of_unique_player_teams(df)
+    print(f' unique player teams {unique_player_teams}')
     # Single entry with a max and min season per player
     cleaned_df = create_cleaned_player_df(player_df, unique_player_teams)
-    print(cleaned_df)
+    print(f'cleaned player df: {cleaned_df}')
+    
     # Adds corresponding team ID to df from PG db
     cleaned_df_with_team_id = add_team_id_to_df(cleaned_df)
     print(cleaned_df_with_team_id)

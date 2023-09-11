@@ -1,0 +1,787 @@
+,first_name,last_name,team_name,season
+0,Paul Labile,Pogba,Manchester United,2021
+1,Emmanuel Okokon,Idem,Swindon Town,2021
+2,Ademola Lookman Olajade,Alade Aylola Lookman,Leicester,2021
+3,Mark,Noble,West Ham,2021
+4,Jerome,Sinclair,Watford,2021
+5,Brian,Graham,Partick,2021
+6,Ciaran,McKenna,Partick,2021
+7,Moisés Isaac,Caicedo Corozo,Brighton,2021
+8,Matthew Ben,Longstaff,Newcastle,2021
+9,Faustino Adebola Rasheed,Anjorin,Chelsea,2021
+10,Ebeguowen,Otasowie,Wolves,2021
+11,Daniel,Chesters,West Ham,2021
+12,Joseph Alan,Willis,Walsall,2021
+13,Jack,Jenkins,Leeds,2021
+14,Harvey Antonio,Blair,Liverpool,2021
+15,Sam William John,Waller,Burnley,2021
+16,Kaide,Gordon,Liverpool,2021
+17,James,Lee Storer,Wolves,2021
+18,Jayden,Danns,Liverpool,2021
+19,Jacob,Bunch,Swindon Town,2021
+20,Benjamin Thomas,Davies,Tottenham,2021
+21,Job Joël André,Matip,Liverpool,2021
+22,Enock,Mwepu,Brighton,2021
+23,Filip,Benković,Leicester,2021
+24,Ibrahima,Konaté,Liverpool,2021
+25,Héctor Junior,Firpo Adames,Leeds,2021
+26,Bruno André,Cavaco Jordão,Wolves,2021
+27,Kelechi Promise,Ịheanachọ,Leicester,2021
+28,Cristian Gabriel,Romero,Tottenham,2021
+29,Stuart,Adamson McKinstry,Leeds,2021
+30,Lewis Mark,Richardson,Burnley,2021
+31,Nathan,Young-Coombes,Brentford,2021
+32,Jamal Marcus,Baptiste,West Ham,2021
+33,Charlie Jay,Whitaker,Everton,2021
+34,Lucas,De Bolle,Newcastle,2021
+35,Omotayo Daniel,Adaramola,Crystal Palace,2021
+36,Sil,Laurentius Swinkels,Aston Villa,2021
+37,Shay,Willock,Walsall,2021
+38,Vincent,Angelini,Watford,2021
+39,Jack,Grieves,Watford,2021
+40,Aymeric Jean Louis Gérard Alph,Laporte,Manchester City,2021
+41,Lee,Grant,Manchester United,2021
+42,Harry,Lewis,Southampton,2021
+43,Benjamin Joshua,Chrisene,Aston Villa,2021
+44,Tobi,Omole,Tottenham,2021
+45,Miguel,Azeez,Arsenal,2021
+46,Kgaogelo,Chauke,Southampton,2021
+47,Brooklyn,Lyons-Foster,Tottenham,2021
+48,Jamie Patrick,Bowden,Tottenham,2021
+49,Malachi Michael,Fagan-Walcott,Tottenham,2021
+50,Matthew George,Craig,Tottenham,2021
+51,Alfie Sean,Devine,Tottenham,2021
+52,Matthew Aidan,Cox,Brentford,2021
+53,Salah,Oulad M'Hand,Arsenal,2021
+54,Alexander Michael,Kirk,Arsenal,2021
+55,Marcelo,Flores Dorrell,Arsenal,2021
+56,Reece,Belfield Welch,Everton,2021
+57,Sonny,Tufail Perkins,West Ham,2021
+58,Abu,Kamara,Norwich,2021
+59,Lamare Trenton,Chansey Bogarde,Aston Villa,2021
+60,Troy,Deeney,Watford,2021
+61,Matthew John,Lowton,Burnley,2021
+62,Dale,Stephens,Burnley,2021
+63,Jed John,Steer,Aston Villa,2021
+64,Julian Marc,Jeanvier,Brentford,2021
+65,David Edward,Martin,West Ham,2021
+66,Tariqe,Fosu,Brentford,2021
+67,Anthony,Gomez Mancini,Burnley,2021
+68,Harry Alfred,Tyrer,Everton,2021
+69,Joe Peter,White,Newcastle,2021
+70,Thomas,Dickson-Peters,Norwich,2021
+71,Reece Phillip Peter,Hannam,Crystal Palace,2021
+72,Dynel Brown,Kembo Simeu,Southampton,2021
+73,Christian,Fernandes Marques,Wolves,2021
+74,Chigozier Caleb,Chukwuemeka,Aston Villa,2021
+75,Olatunji Oluwasehun,Akinola,Partick,2021
+76,Ryan,Alebiosu,Arsenal,2021
+77,Kallum Xzeiba Tracey,Cesay,Tottenham,2021
+78,Robert Nicholas,Street,Crystal Palace,2021
+79,Shaqai Tyreece Steven,Forde,Watford,2021
+80,Oghenekaro Peter,Etebo,Watford,2021
+81,Ciaran,Clark,Newcastle,2021
+82,Shane Patrick,Long,Southampton,2021
+83,Kyle,McAllister,Partick,2021
+84,Dominic Lewis,Thompson,Brentford,2021
+85,Marcel Edwin,Rodrigues Lavinier,Tottenham,2021
+86,Mazeed,Ogungbo,Arsenal,2021
+87,Xavier Levi,Simons,Chelsea,2021
+88,Daniel Oladele,Akinbiyi Oyegoke,Brentford,2021
+89,Mark,Helm,Burnley,2021
+90,Chem,Campbell,Wolves,2021
+91,Finley Jack,Burns,Manchester City,2021
+92,Edmond-Paris,Maghoma,Brentford,2021
+93,Conor,Bradley,Liverpool,2021
+94,Harvey James,Vale,Chelsea,2021
+95,Edward James,Turns,Brighton,2021
+96,James,Balagizi,Liverpool,2021
+97,Jude Jacob,Soonsup-Bell,Chelsea,2021
+98,Zachariah Olumide,Awe,Arsenal,2021
+99,Kayky,da Silva Chagas,Manchester City,2021
+100,David,de Gea Quintana,Manchester United,2021
+101,Juan Manuel,Mata García,Manchester United,2021
+102,Wilfredo Daniel,Caballero Lazcano,Southampton,2021
+103,Frederik,Alves Ibsen,West Ham,2021
+104,James,McFarlane McArthur,Crystal Palace,2021
+105,Daniel,Gosling,Watford,2021
+106,Phil,Bardsley,Burnley,2021
+107,Axel,Tuanzebe,Aston Villa,2021
+108,Luka,Račić,Brentford,2021
+109,Jan,Žambůrek,Brentford,2021
+110,Winston Wiremu,Reid,West Ham,2021
+111,Andreas,Søndergaard,Wolves,2021
+112,Liam John,Hughes,Liverpool,2021
+113,Zachary,Swanson,Arsenal,2021
+114,Kwadwo,Kyeremeh Baah,Watford,2021
+115,Marc Henry,Leonard,Brighton,2021
+116,Finley,Stevens,Brentford,2021
+117,Charlie William Henry,Savage,Manchester United,2021
+118,Hayden,Taylor Lindley,Aston Villa,2021
+119,Tiago Süer Barbaros,Çukur,Watford,2021
+120,Daniel Lee,Rose,Watford,2021
+121,Fabian,Delph,Everton,2021
+122,Phil Anthony,Jones,Manchester United,2021
+123,Jesse Ellis,Lingard,Manchester United,2021
+124,Kasper Peter,Schmeichel,Leicester,2021
+125,William James,Norris,Burnley,2021
+126,Theo James,Walcott,Southampton,2021
+127,Nampalys,Mendy,Leicester,2021
+128,Benjamin Anthony,Foster,Watford,2021
+129,Thomas William,Cleverley,Watford,2021
+130,Andros Darryl,Townsend,Everton,2021
+131,Aaron,Lennon,Burnley,2021
+132,Ryan Dominic,Bertrand,Leicester,2021
+133,Conor,Hourihane,Aston Villa,2021
+134,Alexander Louis,Jakubiak,Partick,2021
+135,Cameron,Smith,Partick,2021
+136,Darren,Brownlie,Partick,2021
+137,Daniel David,Langley,Newcastle,2021
+138,Derek,Agyakwa,Watford,2021
+139,Kamil Amadu,Conteh,Watford,2021
+140,Fernando,Marçal de Oliveira,Wolves,2021
+141,Jonas,Bybjerg Lössl,Brentford,2021
+142,Gylfi Þór,Sigurðsson,Everton,2021
+143,Otis Jan,Mohammed Khan,Walsall,2021
+144,Liam,McCarron,Leeds,2021
+145,Craig George,Cathcart,Watford,2021
+146,Robert,Elliot,Watford,2021
+147,Mohamed Amine,Elyounoussi,Southampton,2021
+148,Kalvin Mark,Phillips,Leeds,2021
+149,Mads,Bech Sørensen,Brentford,2021
+150,David,Raya Martin,Brentford,2021
+151,Nicolas Julio,Nkoulou Ndoubena,Watford,2021
+152,Maksim,Paskotši,Tottenham,2021
+153,Thomas David,Allan,Newcastle,2021
+154,Lewis,Brunt,Leicester,2021
+155,Louie,Moulden,Wolves,2021
+156,Viljami Kari Veikko,Sinisalo,Aston Villa,2021
+157,Teddy Samuel,Sharman-Lowe,Chelsea,2021
+158,Lewis,Gordon,Brentford,2021
+159,Nohan,Kenneh,Leeds,2021
+160,Lucas,Rodrigues Moura da Silva,Tottenham,2021
+161,Xherdan,Shaqiri,Liverpool,2021
+162,Allan,Marques Loureiro,Everton,2021
+163,James David,Rodríguez Rubio,Everton,2021
+164,Fernando Luiz,Roza,Manchester City,2021
+165,Armstrong Inya Echezolachuku,Oko-Flex,West Ham,2021
+166,Andrew,Firth,Partick,2021
+167,Mahmoud Ahmed Ibrahim,Hassan,Aston Villa,2021
+168,Christian,Benteke Liolo,Crystal Palace,2021
+169,Mateusz Andrzej,Klich,Leeds,2021
+170,Eldin,Jakupović,Leicester,2021
+171,Luka,Milivojević,Crystal Palace,2021
+172,Ashley Roy,Westwood,Burnley,2021
+173,Teemu Eino Antero,Pukki,Norwich,2021
+174,Juan Camilo,Hernández Suárez,Watford,2021
+175,Dara James Morgan,Costelloe,Burnley,2021
+176,Lewis William,Mayo,Partick,2021
+177,Rhys,Williams,Liverpool,2021
+178,Yerson,Mosquera Valdelamar,Wolves,2021
+179,Odeluga Joshua,Offiah,Brighton,2021
+180,Alexander Mark David,Oxlade-Chamberlain,Liverpool,2021
+181,Hakim,Ziyech,Chelsea,2021
+182,Jack,Butland,Crystal Palace,2021
+183,Dazet Wilfried,Armel Zaha,Crystal Palace,2021
+184,Daniel,Amartey,Leicester,2021
+185,Cenk,Tosun,Everton,2021
+186,Fuka-Arthur,Masuaku Kawela,West Ham,2021
+187,Michael,McGovern,Norwich,2021
+188,Todd Owen,Cantwell,Norwich,2021
+189,Kieran,O'Neill Dowell,Norwich,2021
+190,Cameron Robert,Carter-Vickers,Tottenham,2021
+191,Benjamin Keith,Davies,Liverpool,2021
+192,Milot,Rashica,Norwich,2021
+193,Halil İbrahim,Dervişoğlu,Brentford,2021
+194,Scott,Tiffoney,Partick,2021
+195,Kyle,Turner,Partick,2021
+196,Nathaniel Harry,Phillips,Liverpool,2021
+197,Owen Michael,Beck,Liverpool,2021
+198,Mika,Miles Biereth,Arsenal,2021
+199,Thierry,Small,Southampton,2021
+200,Jordan Brian,Henderson,Liverpool,2021
+201,Fábio Henrique,Tavares,Liverpool,2021
+202,Roberto Firmino,Barbosa de Oliveira,Liverpool,2021
+203,Sadio,Mané,Liverpool,2021
+204,Alex,Nicolao Telles,Manchester United,2021
+205,Cristiano Ronaldo,dos Santos Aveiro,Manchester United,2021
+206,Frederico,Rodrigues de Paula Santos,Manchester United,2021
+207,Lucas Sebastián,Torreira di Pascua,Fiorentina,2021
+208,N'Golo,Kanté,Chelsea,2021
+209,Édouard Osoque,Mendy,Chelsea,2021
+210,Joshua Christian,Kojo King,Watford,2021
+211,Jürgen Leonardo,Locadia,Brighton,2021
+212,Pontus,Jansson,Brentford,2021
+213,Patrik Sigurður,Gunnarsson,Brentford,2021
+214,Oluwaseyi Babajide,Ojo,Liverpool,2021
+215,Allan Irénée,Saint-Maximin,Newcastle,2021
+216,Stipe,Perica,Watford,2021
+217,Mathias,Antonsen Normann,Norwich,2021
+218,Isaac Jude,Price,Everton,2021
+219,Romaine Lee,Mundle,Tottenham,2021
+220,Samuel,Kalu Ojim,Watford,2021
+221,Patrick,Cutrone,Wolves,2021
+222,Rúben Diogo,da Silva Neves,Wolves,2021
+223,Jonjoe,Kenny,Everton,2021
+224,Robert Kenedy,Nunes do Nascimento,Chelsea,2021
+225,Jeffrey Patrick,Hendrick,Newcastle,2021
+226,Florin,Andone,Brighton,2021
+227,Ashley Michael,Fletcher,Watford,2021
+228,Jordan Thomas,Hugill,Norwich,2021
+229,Marcus,Forss,Brentford,2021
+230,Álvaro,Fernández Llorente,Brentford,2021
+231,Scott Brian,Banks,Crystal Palace,2021
+232,Michał,Karbownik,Brighton,2021
+233,Vontae Jason,Daley-Campbell,Leicester,2021
+234,Sam,Greenwood,Leeds,2021
+235,Christos,Tzolis,Norwich,2021
+236,Harrison Charles,Ashby,West Ham,2021
+237,Joseph Oluwagbemiga Mayowa,Hungbo,Watford,2021
+238,Dexter Joeng Woo,Lembikisa,Wolves,2021
+239,Charlie Michael,Patino,Arsenal,2021
+240,Wesley,Moraes Ferreira da Silva,Aston Villa,2021
+241,Ki-Jana Delano,Hoever,Wolves,2021
+242,Ian Carlo,Poveda-Ocampo,Leeds,2021
+243,Taylor Jerome,Richards,Brighton,2021
+244,Edouard,Kayembe Kayembe,Watford,2021
+245,Rúnar Alex,Rúnarsson,Arsenal,2021
+246,Kenneth Nlata,Sema,Watford,2021
+247,Matthew William,Pollock,Watford,2021
+248,Hélder Wander,Sousa de Azevedo e Costa,Leeds,2021
+249,Asmir,Begović,Everton,2021
+250,Jamal Piaras,Lewis,Newcastle,2021
+251,Dwight Devon Boyd,Gayle,Newcastle,2021
+252,Joseph Paul,Gelhardt,Leeds,2021
+253,Imrân,Louza,Watford,2021
+254,Francisco Andrés,Sierralta Carvallo,Watford,2021
+255,Daniel,Bachmann,Watford,2021
+256,Ayotomiwa Sherif,Dele-Bashiru,Watford,2021
+257,Elijah Malik,Dixon-Bonner,Liverpool,2021
+258,James William,Morris,Watford,2021
+259,Jeremy Mpobi,Ngakia,Watford,2021
+260,Ethan Kwame Colm Raymond,Ampadu,Chelsea,2021
+261,Karl,Darlow,Newcastle,2021
+262,Luke David,Ayling,Leeds,2021
+263,Liam David Ian,Cooper,Leeds,2021
+264,Stuart Alan,Dallas,Leeds,2021
+265,Jamie Stuart,Shackleton,Leeds,2021
+266,Patrick James,Bamford,Leeds,2021
+267,Samuel Mark,Byram,Norwich,2021
+268,Joseph Peter,Rodon,Tottenham,2021
+269,Daniel Owen,James,Leeds,2021
+270,Illan Stéphane,Meslier,Leeds,2021
+271,Crysencio Jilbert Sylverio Cir,Summerville,Leeds,2021
+272,Kristoffer-August,Sundquist Klaesson,Leeds,2021
+273,Pascal Augustus,Struijk,Leeds,2021
+274,Ellis Reco,Simms,Everton,2021
+275,Lewis Michael,Bate,Leeds,2021
+276,Kristan Richard,Moore,Leeds,2021
+277,Charlie Richard,Cresswell,Leeds,2021
+278,Leo,Fuhr Hjelde,Leeds,2021
+279,Archie James Francis,Gray,Leeds,2021
+280,Moussa,Djenepo,Southampton,2021
+281,Nathaniel Nyakie,Chalobah,Watford,2021
+282,Martin Ronald,Kelly,Crystal Palace,2021
+283,Ryan,Fraser,Newcastle,2021
+284,Jack Raymond,Clarke,Tottenham,2021
+285,Adam James,Armstrong,Southampton,2021
+286,Ché Zach Everton Fred,Adams,Southampton,2021
+287,Bali,Mumba,Norwich,2021
+288,Erik,Pieters,Burnley,2021
+289,Andrew,Moran,Brighton,2021
+290,Haydon Cameron,Roberts,Brighton,2021
+291,Dilan Kumar,Markanday,Tottenham,2021
+292,Ajibola Joshua Odunayo,Afolarin Alese,West Ham,2021
+293,Luke James,Cundle,Wolves,2021
+294,Jeremy Leonel,Sarmiento Morante,Brighton,2021
+295,Bobby Craig,Thomas,Burnley,2021
+296,Samuel Ikechukwu,Edozie,Manchester City,2021
+297,Pierre-Emmanuel,Ekwah Elimby,West Ham,2021
+298,Kaine,Kesler-Hayden,Aston Villa,2021
+299,Tyler-Jay,Dibling,Southampton,2021
+300,Kyle Leonardus,Walker-Peters,Southampton,2021
+301,Jan Kacper,Bednarek,Southampton,2021
+302,Ashley Luke,Barnes,Burnley,2021
+303,Alex Simon,McCarthy,Southampton,2021
+304,Jack,Stephens,Southampton,2021
+305,Stuart,Armstrong,Southampton,2021
+306,Onel Lázaro,Hernández Mayea,Norwich,2021
+307,Adam John,Forshaw,Leeds,2021
+308,Mason Anthony,Holgate,Everton,2021
+309,Aaron Anthony,Connolly,Brighton,2021
+310,Joshua Thomas,Sargent,Norwich,2021
+311,Ozan,Tufan,Watford,2021
+312,Walter James,Byrne Furlong,Brighton,2021
+313,Adam Uche,Idah,Norwich,2021
+314,William Anthony Patrick,Smallbone,Southampton,2021
+315,Jaden,Philogene-Bidace,Aston Villa,2021
+316,Liam Rory,Delap,Manchester City,2021
+317,Tyler Scott,Morton,Liverpool,2021
+318,Anthony Gary,Springett,Norwich,2021
+319,Jonathan David Henry,Rowe,Norwich,2021
+320,Patson,Daka,Leicester,2021
+321,Dimitrios Christos,Giannoulis,Norwich,2021
+322,Jakob,Lungi Sørensen,Norwich,2021
+323,John Thomas Gordon,Ruddy,Wolves,2021
+324,Jamie Richard,Vardy,Leicester,2021
+325,Benjamin James,Gibson,Norwich,2021
+326,Kevin,Finbarr Long,Burnley,2021
+327,Angus Fraser James,Gunn,Norwich,2021
+328,Shane Patrick Michael,Duffy,Brighton,2021
+329,Grant,Campbell Hanley,Norwich,2021
+330,Kenneth,McLean,Norwich,2021
+331,Tyler,D'Whyte Roberts,Leeds,2021
+332,Przemysław,Płacheta,Norwich,2021
+333,Dion Dannie Leonard,Sanderson,Wolves,2021
+334,Kiernan Frank,Dewsbury-Hall,Leicester,2021
+335,Cody Callum Pierre,Drameh,Leeds,2021
+336,Liam Geoffrey,Gibbs,Norwich,2021
+337,Jon,McCracken,Norwich,2021
+338,Jonathan Robert,Tomkinson,Norwich,2021
+339,Kasey,McAteer,Leicester,2021
+340,Harry Billy,Winks,Tottenham,2021
+341,Benjamin Luke,Woodburn,Liverpool,2021
+342,Dennis Pierre Jacques Albert,Praet,Leicester,2021
+343,Daniel,Ward,Leicester,2021
+344,Conor David,Coady,Wolves,2021
+345,Ricardo Domingos,Barbosa Pereira,Leicester,2021
+346,Marc Kevin,Albrighton,Leicester,2021
+347,Hamza,Dewan Choudhury,Leicester,2021
+348,Onyinye Wilfred,Ndidi,Leicester,2021
+349,Andre Anthony,Gray,Watford,2021
+350,Frederick John,Woodman,Newcastle,2021
+351,Jannik,Vestergaard,Leicester,2021
+352,Christian Timothy,Walton,Brighton,2021
+353,James Michael,Justin,Leicester,2021
+354,Nathan Paul,Broadhead,Everton,2021
+355,Brandon Paul Brian,Williams,Norwich,2021
+356,Cieran Peter,Slicker,Manchester City,2021
+357,Dane Pharrell,Scarlett,Tottenham,2021
+358,Benjamin Harvey,Nelson,Leicester,2021
+359,Omari Elijah,Giraud-Hutchinson,Arsenal,2021
+360,Saúl,Ñíguez Esclapez,Chelsea,2021
+361,İlkay,Gündoğan,Manchester City,2021
+362,Lukas,Rupp,Norwich,2021
+363,Mason Will John,Greenwood,Manchester United,2021
+364,Ferran,Torres García,Manchester City,2021
+365,Kieran,Tierney,Arsenal,2021
+366,Héctor,Bellerín Moruno,Arsenal,2021
+367,Raphael,Dias Belloli,Leeds,2021
+368,Marcos,Alonso Mendoza,Chelsea,2021
+369,César,Azpilicueta Tanco,Chelsea,2021
+370,Andreas,Bødtker Christensen,Chelsea,2021
+371,William Paul,Troost-Ekong,Watford,2021
+372,Çağlar,Söyüncü,Leicester,2021
+373,Francisco,Femenía Far,Watford,2021
+374,Vicente,Guaita Panadero,Crystal Palace,2021
+375,Ayoze,Pérez Gutiérrez,Leicester,2021
+376,Oriol,Romeu Vidal,Southampton,2021
+377,Sergi,Canós Tenés,Brentford,2021
+378,Boubakary,Soumaré,Leicester,2021
+379,Álvaro,Fernández Carreras,Manchester United,2021
+380,Moussa,Sissoko,Watford,2021
+381,Steven Charles,Bergwijn,Tottenham,2021
+382,Benjamin,Mendy,Manchester City,2021
+383,Philippe,Sandler,Manchester City,2021
+384,João Pedro,Cavaco Cancelo,Manchester City,2021
+385,Nemanja,Matić,Manchester United,2021
+386,Ainsley Cory,Maitland-Niles,Arsenal,2021
+387,Alexandre Armand,Lacazette,Arsenal,2021
+388,Morgan Stéphane,Sanson,Aston Villa,2021
+389,Kepa,Arrizabalaga Revuelta,Chelsea,2021
+390,Antonio,Rüdiger,Chelsea,2021
+391,Romain Paul Jean-Michel,Perraud,Southampton,2021
+392,Frédéric,Guilbert,Aston Villa,2021
+393,Pierre,Lees-Melou,Norwich,2021
+394,Kjell,Scherpen,Brighton,2021
+395,Xavier,Tshimanga Kamaluba Ntite Muken,Chelsea,2021
+396,Mads,Bidstrup,Brentford,2021
+397,Jake,O'Brien,Swindon Town,2021
+398,Charles Clive,Webster,Chelsea,2021
+399,Adrian,Blake,Watford,2021
+400,Naby Laye,Keïta,Liverpool,2021
+401,Nikola,Vlašić,West Ham,2021
+402,Takumi,Minamino,Liverpool,2021
+403,Pierre-Emerick Emiliano Franço,Aubameyang,Arsenal,2021
+404,Ismaïla,Sarr,Watford,2021
+405,Isaac,Success Ajayi,Watford,2021
+406,Christian,Kabasele,Watford,2021
+407,Adam,Masina,Watford,2021
+408,Domingos,Quina,Watford,2021
+409,Christoph,Zimmermann,Norwich,2021
+410,Keinan Vincent Joseph,Davis,Aston Villa,2021
+411,Hassane,Kamara,Watford,2021
+412,Robin Leon,Koch,Leeds,2021
+413,Pierluigi,Gollini,Tottenham,2021
+414,Pablo,Marí Villar,Arsenal,2021
+415,Mohammed,Salisu Abdul Karim,Southampton,2021
+416,Folarin Jerry,Balogun,Arsenal,2021
+417,Japhet Manzambi,Tanganga,Tottenham,2021
+418,Niels Patrick,Nkounkou,Everton,2021
+419,Joshua Darius,Kamani Wilson-Esbrand,Manchester City,2021
+420,Marvelous,Nakamba,Aston Villa,2021
+421,Harry Edward,Kane,Tottenham,2021
+422,Timo,Werner,Chelsea,2021
+423,Alex,Král,West Ham,2021
+424,Albert-Mboyo,Sambi Lokonga,Arsenal,2021
+425,Granit,Xhaka,Arsenal,2021
+426,Jóhann Berg,Guðmunds­son,Burnley,2021
+427,Ryan John,Giles,Wolves,2021
+428,Charles James,Taylor,Burnley,2021
+429,Jack Frank,Porteous Cork,Burnley,2021
+430,Nathan Daniel Jerome,Redmond,Southampton,2021
+431,Michael,Oluwadurotimi Obafemi,Southampton,2021
+432,Jay Enrique,Rodríguez,Burnley,2021
+433,Joshua,Brownhill,Burnley,2021
+434,Connor Richard John,Roberts,Burnley,2021
+435,Wout François Maria,Weghorst,Burnley,2021
+436,Ozan Muhammed,Kabak,Norwich,2021
+437,Conrad Jaden,Egan-Riley,Manchester City,2021
+438,Nathan Adewale Temitayo,Tella,Southampton,2021
+439,Aaron James,Ramsey,Aston Villa,2021
+440,Bamidele Jermaine,Alli,Everton,2021
+441,Ashley Simon,Young,Aston Villa,2021
+442,James David,Garner,Manchester United,2021
+443,Vitalii,Mykolenko,Everton,2021
+444,Ross,Barkley,Chelsea,2021
+445,James Alan,Tarkowski,Burnley,2021
+446,Jarrad Paul,Branthwaite,Everton,2021
+447,Séamus,Coleman,Everton,2021
+448,André Filipe,Tavares Gomes,Everton,2021
+449,Dominic Nathaniel,Calvert-Lewin,Everton,2021
+450,Demarai Ramelle,Gray,Everton,2021
+451,Abdoulaye,Doucouré,Everton,2021
+452,Dwight James Matthew,McNeil,Burnley,2021
+453,Timothy Michael,Krul,Norwich,2021
+454,Benjamin Matthew,Godfrey,Everton,2021
+455,Jack David,Harrison,Leeds,2021
+456,Nathan Kenneth,Patterson,Everton,2021
+457,Lewis Norman,Dobbin,Everton,2021
+458,Teden Mambuene,Mengi,Manchester United,2021
+459,Tyler Jaden,Napier Edward Onyango,Everton,2021
+460,Nélson,Cabral Semedo,Wolves,2021
+461,Daniel,Castelo Podence,Wolves,2021
+462,Pedro,Lomba Neto,Wolves,2021
+463,Jordan Lee,Pickford,Everton,2021
+464,Michael Vincent,Keane,Everton,2021
+465,Maximilian William,Kilman,Wolves,2021
+466,João Manuel,Neves Virgínia,Everton,2021
+467,Thomas,Davies,Everton,2021
+468,Ryan,Marlowe Fredericks,West Ham,2021
+469,Maximillian James,Aarons,Norwich,2021
+470,Darren Edward Andrew,Randolph,West Ham,2021
+471,Andrew Michael,Lonergan,Everton,2021
+472,Hee-Chan,Hwang,Wolves,2021
+473,Tote António,Gomes,Wolves,2021
+474,Fábio Daniel,Soares Silva,Wolves,2021
+475,Cameron Desmond,Archer,Aston Villa,2021
+476,Thomas Glyn,Doyle,Manchester City,2021
+477,Luke Jonathan,Thomas,Leicester,2021
+478,James John,McAtee,Manchester City,2021
+479,Hugo,Bueno López,Wolves,2021
+480,Joelinton Cássio,Apolinário de Lira,Newcastle,2021
+481,Joseph George,Willock,Newcastle,2021
+482,José Pedro,Malheiro de Sá,Wolves,2021
+483,Miguel Ángel,Almirón Rejala,Newcastle,2021
+484,Callum Eddie Graham,Wilson,Newcastle,2021
+485,Bruno,Guimarães Rodriguez Moura,Newcastle,2021
+486,Jonathan,Castro Otto,Wolves,2021
+487,Matthew James,Doherty,Tottenham,2021
+488,Harvey Lewis,Barnes,Leicester,2021
+489,Javier,Manquillo Gaitán,Newcastle,2021
+490,Isaac Scott,Hayden,Newcastle,2021
+491,Sean David,Longstaff,Newcastle,2021
+492,Matthew Thomas,Ritchie,Newcastle,2021
+493,Daniel Johnson,Burn,Newcastle,2021
+494,Craig,Dawson,West Ham,2021
+495,Jacob Kai,Murphy,Newcastle,2021
+496,Anthony Michael,Gordon,Everton,2021
+497,Elliot,Anderson,Newcastle,2021
+498,Valentino Francisco,Livramento,Southampton,2021
+499,Lewis Kieran,Hall,Chelsea,2021
+500,Kieran John,Trippier,Newcastle,2021
+501,Andreas Hugo,Hoelgebaum Pereira,Manchester United,2021
+502,Bernd,Leno,Arsenal,2021
+503,Alexander Chuka,Iwobi,Everton,2021
+504,Loris Sven,Karius,Liverpool,2021
+505,Willian,Borges da Silva,Arsenal,2021
+506,Callum James,Hudson-Odoi,Chelsea,2021
+507,Fabian Lukas,Schär,Newcastle,2021
+508,Emil Henry Kristoffer,Krafth,Newcastle,2021
+509,Raúl Alonso,Jiménez Rodríguez,Wolves,2021
+510,Timothy,Castagne,Leicester,2021
+511,Adama,Traoré Diarra,Wolves,2021
+512,Issa Laye Lucas Jean,Diop,West Ham,2021
+513,Martin,Dúbravka,Newcastle,2021
+514,Paul,Dummett,Newcastle,2021
+515,Jamaal,Lascelles,Newcastle,2021
+516,Nicholas David,Pope,Burnley,2021
+517,Matthew Robert,Targett,Newcastle,2021
+518,Mark Joseph,Gillespie,Newcastle,2021
+519,Armando,Broja,Southampton,2021
+520,Jadon Malik,Sancho,Manchester United,2021
+521,Thiago,Emiliano da Silva,Chelsea,2021
+522,Raheem Shaquille,Sterling,Manchester City,2021
+523,Marcus,Rashford,Manchester United,2021
+524,Benjamin James,Chilwell,Chelsea,2021
+525,Robert,Lynch Sánchez,Brighton,2021
+526,Marcus,Bettinelli,Chelsea,2021
+527,Reece Lewis,James,Chelsea,2021
+528,Trevoh Thomas,Chalobah,Chelsea,2021
+529,Wesley Tidjan,Fofana,Leicester,2021
+530,Malang Mamadou William Georges,Sarr,Chelsea,2021
+531,Marc,Cucurella Saseta,Brighton,2021
+532,Conor John,Gallagher,Crystal Palace,2021
+533,Carney Chibueze,Chukwuemeka,Aston Villa,2021
+534,Lucas Carl Edvard,Bergström,Chelsea,2021
+535,Cole Jermaine,Palmer,Manchester City,2021
+536,Amad,Diallo Traoré,Manchester United,2021
+537,Shola Maxwell,Shoretire,Manchester United,2021
+538,Roméo,Lavia,Manchester City,2021
+539,Alejandro,Garnacho Ferreyra,Manchester United,2021
+540,Christian,Dannemann Eriksen,Brentford,2021
+541,Donny,van de Beek,Everton,2021
+542,Sergio,Reguilón Rodríguez,Tottenham,2021
+543,Raphaël Xavier,Varane,Manchester United,2021
+544,Eric Bertrand,Bailly,Manchester United,2021
+545,José Diogo,Dalot Teixeira,Manchester United,2021
+546,Luke Paul Hoare,Shaw,Manchester United,2021
+547,Scott Francis,McTominay,Manchester United,2021
+548,Anthony Jordan,Martial,Manchester United,2021
+549,Bruno Miguel,Borges Fernandes,Manchester United,2021
+550,Leander,Dendoncker,Wolves,2021
+551,Thomas David,Heaton,Manchester United,2021
+552,Jacob Harry,Maguire,Manchester United,2021
+553,Jonathan Grant,Evans,Leicester,2021
+554,Aaron,Wan-Bissaka,Manchester United,2021
+555,Jacob Matthew,Ramsey,Aston Villa,2021
+556,Mason Tony,Mount,Chelsea,2021
+557,Oliver George Arthur,Watkins,Aston Villa,2021
+558,Timothy Emeka,Iroegbunam,Aston Villa,2021
+559,Tommi Dylan,O'Reilly,Aston Villa,2021
+560,Emmanuel Bonaventure,Dennis,Watford,2021
+561,Philippe,Coutinho Correia,Aston Villa,2021
+562,Bertrand Isidore,Traoré,Aston Villa,2021
+563,Robin Patrick,Olsen,Aston Villa,2021
+564,Leon Patrick,Bailey Butler,Aston Villa,2021
+565,Lucas,Digne,Aston Villa,2021
+566,Youri Marion A.,Tielemans,Leicester,2021
+567,Christopher Grant,Wood,Newcastle,2021
+568,Calum,Chambers,Aston Villa,2021
+569,Emiliano,Buendía Stati,Aston Villa,2021
+570,Kortney Paul Duncan,Hause,Aston Villa,2021
+571,Tyrone Deon,Mings,Aston Villa,2021
+572,John,McGinn,Aston Villa,2021
+573,Matthew Stuart,Cash,Aston Villa,2021
+574,Ezri,Konsa Ngoyo,Aston Villa,2021
+575,Damián Emiliano,Martínez Romero,Aston Villa,2021
+576,Douglas Luiz,Soares de Paulo,Aston Villa,2021
+577,Filip,Marschall,Aston Villa,2021
+578,Anthony David,Junior Elanga,Manchester United,2021
+579,Joshua,Feeney,Aston Villa,2021
+580,Sèrge Alain Stéphane,Aurier,Tottenham,2021
+581,Sayed Saman,Ghoddos,Brentford,2021
+582,Cheikhou,Kouyaté,Crystal Palace,2021
+583,Mads,Roerslev Rasmussen,Brentford,2021
+584,Ogochukwu Frank,Onyeka,Brentford,2021
+585,Willy-Arnaud,Zobo Boly,Wolves,2021
+586,Morgan Anthony,Gibbs-White,Wolves,2021
+587,Wayne Robert,Hennessey,Burnley,2021
+588,Jonjo,Shelvey,Newcastle,2021
+589,Pelenda Joshua Tunga,Dasilva,Brentford,2021
+590,Ivan Benjamin Elijah,Toney,Brentford,2021
+591,Shandon Harkeem,Baptiste,Brentford,2021
+592,Bryan Tetsadong Marceau,Mbeumo,Brentford,2021
+593,Yoane,Wissa,Brentford,2021
+594,Vitaly,Janelt,Brentford,2021
+595,Christian,Thers Nørgaard,Brentford,2021
+596,Nuno Albertino,Varela Tavares,Arsenal,2021
+597,Mathias,Jensen,Brentford,2021
+598,Neco Shay,Williams,Liverpool,2021
+599,Myles,Spencer Peart-Harris,Brentford,2021
+600,Kristoffer,Vassbakk Ajer,Brentford,2021
+601,Odsonne,Édouard,Crystal Palace,2021
+602,Robert Samuel,Holding,Arsenal,2021
+603,Mathias,Jattah-Njie Jørgensen,Brentford,2021
+604,Jordan Pierre,Ayew,Crystal Palace,2021
+605,Charles James,Goode,Brentford,2021
+606,William James,Hughes,Crystal Palace,2021
+607,Jeffrey,Schlupp,Crystal Palace,2021
+608,Jaïro Jocquim,Riedewald,Crystal Palace,2021
+609,Nathaniel Edwin,Clyne,Crystal Palace,2021
+610,Benjamin Thomas,Mee,Burnley,2021
+611,Rico Antonio,Henry,Brentford,2021
+612,Nathan Michael,Collins,Burnley,2021
+613,Eberechi Oluchi,Eze,Crystal Palace,2021
+614,Michael Akpovie,Olise,Crystal Palace,2021
+615,Ethan Rupert,Pinnock,Brentford,2021
+616,Jean-Philippe,Mateta,Crystal Palace,2021
+617,Nathan Kirk-Patrick,Ferguson,Crystal Palace,2021
+618,Jesurun,Rak-Sakyi,Crystal Palace,2021
+619,Jack Campbell,Wells-Morrison,Crystal Palace,2021
+620,Adam David,Lallana,Brighton,2021
+621,James Philip,Milner,Liverpool,2021
+622,Joël Ivo,Veltman,Brighton,2021
+623,Daniel Nii,Tackie Mensah Welbeck,Brighton,2021
+624,Joachim Christian,Andersen,Crystal Palace,2021
+625,João Pedro,Junqueira de Jesus,Watford,2021
+626,Steven,Alzate,Brighton,2021
+627,James Oliver Charles,Tomkins,Crystal Palace,2021
+628,Joel Edward Philip,Ward,Crystal Palace,2021
+629,Lewis Carl,Dunk,Brighton,2021
+630,Pascal,Groß,Brighton,2021
+631,Solomon Benjamin,March,Brighton,2021
+632,Dean Bradley,Henderson,Manchester United,2021
+633,Remi Luke,Matthews,Crystal Palace,2021
+634,Jakub Piotr,Moder,Brighton,2021
+635,Andi Avdi,Zeqiri,Brighton,2021
+636,Addji Keaninkin Marc-Israel,Guéhi,Crystal Palace,2021
+637,Evan Joe,Ferguson,Brighton,2021
+638,Billy Clifford,Gilmour,Norwich,2021
+639,Tyrick Kwon,Mitchell,Crystal Palace,2021
+640,Thomas,Teye Partey,Arsenal,2021
+641,Oleksandr,Zinchenko,Manchester City,2021
+642,Gabriel Fernando,de Jesus,Manchester City,2021
+643,Reiss Luke,Nelson,Arsenal,2021
+644,Kai Lukas,Havertz,Chelsea,2021
+645,Emile,Smith Rowe,Arsenal,2021
+646,Mohamed Naser,Elsayed Elneny,Arsenal,2021
+647,Bukayo Ayoyinka Temidayo,Saka,Arsenal,2021
+648,Edward,Keddar Nketiah,Arsenal,2021
+649,Leandro,Trossard,Brighton,2021
+650,Jorge Luiz,Frello Filho,Chelsea,2021
+651,Takehiro,Tomiyasu,Arsenal,2021
+652,Declan,Rice,West Ham,2021
+653,Nicolas,Pépé,Arsenal,2021
+654,Jason Sean,Steele,Brighton,2021
+655,Adam Harry,Webster,Brighton,2021
+656,Martin,Ødegaard,Arsenal,2021
+657,Gabriel Teodoro,Martinelli Silva,Arsenal,2021
+658,Tariq Kwame,Nii-Lante Lamptey,Brighton,2021
+659,Thomas Peter,Wayne McGill,Brighton,2021
+660,Cédric Ricardo,Alves Soares,Arsenal,2021
+661,Alphonse Francis,Areola,West Ham,2021
+662,Gnaly Albert Maxwel,Cornet,Burnley,2021
+663,Vladimír,Coufal,West Ham,2021
+664,Tomáš,Souček,West Ham,2021
+665,Pablo,Fornals Malla,West Ham,2021
+666,Emerson,Palmieri dos Santos,Chelsea,2021
+667,Kurt Happy,Zouma,West Ham,2021
+668,James Michael Edward,Ward-Prowse,Southampton,2021
+669,Aaron William,Cresswell,West Ham,2021
+670,Angelo,Obinze Ogbonna,West Ham,2021
+671,Michail Gregory,Antonio,West Ham,2021
+672,Conor James,Coventry,West Ham,2021
+673,Benjamin Anthony,Johnson,West Ham,2021
+674,Daniel William John,Ings,Aston Villa,2021
+675,Jarrod,Bowen,West Ham,2021
+676,Benjamin William,White,Arsenal,2021
+677,Aaron Christopher,Ramsdale,Arsenal,2021
+678,Gabriel,dos Santos Magalhães,Arsenal,2021
+679,Karl Jakob,Hein,Arsenal,2021
+680,Alisson Ramsés,Becker,Liverpool,2021
+681,Caoimhín Odhrán,Kelleher,Liverpool,2021
+682,Trent John,Alexander-Arnold,Liverpool,2021
+683,Joseph Dave,Gomez,Liverpool,2021
+684,Andrew Henry,Robertson,Liverpool,2021
+685,Virgil,van Dijk,Liverpool,2021
+686,Curtis Julian,Jones,Liverpool,2021
+687,Thiago,Alcântara do Nascimento,Liverpool,2021
+688,Konstantinos,Tsimikas,Liverpool,2021
+689,Bryan,Gil Salvatierra,Tottenham,2021
+690,Richarlison,de Andrade,Everton,2021
+691,Luis Fernando,Díaz Marulanda,Liverpool,2021
+692,Diogo José,Teixeira da Silva,Liverpool,2021
+693,Łukasz Marek,Fabiański,West Ham,2021
+694,Alexis,Mac Allister,Brighton,2021
+695,Adrián,San Miguel del Castillo,Liverpool,2021
+696,Harvey Daniel James,Elliott,Liverpool,2021
+697,Harvey David,White,Tottenham,2021
+698,Jarell,Amorin Quansah,Liverpool,2021
+699,Marcelo,de Araújo Pitaluga Filho,Liverpool,2021
+700,Rodrigo,Hernández Cascante,Manchester City,2021
+701,Hugo Hadrien Dominique,Lloris,Tottenham,2021
+702,Alfie Malik,Whiteman,Tottenham,2021
+703,Davinson,Sánchez Mina,Tottenham,2021
+704,Eric Jeremy Edgar,Dier,Tottenham,2021
+705,Oliver William,Skipp,Tottenham,2021
+706,Heung-Min,Son,Tottenham,2021
+707,Philip Walter,Foden,Manchester City,2021
+708,Bernardo,Mota Veiga de Carvalho e Silva,Manchester City,2021
+709,Tanguy,Ndombélé Alvaro,Tottenham,2021
+710,Rodrigo,Bentancur Colmán,Tottenham,2021
+711,Emerson Aparecido,Leite de Souza Júnior,Tottenham,2021
+712,Giovani,Lo Celso,Tottenham,2021
+713,Pierre-Emile Kordt,Højbjerg,Tottenham,2021
+714,James Daniel,Maddison,Leicester,2021
+715,Fraser Gerard,Forster,Southampton,2021
+716,Yves,Bissouma,Brighton,2021
+717,Kouassi Ryan,Sessegnon,Tottenham,2021
+718,Dejan,Kulusevski,Tottenham,2021
+719,Brandon Anthony,Austin,Tottenham,2021
+720,Rúben,dos Santos Gato Alves Dias,Manchester City,2021
+721,Ederson,Santana de Moraes,Manchester City,2021
+722,John,Stones,Manchester City,2021
+723,Kyle Andrew,Walker,Manchester City,2021
+724,Kevin,De Bruyne,Manchester City,2021
+725,Romelu Menama,Lukaku Bolingoli,Chelsea,2021
+726,Mateo,Kovačić,Chelsea,2021
+727,Nathan Benjamin,Aké,Manchester City,2021
+728,Jack Peter,Grealish,Manchester City,2021
+729,Tammy,Bakumo-Abraham,Chelsea,2021
+730,Scott Paul,Carson,Manchester City,2021
+731,Stephen,Hendrie,Partick,2021
+732,Juraj,Kucka,Watford,2021
+733,Ross David,Longwell Docherty,Partick,2021
+734,Jamie,Sneddon,Partick,2021
+735,Stuart,Bannigan,Partick,2021
+736,Connor,Murray,Partick,2021
+737,Diego Javier,Llorente Ríos,Leeds,2021
+738,Zackary Thomas,Steffen,Manchester City,2021
+739,Joseph Peter,McGlynn,Burnley,2021
+740,Christian Mate,Pulišić,Chelsea,2021
+741,Divock,Okoth Origi,Liverpool,2021
+742,Moise Bioty,Kean,Everton,2021
+743,Victor Jörgen,Nilsson Lindelöf,Manchester United,2021
+744,Rodrigo,Moreno Machado,Leeds,2021
+745,Sead,Kolašinac,Arsenal,2021
+746,Ruben Ira,Loftus-Cheek,Chelsea,2021
+747,Yerry Fernando,Mina González,Everton,2021
+748,Jean-Philippe,Gbamin,Everton,2021
+749,Kevin,Holt,Partick,2021
+750,Anwar,El Ghazi,Everton,2021
+751,Neal,Maupay,Brighton,2021
+752,César Joel,Valencia Castillo,Brentford,2021
+753,Robert,Crawford,Partick,2021
+754,Antef,Tsoungui,Brighton,2021
+755,Andrew Abiola,Omobamidele,Norwich,2021
+756,Arthur Chukwuezugo,Okonkwo,Arsenal,2021
+757,Maxwell James,Haygarth,Brentford,2021
+758,Owen Joel,Dodgson,Burnley,2021
+759,Björn Bryan,Hardley,Manchester United,2021
+760,Edinson Roberto,Cavani Gómez,Manchester United,2021
+761,Mohamed,Salah Hamed Mahrous Ghaly,Liverpool,2021
+762,Riyad Karim,Mahrez,Manchester City,2021
+763,José Salomón,Rondón Giménez,Everton,2021
+764,Manuel,Lanzini,West Ham,2021
+765,Romain Ghanem Paul,Saïss,Wolves,2021
+766,Marc,Navarro Ceciliano,Watford,2021
+767,Andrii,Yarmolenko,West Ham,2021
+768,Federico,Fernández,Newcastle,2021
+769,Matěj,Vydra,Burnley,2021
+770,Yan,Valery,Southampton,2021
+771,Mohamed Saïd,Benrahma,West Ham,2021
+772,Ibrahima,Diallo,Southampton,2021
+773,Rayan,Aït-Nouri,Wolves,2021
+774,Lyanco Evangelista,Silveira Neves Vojnović,Southampton,2021
+775,Samir,Caetano de Souza Santos,Watford,2021
+776,Tudor Cristian,Băluță,Brighton,2021
+777,Hannibal,Mejbri,Manchester United,2021
+778,Luke,Mbete-Tabu,Manchester City,2021
+779,Zidane Aamar,Iqbal,Manchester United,2021
+780,João Filipe,Iria Santos Moutinho,Wolves,2021
+781,Percy Muzi,Tau,Brighton,2021
+782,Francisco António,Machado Mota de Castro Trincão,Wolves,2021
+783,Jaime Alberto,Alvarado Hoyos,Watford,2021
+784,Francisco Jorge,Tavares Oliveira,Wolves,2021
+785,Juan Diego,Alegría Arango,Partick,2021
