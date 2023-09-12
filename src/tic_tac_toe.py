@@ -90,8 +90,7 @@ def check_move(move):
 def game():
     turn = 'X'
     count = 0
-    is_there_a_winner = False
-    
+    is_there_a_winner = False   
     footy_team_board_df = create_footy_team_board()
 
     while is_there_a_winner == False:
@@ -104,7 +103,7 @@ def game():
             if theBoard[move] == ' ':
                 # theBoard[move] = turn
                 # count += 1
-                if run_footy(int(move)):
+                if run_footy(int(move), footy_team_board_df):
                     theBoard[move] = turn
                     count += 1
                 else:

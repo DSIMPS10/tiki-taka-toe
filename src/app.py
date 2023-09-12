@@ -5,7 +5,7 @@ import logging
 
 from utils.classes import Team, Grid, Player
 from flask_pkg.project.routes import BASE, get_request, post_request
-from data.data_db_functions import get_all_players_from_db
+from data.data_db_functions import get_all_players_from_db, get_all_team_from_db
     
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
@@ -16,7 +16,7 @@ def get_six_random_indices()->list:
     Input: No input
     Output: List of 6 random indicies
     """
-    team_count_dict = get_request(BASE,"count_all_football_teams")
+    team_count_dict = get_request(BASE,'count_all_football_teams')
     team_count = team_count_dict["team_count"]
     six_indices = random.sample(range(1,team_count+1),6)
     return six_indices
@@ -27,11 +27,12 @@ def get_teams_from_indices(six_indices:list[int])-> list[str]:
     Output: List of corresponding team names from the indices
     """
     team_names_list = []
+    all_teams_in_db: pd.DataFrame = get_all_team_from_db()
+    all_team_ids = all_teams_in_db['team_id'].to_list()
     for i in six_indices:
-        team_name_dict = get_request(BASE,f"team_name_from_id/{i}")
-        print(team_name_dict)
+        team_id = all_team_ids[i]
+        team_name_dict = get_request(BASE,f"team_from_id/{team_id}")
         team_names_list.append(team_name_dict["team_name"])
-        print(team_names_list)
     return team_names_list
         
 def get_teams_for_selected_player_from_db(player_df, player_name):

@@ -64,6 +64,7 @@ def count_all_teams():
 @main.get("/api/team_from_id/<int:team_id>")
 def get_team_from_id(team_id): 
     team_info = Football_teams.query.filter(Football_teams.id == team_id).first()
+    # teams_array = [team.as_dict() for team in team_info]
     team_info_dict = team_info.as_dict() 
     return jsonify(team_info_dict)
 
