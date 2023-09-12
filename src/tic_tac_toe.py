@@ -1,4 +1,5 @@
 import logging
+from pandas import DataFrame
 from app import run_footy, create_footy_team_board
 
 ##########################################################################################################
@@ -14,14 +15,15 @@ board_keys = []
 for key in theBoard:
     board_keys.append(key)
 
-def printBoard(board):
-    print(board['7'] + '|' + board['8'] + '|' + board['9'])
-    print('-+-+-')
-    print(board['4'] + '|' + board['5'] + '|' + board['6'])
-    print('-+-+-')
-    print(board['1'] + '|' + board['2'] + '|' + board['3'])
+def printBoard(board,team_df: DataFrame):
+    print('          ',team_df['pos_1'][0],'|', team_df['pos_2'][0],'|', team_df['pos_3'][0])
+    print(team_df['pos_1'][1], board['7'] + '      |       ' + board['8'] + '      |       ' + board['9'])
+    print('          ','---------+---------+----------')
+    print(team_df['pos_2'][1], board['4'] + '      |       ' + board['5'] + '      |       ' + board['6'])
+    print('          ','---------+---------+----------')
+    print(team_df['pos_3'][1], board['1'] + '      |       ' + board['2'] + '      |       '+ board['3'])
 
-def check_winner(count, turn):
+def check_winner(count: int, turn: int,team_df: DataFrame):
     is_there_a_winner: bool = False
     if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top             
         is_there_a_winner = True
@@ -48,7 +50,8 @@ def check_winner(count, turn):
         return True
     
     if is_there_a_winner:
-        printBoard(theBoard)
+        printBoard(theBoard,team_df)
+
         print("\nGame Over.\n")                
         print(" **** " +turn + " won. ****")
 
@@ -94,7 +97,7 @@ def game():
     footy_team_board_df = create_footy_team_board()
 
     while is_there_a_winner == False:
-        printBoard(theBoard)
+        printBoard(theBoard,footy_team_board_df)
         print("It's your turn " + turn + ". Choose a location?")
 
         move = input()
@@ -116,7 +119,7 @@ def game():
 
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 5:
-            is_there_a_winner = check_winner(count, turn)
+            is_there_a_winner = check_winner(count, turn, footy_team_board_df)
             # if is_there_a_winner:
             #     break
         # Switch player after each go

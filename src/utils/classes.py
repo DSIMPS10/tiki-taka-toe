@@ -1,14 +1,14 @@
 class Grid():
     def __init__(self):
-        self.one = [1,1]
+        self.one = [1,3]
         self.two =[1,2]
-        self.three =[1,3]
-        self.four =[2,1]
+        self.three =[1,1]
+        self.four =[2,3]
         self.five =[2,2]
-        self.six =[2,3]
-        self.seven = [3,1]
+        self.six =[2,1]
+        self.seven = [3,3]
         self.eight =[3,2]
-        self.nine =[3,3]
+        self.nine =[3,1]
 
     def grid_to_list(self):
         grid_list = [self.one ,self.two, self.three, self.four, self.five, self.six, self.seven, self.eight, self.nine]

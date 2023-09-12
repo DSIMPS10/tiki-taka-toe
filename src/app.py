@@ -18,7 +18,7 @@ def get_six_random_indices()->list:
     """
     team_count_dict = get_request(BASE,'count_all_football_teams')
     team_count = team_count_dict["team_count"]
-    six_indices = random.sample(range(1,team_count+1),6)
+    six_indices = random.sample(range(team_count),6)
     return six_indices
 
 def get_teams_from_indices(six_indices:list[int])-> list[str]:
@@ -53,10 +53,12 @@ def get_teams_for_selected_player_from_db(player_df, player_name):
 
 
 def get_teams_from_grid_index(team_df, grid: Grid, pos_number):
-    
-    pos_list = grid.number_to_index(pos_number)
-    row_a = pos_list[0]-1
-    row_b = pos_list[1]-1
+    '''
+    '''
+    pos_coord = grid.number_to_index(pos_number) # [[1,1], [1,2], [1,3] ....] => []
+    #[1,2]
+    row_a = pos_coord[0]-1 # 0
+    row_b = pos_coord[1]-1 # 1
     teams_x = team_df.iloc[0].values
     teams_y = team_df.iloc[1].values
     selected_teams = [teams_x[row_a],teams_y[row_b]]
@@ -77,22 +79,21 @@ def compare_player(players_df, player_name, selected_teams) -> bool:
     
     return False
 
-def create_six_team_info(team_names_list)-> pd.DataFrame:
-    team_data = {"pos_1":[team_names_list[0:1]],
-                 "pos_2":[team_names_list[2:3]],
-                 "pos_3":[team_names_list[4:5]]}
+def create_six_team_df_for_grid(team_names_list: list[str])-> pd.DataFrame:
+    team_data = {"pos_1":team_names_list[0:2],
+                 "pos_2":team_names_list[2:4],
+                 "pos_3":team_names_list[4:6]}
     
     team_df = pd.DataFrame(team_data)
-    
     return team_df
 
-def print_grid_as_df(team_names_list: list) -> pd.DataFrame:
+def print_grid_as_df(team_names_list: list[str]) -> pd.DataFrame:
     grid_df = pd.DataFrame(columns=['Y\X', team_names_list[0], team_names_list[2], team_names_list[4]])
     print(grid_df)
     grid_df['Y\X']  = [team_names_list[1],team_names_list[3],team_names_list[5]]
-    grid_df[team_names_list[0]]  = [{'1,1': np.nan},{'1,2': np.nan},{'1,3': np.nan}]
+    grid_df[team_names_list[0]]  = [{'3,1': np.nan},{'3,2': np.nan},{'3,3': np.nan}]
     grid_df[team_names_list[2]]  = [{'2,1': np.nan},{'2,2': np.nan},{'2,3': np.nan}]
-    grid_df[team_names_list[4]]  = [{'3,1': np.nan},{'3,2': np.nan},{'3,3': np.nan}]
+    grid_df[team_names_list[4]]  = [{'1,1': np.nan},{'1,2': np.nan},{'1,3': np.nan}]
     return grid_df
 
 def create_footy_team_board() -> pd.DataFrame:
@@ -100,7 +101,7 @@ def create_footy_team_board() -> pd.DataFrame:
     print(f'Six random indices: {six_indices}')
     team_names_list = get_teams_from_indices(six_indices)
     print(team_names_list)
-    team_df = create_six_team_info(team_names_list)
+    team_df = create_six_team_df_for_grid(team_names_list)
     print(team_df)
     return team_df
 
@@ -136,9 +137,10 @@ def run_footy(move: int, team_df: pd.DataFrame) -> bool:
     
     return answer
 
-def main(move: int):
-    run_footy(move)
+def main(move: int, team_df: pd.DataFrame):
+    run_footy(move, team_df)
 
 if __name__ == "__main__":
     move = int(input('Chose a grid position to place a marker: '))
-    main(move)
+    team_df = pd.DataFrame()
+    main(move, team_df)
