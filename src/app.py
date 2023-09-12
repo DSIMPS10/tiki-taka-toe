@@ -17,23 +17,19 @@ def get_six_random_indices()->list:
     Output: List of 6 random indicies
     """
     team_count_dict = get_request(BASE,"count_all_football_teams")
-    print(team_count_dict)
     team_count = team_count_dict["team_count"]
-    print(team_count)
     six_indices = random.sample(range(1,team_count+1),6)
     return six_indices
 
-def get_teams_from_indices(six_indices:list)-> list:
+def get_teams_from_indices(six_indices:list[int])-> list[str]:
     """
     Input: List of 6 integers
     Output: List of corresponding team names from the indices
     """
     team_names_list = []
     for i in six_indices:
-        
         team_name_dict = get_request(BASE,f"team_name_from_id/{i}")
         print(team_name_dict)
-        
         team_names_list.append(team_name_dict["team_name"])
         print(team_names_list)
     return team_names_list
@@ -98,16 +94,17 @@ def print_grid_as_df(team_names_list: list) -> pd.DataFrame:
     grid_df[team_names_list[4]]  = [{'3,1': np.nan},{'3,2': np.nan},{'3,3': np.nan}]
     return grid_df
 
-def get_all_db_players_df() -> pd.DataFrame:
-    all_players_df: pd.DataFrame = get_all_players_from_db()
-
-    
-
-def run_footy(move: int):
-    ### INPUTS ###
+def create_footy_team_board() -> pd.DataFrame:
     six_indices = get_six_random_indices()
+    print(f'Six random indices: {six_indices}')
     team_names_list = get_teams_from_indices(six_indices)
+    print(team_names_list)
     team_df = create_six_team_info(team_names_list)
+    print(team_df)
+    return team_df
+
+def run_footy(move: int, team_df: pd.DataFrame) -> bool:
+    ### INPUTS ###
 
     # team_data = {"pos_1":["Tottenham","Chelsea"],
     #         "pos_2":["West Ham","Liverpool"],

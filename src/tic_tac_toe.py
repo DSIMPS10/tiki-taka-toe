@@ -1,5 +1,5 @@
 import logging
-from app import run_footy
+from app import run_footy, create_footy_team_board
 
 ##########################################################################################################
 ### THE TIC TAC TOE GAME ###
@@ -66,7 +66,7 @@ def restart_game(restart):
         for key in board_keys:
             theBoard[key] = " "
         game()
-
+    
 def check_move(move):
     try: 
         move = int(move)  
@@ -91,6 +91,8 @@ def game():
     turn = 'X'
     count = 0
     is_there_a_winner = False
+    
+    footy_team_board_df = create_footy_team_board()
 
     while is_there_a_winner == False:
         printBoard(theBoard)
