@@ -55,13 +55,13 @@ def get_teams_for_selected_player_from_db(player_df, player_name):
 def get_teams_from_grid_index(team_df, grid: Grid, pos_number):
     '''
     '''
-    pos_coord = grid.number_to_index(pos_number) # [[1,1], [1,2], [1,3] ....] => []
-    #[1,2]
-    row_a = pos_coord[0]-1 # 0
-    row_b = pos_coord[1]-1 # 1
+    pos_coord = grid.number_to_index(pos_number) # [y coord, x coord]
+    print(pos_coord)
     teams_x = team_df.iloc[0].values
+    print(teams_x)
     teams_y = team_df.iloc[1].values
-    selected_teams = [teams_x[row_a],teams_y[row_b]]
+    print(teams_y)
+    selected_teams = [teams_x[pos_coord[1]],teams_y[pos_coord[0]]]
     selected_teams.sort()
     return selected_teams
 

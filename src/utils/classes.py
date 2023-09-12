@@ -1,14 +1,14 @@
 class Grid():
     def __init__(self):
-        self.one = [1,3]
-        self.two =[1,2]
-        self.three =[1,1]
-        self.four =[2,3]
-        self.five =[2,2]
-        self.six =[2,1]
-        self.seven = [3,3]
-        self.eight =[3,2]
-        self.nine =[3,1]
+        self.one = [2,0] # bottom row, left
+        self.two =[2,1] # bottom row, middle
+        self.three =[2,2] # bottom row, right
+        self.four =[1,0] # middle row, left
+        self.five =[1,1] # middle row, middle
+        self.six =[1,2] # middle row, right
+        self.seven = [0,0] # top row, left
+        self.eight =[0,1] # top row, middle
+        self.nine =[0,2] # top row, right
 
     def grid_to_list(self):
         grid_list = [self.one ,self.two, self.three, self.four, self.five, self.six, self.seven, self.eight, self.nine]
@@ -18,7 +18,6 @@ class Grid():
         grid_list = self.grid_to_list()
         index = number - 1
         return grid_list[index]
-
 
 class Team():
     def __init__(self, team_name, league, country):
