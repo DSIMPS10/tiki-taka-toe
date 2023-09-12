@@ -28,7 +28,7 @@ def add_players_to_db_process():
     '''
 
     #1. Get list of players from football API 
-    season = 2019
+    season = 2017
     prem_league = 39
     all_players_for_single_season: list = get_all_players_for_a_season(season, prem_league)
     season_df = pd.DataFrame(all_players_for_single_season) 

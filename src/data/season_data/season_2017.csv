@@ -1,0 +1,695 @@
+,first_name,last_name,team_name,season
+0,Rafael Euclides,Soares Camacho,Liverpool,2017
+1,Georginio Gregion Emile,Wijnaldum,Liverpool,2017
+2,Aymeric Jean Louis Gérard Alph,Laporte,Manchester City,2017
+3,Zachary Harry,Dearnley,Manchester United,2017
+4,Jamie Lee Peter,Turley,Boreham Wood,2017
+5,Mateusz Tomasz,Hewelt,Everton,2017
+6,Ademola Lookman Olajade,Alade Aylola Lookman,Everton,2017
+7,Mark,Noble,West Ham,2017
+8,Jack Benjamin,Simpson,Bournemouth,2017
+9,Bruno,Saltor Grau,Brighton,2017
+10,Isaiah,Brown,Brighton,2017
+11,Nathan,Dyer,Swansea,2017
+12,Wayne,Routledge,Swansea,2017
+13,Marvin,Zeegelaar,Watford,2017
+14,Vashon,Neufville,West Ham,2017
+15,Erbil,Bozkurt,Boreham Wood,2017
+16,Steve,Sidwell,Brighton,2017
+17,Stuart,Taylor,Southampton,2017
+18,Soufyan,Ahannach,Brighton,2017
+19,Alexander James,Denny,Everton,2017
+20,Lee,Grant,Stoke City,2017
+21,Jesé,Rodríguez Ruiz,Stoke City,2017
+22,Roque,Mesa Quevedo,Swansea,2017
+23,Julián,Speroni,Crystal Palace,2017
+24,Charlie John,Daniels,Bournemouth,2017
+25,Simon,Francis,Bournemouth,2017
+26,Kyle Frazer,Taylor,Bournemouth,2017
+27,Max Harrison,Sanders,Brighton,2017
+28,Joel,Coleman,Huddersfield,2017
+29,Martin,Cranie,Huddersfield,2017
+30,Marc,Pugh,Bournemouth,2017
+31,Moritz,Bauer,Stoke City,2017
+32,Connor Anthony,Mahoney,Bournemouth,2017
+33,Callum Henry,McManaman,West Brom,2017
+34,Àngel,Rangel Zaragoza,Swansea,2017
+35,Sam,Baldock,Brighton,2017
+36,Jordon,Mutch,Crystal Palace,2017
+37,Liam,Rosenior,Brighton,2017
+38,Jesús,Gámez Duarte,Newcastle,2017
+39,Michael,Collins,Everton,2017
+40,Hiram Kojo Kwarteng,Boateng,Crystal Palace,2017
+41,Kusu Moses,Makasi,West Ham,2017
+42,Oliver John,Harfield,Bournemouth,2017
+43,Dan,Woodards,Boreham Wood,2017
+44,Troy,Deeney,Watford,2017
+45,Scott,Dann,Crystal Palace,2017
+46,Andrew,Surman,Bournemouth,2017
+47,Dale,Stephens,Brighton,2017
+48,Glenn,Murray,Brighton,2017
+49,Jason David Ian,Puncheon,Crystal Palace,2017
+50,Scott Liam,Malone,Huddersfield,2017
+51,Sam,McQueen,Southampton,2017
+52,Benjamin,Watson,Watford,2017
+53,Brandon Alexander,Mason,Watford,2017
+54,William,Miller,Tottenham,2017
+55,Dean,Marney,Burnley,2017
+56,Emmanuel,Rivière,Newcastle,2017
+57,Jérémy,Pied,Southampton,2017
+58,Paul,Benson,Boreham Wood,2017
+59,Adam,King,Swansea,2017
+60,Christian,Atsu Twasam,Newcastle,2017
+61,Jaden Wavey,Brown,Tottenham,2017
+62,Kane Leo,Wilson,West Brom,2017
+63,Wes,Morgan,Leicester,2017
+64,Levi Jeremiah,Lumeka,Crystal Palace,2017
+65,Matthew John,Lowton,Burnley,2017
+66,El-Hadji Baye Oumar,Niasse,Everton,2017
+67,Rekeem Jordan,Harper,West Brom,2017
+68,Jonathan Kisolokele,Leko,West Brom,2017
+69,Sam,Clucas,Swansea,2017
+70,Geoff,Cameron,Stoke City,2017
+71,Ethan Billy,Hamilton,Manchester United,2017
+72,Sulaiman Borbor,Kaikai,Crystal Palace,2017
+73,Diafra,Sakho,West Ham,2017
+74,Jamie Michael,Sterry,Newcastle,2017
+75,Rohan Greg,Ince,Brighton,2017
+76,James Stanley,Daly,Crystal Palace,2017
+77,Max,Melbourne,West Brom,2017
+78,Tashan,Oakley-Boothe,Tottenham,2017
+79,Morgan,Feeney,Everton,2017
+80,Michel,Vorm,Tottenham,2017
+81,Orestis Spyridon,Karnezis,Watford,2017
+82,Gareth,McAuley,West Brom,2017
+83,Maarten,Stekelenburg,Everton,2017
+84,Miguel Ángel,Britos Cabrera,Watford,2017
+85,Daryl,Janmaat,Watford,2017
+86,Artur,Boruc,Bournemouth,2017
+87,Ciaran,Clark,Newcastle,2017
+88,Stephen Robert,Ward,Burnley,2017
+89,Shane Patrick,Long,Southampton,2017
+90,Beram,Kayal,Brighton,2017
+91,Harry Nicholas,Arter,Bournemouth,2017
+92,Chris,Brunt,West Brom,2017
+93,Lasse,Sørensen,Stoke City,2017
+94,Tomer,Hemed,Brighton,2017
+95,Eduardo,dos Reis Carvalho,Chelsea,2017
+96,Ibrahim,Afellay,Stoke City,2017
+97,Jonathan,Walters,Burnley,2017
+98,Robert,Huth,Leicester,2017
+99,Florin,Gardoș,Southampton,2017
+100,Francesc,Fàbregas i Soler,Chelsea,2017
+101,Fernando Javier,Llorente Torres,Tottenham,2017
+102,David Josué,Jiménez Silva,Manchester City,2017
+103,David,de Gea Quintana,Manchester United,2017
+104,Juan Manuel,Mata García,Manchester United,2017
+105,Ignacio,Monreal Eraso,Arsenal,2017
+106,Danny,Simpson,Leicester,2017
+107,Robert,Snodgrass,West Ham,2017
+108,James,McFarlane McArthur,Crystal Palace,2017
+109,Phil,Bardsley,Burnley,2017
+110,Glyn Oliver,Myhill,West Brom,2017
+111,James,Morrison,West Brom,2017
+112,Thomas Henry Alex,Robson-Kanu,West Brom,2017
+113,Costel Fane,Pantilimon,Watford,2017
+114,Molla,Wagué,Watford,2017
+115,Samuel Michael,Vokes,Burnley,2017
+116,James,Collins,West Ham,2017
+117,Jonathan Peter,Williams,Crystal Palace,2017
+118,José Leonardo,Ulloa,Brighton,2017
+119,Samuel Joseph,Hughes,Leicester,2017
+120,Sergio Leonel,Agüero del Castillo,Manchester City,2017
+121,Mesut,Özil,Arsenal,2017
+122,Wilfredo Daniel,Caballero Lazcano,Chelsea,2017
+123,Roberto Maximiliano,Pereyra,Watford,2017
+124,Mark,Birighitti,Swansea,2017
+125,Christian,Fuchs,Leicester,2017
+126,Pablo Javier,Zabaleta Girod,West Ham,2017
+127,Aaron Frank,Mooy,Huddersfield,2017
+128,Yohan,Benalouane,Leicester,2017
+129,Claudio Ariel,Yacob,West Brom,2017
+130,Achraf,Lazaar,Newcastle,2017
+131,Ashley,Williams,Everton,2017
+132,Charles Graham,Adam,Stoke City,2017
+133,Bojan,Krkić Pérez,Stoke City,2017
+134,Josh,Knight,Leicester,2017
+135,Marcus,Browne,West Ham,2017
+136,Jerome,Sinclair,Watford,2017
+137,Markus,Suttner,Brighton,2017
+138,Ádám,Bogdán,Liverpool,2017
+139,Per,Mertesacker,Arsenal,2017
+140,Eden Michael Walter,Hazard,Chelsea,2017
+141,Mousa Sidi Yaya,Dembélé,Tottenham,2017
+142,Diego,Cavalieri,Crystal Palace,2017
+143,Heurelho,da Silva Gomes,Watford,2017
+144,Daniel,Gosling,Bournemouth,2017
+145,Jordon,Ibe,Bournemouth,2017
+146,Felix Junior,Stanislas,Bournemouth,2017
+147,Steven Arnold,Defour,Burnley,2017
+148,Chris Jörg,Löwe,Huddersfield,2017
+149,Laurent,Depoitre,Huddersfield,2017
+150,Axel,Tuanzebe,Manchester United,2017
+151,Joshua Oghenetega Peter,Onomah,Tottenham,2017
+152,Darren,Fletcher,Stoke City,2017
+153,Collin,Quaner,Huddersfield,2017
+154,Uwe,Hünemeier,Brighton,2017
+155,Kevin Antonio Joel Gislain,Mirallas y Castillo,Everton,2017
+156,Charly,Musonda Junior,Chelsea,2017
+157,Zlatan,Ibrahimović,Manchester United,2017
+158,Stephen,Ireland,Stoke City,2017
+159,Winston Wiremu,Reid,West Ham,2017
+160,Yannick,Bolasie Yala,Everton,2017
+161,Shkodran,Mustafi,Arsenal,2017
+162,Benik Tunani,Afobe,Bournemouth,2017
+163,Gaëtan,Bong Songo,Brighton,2017
+164,José Heriberto,Izquierdo Mena,Brighton,2017
+165,Daniel,Williams,Huddersfield,2017
+166,Elias,Kachunga,Huddersfield,2017
+167,Rayhaan Rahim Amari,Tulloch,West Brom,2017
+168,Thomas James,Carroll,Swansea,2017
+169,Muhamed,Bešić,Everton,2017
+170,Michael,Hefele,Huddersfield,2017
+171,Rolando James,Aarons,Newcastle,2017
+172,Kazenga,LuaLua,Brighton,2017
+173,Luke Samuel,Garbutt,Everton,2017
+174,Michael Kwaku,Foli Folivi,Watford,2017
+175,Brice,Dja Djédjé,Watford,2017
+176,Leon,Britton,Swansea,2017
+177,Damien,Delaney,Crystal Palace,2017
+178,James Alexander David,Tilley,Brighton,2017
+179,Desmond,Hutchinson,Brighton,2017
+180,Luis Antonio,Valencia Mosquera,Manchester United,2017
+181,Petr,Čech,Arsenal,2017
+182,Kyle Alexander,Jameson,West Brom,2017
+183,Regan,Booty,Huddersfield,2017
+184,Andrew,Eleftheriou,Watford,2017
+185,Dion-Curtis,Henry,Crystal Palace,2017
+186,Nampalys,Mendy,Leicester,2017
+187,Sebastian,Prödl,Watford,2017
+188,Anders,Rosenkrantz Lindegaard,Burnley,2017
+189,Kieran James Ricardo,Gibbs,West Brom,2017
+190,Thibaud Christa Philippe,Verlinden,Stoke City,2017
+191,Richard Patrick,Towell,Brighton,2017
+192,Harry Charles,Bunn,Huddersfield,2017
+193,Fousseni,Diabaté,Leicester,2017
+194,Anthony Michael,Georgiou,Tottenham,2017
+195,Daniel,Holman,Boreham Wood,2017
+196,Dean,Wells,Boreham Wood,2017
+197,Conor Ciaran,Masterson,Liverpool,2017
+198,Alexander,Manninger,Liverpool,2017
+199,Tyreke,Wilson,Manchester City,2017
+200,Daniel Lee,Rose,Tottenham,2017
+201,Phil Anthony,Jones,Manchester United,2017
+202,Jesse Ellis,Lingard,Manchester United,2017
+203,Jonathon Patrick,Flanagan,Liverpool,2017
+204,Gary,Cahill,Chelsea,2017
+205,Daniel Noel,Drinkwater,Chelsea,2017
+206,Kasper Peter,Schmeichel,Leicester,2017
+207,Leighton,Baines,Everton,2017
+208,Philip Nikodem,Jagielka,Everton,2017
+209,Theo James,Walcott,Everton,2017
+210,Thomas William,Cleverley,Watford,2017
+211,Jack,Wilshere,Arsenal,2017
+212,Andros Darryl,Townsend,Crystal Palace,2017
+213,Ryan Dominic,Bertrand,Southampton,2017
+214,Charlie,Austin,Southampton,2017
+215,Alfie,Mawson,Swansea,2017
+216,Gareth,Barry,West Brom,2017
+217,Ryan,Shawcross,Stoke City,2017
+218,Michael,Carrick,Manchester United,2017
+219,Joey,Barton,Burnley,2017
+220,Daniel Andre,Sturridge,West Brom,2017
+221,Fabian,Delph,Manchester City,2017
+222,André Morgan,Rami Ayew,Swansea,2017
+223,Jermain Colin,Defoe,Bournemouth,2017
+224,Robert,Green,Huddersfield,2017
+225,Luke,Coddington,Huddersfield,2017
+226,Ricky,Shakes,Boreham Wood,2017
+227,Michael,Phillips,Crystal Palace,2017
+228,Benjamin Anthony,Foster,West Brom,2017
+229,Craig George,Cathcart,Watford,2017
+230,José,Holebas,Watford,2017
+231,Robert,Elliot,Newcastle,2017
+232,Aaron,Lennon,Burnley,2017
+233,Peter,Crouch,Stoke City,2017
+234,Mathieu,Debuchy,Arsenal,2017
+235,Konstantinos,Stafylidis,Stoke City,2017
+236,Shayne Francis,Lavery,Everton,2017
+237,Patrice,Evra,West Ham,2017
+238,Glen,Johnson,Stoke City,2017
+239,Younes,Kaboul,Watford,2017
+240,Adrien Sébastien,Perruchet da Silva,Leicester,2017
+241,Laurent,Koscielny,Arsenal,2017
+242,Jonas,Bybjerg Lössl,Huddersfield,2017
+243,Gylfi Þór,Sigurðsson,Everton,2017
+244,Joel Dinis,Castro Pereira,Manchester United,2017
+245,Morgan Fernand Gérard,Schneiderlin,Everton,2017
+246,Adrian Joseph,Mariappa,Watford,2017
+247,Bakary,Sako,Crystal Palace,2017
+248,Lys,Mousset,Bournemouth,2017
+249,Niki Emil Antonio,Mäenpää,Brighton,2017
+250,James Joseph,McClean,West Brom,2017
+251,Nya Jerome,Kirby,Crystal Palace,2017
+252,Yasin,Ben El-Mhanni,Newcastle,2017
+253,George Stanley,Thomas,Leicester,2017
+254,Loïc Alex Teliére,Hubert Rémy,Chelsea,2017
+255,Yohan,Cabaye,Crystal Palace,2017
+256,Nathan Wallace,Newman Trott,West Ham,2017
+257,Joy Richard Mpinga,Mukena,Watford,2017
+258,Carl,Leon Stewart,Watford,2017
+259,Layton Julius,Ndukwu,Leicester,2017
+260,Papa Alioune,Ndiaye,Stoke City,2017
+261,Connor,Lambert Goldson,Brighton,2017
+262,Steven,Davis,Southampton,2017
+263,Erdal,Rakip,Crystal Palace,2017
+264,Ahmed,Musa,Leicester,2017
+265,Jack,Butland,Stoke City,2017
+266,Pape,N'Diaye Souaré,Crystal Palace,2017
+267,Luka,Milivojević,Crystal Palace,2017
+268,Emerson Schellas,Hyndman,Bournemouth,2017
+269,Adam Richard,Legzdiņš,Burnley,2017
+270,Joshua Samuel,Sims,Southampton,2017
+271,Florent,Hadergjonaj,Huddersfield,2017
+272,Thomas Morris,Lawrence,Leicester,2017
+273,Leroy Johan,Fer,Swansea,2017
+274,Stephen Iain,Kingsley,Swansea,2017
+275,Beni,Tangama Baningime,Everton,2017
+276,Jiří,Skalák,Brighton,2017
+277,Dujon,Henriques Sterling,Chelsea,2017
+278,Stefano,Okaka Chuka,Watford,2017
+279,Stuart John,Findlay,Newcastle,2017
+280,Alexander Mark David,Oxlade-Chamberlain,Liverpool,2017
+281,Dušan,Tadić,Southampton,2017
+282,Ryan,Kent,Liverpool,2017
+283,Bo Kristoffer,Nordfeldt,Swansea,2017
+284,Michy,Batshuayi-Atunga,Chelsea,2017
+285,Dazet Wilfried,Armel Zaha,Crystal Palace,2017
+286,Daniel,Amartey,Leicester,2017
+287,Marouane,Fellaini-Bakkioui,Manchester United,2017
+288,James Patrick,McCarthy,Everton,2017
+289,Cenk,Tosun,Everton,2017
+290,Fuka-Arthur,Masuaku Kawela,West Ham,2017
+291,Joshua Christian,Kojo King,Bournemouth,2017
+292,Charles Joseph John,Hart,West Ham,2017
+293,Jürgen Leonardo,Locadia,Brighton,2017
+294,Cameron Robert,Carter-Vickers,Tottenham,2017
+295,Martin Tony Waikwa,Olsson,Swansea,2017
+296,Adnan,Marić,Swansea,2017
+297,Jakob,Let Haugaard,Stoke City,2017
+298,Fredrik Stensøe,Ulvestad,Burnley,2017
+299,Jarosław Przemysław,Jach,Crystal Palace,2017
+300,Nacer,Chadli,West Brom,2017
+301,Georges-Kévin,Nkoudou Mbida,Burnley,2017
+302,Jan,Vertonghen,Tottenham,2017
+303,Donyell,Malen,Arsenal,2017
+304,Simon Luc Hildebert,Mignolet,Liverpool,2017
+305,Jordan Brian,Henderson,Liverpool,2017
+306,Roberto Firmino,Barbosa de Oliveira,Liverpool,2017
+307,Sadio,Mané,Liverpool,2017
+308,David,Ospina Ramírez,Arsenal,2017
+309,Grzegorz,Krychowiak,West Brom,2017
+310,N'Golo,Kanté,Chelsea,2017
+311,Aleksandar,Mitrović,Newcastle,2017
+312,Jason Alan,Davidson,Huddersfield,2017
+313,Aiden Connor,O'Neill,Burnley,2017
+314,Shinji,Okazaki,Leicester,2017
+315,Anthony Patrick,Knockaert,Brighton,2017
+316,Ahmed El Sayed Ali El Sayed,Hegazy,West Brom,2017
+317,Mame Biram,Diouf,Stoke City,2017
+318,Matthew Ryan,Macey,Arsenal,2017
+319,Didier,Ibrahim Ndong,Watford,2017
+320,Toby Albertine Maurits,Alderweireld,Tottenham,2017
+321,Victor,Mugubi Wanyama,Tottenham,2017
+322,Vincent,Janssen,Tottenham,2017
+323,Heung-Min,Son,Tottenham,2017
+324,Aleksandar,Dragović,Leicester,2017
+325,Joel,Robles Blázquez,Everton,2017
+326,James,Murphy,Brighton,2017
+327,André Martín,Carrillo Díaz,Watford,2017
+328,Saido,Berahino,Stoke City,2017
+329,Lucas,Pérez Martínez,Arsenal,2017
+330,Luciano,Narsingh,Swansea,2017
+331,Kazaiah Roy Barrett,Sterling,Tottenham,2017
+332,Kevin,Wimmer,Stoke City,2017
+333,Ragnar,Klavan,Liverpool,2017
+334,Rhu-endly Aurelio Jean-Carlo,Martina,Everton,2017
+335,Julien,Fontaine Ngoy Bin Cibambi,Stoke City,2017
+336,Dion Enrico,Pereira Greives,Watford,2017
+337,Joshua David,Pask,West Ham,2017
+338,Kyle Michael,Scott,Chelsea,2017
+339,Kleton,Perntreou,Crystal Palace,2017
+340,Riyad Karim,Mahrez,Leicester,2017
+341,Leroy Aziz,Sané,Manchester City,2017
+342,Ali Gabr,Gabr Mossad,West Brom,2017
+343,Sofiane,Boufal,Southampton,2017
+344,Mathias,Jattah-Njie Jørgensen,Huddersfield,2017
+345,Jordan Pierre,Ayew,Swansea,2017
+346,Mauro Matías,Zárate Riga,Watford,2017
+347,Cristian Alejandro,Cuevas Jara,Chelsea,2017
+348,Ramadan Sobhi Ramadan,Ahmed,Stoke City,2017
+349,William James,Hughes,Watford,2017
+350,Jeffrey,Schlupp,Crystal Palace,2017
+351,Mohamed,Diamé,Newcastle,2017
+352,Benjamin Thomas,Mee,Burnley,2017
+353,Jefferson Antonio,Montero Vite,Swansea,2017
+354,Pelenda Joshua Tunga,Dasilva,Arsenal,2017
+355,Manolo,Gabbiadini,Southampton,2017
+356,Wilfried Guemiand,Bony,Swansea,2017
+357,Philipp,Wollscheid,Stoke City,2017
+358,Gnégnéri Yaya,Touré,Manchester City,2017
+359,Eliaquim,Mangala,Everton,2017
+360,Cédric Ricardo,Alves Soares,Southampton,2017
+361,Adam David,Lallana,Liverpool,2017
+362,James Philip,Milner,Liverpool,2017
+363,Oleksandr,Zinchenko,Manchester City,2017
+364,Gabriel Fernando,de Jesus,Manchester City,2017
+365,Reiss Luke,Nelson,Arsenal,2017
+366,Robert Samuel,Holding,Arsenal,2017
+367,Mohamed Naser,Elsayed Elneny,Arsenal,2017
+368,Edward,Keddar Nketiah,Arsenal,2017
+369,Daniel Nii,Tackie Mensah Welbeck,Arsenal,2017
+370,Declan,Rice,West Ham,2017
+371,James Oliver Charles,Tomkins,Crystal Palace,2017
+372,Joel Edward Philip,Ward,Crystal Palace,2017
+373,Jaïro Jocquim,Riedewald,Crystal Palace,2017
+374,Nathaniel Edwin,Clyne,Liverpool,2017
+375,Lewis Carl,Dunk,Brighton,2017
+376,Pascal,Groß,Brighton,2017
+377,Solomon Benjamin,March,Brighton,2017
+378,Aaron Christopher,Ramsdale,Bournemouth,2017
+379,Nathan Kirk-Patrick,Ferguson,West Brom,2017
+380,Trent John,Alexander-Arnold,Liverpool,2017
+381,Joseph Dave,Gomez,Liverpool,2017
+382,Job Joël André,Matip,Liverpool,2017
+383,Andrew Henry,Robertson,Liverpool,2017
+384,Virgil,van Dijk,Liverpool,2017
+385,Curtis Julian,Jones,Liverpool,2017
+386,Mohamed,Salah Hamed Mahrous Ghaly,Liverpool,2017
+387,Konstantinos,Mavropanos,Arsenal,2017
+388,Emerson,Palmieri dos Santos,Chelsea,2017
+389,Richarlison,de Andrade,Watford,2017
+390,Kurt Happy,Zouma,Stoke City,2017
+391,Pierre-Emile Kordt,Højbjerg,Southampton,2017
+392,James Michael Edward,Ward-Prowse,Southampton,2017
+393,Łukasz Marek,Fabiański,Swansea,2017
+394,Adrián,San Miguel del Castillo,West Ham,2017
+395,Aaron William,Cresswell,West Ham,2017
+396,Angelo,Obinze Ogbonna,West Ham,2017
+397,Michail Gregory,Antonio,West Ham,2017
+398,Benjamin Anthony,Johnson,West Ham,2017
+399,Daniel William John,Ings,Liverpool,2017
+400,Hugo Hadrien Dominique,Lloris,Tottenham,2017
+401,Alfie Malik,Whiteman,Tottenham,2017
+402,Benjamin Thomas,Davies,Tottenham,2017
+403,Davinson,Sánchez Mina,Tottenham,2017
+404,Eric Jeremy Edgar,Dier,Tottenham,2017
+405,Ederson,Santana de Moraes,Manchester City,2017
+406,John,Stones,Manchester City,2017
+407,Kyle Andrew,Walker,Manchester City,2017
+408,Kevin,De Bruyne,Manchester City,2017
+409,Philip Walter,Foden,Manchester City,2017
+410,Bernardo,Mota Veiga de Carvalho e Silva,Manchester City,2017
+411,Jóhann Berg,Guðmunds­son,Burnley,2017
+412,Wayne Robert,Hennessey,Crystal Palace,2017
+413,Nathan Benjamin,Aké,Bournemouth,2017
+414,Jack Frank,Porteous Cork,Burnley,2017
+415,Fraser Gerard,Forster,Southampton,2017
+416,Nathan Daniel Jerome,Redmond,Southampton,2017
+417,Michael,Oluwadurotimi Obafemi,Southampton,2017
+418,Jay Enrique,Rodríguez,West Brom,2017
+419,Joshua Jon,Cullen,West Ham,2017
+420,Bamidele Jermaine,Alli,Tottenham,2017
+421,Arijanet,Murić,Manchester City,2017
+422,Ashley Simon,Young,Manchester United,2017
+423,Ross,Barkley,Chelsea,2017
+424,Jordan Lee,Pickford,Everton,2017
+425,Michael Vincent,Keane,Everton,2017
+426,James Alan,Tarkowski,Burnley,2017
+427,Idrissa Gana,Gueye,Everton,2017
+428,Séamus,Coleman,Everton,2017
+429,Thomas,Davies,Everton,2017
+430,Dominic Nathaniel,Calvert-Lewin,Everton,2017
+431,Demarai Ramelle,Gray,Leicester,2017
+432,Abdoulaye,Doucouré,Watford,2017
+433,Dominic Ayodele,Solanke-Mitchell,Liverpool,2017
+434,Charles James,Taylor,Burnley,2017
+435,Dwight James Matthew,McNeil,Burnley,2017
+436,Timothy Michael,Krul,Brighton,2017
+437,Connor Richard John,Roberts,Swansea,2017
+438,Oliver Robert,McBurnie,Swansea,2017
+439,Reece Frederick,James Burke,West Ham,2017
+440,Kieran John,Trippier,Tottenham,2017
+441,Alexander Chuka,Iwobi,Arsenal,2017
+442,Joseph George,Willock,Arsenal,2017
+443,Loris Sven,Karius,Liverpool,2017
+444,Philip,Anyanwu Billing,Huddersfield,2017
+445,Callum Eddie Graham,Wilson,Bournemouth,2017
+446,Harvey Lewis,Barnes,Leicester,2017
+447,Adam James,Smith,Bournemouth,2017
+448,Lewis John,Cook,Bournemouth,2017
+449,Paul,Dummett,Newcastle,2017
+450,Jamaal,Lascelles,Newcastle,2017
+451,Javier,Manquillo Gaitán,Newcastle,2017
+452,Isaac Scott,Hayden,Newcastle,2017
+453,Matthew Thomas,Ritchie,Newcastle,2017
+454,Nicholas David,Pope,Burnley,2017
+455,Matthew Robert,Targett,Southampton,2017
+456,Mario René Junior,Lemina,Southampton,2017
+457,Craig,Dawson,West Brom,2017
+458,Jacob Kai,Murphy,Newcastle,2017
+459,Anthony Michael,Gordon,Everton,2017
+460,Philippe,Coutinho Correia,Liverpool,2017
+461,Christian,Dannemann Eriksen,Tottenham,2017
+462,Raheem Shaquille,Sterling,Manchester City,2017
+463,Eric Bertrand,Bailly,Manchester United,2017
+464,Victor Jörgen,Nilsson Lindelöf,Manchester United,2017
+465,Luke Paul Hoare,Shaw,Manchester United,2017
+466,Andreas Hugo,Hoelgebaum Pereira,Manchester United,2017
+467,Scott Francis,McTominay,Manchester United,2017
+468,Anthony Jordan,Martial,Manchester United,2017
+469,Marcus,Rashford,Manchester United,2017
+470,Willian,Borges da Silva,Chelsea,2017
+471,Thomas David,Heaton,Burnley,2017
+472,Benjamin James,Chilwell,Leicester,2017
+473,Jacob Harry,Maguire,Leicester,2017
+474,Jonathan Grant,Evans,West Brom,2017
+475,Aaron,Wan-Bissaka,Crystal Palace,2017
+476,Martin,Dúbravka,Newcastle,2017
+477,Calum,Chambers,Arsenal,2017
+478,Abdul-Nasir Oluwatosin,Oluwadoyinsolami Adarabioyo,Manchester City,2017
+479,Trevoh Thomas,Chalobah,Chelsea,2017
+480,Sèrge Alain Stéphane,Aurier,Tottenham,2017
+481,Juan Marcos,Foyth,Tottenham,2017
+482,Erik Manuel,Lamela Cordero,Tottenham,2017
+483,Alberto,Moreno Pérez,Liverpool,2017
+484,Divock,Okoth Origi,Liverpool,2017
+485,Fernando Francisco,Reges,Manchester City,2017
+486,Gabriel Armando,de Abreu,Arsenal,2017
+487,Francis Joseph,Coquelin,Arsenal,2017
+488,Callum James,Hudson-Odoi,Chelsea,2017
+489,Cheikhou,Kouyaté,West Ham,2017
+490,Alexander,Sørloth,Crystal Palace,2017
+491,Francisco,Femenía Far,Watford,2017
+492,Étienne,René Capoue,Watford,2017
+493,Florian Grégoire,Claude Lejeune,Newcastle,2017
+494,Jonjo,Shelvey,Newcastle,2017
+495,Christopher Grant,Wood,Burnley,2017
+496,Tyrone Deon,Mings,Bournemouth,2017
+497,Damián Emiliano,Martínez Romero,Arsenal,2017
+498,Pablo Carmine,Maffeo Becerra,Manchester City,2017
+499,Sandro,Ramírez Castillo,Everton,2017
+500,Álvaro Borja,Morata Martín,Chelsea,2017
+501,Paulo Dino,Gazzaniga Farias,Tottenham,2017
+502,Daley,Blind,Manchester United,2017
+503,Claudio Andrés,Bravo Muñoz,Manchester City,2017
+504,Danilo Luiz,da Silva,Manchester City,2017
+505,İlkay,Gündoğan,Manchester City,2017
+506,Thibaut Nicolas Marc,Courtois,Chelsea,2017
+507,Brahim,Abdelkader Díaz,Manchester City,2017
+508,Ander,Herrera Agüera,Manchester United,2017
+509,Paul Labile,Pogba,Manchester United,2017
+510,Héctor,Bellerín Moruno,Arsenal,2017
+511,Marcos,Alonso Mendoza,Chelsea,2017
+512,César,Azpilicueta Tanco,Chelsea,2017
+513,Andreas,Bødtker Christensen,Chelsea,2017
+514,Antonio,Rüdiger,Chelsea,2017
+515,Ayoze,Pérez Gutiérrez,Newcastle,2017
+516,José Luis,Sanmartín Mato,Newcastle,2017
+517,Oriol,Romeu Vidal,Southampton,2017
+518,Dodi,Lukebakio Ngandoli,Watford,2017
+519,Mikel,Merino Zazón,Newcastle,2017
+520,Harry Edward,Kane,Tottenham,2017
+521,Jean-Eric Maxim,Choupo-Moting,Stoke City,2017
+522,Chancel,Mbemba Mangulu,Newcastle,2017
+523,Emre,Can,Liverpool,2017
+524,Matteo,Darmian,Manchester United,2017
+525,Romelu Menama,Lukaku Bolingoli,Manchester United,2017
+526,Alexis Alejandro,Sánchez Sánchez,Manchester United,2017
+527,Jordi Martin Emmanuel,Osei-Tutu,Arsenal,2017
+528,Henrikh,Hamlet Mkhitaryan,Arsenal,2017
+529,Granit,Xhaka,Arsenal,2017
+530,Pierre-Emerick Emiliano Franço,Aubameyang,Arsenal,2017
+531,Ruben Ira,Loftus-Cheek,Crystal Palace,2017
+532,Olivier Jonathan,Giroud,Chelsea,2017
+533,Marko,Arnautović,West Ham,2017
+534,Evans Timothy,Fosu-Mensah,Crystal Palace,2017
+535,Oluwafikayomi Oluwadamilola,Tomori,Chelsea,2017
+536,Lukas Okechukwu,Nmecha,Manchester City,2017
+537,Reece Joel,Oxford,West Ham,2017
+538,Davy,Klaassen,Everton,2017
+539,Edimilson,Fernandes Ribeiro,West Ham,2017
+540,Dejan,Lovren,Liverpool,2017
+541,Renato Júnior,Luz Sanches,Swansea,2017
+542,Nikola,Vlašić,Everton,2017
+543,Christopher Lloyd,Smalling,Manchester United,2017
+544,Sead,Kolašinac,Arsenal,2017
+545,Ainsley Cory,Maitland-Niles,Arsenal,2017
+546,Alexandre Armand,Lacazette,Arsenal,2017
+547,Davide,Zappacosta,Chelsea,2017
+548,Pedro Eliezer,Rodríguez Ledesma,Chelsea,2017
+549,Mathew David,Ryan,Brighton,2017
+550,Isaac,Success Ajayi,Watford,2017
+551,Christian,Kabasele,Watford,2017
+552,Domingos,Quina,West Ham,2017
+553,Gerard,Deulofeu Lázaro,Watford,2017
+554,Pedro,Mba Obiang Avomo,West Ham,2017
+555,Patrick John Miguel,van Aanholt,Crystal Palace,2017
+556,Abdelhamid,Sabiri,Huddersfield,2017
+557,Tammy,Bakumo-Abraham,Swansea,2017
+558,Rolando Maximiliano,Martins Indi,Stoke City,2017
+559,Jordy,Clasie,Southampton,2017
+560,Moussa,Sissoko,Tottenham,2017
+561,Benjamin,Mendy,Manchester City,2017
+562,Sergio Germán,Romero,Manchester United,2017
+563,Faustino Marcos Alberto,Rojo,Manchester United,2017
+564,Adilson Angel,Abreu de Almeida Gomes,Manchester United,2017
+565,Nemanja,Matić,Manchester United,2017
+566,Tiémoué,Bakayoko,Chelsea,2017
+567,José Ramiro,Funes Mori,Everton,2017
+568,Chuba Amechi,Akpom,Arsenal,2017
+569,José Salomón,Rondón Giménez,West Brom,2017
+570,Massadio,Haïdara,Newcastle,2017
+571,Steve Michel,Mounié,Huddersfield,2017
+572,Mamadou,Sakho,Crystal Palace,2017
+573,Federico,Fernández,Swansea,2017
+574,Davy,Pröpper,Brighton,2017
+575,Rajiv,van La Parra,Huddersfield,2017
+576,Erwin,Mulder,Swansea,2017
+577,Mike Adrianus Wilhelmus,van der Hoorn,Swansea,2017
+578,Jérémie,Boga,Chelsea,2017
+579,Guido Marcelo,Carrillo,Southampton,2017
+580,Kyle Leonardus,Walker-Peters,Tottenham,2017
+581,Oliver Jasen,Burke,West Brom,2017
+582,Carl Daniel,Jenkinson,Arsenal,2017
+583,Vicente,Iborra de la Fuente,Leicester,2017
+584,Manuel,Lanzini,West Ham,2017
+585,Noureddine,Amrabat,Watford,2017
+586,Jan Kacper,Bednarek,Southampton,2017
+587,Matthew Lee,James,Leicester,2017
+588,Andre Anthony,Gray,Watford,2017
+589,Ryan,Fraser,Bournemouth,2017
+590,Ashley Luke,Barnes,Burnley,2017
+591,Alex Simon,McCarthy,Southampton,2017
+592,Jack,Stephens,Southampton,2017
+593,Shane Patrick Michael,Duffy,Brighton,2017
+594,Grant,Campbell Hanley,Newcastle,2017
+595,Mason Anthony,Holgate,Everton,2017
+596,Andrew Philip,King,Swansea,2017
+597,Joseph,Lolley,Huddersfield,2017
+598,Jason,Eyenga Lokilo,Crystal Palace,2017
+599,Matías Ezequiel,Schelotto,Brighton,2017
+600,Harry Billy,Winks,Tottenham,2017
+601,Benjamin Luke,Woodburn,Liverpool,2017
+602,Kelechi Promise,Ịheanachọ,Leicester,2017
+603,Keshi Stuart Oluyinka Adetokun,Anderson,Crystal Palace,2017
+604,Daniel,Ward,Liverpool,2017
+605,Marc Kevin,Albrighton,Leicester,2017
+606,Hamza,Dewan Choudhury,Leicester,2017
+607,Onyinye Wilfred,Ndidi,Leicester,2017
+608,Jamie Richard,Vardy,Leicester,2017
+609,Frederick John,Woodman,Newcastle,2017
+610,Kevin,Finbarr Long,Burnley,2017
+611,Robert,Brady,Burnley,2017
+612,Jonathan Lee,Hogg,Huddersfield,2017
+613,Tyler,D'Whyte Roberts,West Brom,2017
+614,Kyle,Naughton,Swansea,2017
+615,Nahki Michael,Wells,Burnley,2017
+616,Krystian,Bielik,Arsenal,2017
+617,Harry James,Souttar,Stoke City,2017
+618,Olayinka Fredrick Oladotun,Ladapo,Crystal Palace,2017
+619,Nathan Paul,Broadhead,Everton,2017
+620,Aaron James,Ramsey,Arsenal,2017
+621,Asmir,Begović,Bournemouth,2017
+622,Steve Anthony,Cook,Bournemouth,2017
+623,Benjamin John,Hamer,Leicester,2017
+624,Samuel Edward,Field,West Brom,2017
+625,Jake Cyril,Livermore,West Brom,2017
+626,Dwight Devon Boyd,Gayle,Newcastle,2017
+627,Jordan Thomas,Hugill,West Ham,2017
+628,Samuel Mark,Byram,West Ham,2017
+629,Jack Raymond,Colback,Newcastle,2017
+630,Joseph Peter,Rodon,Swansea,2017
+631,Daniel Owen,James,Swansea,2017
+632,Thomas Adam,Edwards,Stoke City,2017
+633,Thomas Christopher,Ince,Huddersfield,2017
+634,Tyrese Kai,Campbell,Stoke City,2017
+635,Daniel,Bachmann,Watford,2017
+636,Wesley Theodorus,Hoedt,Southampton,2017
+637,Sead,Hakšabanović,West Ham,2017
+638,Cohen Conrad,Bramall,Arsenal,2017
+639,Stephen Winston,Duke-McKenna,Everton,2017
+640,Ethan Kwame Colm Raymond,Ampadu,Chelsea,2017
+641,Nathaniel Nyakie,Chalobah,Watford,2017
+642,Grady George,Diangana,West Ham,2017
+643,Martin Ronald,Kelly,Crystal Palace,2017
+644,Matthew David,Butcher,Bournemouth,2017
+645,Karl,Darlow,Newcastle,2017
+646,Jeffrey Patrick,Hendrick,Burnley,2017
+647,Jayson Patrick,Molumby,Brighton,2017
+648,Christopher Wolfgang Georg Aug,Schindler,Huddersfield,2017
+649,Thomas George,Smith,Huddersfield,2017
+650,Alex David,Pritchard,Huddersfield,2017
+651,Kyle Louis,Bartley,Swansea,2017
+652,Matthew,Phillips,West Brom,2017
+653,Ashley Michael,Fletcher,West Ham,2017
+654,Kasey Remel,Palmer,Huddersfield,2017
+655,George William,Byers,Swansea,2017
+656,Matthew Jacob,Grimes,Swansea,2017
+657,Daniel Tan,Barlaser,Newcastle,2017
+658,Erik,Pieters,Stoke City,2017
+659,Alexander,Palmer,West Brom,2017
+660,Lucas,Rodrigues Moura da Silva,Tottenham,2017
+661,Fernando Luiz,Roza,Manchester City,2017
+662,Guillermo,Varela Olivera,Manchester United,2017
+663,Islam,Slimani,Newcastle,2017
+664,Scott Harry Nathaniel,Arfield,Burnley,2017
+665,David Luiz,Moreira Marinho,Chelsea,2017
+666,Chung-Yong,Lee,Crystal Palace,2017
+667,Jonjoe,Kenny,Everton,2017
+668,Eldin,Jakupović,Leicester,2017
+669,Andrew Thomas,Carroll,West Ham,2017
+670,DeAndre Roselle,Yedlin,Newcastle,2017
+671,Sung-Yueng,Ki,Swansea,2017
+672,Robert Kenedy,Nunes do Nascimento,Newcastle,2017
+673,Terence,Kongolo,Huddersfield,2017
+674,Jay,Fulton,Swansea,2017
+675,Joshua Lewis,Tymon,Stoke City,2017
+676,Joseph Michael,Allen,Stoke City,2017
+677,Allan Roméo,Nyom,West Brom,2017
+678,Henri Grégoire,Saivet,Newcastle,2017
+679,Samuel,Shashoua Sarmiento,Tottenham,2017
+680,João Mário,Naval da Costa Eduardo,West Ham,2017
+681,Xherdan,Shaqiri,Stoke City,2017
+682,Nicolás Hernán Gonzalo,Otamendi,Manchester City,2017
+683,Victor,Moses,Chelsea,2017
+684,José Miguel,da Rocha Fonte,West Ham,2017
+685,Javier,Hernández Balcázar,West Ham,2017
+686,Christian,Benteke Liolo,Crystal Palace,2017
+687,Ashley Roy,Westwood,Burnley,2017
+688,Maya,Yoshida,Southampton,2017
+689,Jon,Gorenc Stankovič,Huddersfield,2017
+690,Marko,Grujić,Liverpool,2017
+691,Marcus,Edwards,Tottenham,2017
+692,Antonio,Martínez López,West Ham,2017
+693,Bradley Shaun,Smith,Bournemouth,2017

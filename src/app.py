@@ -5,6 +5,7 @@ import logging
 
 from utils.classes import Team, Grid, Player
 from flask_pkg.project.routes import BASE, get_request, post_request
+from data.data_db_functions import get_all_players_from_db
     
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
@@ -97,23 +98,28 @@ def print_grid_as_df(team_names_list: list) -> pd.DataFrame:
     grid_df[team_names_list[4]]  = [{'3,1': np.nan},{'3,2': np.nan},{'3,3': np.nan}]
     return grid_df
 
+def get_all_db_players_df() -> pd.DataFrame:
+    all_players_df: pd.DataFrame = get_all_players_from_db()
+
+    
+
 def run_footy(move: int):
     ### INPUTS ###
-    # six_indices = get_six_random_indices()
-    # team_names_list = get_teams_from_indices(six_indices)
-    # team_df = create_six_team_info(team_names_list)
+    six_indices = get_six_random_indices()
+    team_names_list = get_teams_from_indices(six_indices)
+    team_df = create_six_team_info(team_names_list)
 
-    team_data = {"pos_1":["Tottenham","Chelsea"],
-            "pos_2":["West Ham","Liverpool"],
-            "pos_3": ["Man City","Bayern Munich"]}
-    team_df = pd.DataFrame(team_data)
-    players_data = {
-    "Name": ['Raheem Sterling', 'Kai Havertz', 'Harry Kane'],
-    "Team": [['Chelsea', 'Man City', 'Liverpool'], ['Chelsea','Arsenal'], ['Tottenham', 'Bayern Munich']]
-        }
+    # team_data = {"pos_1":["Tottenham","Chelsea"],
+    #         "pos_2":["West Ham","Liverpool"],
+    #         "pos_3": ["Man City","Bayern Munich"]}
+    # team_df = pd.DataFrame(team_data)
+    # players_data = {
+    # "Name": ['Raheem Sterling', 'Kai Havertz', 'Harry Kane'],
+    # "Team": [['Chelsea', 'Man City', 'Liverpool'], ['Chelsea','Arsenal'], ['Tottenham', 'Bayern Munich']]
+    #     }
 
-    players_df = pd.DataFrame(players_data)
-    players_df['Name'] = players_df['Name'].apply(str.lower)
+    players_df: pd.DataFrame = get_all_players_from_db()
+    players_df['full_name'] = players_df['full_name'].apply(str.lower)
 
     grid = Grid()
 

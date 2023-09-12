@@ -1,0 +1,597 @@
+,first_name,last_name,team_name,season
+0,Rafael Euclides,Soares Camacho,Liverpool,2018
+1,Georginio Gregion Emile,Wijnaldum,Liverpool,2018
+2,Aymeric Jean Louis Gérard Alph,Laporte,Manchester City,2018
+3,Lee,Grant,Manchester United,2018
+4,Victor,Moses,Chelsea,2018
+5,Abd-Al-Ali Morakinyo Olaposi,Koiki,Burnley,2018
+6,Mateusz Tomasz,Hewelt,Everton,2018
+7,Ademola Lookman Olajade,Alade Aylola Lookman,Everton,2018
+8,Mark,Noble,West Ham,2018
+9,Julián,Speroni,Crystal Palace,2018
+10,Jack Benjamin,Simpson,Bournemouth,2018
+11,Kyle Frazer,Taylor,Bournemouth,2018
+12,Josh,Benson,Burnley,2018
+13,David Robert Edmund,Button,Brighton,2018
+14,Bruno,Saltor Grau,Brighton,2018
+15,Max Harrison,Sanders,Brighton,2018
+16,Maxime,Le Marchand,Fulham,2018
+17,Joel,Coleman,Huddersfield,2018
+18,Matthew,Pennington,Everton,2018
+19,Jesús,Gámez Duarte,Newcastle,2018
+20,Luke Ayodele,Amos,Tottenham,2018
+21,Wes,Morgan,Leicester,2018
+22,Troy,Deeney,Watford,2018
+23,Scott,Dann,Crystal Palace,2018
+24,Charlie John,Daniels,Bournemouth,2018
+25,Simon,Francis,Bournemouth,2018
+26,Nathan Nnamdi Ugochukwu Benjam,Asigboro Ofoborh,Bournemouth,2018
+27,Andrew,Surman,Bournemouth,2018
+28,Kayne,Ramsay,Southampton,2018
+29,Dale,Stephens,Brighton,2018
+30,Glenn,Murray,Brighton,2018
+31,Loïc,Damour,Cardiff,2018
+32,Luciano Darío,Vietto Martín,Fulham,2018
+33,Jason David Ian,Puncheon,Huddersfield,2018
+34,Gary,Lee Madine,Cardiff,2018
+35,Scott Liam,Malone,Huddersfield,2018
+36,Marc,Pugh,Bournemouth,2018
+37,Nikola,Tavares,Crystal Palace,2018
+38,Luke Garry,Dreher,Crystal Palace,2018
+39,Lewis Graham,Cass,Newcastle,2018
+40,Timothy Joel,Eyoma,Tottenham,2018
+41,Zechariah Joshua Henry,Medley,Arsenal,2018
+42,Christian,Atsu Twasam,Newcastle,2018
+43,Joe James,Powell,West Ham,2018
+44,Cameron Bradley,John,Wolves,2018
+45,Ciaran,Clark,Newcastle,2018
+46,Anthony David,Driscoll-Glennon,Burnley,2018
+47,Matthew John,Lowton,Burnley,2018
+48,Stephen Robert,Ward,Burnley,2018
+49,Shane Patrick,Long,Southampton,2018
+50,Beram,Kayal,Brighton,2018
+51,Harry Nicholas,Arter,Cardiff,2018
+52,El-Hadji Baye Oumar,Niasse,Cardiff,2018
+53,Floyd Ama Nino,Ayité,Fulham,2018
+54,Matthew Paul,Daly,Huddersfield,2018
+55,Bright,Enobakhare,Wolves,2018
+56,Sulaiman Borbor,Kaikai,Crystal Palace,2018
+57,Kelland John William James,Watts,Newcastle,2018
+58,Jonathan,Walters,Burnley,2018
+59,Jamie Michael,Sterry,Newcastle,2018
+60,Francesc,Fàbregas i Soler,Chelsea,2018
+61,Michel,Vorm,Tottenham,2018
+62,Fernando Javier,Llorente Torres,Tottenham,2018
+63,David Josué,Jiménez Silva,Manchester City,2018
+64,David,de Gea Quintana,Manchester United,2018
+65,Juan Manuel,Mata García,Manchester United,2018
+66,Stephan,Lichtsteiner,Arsenal,2018
+67,Ignacio,Monreal Eraso,Arsenal,2018
+68,Maarten,Stekelenburg,Everton,2018
+69,Danny,Simpson,Leicester,2018
+70,Miguel Ángel,Britos Cabrera,Watford,2018
+71,Daryl,Janmaat,Watford,2018
+72,Nathan Elliot,Holland,West Ham,2018
+73,Robert,Snodgrass,West Ham,2018
+74,James,McFarlane McArthur,Crystal Palace,2018
+75,Artur,Boruc,Bournemouth,2018
+76,Phil,Bardsley,Burnley,2018
+77,Josh,Murphy,Cardiff,2018
+78,Samuel Michael,Vokes,Burnley,2018
+79,Lee,Camp,Cardiff,2018
+80,Sergio Leonel,Agüero del Castillo,Manchester City,2018
+81,Mesut,Özil,Arsenal,2018
+82,Wilfredo Daniel,Caballero Lazcano,Chelsea,2018
+83,Eden Michael Walter,Hazard,Chelsea,2018
+84,Gonzalo Gerardo,Higuaín,Chelsea,2018
+85,Roberto Maximiliano,Pereyra,Watford,2018
+86,Mousa Sidi Yaya,Dembélé,Tottenham,2018
+87,Christian,Fuchs,Leicester,2018
+88,Heurelho,da Silva Gomes,Watford,2018
+89,Adalberto,Peñaranda Maestre,Watford,2018
+90,Pablo Javier,Zabaleta Girod,West Ham,2018
+91,Steven Arnold,Defour,Burnley,2018
+92,André,Schürrle,Fulham,2018
+93,Chris Jörg,Löwe,Huddersfield,2018
+94,Aaron Frank,Mooy,Huddersfield,2018
+95,Laurent,Depoitre,Huddersfield,2018
+96,Collin,Quaner,Huddersfield,2018
+97,Josh,Knight,Leicester,2018
+98,Markus,Suttner,Brighton,2018
+99,Frédéric,Gounongbe,Cardiff,2018
+100,Shkodran,Mustafi,Arsenal,2018
+101,Sokratis,Papastathopoulos,Arsenal,2018
+102,Gaëtan,Bong Songo,Brighton,2018
+103,Callum,Roberts,Newcastle,2018
+104,Ryan,Bennett,Wolves,2018
+105,Connor Neil Ralph,Wickham,Crystal Palace,2018
+106,Daniel,Gosling,Bournemouth,2018
+107,Jordon,Ibe,Bournemouth,2018
+108,Felix Junior,Stanislas,Bournemouth,2018
+109,Tyreke Martin,Johnson,Southampton,2018
+110,José Heriberto,Izquierdo Mena,Brighton,2018
+111,Brian Edward,Murphy,Cardiff,2018
+112,Joe,Bennett,Cardiff,2018
+113,Matthew,Connolly,Cardiff,2018
+114,David Junior Wayne,Hoilett,Cardiff,2018
+115,Håvard,Nordtveit,Fulham,2018
+116,Zeze  Steven,Sessegnon,Fulham,2018
+117,Daniel,Williams,Huddersfield,2018
+118,Elias,Kachunga,Huddersfield,2018
+119,Rolando James,Aarons,Newcastle,2018
+120,Daniel Lee,Rose,Tottenham,2018
+121,Phil Anthony,Jones,Manchester United,2018
+122,Luis Antonio,Valencia Mosquera,Manchester United,2018
+123,Petr,Čech,Arsenal,2018
+124,Daniel Noel,Drinkwater,Chelsea,2018
+125,Ryan,Schofield,Huddersfield,2018
+126,William James,Norris,Wolves,2018
+127,Philip Nikodem,Jagielka,Everton,2018
+128,Theo James,Walcott,Everton,2018
+129,Nampalys,Mendy,Leicester,2018
+130,Sebastian,Prödl,Watford,2018
+131,Thomas William,Cleverley,Watford,2018
+132,Samuel John,Woods,Crystal Palace,2018
+133,Andros Darryl,Townsend,Crystal Palace,2018
+134,Ryan Dominic,Bertrand,Southampton,2018
+135,Charlie,Austin,Southampton,2018
+136,Souleymane,Bamba,Cardiff,2018
+137,Alfie,Mawson,Fulham,2018
+138,Aaron Kevin,Isaac Rowe,Huddersfield,2018
+139,Fousseni,Diabaté,Leicester,2018
+140,Daniel Andre,Sturridge,Liverpool,2018
+141,Fabian,Delph,Manchester City,2018
+142,Jesse Ellis,Lingard,Manchester United,2018
+143,Laurent,Koscielny,Arsenal,2018
+144,Jermain Colin,Defoe,Bournemouth,2018
+145,Gary,Cahill,Chelsea,2018
+146,Kasper Peter,Schmeichel,Leicester,2018
+147,Leighton,Baines,Everton,2018
+148,Morgan Fernand Gérard,Schneiderlin,Everton,2018
+149,Benjamin Anthony,Foster,Watford,2018
+150,Craig George,Cathcart,Watford,2018
+151,José,Holebas,Watford,2018
+152,Jack,Wilshere,West Ham,2018
+153,Joe Daniel,Tupper,Crystal Palace,2018
+154,Lys,Mousset,Bournemouth,2018
+155,Aaron,Lennon,Burnley,2018
+156,Peter,Crouch,Burnley,2018
+157,Mohamed Amine,Elyounoussi,Southampton,2018
+158,Stefan Marius,Johansen,Fulham,2018
+159,Patrice,Evra,West Ham,2018
+160,Adrien Sébastien,Perruchet da Silva,Leicester,2018
+161,Jonas,Bybjerg Lössl,Huddersfield,2018
+162,Gylfi Þór,Sigurðsson,Everton,2018
+163,Adrian Joseph,Mariappa,Watford,2018
+164,Luka,Milivojević,Crystal Palace,2018
+165,Bakary,Sako,Crystal Palace,2018
+166,Emerson Schellas,Hyndman,Bournemouth,2018
+167,Yoshinori,Muto,Newcastle,2018
+168,Bruno,Ecuele Manga,Cardiff,2018
+169,Kadeem Raymond,Mathurin-Harris,Cardiff,2018
+170,Nathaniel Otis,Méndez-Laing,Cardiff,2018
+171,Lazar,Marković,Fulham,2018
+172,Kevin David,McDonald,Fulham,2018
+173,Adama,Salimou Diakhaby,Huddersfield,2018
+174,Stefano,Okaka Chuka,Watford,2018
+175,Majed Naser Humaid,Bakheit Al Maqdami,Shabab Al Ahli Dubai,2018
+176,Mohammed Marzooq Abdulla,Mohammed Al Matroushi,Shabab Al Ahli Dubai,2018
+177,Abdelaziz Salim Ali,Salim Alkaabi,Shabab Al Ahli Dubai,2018
+178,Salmin Khamis Salmin,Saqer Salmin,Shabab Al Ahli Dubai,2018
+179,Marwan Fahad Hamza,Hassan Alwatani,Shabab Al Ahli Dubai,2018
+180,Alexander Mark David,Oxlade-Chamberlain,Liverpool,2018
+181,Lucas Sebastián,Torreira di Pascua,Arsenal,2018
+182,Steven,Davis,Southampton,2018
+183,Leon Aderemi,Balogun,Brighton,2018
+184,Michy,Batshuayi-Atunga,Crystal Palace,2018
+185,Dazet Wilfried,Armel Zaha,Crystal Palace,2018
+186,Daniel,Amartey,Leicester,2018
+187,James Patrick,McCarthy,Everton,2018
+188,Cenk,Tosun,Everton,2018
+189,Rachid,Ghezzal,Leicester,2018
+190,Fuka-Arthur,Masuaku Kawela,West Ham,2018
+191,Pape,N'Diaye Souaré,Crystal Palace,2018
+192,Maximilian,Meyer,Crystal Palace,2018
+193,Charles Joseph John,Hart,Burnley,2018
+194,Joshua Samuel,Sims,Southampton,2018
+195,Callum,Slattery,Southampton,2018
+196,Demeaco,D'Vaughn Duhaney,Huddersfield,2018
+197,Florent,Hadergjonaj,Huddersfield,2018
+198,Kieran,O'Neill Dowell,Everton,2018
+199,Beni,Tangama Baningime,Everton,2018
+200,Georges-Kévin,Nkoudou Mbida,Tottenham,2018
+201,Jan,Vertonghen,Tottenham,2018
+202,Simon Luc Hildebert,Mignolet,Liverpool,2018
+203,Jordan Brian,Henderson,Liverpool,2018
+204,Fábio Henrique,Tavares,Liverpool,2018
+205,Roberto Firmino,Barbosa de Oliveira,Liverpool,2018
+206,Sadio,Mané,Liverpool,2018
+207,Frederico,Rodrigues de Paula Santos,Manchester United,2018
+208,N'Golo,Kanté,Chelsea,2018
+209,Rúben Diogo,da Silva Neves,Wolves,2018
+210,Aleksandar,Mitrović,Fulham,2018
+211,Tyias Charles,Browning,Everton,2018
+212,Marouane,Fellaini-Bakkioui,Manchester United,2018
+213,Shinji,Okazaki,Leicester,2018
+214,Joshua Christian,Kojo King,Bournemouth,2018
+215,Jürgen Leonardo,Locadia,Brighton,2018
+216,Albin Kenneth,Dahrup Zohorè,Cardiff,2018
+217,Denis,Frimpong Odoi,Fulham,2018
+218,Ryan Guno,Babel,Fulham,2018
+219,Isaac,Mbenza,Huddersfield,2018
+220,Toby Albertine Maurits,Alderweireld,Tottenham,2018
+221,George Owen,Marsh,Tottenham,2018
+222,Victor,Mugubi Wanyama,Tottenham,2018
+223,Vincent,Janssen,Tottenham,2018
+224,Heung-Min,Son,Tottenham,2018
+225,José Diogo,Dalot Teixeira,Manchester United,2018
+226,Mason Will John,Greenwood,Manchester United,2018
+227,Aron Einar,Malmquist Gunnarsson,Cardiff,2018
+228,Marc,Navarro Ceciliano,Watford,2018
+229,Samir,Nasri,West Ham,2018
+230,Lucas,Pérez Martínez,West Ham,2018
+231,Andrii,Yarmolenko,West Ham,2018
+232,Matěj,Vydra,Burnley,2018
+233,Angus Fraser James,Gunn,Southampton,2018
+234,Stuart,Armstrong,Southampton,2018
+235,Anthony Patrick,Knockaert,Brighton,2018
+236,Ashley Darel Jazz,Richards,Cardiff,2018
+237,Leandro Jones Johan,Bacuna,Cardiff,2018
+238,Fabricio Martín,Agosto Ramírez,Fulham,2018
+239,Kazaiah Roy Barrett,Sterling,Tottenham,2018
+240,Nicolás Hernán Gonzalo,Otamendi,Manchester City,2018
+241,Riyad Karim,Mahrez,Manchester City,2018
+242,Leroy Aziz,Sané,Manchester City,2018
+243,João Filipe,Iria Santos Moutinho,Wolves,2018
+244,Romain Ghanem Paul,Saïss,Wolves,2018
+245,Mathias,Jattah-Njie Jørgensen,Huddersfield,2018
+246,Jordan Pierre,Ayew,Crystal Palace,2018
+247,Ramadan Sobhi Ramadan,Ahmed,Huddersfield,2018
+248,William James,Hughes,Watford,2018
+249,Jeffrey,Schlupp,Crystal Palace,2018
+250,Mohamed,Diamé,Newcastle,2018
+251,Benjamin Thomas,Mee,Burnley,2018
+252,Viktor Einar,Gyökeres,Brighton,2018
+253,Neeskens,Kebano,Fulham,2018
+254,Manolo,Gabbiadini,Southampton,2018
+255,Aboubakar,Kamara,Fulham,2018
+256,Mohamed Ismail,Sayed Ali Al Hosani,Shabab Al Ahli Dubai,2018
+257,Saud Abdelrazaq Saif,Buhair Almheiri,Shabab Al Ahli Dubai,2018
+258,Waleed Hussain,Hassan Abdulla,Shabab Al Ahli Dubai,2018
+259,Marcelo Amado,Djaló Taritolay,Fulham,2018
+260,Adam David,Lallana,Liverpool,2018
+261,James Philip,Milner,Liverpool,2018
+262,Gabriel Fernando,de Jesus,Manchester City,2018
+263,Reiss Luke,Nelson,Arsenal,2018
+264,Robert Samuel,Holding,Arsenal,2018
+265,Mohamed Naser,Elsayed Elneny,Arsenal,2018
+266,Edward,Keddar Nketiah,Arsenal,2018
+267,Daniel Nii,Tackie Mensah Welbeck,Arsenal,2018
+268,Jorge Luiz,Frello Filho,Chelsea,2018
+269,Jefferson Andrés,Lerma Solís,Bournemouth,2018
+270,Declan,Rice,West Ham,2018
+271,James Oliver Charles,Tomkins,Crystal Palace,2018
+272,Joel Edward Philip,Ward,Crystal Palace,2018
+273,Jaïro Jocquim,Riedewald,Crystal Palace,2018
+274,Nathaniel Edwin,Clyne,Bournemouth,2018
+275,Jason Sean,Steele,Brighton,2018
+276,Lewis Carl,Dunk,Brighton,2018
+277,Pascal,Groß,Brighton,2018
+278,Solomon Benjamin,March,Brighton,2018
+279,Addji Keaninkin Marc-Israel,Guéhi,Chelsea,2018
+280,Cédric Ricardo,Alves Soares,Southampton,2018
+281,Curtis Julian,Jones,Liverpool,2018
+282,Mohamed,Salah Hamed Mahrous Ghaly,Liverpool,2018
+283,Oleksandr,Zinchenko,Manchester City,2018
+284,Emile,Smith Rowe,Arsenal,2018
+285,Konstantinos,Mavropanos,Arsenal,2018
+286,Bukayo Ayoyinka Temidayo,Saka,Arsenal,2018
+287,Emerson,Palmieri dos Santos,Chelsea,2018
+288,Diogo José,Teixeira da Silva,Wolves,2018
+289,Kurt Happy,Zouma,Everton,2018
+290,James Michael Edward,Ward-Prowse,Southampton,2018
+291,Łukasz Marek,Fabiański,West Ham,2018
+292,Aaron William,Cresswell,West Ham,2018
+293,Angelo,Obinze Ogbonna,West Ham,2018
+294,Michail Gregory,Antonio,West Ham,2018
+295,Conor James,Coventry,West Ham,2018
+296,Benjamin Anthony,Johnson,West Ham,2018
+297,Daniel William John,Ings,Southampton,2018
+298,Harvey Daniel James,Elliott,Fulham,2018
+299,Benjamin William,White,Brighton,2018
+300,Hugo Hadrien Dominique,Lloris,Tottenham,2018
+301,Alfie Malik,Whiteman,Tottenham,2018
+302,Benjamin Thomas,Davies,Tottenham,2018
+303,Davinson,Sánchez Mina,Tottenham,2018
+304,Eric Jeremy Edgar,Dier,Tottenham,2018
+305,Oliver William,Skipp,Tottenham,2018
+306,Alisson Ramsés,Becker,Liverpool,2018
+307,Trent John,Alexander-Arnold,Liverpool,2018
+308,Joseph Dave,Gomez,Liverpool,2018
+309,Job Joël André,Matip,Liverpool,2018
+310,Andrew Henry,Robertson,Liverpool,2018
+311,Virgil,van Dijk,Liverpool,2018
+312,Philip Walter,Foden,Manchester City,2018
+313,Richarlison,de Andrade,Everton,2018
+314,Pierre-Emile Kordt,Højbjerg,Southampton,2018
+315,James Daniel,Maddison,Leicester,2018
+316,Adrián,San Miguel del Castillo,West Ham,2018
+317,Fraser Gerard,Forster,Southampton,2018
+318,Yves,Bissouma,Brighton,2018
+319,Kouassi Ryan,Sessegnon,Fulham,2018
+320,Arijanet,Murić,Manchester City,2018
+321,Ederson,Santana de Moraes,Manchester City,2018
+322,John,Stones,Manchester City,2018
+323,Kyle Andrew,Walker,Manchester City,2018
+324,Kevin,De Bruyne,Manchester City,2018
+325,Bernardo,Mota Veiga de Carvalho e Silva,Manchester City,2018
+326,Tahith Jose,Chong,Manchester United,2018
+327,Ross,Barkley,Chelsea,2018
+328,Mateo,Kovačić,Chelsea,2018
+329,Jóhann Berg,Guðmunds­son,Burnley,2018
+330,Ryan John,Giles,Wolves,2018
+331,Dominic Nathaniel,Calvert-Lewin,Everton,2018
+332,Demarai Ramelle,Gray,Leicester,2018
+333,Wayne Robert,Hennessey,Crystal Palace,2018
+334,Nathan Benjamin,Aké,Bournemouth,2018
+335,Charles James,Taylor,Burnley,2018
+336,Jack Frank,Porteous Cork,Burnley,2018
+337,Dwight James Matthew,McNeil,Burnley,2018
+338,Nathan Daniel Jerome,Redmond,Southampton,2018
+339,Michael,Oluwadurotimi Obafemi,Southampton,2018
+340,Bamidele Jermaine,Alli,Tottenham,2018
+341,Ashley Simon,Young,Manchester United,2018
+342,James David,Garner,Manchester United,2018
+343,Philip,Anyanwu Billing,Huddersfield,2018
+344,Jordan Lee,Pickford,Everton,2018
+345,Michael Vincent,Keane,Everton,2018
+346,James Alan,Tarkowski,Burnley,2018
+347,Idrissa Gana,Gueye,Everton,2018
+348,Maximilian William,Kilman,Wolves,2018
+349,Séamus,Coleman,Everton,2018
+350,Thomas,Davies,Everton,2018
+351,André Filipe,Tavares Gomes,Everton,2018
+352,Abdoulaye,Doucouré,Watford,2018
+353,Ryan,Marlowe Fredericks,West Ham,2018
+354,Christopher James,Mepham,Bournemouth,2018
+355,Adam James,Smith,Bournemouth,2018
+356,David Robert,Brooks,Bournemouth,2018
+357,Lewis John,Cook,Bournemouth,2018
+358,Dominic Ayodele,Solanke-Mitchell,Bournemouth,2018
+359,Mario René Junior,Lemina,Southampton,2018
+360,Kieran John,Trippier,Tottenham,2018
+361,Alexander Chuka,Iwobi,Arsenal,2018
+362,Joseph George,Willock,Arsenal,2018
+363,Loris Sven,Karius,Liverpool,2018
+364,Miguel Ángel,Almirón Rejala,Newcastle,2018
+365,Fabian Lukas,Schär,Newcastle,2018
+366,Callum Eddie Graham,Wilson,Bournemouth,2018
+367,Jonathan,Castro Otto,Wolves,2018
+368,Matthew James,Doherty,Wolves,2018
+369,Harvey Lewis,Barnes,Leicester,2018
+370,Martin,Dúbravka,Newcastle,2018
+371,Paul,Dummett,Newcastle,2018
+372,Jamaal,Lascelles,Newcastle,2018
+373,Javier,Manquillo Gaitán,Newcastle,2018
+374,Isaac Scott,Hayden,Newcastle,2018
+375,Sean David,Longstaff,Newcastle,2018
+376,Matthew Thomas,Ritchie,Newcastle,2018
+377,Matthew Robert,Targett,Southampton,2018
+378,Daniel Johnson,Burn,Brighton,2018
+379,Jacob Kai,Murphy,Newcastle,2018
+380,Christian,Dannemann Eriksen,Tottenham,2018
+381,Raheem Shaquille,Sterling,Manchester City,2018
+382,Luke Paul Hoare,Shaw,Manchester United,2018
+383,Andreas Hugo,Hoelgebaum Pereira,Manchester United,2018
+384,Scott Francis,McTominay,Manchester United,2018
+385,Anthony Jordan,Martial,Manchester United,2018
+386,Marcus,Rashford,Manchester United,2018
+387,Bernd,Leno,Arsenal,2018
+388,Willian,Borges da Silva,Chelsea,2018
+389,Raúl Alonso,Jiménez Rodríguez,Wolves,2018
+390,Benjamin James,Chilwell,Leicester,2018
+391,Jacob Harry,Maguire,Leicester,2018
+392,Adama,Traoré Diarra,Wolves,2018
+393,Jonathan Grant,Evans,Leicester,2018
+394,Issa Laye Lucas Jean,Diop,West Ham,2018
+395,Aaron,Wan-Bissaka,Crystal Palace,2018
+396,Bobby Armani,De Cordova-Reid,Cardiff,2018
+397,Marcus,Bettinelli,Fulham,2018
+398,Timothy Michael,Ream,Fulham,2018
+399,Thomas,Cairney,Fulham,2018
+400,Sèrge Alain Stéphane,Aurier,Tottenham,2018
+401,Erik Manuel,Lamela Cordero,Tottenham,2018
+402,Divock,Okoth Origi,Liverpool,2018
+403,Eric Bertrand,Bailly,Manchester United,2018
+404,Victor Jörgen,Nilsson Lindelöf,Manchester United,2018
+405,Callum James,Hudson-Odoi,Chelsea,2018
+406,Lucas,Digne,Everton,2018
+407,Leander,Dendoncker,Wolves,2018
+408,Youri Marion A.,Tielemans,Leicester,2018
+409,Thomas David,Heaton,Burnley,2018
+410,Cheikhou,Kouyaté,Crystal Palace,2018
+411,Willy-Arnaud,Zobo Boly,Wolves,2018
+412,Morgan Anthony,Gibbs-White,Wolves,2018
+413,Jonjo,Shelvey,Newcastle,2018
+414,Christopher Grant,Wood,Burnley,2018
+415,Calum,Chambers,Fulham,2018
+416,Kortney Paul Duncan,Hause,Wolves,2018
+417,Tyrone Deon,Mings,Bournemouth,2018
+418,Damián Emiliano,Martínez Romero,Arsenal,2018
+419,Sandro,Ramírez Castillo,Everton,2018
+420,Álvaro Borja,Morata Martín,Chelsea,2018
+421,Juan Marcos,Foyth,Tottenham,2018
+422,Alberto,Moreno Pérez,Liverpool,2018
+423,Claudio Andrés,Bravo Muñoz,Manchester City,2018
+424,İlkay,Gündoğan,Manchester City,2018
+425,Ander,Herrera Agüera,Manchester United,2018
+426,Héctor,Bellerín Moruno,Arsenal,2018
+427,Denis,Suárez Fernández,Arsenal,2018
+428,Marcos,Alonso Mendoza,Chelsea,2018
+429,César,Azpilicueta Tanco,Chelsea,2018
+430,Alexander,Sørloth,Crystal Palace,2018
+431,Çağlar,Söyüncü,Leicester,2018
+432,Francisco,Femenía Far,Watford,2018
+433,Étienne,René Capoue,Watford,2018
+434,Vicente,Guaita Panadero,Crystal Palace,2018
+435,Diego,Rico Salguero,Bournemouth,2018
+436,Florian Grégoire,Claude Lejeune,Newcastle,2018
+437,Ayoze,Pérez Gutiérrez,Newcastle,2018
+438,Oriol,Romeu Vidal,Southampton,2018
+439,Lucas Daniel,de la Torre,Fulham,2018
+440,Paulo Dino,Gazzaniga Farias,Tottenham,2018
+441,Harry Edward,Kane,Tottenham,2018
+442,Naby Laye,Keïta,Liverpool,2018
+443,Danilo Luiz,da Silva,Manchester City,2018
+444,Matteo,Darmian,Manchester United,2018
+445,Paul Labile,Pogba,Manchester United,2018
+446,Alexis Alejandro,Sánchez Sánchez,Manchester United,2018
+447,Henrikh,Hamlet Mkhitaryan,Arsenal,2018
+448,Granit,Xhaka,Arsenal,2018
+449,Pierre-Emerick Emiliano Franço,Aubameyang,Arsenal,2018
+450,Kepa,Arrizabalaga Revuelta,Chelsea,2018
+451,Andreas,Bødtker Christensen,Chelsea,2018
+452,Antonio,Rüdiger,Chelsea,2018
+453,Ruben Ira,Loftus-Cheek,Chelsea,2018
+454,Olivier Jonathan,Giroud,Chelsea,2018
+455,Marko,Arnautović,West Ham,2018
+456,José Luis,Sanmartín Mato,Newcastle,2018
+457,Bernardo,Fernandes da Silva Junior,Brighton,2018
+458,Sergio,Rico González,Fulham,2018
+459,Evans Timothy,Fosu-Mensah,Fulham,2018
+460,Christopher Lloyd,Smalling,Manchester United,2018
+461,Romelu Menama,Lukaku Bolingoli,Manchester United,2018
+462,Sead,Kolašinac,Arsenal,2018
+463,Mattéo Elias Kenzo,Guendouzi Olié,Arsenal,2018
+464,Davide,Zappacosta,Chelsea,2018
+465,Pedro Eliezer,Rodríguez Ledesma,Chelsea,2018
+466,Felipe,Anderson Pereira Gomes,West Ham,2018
+467,Yerry Fernando,Mina González,Everton,2018
+468,Rui Pedro,dos Santos Patrício,Wolves,2018
+469,Isaac,Success Ajayi,Watford,2018
+470,André-Frank,Zambo Anguissa,Fulham,2018
+471,Christian,Kabasele,Watford,2018
+472,Adam,Masina,Watford,2018
+473,Domingos,Quina,Watford,2018
+474,Gerard,Deulofeu Lázaro,Watford,2018
+475,Pedro,Mba Obiang Avomo,West Ham,2018
+476,Patrick John Miguel,van Aanholt,Crystal Palace,2018
+477,Leo,Skiri Østigård,Brighton,2018
+478,Abdelhamid,Sabiri,Huddersfield,2018
+479,Tammy,Bakumo-Abraham,Chelsea,2018
+480,Moussa,Sissoko,Tottenham,2018
+481,Dejan,Lovren,Liverpool,2018
+482,Benjamin,Mendy,Manchester City,2018
+483,Philippe,Sandler,Manchester City,2018
+484,Sergio Germán,Romero,Manchester United,2018
+485,Faustino Marcos Alberto,Rojo,Manchester United,2018
+486,Adilson Angel,Abreu de Almeida Gomes,Manchester United,2018
+487,Nemanja,Matić,Manchester United,2018
+488,Ainsley Cory,Maitland-Niles,Arsenal,2018
+489,Alexandre Armand,Lacazette,Arsenal,2018
+490,Tiémoué,Bakayoko,Chelsea,2018
+491,Alireza,Jahanbakhsh Jirandeh,Brighton,2018
+492,Mathew David,Ryan,Brighton,2018
+493,Steve Michel,Mounié,Huddersfield,2018
+494,Ivan Ricardo,Neves Abreu Cavaleiro,Wolves,2018
+495,Carlos Alberto,Sánchez Moreno,West Ham,2018
+496,Mamadou,Sakho,Crystal Palace,2018
+497,Federico,Fernández,Newcastle,2018
+498,Davy,Pröpper,Brighton,2018
+499,Rajiv,van La Parra,Huddersfield,2018
+500,Kyle Leonardus,Walker-Peters,Tottenham,2018
+501,Carl Daniel,Jenkinson,Arsenal,2018
+502,Vicente,Iborra de la Fuente,Leicester,2018
+503,José Salomón,Rondón Giménez,Newcastle,2018
+504,Manuel,Lanzini,West Ham,2018
+505,Jan Kacper,Bednarek,Southampton,2018
+506,Jean Michaël,Seri,Fulham,2018
+507,Rúben Gonçalo Silva,Nascimento Vinagre,Wolves,2018
+508,Bernard Anício,Caldeira Duarte,Everton,2018
+509,Andre Anthony,Gray,Watford,2018
+510,Ryan,Fraser,Bournemouth,2018
+511,Benjamin James,Gibson,Burnley,2018
+512,Ashley Luke,Barnes,Burnley,2018
+513,Alex Simon,McCarthy,Southampton,2018
+514,Alfie,Jones,Southampton,2018
+515,Jack,Stephens,Southampton,2018
+516,Martín,Montoya Torralbo,Brighton,2018
+517,Cyrus Sylvester Frederick,Christie,Fulham,2018
+518,Mason Anthony,Holgate,Everton,2018
+519,Leonardo,Bonatini Lohner Maia,Wolves,2018
+520,Harry Billy,Winks,Tottenham,2018
+521,Kelechi Promise,Ịheanachọ,Leicester,2018
+522,Daniel,Ward,Leicester,2018
+523,John Thomas Gordon,Ruddy,Wolves,2018
+524,Conor David,Coady,Wolves,2018
+525,Ricardo Domingos,Barbosa Pereira,Leicester,2018
+526,Marc Kevin,Albrighton,Leicester,2018
+527,Hamza,Dewan Choudhury,Leicester,2018
+528,Onyinye Wilfred,Ndidi,Leicester,2018
+529,Jamie Richard,Vardy,Leicester,2018
+530,Frederick John,Woodman,Newcastle,2018
+531,Kevin,Finbarr Long,Burnley,2018
+532,Robert,Brady,Burnley,2018
+533,Jannik,Vestergaard,Southampton,2018
+534,Shane Patrick Michael,Duffy,Brighton,2018
+535,Neil Leonard,Dula Etheridge,Cardiff,2018
+536,Alexander,Smithies,Cardiff,2018
+537,Gregory Richard,Cunningham,Cardiff,2018
+538,Daniel Carl,Ward,Cardiff,2018
+539,Juninho Gracielo,Bacuna,Huddersfield,2018
+540,Aaron James,Ramsey,Arsenal,2018
+541,Ethan Kwame Colm Raymond,Ampadu,Chelsea,2018
+542,Kenneth Nlata,Sema,Watford,2018
+543,Hélder Wander,Sousa de Azevedo e Costa,Wolves,2018
+544,Asmir,Begović,Bournemouth,2018
+545,Mark,Travers,Bournemouth,2018
+546,Steve Anthony,Cook,Bournemouth,2018
+547,Karl,Darlow,Newcastle,2018
+548,Samuel James,Gallagher,Southampton,2018
+549,Sean Joseph,Morrison,Cardiff,2018
+550,Lee Anthony,Peltier,Cardiff,2018
+551,Joseph William,Ralls,Cardiff,2018
+552,Rhys James,Evitt-Healey,Cardiff,2018
+553,Joseph Edward,Bryan,Fulham,2018
+554,Benjamin John,Hamer,Huddersfield,2018
+555,Jonathan Lee,Hogg,Huddersfield,2018
+556,Karlan Laughton,Ahearne-Grant,Huddersfield,2018
+557,Benjamin Lewis,Wilmot,Watford,2018
+558,Daniel,Bachmann,Watford,2018
+559,Wesley Theodorus,Hoedt,Southampton,2018
+560,Jonjoe,Kenny,Everton,2018
+561,Nathaniel Nyakie,Chalobah,Watford,2018
+562,Grady George,Diangana,West Ham,2018
+563,Andrew Thomas,Carroll,West Ham,2018
+564,Martin Ronald,Kelly,Crystal Palace,2018
+565,Matthew David,Butcher,Bournemouth,2018
+566,Antonio,Barreca,Newcastle,2018
+567,Sung-Yueng,Ki,Newcastle,2018
+568,Robert Kenedy,Nunes do Nascimento,Newcastle,2018
+569,Jeffrey Patrick,Hendrick,Burnley,2018
+570,Yan,Valery,Southampton,2018
+571,Jayson Patrick,Molumby,Brighton,2018
+572,Florin,Andone,Brighton,2018
+573,Callum Thomas Owen,Paterson,Cardiff,2018
+574,Víctor,Camarasa Ferrando,Cardiff,2018
+575,Erik,Durm,Huddersfield,2018
+576,Christopher Wolfgang Georg Aug,Schindler,Huddersfield,2018
+577,Thomas George,Smith,Huddersfield,2018
+578,Alex David,Pritchard,Huddersfield,2018
+579,Henri Grégoire,Saivet,Newcastle,2018
+580,Lucas,Rodrigues Moura da Silva,Tottenham,2018
+581,Xherdan,Shaqiri,Liverpool,2018
+582,Fernando Luiz,Roza,Manchester City,2018
+583,David Luiz,Moreira Marinho,Chelsea,2018
+584,Fabián Cornelio,Balbuena González,West Ham,2018
+585,Javier,Hernández Balcázar,West Ham,2018
+586,Christian,Benteke Liolo,Crystal Palace,2018
+587,Ibrahima,Cissé,Fulham,2018
+588,Alexandre,Nascimento Costa Silva,West Ham,2018
+589,Samuel William,Surridge,Bournemouth,2018
+590,DeAndre Roselle,Yedlin,Newcastle,2018
+591,Ashley Roy,Westwood,Burnley,2018
+592,Maya,Yoshida,Southampton,2018
+593,Jon,Gorenc Stankovič,Huddersfield,2018
+594,Terence,Kongolo,Huddersfield,2018
+595,Bradley Shaun,Smith,Bournemouth,2018
