@@ -11,7 +11,7 @@ from data.data_helper_functions import(convert_players_list_to_df,
                                     all_teams_dict_from_df)
 from data.footy_api_functions import (get_all_players_for_a_season)
 from utils.cert_helpers import (fixing_SSL_error)
-from data.season_data.season_2021 import PLAYERS_21
+#from data.season_data.season_2021 import PLAYERS_21
 
 ##########################################################################################################
 ### PLAYERS ###
@@ -28,9 +28,9 @@ def add_players_to_db_process():
     '''
 
     #1. Get list of players from football API 
-    season = 2021
+    season = 2019
     prem_league = 39
-    all_players_for_single_season: list = PLAYERS_21 #get_all_players_for_a_season(season, prem_league)
+    all_players_for_single_season: list = get_all_players_for_a_season(season, prem_league)
     season_df = pd.DataFrame(all_players_for_single_season) 
     try:
         season_df.to_csv(f".\src\data\season_data\season_{season}.csv")
