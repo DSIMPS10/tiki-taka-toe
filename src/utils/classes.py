@@ -1,4 +1,4 @@
-class Grid():
+class Grid:
     def __init__(self):
         self.one = [2,0] # bottom row, left
         self.two =[2,1] # bottom row, middle
@@ -19,7 +19,7 @@ class Grid():
         index = number - 1
         return grid_list[index]
 
-class Team():
+class Team:
     def __init__(self, team_name, league, country):
         self.team_name = team_name
         self.league = league
@@ -31,7 +31,7 @@ class Team():
     def __str__(self):
         return f'{self.team_name} (League: {self.league}, {self.country})'
 
-class Player():
+class Player:
     def __init__(self, full_name, team_id, team_name, first_season, last_season):
         self.full_name = full_name
         self.team_id = team_id
@@ -44,3 +44,22 @@ class Player():
     
     def __str__(self):
         return f'<Player: {self.full_name}>'
+
+class Guesses:
+    def __init__(self, player, team_combo,correct_guesses):
+        self.player = player
+        self.team_combo = team_combo
+        self.correct_guesses = correct_guesses
+        
+    def as_dict(self):
+        return {
+            'player':self.player,
+            'teams':self.team_combo,
+            'correct_guesses':self.correct_guesses
+            }
+    
+    def __repr__(self):
+        return f'<{self.player}: [{self.team_combo}]>'
+    
+    def __str__(self):
+        return f'<{self.player}: [{self.team_combo}]>'

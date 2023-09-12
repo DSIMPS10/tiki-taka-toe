@@ -1,5 +1,5 @@
 import requests
-from sqlalchemy import desc
+from sqlalchemy import desc, func
 import json
 
 from flask import request, jsonify, render_template, redirect, url_for, Blueprint
@@ -85,6 +85,12 @@ def get_all_players():
     all_players = Players.query.all()
     all_players_array = [player.as_dict() for player in all_players]
     return jsonify(all_players_array)
+
+@main.get("/api/get_all_valid_player_guesses")
+def get_all_valid_player_guesses(): 
+    all_valid_players = Players.query(Players.full_name,func.count(Players.full_name).label('team_count')).group_by(Players.full_name).having(db.literal_column('team_count')>1)
+    all_valid_players_array = [player.as_dict() for player in all_valid_players]
+    return jsonify(all_valid_players_array)
 
 #############################################################################################################################################################
 ### POST ENDPOINTS ###

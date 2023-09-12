@@ -80,20 +80,23 @@ if __name__ == "__main__":
 class Guesses(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     player = db.Column(db.String(100))
-    teams = db.Column(ARRAY(db.String))
+    team_combo = db.Column(ARRAY(db.String))
+    correct_guesses = db.Column(db.Integer)
     
-    def __init__(self, player, teams):
+    def __init__(self, player, team_combo,correct_guesses):
         self.player = player
-        self.teams = teams
+        self.team_combo = team_combo
+        self.correct_guesses = correct_guesses
         
     def as_dict(self):
         return {
             'player':self.player,
-            'teams':self.teams,
+            'teams':self.team_combo,
+            'correct_guesses':self.correct_guesses
             }
     
     def __repr__(self):
-        return f'<{self.player}: [{self.teams}]>'
+        return f'<{self.player}: [{self.team_combo}]>'
 
 if __name__ == "__main__":
     db.create_all()
