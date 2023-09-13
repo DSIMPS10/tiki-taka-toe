@@ -35,7 +35,7 @@ def get_teams_from_indices(six_indices:list[int])-> list[str]:
         team_names_list.append(team_name_dict["team_name"])
     return team_names_list
         
-def get_teams_for_selected_player_from_db(player_df, player_name):
+def get_teams_for_selected_player_from_db(player_df: pd.DataFrame, player_name: str) -> list[str]:
     #TODO: need to change player_df['Name'] to player_df['full_name'] 
     '''
     Input: DataFrame of player info, and players full name

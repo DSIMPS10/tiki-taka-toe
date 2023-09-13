@@ -16,7 +16,7 @@ board_keys = []
 for key in theBoard:
     board_keys.append(key)
 
-def printBoard(board,team_df: DataFrame):
+def print_board(board,team_df: DataFrame):
     print('          ',team_df['pos_1'][0],'|', team_df['pos_2'][0],'|', team_df['pos_3'][0])
     print(team_df['pos_1'][1], board['7'] + '      |       ' + board['8'] + '      |       ' + board['9'])
     print('          ','---------+---------+----------')
@@ -51,7 +51,7 @@ def check_winner(count: int, turn: int,team_df: DataFrame):
         return True
     
     if is_there_a_winner:
-        printBoard(theBoard,team_df)
+        print_board(theBoard,team_df)
 
         print("\nGame Over.\n")                
         print(" **** " +turn + " won. ****")
@@ -98,7 +98,7 @@ def game():
     footy_team_board_df = create_footy_team_board()
 
     while is_there_a_winner == False:
-        printBoard(theBoard,footy_team_board_df)
+        print_board(theBoard,footy_team_board_df)
         print("It's your turn " + turn + ". Choose a location?")
 
         move = input()
