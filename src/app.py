@@ -62,18 +62,24 @@ def get_teams_from_grid_index(team_df: pd.DataFrame, grid: Grid, pos_number):
     return selected_teams
 
     
-def compare_player(players_df, player_name, selected_teams) -> bool: 
+def compare_player(players_df: pd.DataFrame, player_name: str, selected_teams: list[str]) -> bool: 
     '''
     This function will return true if the player has played for both teams
     '''
-    teams_of_player = get_teams_for_selected_player_from_db(players_df, player_name)
-    if len(teams_of_player) == 0:
-        return False
+    try:
+        valid_guess = str(player_name)
+        print('yes')
+    except ValueError:
+        if not valid_guess:
+            raise ValueError('empty input')
     else:
-        if selected_teams[0] in teams_of_player and selected_teams[1] in teams_of_player:
-            return True
-    
-    return False
+        teams_of_player = get_teams_for_selected_player_from_db(players_df, valid_guess)
+        if len(teams_of_player) == 0:
+            return False
+        else:
+            if selected_teams[0] in teams_of_player and selected_teams[1] in teams_of_player:
+                return True    
+        return False
 
 def create_six_team_df_for_grid(team_names_list: list[str])-> pd.DataFrame:
     team_data = {"pos_1":team_names_list[0:2],
@@ -83,7 +89,7 @@ def create_six_team_df_for_grid(team_names_list: list[str])-> pd.DataFrame:
     team_df = pd.DataFrame(team_data)
     return team_df
 
-def print_grid_as_df(team_names_list: list[str]) -> pd.DataFrame:
+def convert_print_grid_as_df(team_names_list: list[str]) -> pd.DataFrame:
     grid_df = pd.DataFrame(columns=['Y\X', team_names_list[0], team_names_list[2], team_names_list[4]])
     print(grid_df)
     grid_df['Y\X']  = [team_names_list[1],team_names_list[3],team_names_list[5]]
@@ -96,7 +102,6 @@ def create_footy_team_board() -> pd.DataFrame:
     six_indices = get_six_random_indices()
     print(f'Six random indices: {six_indices}')
     team_names_list = get_teams_from_indices(six_indices)
-    print(team_names_list)
     team_df = create_six_team_df_for_grid(team_names_list)
     print(team_df)
     return team_df
