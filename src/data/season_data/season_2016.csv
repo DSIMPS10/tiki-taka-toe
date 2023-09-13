@@ -1,0 +1,684 @@
+,first_name,last_name,team_name,season
+0,Antonio,Barragán Fernández,Middlesbrough,2016
+1,Zachary Harry,Dearnley,Manchester United,2016
+2,Mateusz Tomasz,Hewelt,Everton,2016
+3,Ademola Lookman Olajade,Alade Aylola Lookman,Everton,2016
+4,Mark,Noble,West Ham,2016
+5,Julián,Speroni,Crystal Palace,2016
+6,Harry,Lewis,Southampton,2016
+7,Nathan,Dyer,Swansea,2016
+8,Wayne,Routledge,Swansea,2016
+9,Craig,Gardner,West Brom,2016
+10,Jordon,Mutch,Crystal Palace,2016
+11,Joshua Paul,Robson,Sunderland,2016
+12,Alex,Pike,West Ham,2016
+13,Jordan,Lee,Bournemouth,2016
+14,Stuart,Taylor,Southampton,2016
+15,Victor Chinedu,Anichebe,Sunderland,2016
+16,Jack Joseph,Rose,West Brom,2016
+17,Tony,Hibbert,Everton,2016
+18,Damià,Abella Pérez,Middlesbrough,2016
+19,Ben,Hinchliffe,Hull City,2016
+20,Lee,Grant,Stoke City,2016
+21,Kusu Moses,Makasi,West Ham,2016
+22,Charlie John,Daniels,Bournemouth,2016
+23,Simon,Francis,Bournemouth,2016
+24,Andrew,Surman,Bournemouth,2016
+25,Kyle Hakeem,Edwards,West Brom,2016
+26,Sam,McQueen,Southampton,2016
+27,Benjamin,Watson,Watford,2016
+28,Marc,Pugh,Bournemouth,2016
+29,Callum Henry,McManaman,West Brom,2016
+30,Àngel,Rangel Zaragoza,Swansea,2016
+31,Billy,Jones,Sunderland,2016
+32,Matthew,Pennington,Everton,2016
+33,Lee,Cattermole,Sunderland,2016
+34,Grant,Leadbitter,Middlesbrough,2016
+35,James Andrew,Husband,Middlesbrough,2016
+36,Dominic Edward,Gape,Southampton,2016
+37,Michael,Kightly,Burnley,2016
+38,Daniel Ebenezer Kwasi,Agyei,Burnley,2016
+39,Daniel Harry,Kemp,West Ham,2016
+40,Jake Alexander,Hesketh,Southampton,2016
+41,Hiram Kojo Kwarteng,Boateng,Northampton,2016
+42,Matthew Anthony,Willock,Manchester United,2016
+43,Wes,Morgan,Leicester,2016
+44,Troy,Deeney,Watford,2016
+45,Scott,Dann,Crystal Palace,2016
+46,Matthew John,Lowton,Burnley,2016
+47,Jason David Ian,Puncheon,Crystal Palace,2016
+48,Adam Stephen,Clayton,Middlesbrough,2016
+49,Lewis,Grabban,Bournemouth,2016
+50,David Frank Llwyd,Jones,Burnley,2016
+51,Daniel Thomas,Batty,Hull City,2016
+52,Joshua Andrew,Harrop,Manchester United,2016
+53,Luke Paul,McGee,Tottenham,2016
+54,Brandon Alexander,Mason,Watford,2016
+55,Dean,Marney,Burnley,2016
+56,Harvey James,Rodgers,Hull City,2016
+57,Jérémy,Pied,Southampton,2016
+58,Ethan,Robson,Sunderland,2016
+59,Luke Garry,Dreher,Crystal Palace,2016
+60,Kane Leo,Wilson,West Brom,2016
+61,Elliot John,Embleton,Sunderland,2016
+62,Harry Nicholas,Arter,Bournemouth,2016
+63,El-Hadji Baye Oumar,Niasse,Hull City,2016
+64,Rekeem Jordan,Harper,West Brom,2016
+65,Jonathan Kisolokele,Leko,West Brom,2016
+66,Dimitrios,Konstantopoulos,Middlesbrough,2016
+67,Tendayi David,Darikwa,Burnley,2016
+68,Evandro,Goebel,Hull City,2016
+69,Sam,Clucas,Hull City,2016
+70,Darron,Gibson,Sunderland,2016
+71,Geoff,Cameron,Stoke City,2016
+72,John,O'Shea,Sunderland,2016
+73,Marc David,Wilson,West Brom,2016
+74,Sulaiman Borbor,Kaikai,Crystal Palace,2016
+75,Alex,Bruce,Hull City,2016
+76,Diafra,Sakho,West Ham,2016
+77,Steven,Pienaar,Sunderland,2016
+78,Tokelo Anthony,Rantie,Bournemouth,2016
+79,Steve,Harper,Sunderland,2016
+80,Michel,Vorm,Tottenham,2016
+81,Gareth,McAuley,West Brom,2016
+82,Jeremain Marciano,Lens,Sunderland,2016
+83,Maarten,Stekelenburg,Everton,2016
+84,Miguel Ángel,Britos Cabrera,Watford,2016
+85,Daryl,Janmaat,Watford,2016
+86,Nathan Elliot,Holland,West Ham,2016
+87,Artur,Boruc,Bournemouth,2016
+88,Stephen Robert,Ward,Burnley,2016
+89,Shane Patrick,Long,Southampton,2016
+90,Chris,Brunt,West Brom,2016
+91,Glenn David,Whelan,Stoke City,2016
+92,Mikel John,Obi,Chelsea,2016
+93,David,Meyler,Hull City,2016
+94,Simone,Zaza,West Ham,2016
+95,Eduardo,dos Reis Carvalho,Chelsea,2016
+96,Giedrius,Arlauskis,Watford,2016
+97,Ibrahim,Afellay,Stoke City,2016
+98,Jonathan,Walters,Stoke City,2016
+99,Robert,Huth,Leicester,2016
+100,Francesc,Fàbregas i Soler,Chelsea,2016
+101,Fernando Javier,Llorente Torres,Swansea,2016
+102,David Josué,Jiménez Silva,Manchester City,2016
+103,David,de Gea Quintana,Manchester United,2016
+104,Juan Manuel,Mata García,Manchester United,2016
+105,Branislav,Ivanović,Chelsea,2016
+106,Ignacio,Monreal Eraso,Arsenal,2016
+107,Allan James,McGregor,Hull City,2016
+108,Robert,Snodgrass,West Ham,2016
+109,James,McFarlane McArthur,Crystal Palace,2016
+110,Phil,Bardsley,Stoke City,2016
+111,Jordan Luke,Rhodes,Middlesbrough,2016
+112,James,Morrison,West Brom,2016
+113,Costel Fane,Pantilimon,Watford,2016
+114,George,Boyd,Burnley,2016
+115,José Leonardo,Ulloa,Leicester,2016
+116,Thomas Michael,Hoban,Watford,2016
+117,Ikechi,Anya,Watford,2016
+118,Shaun,Maloney,Hull City,2016
+119,Florin,Gardoș,Southampton,2016
+120,Andrea,Ranocchia,Hull City,2016
+121,Mesut,Özil,Arsenal,2016
+122,Gökhan,Töre,West Ham,2016
+123,Bengt Ulf Sebastian,Larsson,Sunderland,2016
+124,Danny,Simpson,Leicester,2016
+125,Glyn Oliver,Myhill,West Brom,2016
+126,Thomas Henry Alex,Robson-Kanu,West Brom,2016
+127,James,Grant Chester,West Brom,2016
+128,Neil John,Taylor,Swansea,2016
+129,Curtis Eugene,Davies,Hull City,2016
+130,Ashley,Williams,Everton,2016
+131,Samuel Michael,Vokes,Burnley,2016
+132,Jonas,Olsson,West Brom,2016
+133,James,Collins,West Ham,2016
+134,Lloyd Jeffrey,Isgrove,Southampton,2016
+135,Valon,Behrami,Watford,2016
+136,Gökhan,İnler,Leicester,2016
+137,Joe,Ledley,Crystal Palace,2016
+138,Per,Mertesacker,Arsenal,2016
+139,Álvaro,Arbeloa Coca,West Ham,2016
+140,Sergio Leonel,Agüero del Castillo,Manchester City,2016
+141,Aleksandar,Kolarov,Manchester City,2016
+142,Manuel,Agudo Durán,Manchester City,2016
+143,Wilfredo Daniel,Caballero Lazcano,Manchester City,2016
+144,Roberto Maximiliano,Pereyra,Watford,2016
+145,Mark,Birighitti,Swansea,2016
+146,Elliott Jordan,Moore,Leicester,2016
+147,Jordi,Gómez García-Penche,Sunderland,2016
+148,Pablo Javier,Zabaleta Girod,Manchester City,2016
+149,Daniel,Sánchez Ayala,Middlesbrough,2016
+150,Yohan,Benalouane,Leicester,2016
+151,Claudio Ariel,Yacob,West Brom,2016
+152,Kevin Linford,Levi Stewart,Liverpool,2016
+153,Charles Graham,Adam,Stoke City,2016
+154,Bojan,Krkić Pérez,Stoke City,2016
+155,Marcus,Browne,West Ham,2016
+156,Jerome,Sinclair,Watford,2016
+157,Samuel James,Hart,Liverpool,2016
+158,Essaïd,Belkalem,Watford,2016
+159,Shay,Given,Stoke City,2016
+160,Lucas,Pezzini Leiva,Liverpool,2016
+161,Sébastien,Pocognoli,West Brom,2016
+162,Eden Michael Walter,Hazard,Chelsea,2016
+163,Mousa Sidi Yaya,Dembélé,Tottenham,2016
+164,Christian,Fuchs,Leicester,2016
+165,Heurelho,da Silva Gomes,Watford,2016
+166,Steven Arnold,Defour,Burnley,2016
+167,Mile,Jedinak,Crystal Palace,2016
+168,Rudy,Gestede,Middlesbrough,2016
+169,Adam,Federici,Bournemouth,2016
+170,Darren,Fletcher,West Brom,2016
+171,Jan Tilman,Kirchhoff,Sunderland,2016
+172,Kevin Antonio Joel Gislain,Mirallas y Castillo,Everton,2016
+173,Shani,Tarashaj,Everton,2016
+174,Bastian,Schweinsteiger,Manchester United,2016
+175,Zlatan,Ibrahimović,Manchester United,2016
+176,Stephen,Ireland,Stoke City,2016
+177,Winston Wiremu,Reid,West Ham,2016
+178,Víctor,Valdés Arribas,Middlesbrough,2016
+179,Brede,Hangeland,Crystal Palace,2016
+180,Baily James,Cargill,Bournemouth,2016
+181,Jonathan,Benteke Lifeka,Crystal Palace,2016
+182,Connor Neil Ralph,Wickham,Crystal Palace,2016
+183,Daniel,Gosling,Bournemouth,2016
+184,Jordon,Ibe,Bournemouth,2016
+185,Felix Junior,Stanislas,Bournemouth,2016
+186,Håvard,Nordtveit,West Ham,2016
+187,Axel,Tuanzebe,Manchester United,2016
+188,Thomas James,Carroll,Swansea,2016
+189,Muhamed,Bešić,Everton,2016
+190,Joshua Oghenetega Peter,Onomah,Tottenham,2016
+191,Liam Simon,Moore,Leicester,2016
+192,Oviemuno Dominic,Ejaria,Liverpool,2016
+193,James Anthony,Wilson,Manchester United,2016
+194,Demetri Kareem,Mitchell,Manchester United,2016
+195,Leon,Britton,Swansea,2016
+196,Michael,Ledger,Sunderland,2016
+197,Damien,Delaney,Crystal Palace,2016
+198,Gerhard,Tremmel,Swansea,2016
+199,Sylvain,Distin,Bournemouth,2016
+200,Viktor,Gorridsen Fischer,Middlesbrough,2016
+201,Yannick,Bolasie Yala,Everton,2016
+202,Petr,Čech,Arsenal,2016
+203,Shkodran,Mustafi,Arsenal,2016
+204,Benik Tunani,Afobe,Bournemouth,2016
+205,Dieudonné,Mbokani Bezua,Hull City,2016
+206,Rene,Gilmartin,Watford,2016
+207,Matthew Luke,Worthington,Bournemouth,2016
+208,Sebastian,Prödl,Watford,2016
+209,Alexander Aaron John,Baptiste,Middlesbrough,2016
+210,Michael Kwaku,Foli Folivi,Watford,2016
+211,Lamine,Koné,Sunderland,2016
+212,Arouna,Koné,Everton,2016
+213,Brice,Dja Djédjé,Watford,2016
+214,Juan Camilo,Zúñiga Mosquera,Watford,2016
+215,Joshua Philip,Clackstone,Hull City,2016
+216,Gregory Roland,Luer,Hull City,2016
+217,Joel,Taylor,Stoke City,2016
+218,Charles Alfred,Rowan,Watford,2016
+219,Emmanuel,Eboué,Sunderland,2016
+220,Luis Antonio,Valencia Mosquera,Manchester United,2016
+221,Jonathon Patrick,Flanagan,Burnley,2016
+222,Andrew,Eleftheriou,Watford,2016
+223,Nampalys,Mendy,Leicester,2016
+224,Thomas William,Cleverley,Watford,2016
+225,Andros Darryl,Townsend,Crystal Palace,2016
+226,Ryan Dominic,Bertrand,Southampton,2016
+227,Charlie,Austin,Southampton,2016
+228,Alfie,Mawson,Swansea,2016
+229,Kieran James Ricardo,Gibbs,Arsenal,2016
+230,Ahmed Eissa,El Mohamady Abdel Fattah,Hull City,2016
+231,Thomas Andrew,Huddlestone,Hull City,2016
+232,David,Nugent,Middlesbrough,2016
+233,Fraizer,Campbell,Crystal Palace,2016
+234,Ryan,Shawcross,Stoke City,2016
+235,Callum,Buckley,Bournemouth,2016
+236,Joleon,Lescott,Sunderland,2016
+237,Joey,Barton,Burnley,2016
+238,Ryan,Mason,Hull City,2016
+239,Alexander,Manninger,Liverpool,2016
+240,Daniel Lee,Rose,Tottenham,2016
+241,Daniel Andre,Sturridge,Liverpool,2016
+242,Phil Anthony,Jones,Manchester United,2016
+243,Jesse Ellis,Lingard,Manchester United,2016
+244,Gary,Cahill,Chelsea,2016
+245,Daniel Noel,Drinkwater,Leicester,2016
+246,Leighton,Baines,Everton,2016
+247,Philip Nikodem,Jagielka,Everton,2016
+248,Theo James,Walcott,Arsenal,2016
+249,Benjamin Anthony,Foster,West Brom,2016
+250,Jack,Wilshere,Bournemouth,2016
+251,Aaron,Lennon,Everton,2016
+252,Peter,Crouch,Stoke City,2016
+253,Gareth,Barry,Everton,2016
+254,Stewart,Downing,Middlesbrough,2016
+255,Michael,Dawson,Hull City,2016
+256,Rickie,Lambert,West Brom,2016
+257,Michael,Carrick,Manchester United,2016
+258,Glen,Johnson,Stoke City,2016
+259,Paul,Robinson,Burnley,2016
+260,Fabian,Delph,Manchester City,2016
+261,André Morgan,Rami Ayew,West Ham,2016
+262,Jermain Colin,Defoe,Sunderland,2016
+263,Benjamin Michael,Whitfield,Bournemouth,2016
+264,Noor,Husin,Crystal Palace,2016
+265,Ryan Paul,Seager,Southampton,2016
+266,Greg Thomas,Olley,Hull City,2016
+267,Michael,Phillips,Crystal Palace,2016
+268,José,Holebas,Watford,2016
+269,Maksymilian,Stryjek,Sunderland,2016
+270,Kwesi,Appiah,Crystal Palace,2016
+271,Toni,Correia Gomes,Liverpool,2016
+272,Mathieu,Flamini,Crystal Palace,2016
+273,Gaël Dimitri,Clichy,Manchester City,2016
+274,Cameron,Dummigan,Burnley,2016
+275,John,Terry,Chelsea,2016
+276,Ben,Wynter,Crystal Palace,2016
+277,Rees,Greenwood,Sunderland,2016
+278,Younes,Kaboul,Watford,2016
+279,Warren,Cummings,Bournemouth,2016
+280,Laurent,Koscielny,Arsenal,2016
+281,Mustapha Soon,Carayol,Middlesbrough,2016
+282,Alfred John Momar,N'Diaye,Hull City,2016
+283,Joel Dinis,Castro Pereira,Manchester United,2016
+284,Morgan Fernand Gérard,Schneiderlin,Everton,2016
+285,Adrian Joseph,Mariappa,Watford,2016
+286,Bakary,Sako,Crystal Palace,2016
+287,Lys,Mousset,Bournemouth,2016
+288,George,Friend,Middlesbrough,2016
+289,James Joseph,McClean,West Brom,2016
+290,Donald Alistair,Love,Sunderland,2016
+291,Olufela Oladele,Olomola,Southampton,2016
+292,Mathieu,Debuchy,Arsenal,2016
+293,Loïc Alex Teliére,Hubert Rémy,Crystal Palace,2016
+294,Michael,Simões Domingues,Sunderland,2016
+295,Jordi,Amat Maas,Swansea,2016
+296,Bacary,Sagna,Manchester City,2016
+297,Joe,Ward,West Brom,2016
+298,Yohan,Cabaye,Crystal Palace,2016
+299,Carl,Leon Stewart,Watford,2016
+300,Heung-Min,Son,Tottenham,2016
+301,Mario,Barwuah Balotelli,Liverpool,2016
+302,Temitayo Olufisayo Olaoluwa,Aina,Chelsea,2016
+303,Gylfi Þór,Sigurðsson,Swansea,2016
+304,Emilio,Nsue López,Middlesbrough,2016
+305,Tomás,Mejías Osorio,Middlesbrough,2016
+306,Lucas,Pérez Martínez,Arsenal,2016
+307,Luka,Milivojević,Crystal Palace,2016
+308,Emerson Schellas,Hyndman,Bournemouth,2016
+309,Angus Fraser James,Gunn,Manchester City,2016
+310,Samuel Luke,Johnstone,Manchester United,2016
+311,Harry,Wilson,Liverpool,2016
+312,James Michael,Weir,Hull City,2016
+313,Mame Biram,Diouf,Stoke City,2016
+314,Ezekiel David,Fryers,Crystal Palace,2016
+315,Aiden John,McGeady,Everton,2016
+316,Matthew Ryan,Macey,Arsenal,2016
+317,Kevin,Wimmer,Tottenham,2016
+318,Thomas,Robson,Sunderland,2016
+319,Marc,Muniesa Martínez,Stoke City,2016
+320,Victor,Mugubi Wanyama,Tottenham,2016
+321,Abel Mathías,Hernández Platero,Hull City,2016
+322,Joel,Robles Blázquez,Everton,2016
+323,Sofiane,Boufal,Southampton,2016
+324,Saido,Berahino,Stoke City,2016
+325,Mauro Matías,Zárate Riga,Watford,2016
+326,Filip,Lesniak,Tottenham,2016
+327,Samir,Nasri,Manchester City,2016
+328,Matěj,Vydra,Watford,2016
+329,Jefferson Antonio,Montero Vite,Swansea,2016
+330,Luciano,Narsingh,Swansea,2016
+331,Shaun Benjamin,MacDonald,Bournemouth,2016
+332,Ragnar,Klavan,Liverpool,2016
+333,Rhu-endly Aurelio Jean-Carlo,Martina,Southampton,2016
+334,Marcin Ryszard,Wasilewski,Leicester,2016
+335,Dušan,Kuciak,Hull City,2016
+336,Dion Enrico,Pereira Greives,Watford,2016
+337,Marvin,Emnes,Swansea,2016
+338,Philipp,Wollscheid,Stoke City,2016
+339,Gnégnéri Yaya,Touré,Manchester City,2016
+340,Cédric Ricardo,Alves Soares,Southampton,2016
+341,Adam David,Lallana,Liverpool,2016
+342,James Philip,Milner,Liverpool,2016
+343,Gabriel Fernando,de Jesus,Manchester City,2016
+344,Leroy Aziz,Sané,Manchester City,2016
+345,Robert Samuel,Holding,Arsenal,2016
+346,Mohamed Naser,Elsayed Elneny,Arsenal,2016
+347,Daniel Nii,Tackie Mensah Welbeck,Arsenal,2016
+348,Declan,Rice,West Ham,2016
+349,Mouez,Hassen,Southampton,2016
+350,Jordan Pierre,Ayew,Swansea,2016
+351,Ramadan Sobhi Ramadan,Ahmed,Stoke City,2016
+352,Jeffrey,Schlupp,Crystal Palace,2016
+353,James Oliver Charles,Tomkins,Crystal Palace,2016
+354,Joel Edward Philip,Ward,Crystal Palace,2016
+355,Nathaniel Edwin,Clyne,Liverpool,2016
+356,Benjamin Thomas,Mee,Burnley,2016
+357,Manolo,Gabbiadini,Southampton,2016
+358,Jordan Thomas,Holmes,Bournemouth,2016
+359,Pervis Josué,Estupiñán Tenorio,Granada CF,2016
+360,Hugo Hadrien Dominique,Lloris,Tottenham,2016
+361,Benjamin Thomas,Davies,Tottenham,2016
+362,Eric Jeremy Edgar,Dier,Tottenham,2016
+363,Trent John,Alexander-Arnold,Liverpool,2016
+364,Joseph Dave,Gomez,Liverpool,2016
+365,Job Joël André,Matip,Liverpool,2016
+366,Andrew Henry,Robertson,Hull City,2016
+367,Virgil,van Dijk,Southampton,2016
+368,Kurt Happy,Zouma,Chelsea,2016
+369,Pierre-Emile Kordt,Højbjerg,Southampton,2016
+370,James Michael Edward,Ward-Prowse,Southampton,2016
+371,Łukasz Marek,Fabiański,Swansea,2016
+372,Adrián,San Miguel del Castillo,West Ham,2016
+373,Aaron William,Cresswell,West Ham,2016
+374,Angelo,Obinze Ogbonna,West Ham,2016
+375,Michail Gregory,Antonio,West Ham,2016
+376,Fraser Gerard,Forster,Southampton,2016
+377,Daniel William John,Ings,Liverpool,2016
+378,Jarrod,Bowen,Hull City,2016
+379,Aaron Christopher,Ramsdale,Bournemouth,2016
+380,Bamidele Jermaine,Alli,Tottenham,2016
+381,John,Stones,Manchester City,2016
+382,Kyle Andrew,Walker,Tottenham,2016
+383,Kevin,De Bruyne,Manchester City,2016
+384,Ashley Simon,Young,Manchester United,2016
+385,Ross,Barkley,Everton,2016
+386,Jóhann Berg,Guðmunds­son,Burnley,2016
+387,James Alan,Tarkowski,Burnley,2016
+388,Idrissa Gana,Gueye,Everton,2016
+389,Séamus,Coleman,Everton,2016
+390,Dominic Nathaniel,Calvert-Lewin,Everton,2016
+391,Demarai Ramelle,Gray,Leicester,2016
+392,Abdoulaye,Doucouré,Watford,2016
+393,Wayne Robert,Hennessey,Crystal Palace,2016
+394,Nathan Benjamin,Aké,Chelsea,2016
+395,Jack Frank,Porteous Cork,Swansea,2016
+396,Nathan Daniel Jerome,Redmond,Southampton,2016
+397,Jay Enrique,Rodríguez,Southampton,2016
+398,Connor Richard John,Roberts,Swansea,2016
+399,Reece Frederick,James Burke,West Ham,2016
+400,Kieran John,Trippier,Tottenham,2016
+401,Rhian Joel,Brewster,Liverpool,2016
+402,Andreas Hugo,Hoelgebaum Pereira,Manchester United,2016
+403,Alexander Chuka,Iwobi,Arsenal,2016
+404,Loris Sven,Karius,Liverpool,2016
+405,Willian,Borges da Silva,Chelsea,2016
+406,Jordan Lee,Pickford,Sunderland,2016
+407,Michael Vincent,Keane,Burnley,2016
+408,Callum Eddie Graham,Wilson,Bournemouth,2016
+409,Adama,Traoré Diarra,Middlesbrough,2016
+410,Thomas,Davies,Everton,2016
+411,Adam James,Smith,Bournemouth,2016
+412,Lewis John,Cook,Bournemouth,2016
+413,Dominic Ayodele,Solanke-Mitchell,Chelsea,2016
+414,Javier,Manquillo Gaitán,Sunderland,2016
+415,Nicholas David,Pope,Burnley,2016
+416,Matthew Robert,Targett,Southampton,2016
+417,Craig,Dawson,West Brom,2016
+418,Darren Edward Andrew,Randolph,West Ham,2016
+419,Oliver Robert,McBurnie,Swansea,2016
+420,Philippe,Coutinho Correia,Liverpool,2016
+421,Christian,Dannemann Eriksen,Tottenham,2016
+422,Divock,Okoth Origi,Liverpool,2016
+423,Raheem Shaquille,Sterling,Manchester City,2016
+424,Bertrand Isidore,Traoré,Chelsea,2016
+425,Eric Bertrand,Bailly,Manchester United,2016
+426,Luke Paul Hoare,Shaw,Manchester United,2016
+427,Scott Francis,McTominay,Manchester United,2016
+428,Anthony Jordan,Martial,Manchester United,2016
+429,Marcus,Rashford,Manchester United,2016
+430,Thomas David,Heaton,Burnley,2016
+431,Benjamin James,Chilwell,Leicester,2016
+432,Jacob Harry,Maguire,Hull City,2016
+433,Jonathan Grant,Evans,West Brom,2016
+434,Aaron,Wan-Bissaka,Crystal Palace,2016
+435,Calum,Chambers,Middlesbrough,2016
+436,Abdul-Nasir Oluwatosin,Oluwadoyinsolami Adarabioyo,Manchester City,2016
+437,Tyrone Deon,Mings,Bournemouth,2016
+438,Harrison James,Reed,Southampton,2016
+439,Damián Emiliano,Martínez Romero,Arsenal,2016
+440,Erik Manuel,Lamela Cordero,Tottenham,2016
+441,Alberto,Moreno Pérez,Liverpool,2016
+442,Fernando Francisco,Reges,Manchester City,2016
+443,Claudio Andrés,Bravo Muñoz,Manchester City,2016
+444,İlkay,Gündoğan,Manchester City,2016
+445,Memphis,Depay,Manchester United,2016
+446,Ander,Herrera Agüera,Manchester United,2016
+447,Gabriel Armando,de Abreu,Arsenal,2016
+448,Francis Joseph,Coquelin,Arsenal,2016
+449,Héctor,Bellerín Moruno,Arsenal,2016
+450,Jesús,Navas González,Manchester City,2016
+451,Marcos,Alonso Mendoza,Chelsea,2016
+452,César,Azpilicueta Tanco,Chelsea,2016
+453,Adnan,Januzaj,Sunderland,2016
+454,Cheikhou,Kouyaté,West Ham,2016
+455,Étienne,René Capoue,Watford,2016
+456,Oriol,Romeu Vidal,Southampton,2016
+457,Pablo Carmine,Maffeo Becerra,Manchester City,2016
+458,Luis,Hernández Rodríguez,Leicester,2016
+459,Álvaro,Negredo Sánchez,Middlesbrough,2016
+460,Harry Edward,Kane,Tottenham,2016
+461,Daley,Blind,Manchester United,2016
+462,Thibaut Nicolas Marc,Courtois,Chelsea,2016
+463,Emre,Can,Liverpool,2016
+464,Juan Guillermo,Cuadrado Bello,Chelsea,2016
+465,Matteo,Darmian,Manchester United,2016
+466,Paul Labile,Pogba,Manchester United,2016
+467,Alexis Alejandro,Sánchez Sánchez,Arsenal,2016
+468,Cristian Esteban,Gamboa Luna,West Brom,2016
+469,Henrikh,Hamlet Mkhitaryan,Manchester United,2016
+470,Ruben Ira,Loftus-Cheek,Chelsea,2016
+471,Olivier Jonathan,Giroud,Arsenal,2016
+472,Cristhian Ricardo,Stuani Curbelo,Middlesbrough,2016
+473,Marko,Arnautović,Stoke City,2016
+474,José Luis,Sanmartín Mato,Stoke City,2016
+475,Adlène,Guédioura,Middlesbrough,2016
+476,Reece Joel,Oxford,West Ham,2016
+477,Edimilson,Fernandes Ribeiro,West Ham,2016
+478,Bernardo José,Espinosa Zúñiga,Middlesbrough,2016
+479,Aleix,García Serrano,Manchester City,2016
+480,Moussa,Sissoko,Tottenham,2016
+481,Dejan,Lovren,Liverpool,2016
+482,Serge David,Gnabry,Arsenal,2016
+483,Christopher Lloyd,Smalling,Manchester United,2016
+484,Romelu Menama,Lukaku Bolingoli,Everton,2016
+485,Ainsley Cory,Maitland-Niles,Arsenal,2016
+486,Granit,Xhaka,Arsenal,2016
+487,Pau,López Sabata,Tottenham,2016
+488,Luis Alberto,Romero Alconchel,Liverpool,2016
+489,Pedro Eliezer,Rodríguez Ledesma,Chelsea,2016
+490,Isaac,Success Ajayi,Watford,2016
+491,Christian,Kabasele,Watford,2016
+492,Domingos,Quina,West Ham,2016
+493,Gerard,Deulofeu Lázaro,Everton,2016
+494,Pedro,Mba Obiang Avomo,West Ham,2016
+495,Patrick John Miguel,van Aanholt,Crystal Palace,2016
+496,Evans Timothy,Fosu-Mensah,Manchester United,2016
+497,Rolando Maximiliano,Martins Indi,Stoke City,2016
+498,Marten Elco,de Roon,Middlesbrough,2016
+499,Jordy,Clasie,Southampton,2016
+500,Sergio Germán,Romero,Manchester United,2016
+501,Faustino Marcos Alberto,Rojo,Manchester United,2016
+502,Adilson Angel,Abreu de Almeida Gomes,Manchester United,2016
+503,Nemanja,Matić,Chelsea,2016
+504,José Ramiro,Funes Mori,Everton,2016
+505,Steve,Mandanda Mpidi,Crystal Palace,2016
+506,Chuba Amechi,Akpom,Arsenal,2016
+507,José Salomón,Rondón Giménez,West Brom,2016
+508,Manuel,Lanzini,West Ham,2016
+509,Noureddine,Amrabat,Watford,2016
+510,Andre Anthony,Gray,Burnley,2016
+511,Mamadou,Sakho,Crystal Palace,2016
+512,Federico,Fernández,Swansea,2016
+513,Mike Adrianus Wilhelmus,van der Hoorn,Swansea,2016
+514,Joel Joshoghene,Asoro,Sunderland,2016
+515,Moses Adeshina Ayoola Junior,Odubajo,Hull City,2016
+516,Wahbi,Khazri,Sunderland,2016
+517,Gastón Exequiel,Ramírez Pereyra,Middlesbrough,2016
+518,Vito,Mannone,Sunderland,2016
+519,Pedro,Chirivella Burgos,Liverpool,2016
+520,Carl Daniel,Jenkinson,Arsenal,2016
+521,Kelechi Promise,Ịheanachọ,Manchester City,2016
+522,Keshi Stuart Oluyinka Adetokun,Anderson,Crystal Palace,2016
+523,Marc Kevin,Albrighton,Leicester,2016
+524,Matthew Lee,James,Leicester,2016
+525,Onyinye Wilfred,Ndidi,Leicester,2016
+526,Jamie Richard,Vardy,Leicester,2016
+527,Ryan,Fraser,Bournemouth,2016
+528,Benjamin James,Gibson,Middlesbrough,2016
+529,Kevin,Finbarr Long,Burnley,2016
+530,Ashley Luke,Barnes,Burnley,2016
+531,Alex Simon,McCarthy,Southampton,2016
+532,Jack,Stephens,Southampton,2016
+533,Adam John,Forshaw,Middlesbrough,2016
+534,Mason Anthony,Holgate,Everton,2016
+535,Andrew Philip,King,Leicester,2016
+536,Jack Christian,Rodwell,Sunderland,2016
+537,Lukas Isaac Paul,Jutkiewicz,Burnley,2016
+538,Joseph Michael,Williams,Everton,2016
+539,Ryan,Allsop,Bournemouth,2016
+540,Harry Billy,Winks,Tottenham,2016
+541,Benjamin Luke,Woodburn,Liverpool,2016
+542,Aaron James,Ramsey,Arsenal,2016
+543,Asmir,Begović,Chelsea,2016
+544,Steve Anthony,Cook,Bournemouth,2016
+545,Robert,Brady,Burnley,2016
+546,Benjamin John,Hamer,Leicester,2016
+547,Patrick James,Bamford,Middlesbrough,2016
+548,Samuel Edward,Field,West Brom,2016
+549,Jake Cyril,Livermore,West Brom,2016
+550,Albert Danquah,Adomah,Middlesbrough,2016
+551,Samuel Mark,Byram,West Ham,2016
+552,Kyle,Naughton,Swansea,2016
+553,Daniel Owen,James,Swansea,2016
+554,Thomas Adam,Edwards,Stoke City,2016
+555,Tyler Nathan,Blackett,Manchester United,2016
+556,William David,Keane,Hull City,2016
+557,Lynden Jack,Gooch,Sunderland,2016
+558,Olayinka Fredrick Oladotun,Ladapo,Crystal Palace,2016
+559,Daniel,Bachmann,Stoke City,2016
+560,Joshua,Erowoli Orisunmihare Oluwaseun,Sunderland,2016
+561,Nathaniel Nyakie,Chalobah,Chelsea,2016
+562,Grady George,Diangana,West Ham,2016
+563,Martin Ronald,Kelly,Crystal Palace,2016
+564,Jeffrey Patrick,Hendrick,Burnley,2016
+565,Matthew,Phillips,West Brom,2016
+566,Dael Jonathan,Fry,Middlesbrough,2016
+567,Patrick James,Coleman McNair,Sunderland,2016
+568,Ashley Michael,Fletcher,West Ham,2016
+569,Jay,Fulton,Swansea,2016
+570,Adam Michael,Reach,Middlesbrough,2016
+571,Joshua Lewis,Tymon,Hull City,2016
+572,Joseph Michael,Allen,Stoke City,2016
+573,George Christopher,Honeyman,Sunderland,2016
+574,Duncan,Watmore,Sunderland,2016
+575,Erik,Pieters,Stoke City,2016
+576,Yaya,Sanogo,Arsenal,2016
+577,Ron-Robert,Zieler,Leicester,2016
+578,Alexander,Palmer,West Brom,2016
+579,Brendan Joel,Zibusiso Galloway,West Brom,2016
+580,Diego,da Silva Costa,Chelsea,2016
+581,Fernando Luiz,Roza,Manchester City,2016
+582,Islam,Slimani,Leicester,2016
+583,Fabio,Borini,Sunderland,2016
+584,Santiago,Cazorla González,Arsenal,2016
+585,Dimitri,Payet,West Ham,2016
+586,David Luiz,Moreira Marinho,Chelsea,2016
+587,Chung-Yong,Lee,Crystal Palace,2016
+588,Jonjoe,Kenny,Everton,2016
+589,Andrew Thomas,Carroll,West Ham,2016
+590,Sung-Yueng,Ki,Swansea,2016
+591,Robert Kenedy,Nunes do Nascimento,Chelsea,2016
+592,Bryan Josué,Oviedo Jiménez,Sunderland,2016
+593,Fábio,Pereira da Silva,Middlesbrough,2016
+594,Rouwen,Hennings,Burnley,2016
+595,Enner Remberto,Valencia Lastra,Everton,2016
+596,Jonathan,Calleri,West Ham,2016
+597,Borja,González Tomás,Swansea,2016
+598,Allan Roméo,Nyom,West Brom,2016
+599,Samuel,Shashoua Sarmiento,Tottenham,2016
+600,Sadio,Mané,Liverpool,2016
+601,Xherdan,Shaqiri,Stoke City,2016
+602,David,Ospina Ramírez,Arsenal,2016
+603,Nicolás Hernán Gonzalo,Otamendi,Manchester City,2016
+604,Jason Grégory Marianne,Denayer,Sunderland,2016
+605,José Martín,Cáceres Silva,Southampton,2016
+606,Victor,Moses,Chelsea,2016
+607,Scott Harry Nathaniel,Arfield,Burnley,2016
+608,José Miguel,da Rocha Fonte,West Ham,2016
+609,Christian,Benteke Liolo,Crystal Palace,2016
+610,Odion Jude,Ighalo,Watford,2016
+611,Eldin,Jakupović,Hull City,2016
+612,Samuel William,Surridge,Bournemouth,2016
+613,Ashley Roy,Westwood,Burnley,2016
+614,Maya,Yoshida,Southampton,2016
+615,Didier,Ibrahim Ndong,Sunderland,2016
+616,Marko,Grujić,Liverpool,2016
+617,Bradley Edwin,Guzan,Middlesbrough,2016
+618,Valentin Adama,Diomande,Hull City,2016
+619,Bradley Shaun,Smith,Bournemouth,2016
+620,Georges-Kévin,Nkoudou Mbida,Tottenham,2016
+621,Jordan Brian,Henderson,Liverpool,2016
+622,Alexander Mark David,Oxlade-Chamberlain,Arsenal,2016
+623,Georginio Gregion Emile,Wijnaldum,Liverpool,2016
+624,Roberto Firmino,Barbosa de Oliveira,Liverpool,2016
+625,Sofiane,Feghouli,West Ham,2016
+626,Dušan,Tadić,Southampton,2016
+627,Riyad Karim,Mahrez,Leicester,2016
+628,Ryan,Kent,Liverpool,2016
+629,M'Baye Babacar,Niang,Watford,2016
+630,N'Golo,Kanté,Chelsea,2016
+631,Ahmed,Musa,Leicester,2016
+632,Michy,Batshuayi-Atunga,Chelsea,2016
+633,Dazet Wilfried,Armel Zaha,Crystal Palace,2016
+634,Daniel,Amartey,Leicester,2016
+635,Fuka-Arthur,Masuaku Kawela,West Ham,2016
+636,Joshua Christian,Kojo King,Bournemouth,2016
+637,Leroy Johan,Fer,Swansea,2016
+638,Modou,Secka Barrow,Swansea,2016
+639,Eliaquim,Mangala,Manchester City,2016
+640,Nacer,Chadli,West Brom,2016
+641,Toby Albertine Maurits,Alderweireld,Tottenham,2016
+642,Jan,Vertonghen,Tottenham,2016
+643,Vincent,Janssen,Tottenham,2016
+644,Simon Luc Hildebert,Mignolet,Liverpool,2016
+645,Kasper Peter,Schmeichel,Leicester,2016
+646,Max-Alain,Gradel,Bournemouth,2016
+647,Aiden Connor,O'Neill,Burnley,2016
+648,Julien Ariel,De Sart,Middlesbrough,2016
+649,Oscar,dos Santos Emboaba Júnior,Chelsea,2016
+650,Marouane,Fellaini-Bakkioui,Manchester United,2016
+651,Shinji,Okazaki,Leicester,2016
+652,Craig George,Cathcart,Watford,2016
+653,Lazar,Marković,Hull City,2016
+654,Thibaud Christa Philippe,Verlinden,Stoke City,2016
+655,Jeff Jason,Reine-Adélaïde,Arsenal,2016
+656,El Hadji Papy Mison,Djilobodji,Sunderland,2016
+657,Stefano,Okaka Chuka,Watford,2016
+658,Gilbert Gianelli,Imbula Wanga,Stoke City,2016
+659,Julien,Fontaine Ngoy Bin Cibambi,Stoke City,2016
+660,Omar,Elabdellaoui,Hull City,2016
+661,Steven,Davis,Southampton,2016
+662,Bo Kristoffer,Nordfeldt,Swansea,2016
+663,Jack,Butland,Stoke City,2016
+664,Bartosz,Kapustka,Leicester,2016
+665,Kieran Michael,O'Hara,Manchester United,2016
+666,James Patrick,McCarthy,Everton,2016
+667,Pape,N'Diaye Souaré,Crystal Palace,2016
+668,Charles Joseph John,Hart,Manchester City,2016
+669,Joshua Samuel,Sims,Southampton,2016
+670,Thomas Morris,Lawrence,Leicester,2016
+671,Cameron Robert,Carter-Vickers,Tottenham,2016
+672,Martin Tony Waikwa,Olsson,Swansea,2016
+673,David James,Marshall,Hull City,2016
+674,Stephen Iain,Kingsley,Swansea,2016
+675,Markus,Henriksen,Hull City,2016
+676,Jakob,Let Haugaard,Stoke City,2016
+677,Martin,Samuelsen,West Ham,2016
+678,Fredrik Stensøe,Ulvestad,Burnley,2016
+679,Connor Steven,Randall,Liverpool,2016
+680,Kamil Paweł,Grosicki,Hull City,2016
+681,Wilfried Guemiand,Bony,Stoke City,2016
+682,Raphael Simon,Spiegel,West Ham,2016
