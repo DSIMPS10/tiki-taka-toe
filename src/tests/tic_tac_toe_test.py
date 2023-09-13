@@ -75,3 +75,5 @@ def test_check_move_exceptions():
 
 def test_game():
     pass
+
+# Run tests: python -m pytest src/tests/tic_tac_toe_test.py

@@ -103,3 +103,5 @@ def test_print_grid_as_df():
 def test_create_footy_team_board():
     test_df = create_footy_team_board()
     assert type(test_df) is DataFrame
+
+# Run tests: python -m pytest src/tests/app_test.py
