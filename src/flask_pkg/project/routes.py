@@ -92,7 +92,7 @@ def get_all_valid_player_guesses():
     #player_count = db.func.count(Players.full_name).group_by(Players.full_name).having(player_count > 0).label("player_count")
     sql = text('SELECT COUNT(full_name),full_name FROM Players GROUP BY full_name HAVING COUNT(full_name)>1')
     all_valid_players = Players.query.from_statement(sql).all()
-    all_valid_players_array = [player.as_dict() for player in all_valid_players]
+    all_valid_players_array = [player.full_name for player in all_valid_players]
     return jsonify(all_valid_players_array)
 
 #############################################################################################################################################################
