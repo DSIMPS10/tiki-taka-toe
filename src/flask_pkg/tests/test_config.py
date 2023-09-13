@@ -19,7 +19,6 @@ def test_development_config(app):
     assert not app.config["TESTING"]
     assert app.config["SQLALCHEMY_DATABASE_URI"] == DB_URL
 
-
 # def test_testing_config(app):
 #     test_app = app(TestingConfig)
 #     app = test_app[0]

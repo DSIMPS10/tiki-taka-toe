@@ -5,10 +5,10 @@ from src.flask_pkg.tests.conftest import app
 from src.flask_pkg.project import db 
 
 from src.flask_pkg.project.models import Football_teams, Players
-from src.flask_pkg.project.config import DevelopmentConfig, TestingConfig
+from src.flask_pkg.project.config import TestingConfig
 
 def test_add_multiple_teams(app):
-    test_app = app(DevelopmentConfig)
+    test_app = app(TestingConfig)
     app = test_app[0]
     client = test_app[1]
     test_array = []
