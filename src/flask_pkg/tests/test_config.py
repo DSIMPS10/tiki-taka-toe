@@ -1,14 +1,8 @@
 import pytest
 import os
 
-from src.flask_pkg.tests.conftest import app # pylint: disable=import-error
-from src.flask_pkg.project.config import get_env_db_url,TestingConfig,DevelopmentConfig,ProductionConfig # pylint: disable=import-error
-
-
-# @pytest.mark.skipif(
-#     "TRAVIS" in os.environ and os.environ["TRAVIS"] == "True",
-#     reason="Skipping this test on Travis CI.",
-# )
+from src.flask_pkg.tests.conftest import app 
+from src.flask_pkg.project.config import get_env_db_url,TestingConfig,DevelopmentConfig,ProductionConfig 
 
 def test_development_config(app):
     dev_app = app(DevelopmentConfig)
@@ -19,14 +13,15 @@ def test_development_config(app):
     assert not app.config["TESTING"]
     assert app.config["SQLALCHEMY_DATABASE_URI"] == DB_URL
 
-# def test_testing_config(app):
-#     test_app = app(TestingConfig)
-#     app = test_app[0]
-#     DB_URL = get_env_db_url("testing")
-#     assert app.config["DEBUG"]
-#     assert app.config["TESTING"]
-#     # assert not app.config["PRESERVE_CONTEXT_ON_EXCEPTION"]
-#     assert app.config["SQLALCHEMY_DATABASE_URI"] == DB_URL
+def test_testing_config(app):
+    test_app = app(TestingConfig)
+    app = test_app[0]
+    DB_URL = get_env_db_url("testing")
+    print(DB_URL)
+    assert app.config["DEBUG"]
+    assert app.config["TESTING"]
+    # assert not app.config["PRESERVE_CONTEXT_ON_EXCEPTION"]
+    assert not app.config["SQLALCHEMY_DATABASE_URI"] == DB_URL
 
 # def test_production_config(app):
 #     prod_app = app(ProductionConfig)

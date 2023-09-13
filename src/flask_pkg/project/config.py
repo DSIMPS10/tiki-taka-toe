@@ -26,6 +26,10 @@ def get_env_db_url(env_setting):
         POSTGRES_PW = get_env_variable("TESTING_POSTGRES_PW")
         POSTGRES_URL = get_env_variable("TESTING_POSTGRES_URL")
         POSTGRES_DB = get_env_variable("TESTING_POSTGRES_DB")
+        print(POSTGRES_USER)
+        print(POSTGRES_PW)
+        print(POSTGRES_URL)
+        print(POSTGRES_DB)
     elif env_setting == "production":
         POSTGRES_USER = get_env_variable("PROD_POSTGRES_USER")
         POSTGRES_PW = get_env_variable("PROD_POSTGRES_PW")
