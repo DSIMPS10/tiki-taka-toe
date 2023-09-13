@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 
-from utils.classes import Team, Player 
-from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
+from src.utils.classes import Team, Player 
+from src.flask_pkg.project.routes import get_request, post_request,put_request, BASE 
 
 
 ##########################################################################################################

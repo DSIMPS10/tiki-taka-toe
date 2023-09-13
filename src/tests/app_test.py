@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 
-import src.app as app
-from utils.classes import Grid
+from src.app import get_teams_for_selected_player_from_db
+# from utils.classes import Grid
 
 ####################################################################################################################
 ### INPUTS ###
@@ -27,13 +27,13 @@ def players_df() -> pd.DataFrame:
     players_df = pd.DataFrame(player_data)
     return players_df
 
-@pytest.fixture
-def grid() -> Grid:
-    return Grid()
+# @pytest.fixture
+# def grid() -> Grid:
+#     return Grid()
 
 def test_get_teams_for_selected_player_from_db(players_df):
     player_name = 'Raheem Sterling'
-    team_list = app.get_teams_for_selected_player_from_db(players_df,player_name)
+    team_list = get_teams_for_selected_player_from_db(players_df,player_name)
     assert len(team_list) == 3
 
 

@@ -3,9 +3,9 @@ import random
 import numpy as np
 import logging
 
-from utils.classes import Team, Grid, Player
-from flask_pkg.project.routes import BASE, get_request, post_request
-from data.data_db_functions import get_all_players_from_db, get_all_team_from_db
+from src.utils.classes import Team, Grid, Player
+from src.flask_pkg.project.routes import BASE, get_request, post_request
+from src.data.data_db_functions import get_all_players_from_db, get_all_team_from_db
     
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
