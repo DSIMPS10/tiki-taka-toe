@@ -58,14 +58,14 @@ def check_winner(count: int, turn: int,team_df: DataFrame):
 
     return is_there_a_winner
 
-def switch_turn(turn):   
+def switch_turn(turn: str) -> str:   
     if turn =='X':
         turn = 'O'
     else:
         turn = 'X'  
     return turn
 
-def restart_game(restart):
+def restart_game(restart: str):
     if restart == "y" or restart == "Y":  
         for key in board_keys:
             theBoard[key] = " "
@@ -74,16 +74,16 @@ def restart_game(restart):
 def check_move(move):
     try: 
         move = int(move)  
+        print(move)
     except ValueError as e:
         print('Please chose an INTEGER value (between 1 and 9)')  
         return False   
-
     try:
         if move > 9 or move < 1:
-            raise ValueError(move)
-    except ValueError as e:
-        print(move, 'is outside the randge 1 to 9. Please chose a new position')
-        return False
+            raise ValueError(f'{move} is outside the range 1 to 9. Please chose a new position')
+    # except ValueError as e:
+    #     print(move, 'is outside the randge 1 to 9. Please chose a new position')
+    #     return False
     except Exception as e:
         logging.exception(e)
         return False
