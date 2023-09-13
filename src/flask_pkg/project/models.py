@@ -56,6 +56,7 @@ class Players(db.Model):
         
     def as_dict(self):
         return {
+            'id': self.id,
             'full_name':self.full_name,
             'team_id':self.team_id,
             'team_name':self.team_name,

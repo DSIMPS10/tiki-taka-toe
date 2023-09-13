@@ -86,14 +86,16 @@ def get_all_players():
     all_players_array = [player.as_dict() for player in all_players]
     return jsonify(all_players_array)
 
+@main.get("/api/get_player_info_from_name/<string:full_name>")
+def get_player_info_from_name(full_name): 
+    player_info = Players.query.filter(Players.full_name == full_name).all()
+    player_info_array = [player.as_dict() for player in player_info]
+    return jsonify(player_info_array)
+
 @main.get("/api/get_all_valid_player_guesses")
 def get_all_valid_player_guesses(): 
-    # all_valid_players = Players.query(func.count(Players.full_name)).group_by(Players.full_name).filter(func.count(Players.full_name)>1).all()
-    #player_count = db.func.count(Players.full_name).group_by(Players.full_name).having(player_count > 0).label("player_count")
     sql = text('SELECT COUNT(full_name),full_name FROM Players GROUP BY full_name HAVING COUNT(full_name)>1')
-    # all_valid_players = session.query(Players).from_statement(sql).all()
     all_valid_players = db.session.execute(sql)
-    print(all_valid_players)
     all_valid_players_array = [player.full_name for player in all_valid_players]
     return jsonify(all_valid_players_array)
 

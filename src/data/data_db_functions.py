@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 
-from src.utils.classes import Team, Player 
-from src.flask_pkg.project.routes import get_request, post_request,put_request, BASE 
+from utils.classes import Team, Player 
+from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
 
 
 ##########################################################################################################
@@ -66,6 +66,15 @@ def get_all_team_from_db() -> pd.DataFrame:
 def get_all_players_from_db() -> pd.DataFrame:
     all_players = get_request(BASE, f'get_all_players')
     players_df = pd.DataFrame.from_dict(all_players)
+    return players_df
+
+def get_valid_guesses_from_db()->list[str]:
+    all_valid_guesses = get_request(BASE, f'get_all_valid_player_guesses')
+    return all_valid_guesses
+
+def get_player_info_from_name_db(full_name: str):
+    player_info = get_request(BASE, f'get_player_info_from_name/{full_name}')
+    players_df = pd.DataFrame.from_dict(player_info)
     return players_df
 
 ##########################################################################################################
