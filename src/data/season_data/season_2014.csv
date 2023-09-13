@@ -1,0 +1,706 @@
+,first_name,last_name,team_name,season
+0,Mark,Noble,West Ham,2014
+1,Julián,Speroni,Crystal Palace,2014
+2,Isaiah,Brown,Chelsea,2014
+3,Andre,Wisdom,West Brom,2014
+4,Nathan Luke,Baker,Aston Villa,2014
+5,Nathan,Dyer,Swansea,2014
+6,Wayne,Routledge,Swansea,2014
+7,Craig,Gardner,West Brom,2014
+8,Modibo,Diakité,Sunderland,2014
+9,Jordon,Mutch,Crystal Palace,2014
+10,Adilson,Tavares Varela,Sunderland,2014
+11,Brek,Shea,Stoke City,2014
+12,Steve,Sidwell,Stoke City,2014
+13,Clint,Hill,QPR,2014
+14,Victor Chinedu,Anichebe,West Brom,2014
+15,Jack Joseph,Rose,West Brom,2014
+16,Jack,Barmby,Leicester,2014
+17,Kevin,Nolan,West Ham,2014
+18,Diego,Poyet González,West Ham,2014
+19,Tony,Hibbert,Everton,2014
+20,Liam,Shephard,Swansea,2014
+21,Scott,Dann,Crystal Palace,2014
+22,Sam,McQueen,Southampton,2014
+23,Danny,Graham,Sunderland,2014
+24,Callum Henry,McManaman,West Brom,2014
+25,Àngel,Rangel Zaragoza,Swansea,2014
+26,Billy,Jones,Sunderland,2014
+27,George,Moncur,West Ham,2014
+28,Lee,Cattermole,Sunderland,2014
+29,Jason Sean,McCarthy,Southampton,2014
+30,Dominic Edward,Gape,Southampton,2014
+31,Michael,Kightly,Burnley,2014
+32,Chinedum,Onuoha,QPR,2014
+33,Liam,Rosenior,Hull City,2014
+34,Chris,Kettings,Crystal Palace,2014
+35,Jerome,Thomas,Crystal Palace,2014
+36,Adam,King,Swansea,2014
+37,Dionatan,do Nascimento Teixeira,Stoke City,2014
+38,Aaron,Mitchell,QPR,2014
+39,Daniel,Williams,Aston Villa,2014
+40,Hiram Kojo Kwarteng,Boateng,Crystal Palace,2014
+41,Kyle Matthew,De Silva,Crystal Palace,2014
+42,Glenn,Murray,Crystal Palace,2014
+43,Jason David Ian,Puncheon,Crystal Palace,2014
+44,David Frank Llwyd,Jones,Burnley,2014
+45,Sammy,Ameobi,Newcastle,2014
+46,Will,Buckley,Sunderland,2014
+47,Lewis Robert,Page,West Ham,2014
+48,Luke Paul,McGee,Tottenham,2014
+49,Christopher Michael,Long,Everton,2014
+50,Dean,Marney,Burnley,2014
+51,Maximilian Andreas,Ehmer,QPR,2014
+52,Emmanuel,Rivière,Newcastle,2014
+53,Sylvain,Marveaux,Newcastle,2014
+54,Yoan,Gouffran,Newcastle,2014
+55,Stuart Antony Alan,O'Keefe,Crystal Palace,2014
+56,Alejandro Damián,Faurlin,QPR,2014
+57,Emmanuel,Mayuka,Southampton,2014
+58,Dean,Hammond,Leicester,2014
+59,Joe,Dudgeon,Hull City,2014
+60,Karim,El Ahmadi Al Aroos,Aston Villa,2014
+61,Christian,Atsu Twasam,Everton,2014
+62,Jake Alexander,Hesketh,Southampton,2014
+63,Brandon,Comley,QPR,2014
+64,Wes,Morgan,Leicester,2014
+65,Matthew John,Lowton,Aston Villa,2014
+66,Jed John,Steer,Aston Villa,2014
+67,Jack Paul,Hunt,Crystal Palace,2014
+68,Elliot Robert,Lee,West Ham,2014
+69,Ryan,Taylor,Newcastle,2014
+70,Conor James,Grant,Everton,2014
+71,Wilson Roberto,Palacios Suazo,Stoke City,2014
+72,Sulaiman Borbor,Kaikai,Crystal Palace,2014
+73,Modibo,Maïga,West Ham,2014
+74,Papiss Demba,Cissé,Newcastle,2014
+75,Armand,Traoré,QPR,2014
+76,Josmer Volmy,Altidore,Sunderland,2014
+77,Jamie Michael,Sterry,Newcastle,2014
+78,Tom,Thorpe,Manchester United,2014
+79,Steve,Harper,Hull City,2014
+80,Jason,Shackell,Burnley,2014
+81,Michael,Doughty,QPR,2014
+82,Rushian Marcus Amari,Hepburn-Murphy,Aston Villa,2014
+83,Ryan,Huddart,Arsenal,2014
+84,Ryan,Shotton,Stoke City,2014
+85,Darron,Gibson,Everton,2014
+86,Geoff,Cameron,Stoke City,2014
+87,Paul,McShane,Hull City,2014
+88,John,O'Shea,Sunderland,2014
+89,Marc David,Wilson,Stoke City,2014
+90,Lloyd Richard,Jones,Liverpool,2014
+91,Emmanuel,Adebayor,Tottenham,2014
+92,Diafra,Sakho,West Ham,2014
+93,Maynor Alexis,Figueroa Róchez,Hull City,2014
+94,Ricardo Jorge,Vaz Tê,West Ham,2014
+95,Brown,Ideye Aide,West Brom,2014
+96,Shola,Ameobi,Crystal Palace,2014
+97,Steven,Pienaar,Everton,2014
+98,Stefan,O'Connor,Arsenal,2014
+99,Mikel,Arteta Amatriain,Arsenal,2014
+100,Michel,Vorm,Tottenham,2014
+101,Davide,Santon,Newcastle,2014
+102,Graziano,Pellè,Southampton,2014
+103,Daryl,Janmaat,Newcastle,2014
+104,Ciaran,Clark,Aston Villa,2014
+105,Stephen Robert,Ward,Burnley,2014
+106,Shane Patrick,Long,Southampton,2014
+107,Glenn David,Whelan,Stoke City,2014
+108,Mikel John,Obi,Chelsea,2014
+109,David,Meyler,Hull City,2014
+110,Stephen Jude,Quinn,Hull City,2014
+111,Emanuele,Giaccherini,Sunderland,2014
+112,Ron Peter,Vlaar,Aston Villa,2014
+113,Robin,van Persie,Manchester United,2014
+114,Alex,Bruce,Hull City,2014
+115,Eljero George Rinaldo,Elia,Southampton,2014
+116,Jonathan,Walters,Stoke City,2014
+117,Dwight,Tiendalli,Swansea,2014
+118,Robert,Huth,Leicester,2014
+119,Kevin,Doyle,Crystal Palace,2014
+120,Allan James,McGregor,Hull City,2014
+121,Gareth,McAuley,West Brom,2014
+122,Graham,Dorrans,West Brom,2014
+123,Robert,Snodgrass,Hull City,2014
+124,James,McFarlane McArthur,Crystal Palace,2014
+125,Artur,Boruc,Southampton,2014
+126,Phil,Bardsley,Stoke City,2014
+127,Chris,Brunt,West Brom,2014
+128,James,Morrison,West Brom,2014
+129,Alan,Hutton,Aston Villa,2014
+130,Costel Fane,Pantilimon,Sunderland,2014
+131,Liam Robert,Bridcutt,Sunderland,2014
+132,George,Boyd,Burnley,2014
+133,Steven,Fletcher,Sunderland,2014
+134,Ross,Wallace,Burnley,2014
+135,Steven John,Naismith,Everton,2014
+136,Silvestre Manuel,Gonçalves Varela,West Brom,2014
+137,Chris,Baird,West Brom,2014
+138,Florin,Gardoș,Southampton,2014
+139,Steven,Reid,Burnley,2014
+140,Francesc,Fàbregas i Soler,Chelsea,2014
+141,David Josué,Jiménez Silva,Manchester City,2014
+142,David,de Gea Quintana,Manchester United,2014
+143,Juan Manuel,Mata García,Manchester United,2014
+144,Branislav,Ivanović,Chelsea,2014
+145,Roberto,Soldado Rillo,Tottenham,2014
+146,Ignacio,Monreal Eraso,Arsenal,2014
+147,Bengt Ulf Sebastian,Larsson,Sunderland,2014
+148,Ryan James,Watson,Leicester,2014
+149,Danny,Simpson,Leicester,2014
+150,Pablo,Hernández Domínguez,Swansea,2014
+151,Curtis Eugene,Davies,Hull City,2014
+152,Jonas,Olsson,West Brom,2014
+153,Jonathan Peter,Williams,Crystal Palace,2014
+154,Adam Clifford,Smith,Leicester,2014
+155,José Leonardo,Ulloa,Leicester,2014
+156,Oussama,Assaidi,Stoke City,2014
+157,Joshua Luke,Sheehan,Swansea,2014
+158,Michael,Cain,Leicester,2014
+159,Philippe,Senderos,Aston Villa,2014
+160,Mesut,Özil,Arsenal,2014
+161,Jordan Bernard,Rossiter,Liverpool,2014
+162,André,Schürrle,Chelsea,2014
+163,Glyn Oliver,Myhill,West Brom,2014
+164,James,Grant Chester,Hull City,2014
+165,Neil John,Taylor,Swansea,2014
+166,Kevin Linford,Levi Stewart,Liverpool,2014
+167,Ashley,Williams,Swansea,2014
+168,Charles Graham,Adam,Stoke City,2014
+169,Samuel Michael,Vokes,Burnley,2014
+170,Lewis,Price,Crystal Palace,2014
+171,James,Collins,West Ham,2014
+172,Lloyd Jeffrey,Isgrove,Southampton,2014
+173,Jerome,Sinclair,Liverpool,2014
+174,Michael Jordan,Williams,Liverpool,2014
+175,Fernando José,Torres Sanz,Chelsea,2014
+176,Joe,Ledley,Crystal Palace,2014
+177,Per,Mertesacker,Arsenal,2014
+178,José Enrique,de la Sánchez Diaz,Liverpool,2014
+179,Andy,Wilkinson,Stoke City,2014
+180,Sergio Leonel,Agüero del Castillo,Manchester City,2014
+181,Aleksandar,Kolarov,Manchester City,2014
+182,Martin,Škrtel,Liverpool,2014
+183,Francisco Javier,García Fernández,Manchester City,2014
+184,Wilfredo Daniel,Caballero Lazcano,Manchester City,2014
+185,Jonás Manuel,Gutiérrez,Newcastle,2014
+186,Fabricio,Coloccini,Newcastle,2014
+187,Alex,Cisak,Burnley,2014
+188,Jordi,Gómez García-Penche,Sunderland,2014
+189,Pablo Javier,Zabaleta Girod,Manchester City,2014
+190,Mile,Jedinak,Crystal Palace,2014
+191,Claudio Ariel,Yacob,West Brom,2014
+192,Bojan,Krkić Pérez,Stoke City,2014
+193,Cameron Mark Thomas,Brannagan,Liverpool,2014
+194,Ricardo Gabriel,Álvarez,Sunderland,2014
+195,Santiago,Vergini,Sunderland,2014
+196,Shay,Given,Aston Villa,2014
+197,Esteban Matías,Cambiasso Delau,Leicester,2014
+198,Sinan,Bytyqi,Manchester City,2014
+199,Richard,Dunne,QPR,2014
+200,Thomas,Vermaelen,Arsenal,2014
+201,Dame,N'Doye,Hull City,2014
+202,Lucas,Pezzini Leiva,Liverpool,2014
+203,Sébastien,Pocognoli,West Brom,2014
+204,Eden Michael Walter,Hazard,Chelsea,2014
+205,Mousa Sidi Yaya,Dembélé,Tottenham,2014
+206,Marvin,Sordell,Burnley,2014
+207,Darren,Fletcher,West Brom,2014
+208,Karl,Henry,QPR,2014
+209,Kevin Antonio Joel Gislain,Mirallas y Castillo,Everton,2014
+210,Bradley Scott,Jones,Liverpool,2014
+211,Timothy Matthew,Howard,Everton,2014
+212,Christopher,Herd,Aston Villa,2014
+213,Remie,Streete,Newcastle,2014
+214,Stephen,Ireland,Stoke City,2014
+215,Winston Wiremu,Reid,West Ham,2014
+216,Víctor,Valdés Arribas,Manchester United,2014
+217,Jos,Hooiveld,Southampton,2014
+218,Mark,Schwarzer,Leicester,2014
+219,Brede,Hangeland,Crystal Palace,2014
+220,Scott,Sinclair,Aston Villa,2014
+221,José Alberto,Cañas Ruiz Herrera,Swansea,2014
+222,Ramires,Santos do Nascimento,Chelsea,2014
+223,Connor Neil Ralph,Wickham,Sunderland,2014
+224,Jordon,Ibe,Liverpool,2014
+225,Joe,Bennett,Aston Villa,2014
+226,Jamal,Blackman,Chelsea,2014
+227,Thomas James,Carroll,Swansea,2014
+228,Joshua Oghenetega Peter,Onomah,Tottenham,2014
+229,Nick,Powell,Leicester,2014
+230,Liam Simon,Moore,Leicester,2014
+231,Benjamin Paul,Amos,Manchester United,2014
+232,Luke Samuel,Garbutt,Everton,2014
+233,Sandro,Raniere Guimarães Cordeiro,QPR,2014
+234,James Anthony,Wilson,Manchester United,2014
+235,Gaël,Bigirimana,Newcastle,2014
+236,Anderson Luis,de Abreu Oliveira,Manchester United,2014
+237,Gerhard,Tremmel,Swansea,2014
+238,Júlio César,Soares de Espíndola,QPR,2014
+239,Sylvain,Distin,Everton,2014
+240,Yannick,Bolasie Yala,Crystal Palace,2014
+241,Charalampos,Mavrias,Sunderland,2014
+242,George,Glendon,Manchester City,2014
+243,Jake Stephen,Gray,Crystal Palace,2014
+244,Brian Edward,Murphy,QPR,2014
+245,David Junior Wayne,Hoilett,QPR,2014
+246,Muhamed,Bešić,Everton,2014
+247,Rolando James,Aarons,Newcastle,2014
+248,Samuel,Eto'o Fils,Everton,2014
+249,Youssouf Chafiq,Mulumbu Ngangu,West Brom,2014
+250,Alexandre Dimitri,Song-Billong,West Ham,2014
+251,Leon,Britton,Swansea,2014
+252,Steven Daniel,Hewitt,Burnley,2014
+253,Joseph Martin,O'Brien,West Ham,2014
+254,Mitchell Ryan,Beeney,Chelsea,2014
+255,Damien,Delaney,Crystal Palace,2014
+256,Riccardo Amos,Calder,Aston Villa,2014
+257,Gary,Taylor-Fletcher,Leicester,2014
+258,Oliver Gregory,Shenton,Stoke City,2014
+259,Alan,Tate,Swansea,2014
+260,Petr,Čech,Chelsea,2014
+261,Nikica,Jelavić,Hull City,2014
+262,Reece Randall,Grego-Cox,QPR,2014
+263,Courtney,Duffus,Everton,2014
+264,Daniel,Whitehead,West Ham,2014
+265,Russell John,Griffiths,Everton,2014
+266,Frankie Jay,Sutherland,QPR,2014
+267,Anders,Rosenkrantz Lindegaard,Manchester United,2014
+268,Graham Dylan,Burke,Aston Villa,2014
+269,Yannick Anister,Sagbo-Latte,Hull City,2014
+270,Arouna,Koné,Everton,2014
+271,Jaanai Derece,Gordon-Hutton,West Ham,2014
+272,Cole Desmond,Kpekawa,QPR,2014
+273,Cheik Ismaël,Tioté,Newcastle,2014
+274,Guy Roland,Demel,West Ham,2014
+275,Didier Yves,Drogba Tébily,Chelsea,2014
+276,Kolo Habib,Touré,Liverpool,2014
+277,Niko,Kranjčar,QPR,2014
+278,Tomáš,Rosický,Arsenal,2014
+279,Leo,Chambers,West Ham,2014
+280,Luis Antonio,Valencia Mosquera,Manchester United,2014
+281,Jonathon Patrick,Flanagan,Liverpool,2014
+282,Conrad,Logan,Leicester,2014
+283,Liam,Agnew,Sunderland,2014
+284,Kieran James Ricardo,Gibbs,Arsenal,2014
+285,Ahmed Eissa,El Mohamady Abdel Fattah,Hull City,2014
+286,Thomas Andrew,Huddlestone,Hull City,2014
+287,David,Nugent,Leicester,2014
+288,Fraizer,Campbell,Crystal Palace,2014
+289,Thomas,Løvendahl Sørensen,Stoke City,2014
+290,Gabriel,Imuetinyan Agbonlahor,Aston Villa,2014
+291,Raheem Shaquille Rushan,Hanley,Swansea,2014
+292,Micah,Richards,Manchester City,2014
+293,Joey,Barton,QPR,2014
+294,Matthias,Fanimo,West Ham,2014
+295,Leon,Osman,Everton,2014
+296,Bobby,Zamora,QPR,2014
+297,Andy,Johnson,Crystal Palace,2014
+298,Daniel Munthe,Agger,Liverpool,2014
+299,Kevin,Phillips,Leicester,2014
+300,Daniel Lee,Rose,Tottenham,2014
+301,Phil Anthony,Jones,Manchester United,2014
+302,Daniel Noel,Drinkwater,Leicester,2014
+303,Philip Nikodem,Jagielka,Everton,2014
+304,Theo James,Walcott,Arsenal,2014
+305,Thomas William,Cleverley,Aston Villa,2014
+306,Jack,Wilshere,Arsenal,2014
+307,Andros Darryl,Townsend,Tottenham,2014
+308,Ryan Dominic,Bertrand,Southampton,2014
+309,Charlie,Austin,QPR,2014
+310,Ryan,Shawcross,Stoke City,2014
+311,Matt,Jarvis,West Ham,2014
+312,Darren,Bent,Aston Villa,2014
+313,Kieran,Richardson,Aston Villa,2014
+314,Paul,Konchesky,Leicester,2014
+315,Joleon,Lescott,West Brom,2014
+316,Ryan,Mason,Tottenham,2014
+317,Adam,Johnson,Sunderland,2014
+318,Richard,Wright,Manchester City,2014
+319,Carlton,Cole Okirie,West Ham,2014
+320,Daniel Andre,Sturridge,Liverpool,2014
+321,Jesse Ellis,Lingard,Manchester United,2014
+322,Robert,Green,QPR,2014
+323,Gary,Cahill,Chelsea,2014
+324,Steven Vincent,Taylor,Newcastle,2014
+325,Leighton,Baines,Everton,2014
+326,Benjamin Anthony,Foster,West Brom,2014
+327,Aaron,Lennon,Everton,2014
+328,Peter,Crouch,Stoke City,2014
+329,Gareth,Barry,Everton,2014
+330,Stewart,Downing,West Ham,2014
+331,Michael,Dawson,Hull City,2014
+332,Steven,Roy Caulker,QPR,2014
+333,Wes,Brown,Sunderland,2014
+334,Michael,Carrick,Manchester United,2014
+335,Glen,Johnson,Liverpool,2014
+336,Joe,Cole,Aston Villa,2014
+337,Matthew,Upson,Leicester,2014
+338,Rio,Ferdinand,QPR,2014
+339,Jermaine,Jenas,QPR,2014
+340,Fabian,Delph,Aston Villa,2014
+341,Jermain Colin,Defoe,Sunderland,2014
+342,Siem Stefan,de Jong,Newcastle,2014
+343,Adam,Campbell,Newcastle,2014
+344,Ryan Paul,Seager,Southampton,2014
+345,Robert,Elliot,Newcastle,2014
+346,Maksymilian,Stryjek,Sunderland,2014
+347,Daniel Patrick,Lafferty,Burnley,2014
+348,Jake,Flannigan,Southampton,2014
+349,Ryan,McLaughlin,Liverpool,2014
+350,Kwesi,Appiah,Crystal Palace,2014
+351,Vurnon San Benito,Anita,Newcastle,2014
+352,Mathieu,Flamini,Arsenal,2014
+353,Cameron,Dummigan,Burnley,2014
+354,John,Terry,Chelsea,2014
+355,Rickie,Lambert,Liverpool,2014
+356,Younes,Kaboul,Tottenham,2014
+357,Shaun,Wright-Phillips,QPR,2014
+358,Charles,N'Zogbia,Aston Villa,2014
+359,Jussi,Jääskeläinen,West Ham,2014
+360,Laurent,Koscielny,Arsenal,2014
+361,Hatem,Ben Arfa,Hull City,2014
+362,Liam Christian James,O'Neil,West Brom,2014
+363,James,Pearson,Leicester,2014
+364,Jerome Craig,Binnom-Williams,Crystal Palace,2014
+365,Osaore Emmanuel,Onariase,West Ham,2014
+366,Lewis,Kinsella,Aston Villa,2014
+367,Blair Sebastian,Turgott,West Ham,2014
+368,Morgan Fernand Gérard,Schneiderlin,Southampton,2014
+369,Luke,Daniels,West Brom,2014
+370,Nélson Miguel,Castro Oliveira,Swansea,2014
+371,Rory,Watson,Hull City,2014
+372,Mathieu,Debuchy,Arsenal,2014
+373,Loïc Alex Teliére,Hubert Rémy,Chelsea,2014
+374,Conor Michael,McAleny,Everton,2014
+375,Gaël Dimitri,Clichy,Manchester City,2014
+376,Bacary,Sagna,Manchester City,2014
+377,Morgan,Amalfitano,West Ham,2014
+378,Mapou,Yanga-Mbiwa,Newcastle,2014
+379,Vassiriki Abou,Diaby,Arsenal,2014
+380,Stevan,Jovetić,Manchester City,2014
+381,Valentin,Roberge,Sunderland,2014
+382,Mario,Barwuah Balotelli,Liverpool,2014
+383,Gylfi Þór,Sigurðsson,Swansea,2014
+384,Joel Nathaniel,Campbell Samuels,Arsenal,2014
+385,Matthew,Gilks,Burnley,2014
+386,Hallam Robert,Hope,Everton,2014
+387,Adrian Joseph,Mariappa,Crystal Palace,2014
+388,Anthony Patrick,Knockaert,Leicester,2014
+389,Mame Biram,Diouf,Stoke City,2014
+390,Ezekiel David,Fryers,Crystal Palace,2014
+391,Alex Nicholas,Gilliead,Newcastle,2014
+392,Thomas Edward,Hopper,Leicester,2014
+393,Matthew Ryan,Macey,Arsenal,2014
+394,Haris,Vučkić,Newcastle,2014
+395,Thomas,Robson,Sunderland,2014
+396,Marc,Muniesa Martínez,Stoke City,2014
+397,Jordi,Amat Maas,Swansea,2014
+398,Aly,Cissokho,Aston Villa,2014
+399,Libor,Kozák,Aston Villa,2014
+400,Victor,Mugubi Wanyama,Southampton,2014
+401,Vlad Iulian,Chiricheș,Tottenham,2014
+402,Abel Mathías,Hernández Platero,Hull City,2014
+403,Wojciech Tomasz,Szczęsny,Arsenal,2014
+404,Joel,Robles Blázquez,Everton,2014
+405,Saido,Berahino,West Brom,2014
+406,Stéphane,Sessègnon,West Brom,2014
+407,Mauro Matías,Zárate Riga,QPR,2014
+408,Ashley Darel Jazz,Richards,Swansea,2014
+409,Leandro Jones Johan,Bacuna,Aston Villa,2014
+410,Aiden John,McGeady,Everton,2014
+411,Adil,Nabi,West Brom,2014
+412,Cameron Drew Neru,Howieson,Burnley,2014
+413,Gabriel Antoine,Obertan,Newcastle,2014
+414,Saphir Sliti,Taïder,Southampton,2014
+415,Gedion,Zelalem,Arsenal,2014
+416,Michael Alexander,Petrasso,QPR,2014
+417,Marouane,Chamakh,Crystal Palace,2014
+418,Ruaridhri,Donnelly,Swansea,2014
+419,Anthony,Réveillère,Sunderland,2014
+420,Adel,Taarabt,QPR,2014
+421,Aleksandar,Tonev,Aston Villa,2014
+422,Samir,Nasri,Manchester City,2014
+423,Jeffrey,Schlupp,Leicester,2014
+424,James Oliver Charles,Tomkins,West Ham,2014
+425,Nathaniel Edwin,Clyne,Southampton,2014
+426,Mohamed,Diamé,Hull City,2014
+427,Benjamin Thomas,Mee,Burnley,2014
+428,Jefferson Antonio,Montero Vite,Swansea,2014
+429,Marcin Ryszard,Wasilewski,Leicester,2014
+430,Kenji Joel,Gorré,Swansea,2014
+431,Alejandro,Pozuelo Melero,Swansea,2014
+432,Antolín,Alcáraz Viveros,Everton,2014
+433,Owen,Garvan,Crystal Palace,2014
+434,Marvin,Emnes,Swansea,2014
+435,Benoît,Assou-Ekotto,Tottenham,2014
+436,Philipp,Wollscheid,Stoke City,2014
+437,Gnégnéri Yaya,Touré,Manchester City,2014
+438,Peter,Ramage,Crystal Palace,2014
+439,Georgios,Samaras,West Brom,2014
+440,Hugo Hadrien Dominique,Lloris,Tottenham,2014
+441,Benjamin Thomas,Davies,Tottenham,2014
+442,Eric Jeremy Edgar,Dier,Tottenham,2014
+443,Andrew Henry,Robertson,Hull City,2014
+444,Adam David,Lallana,Liverpool,2014
+445,James Philip,Milner,Manchester City,2014
+446,Mohamed,Salah Hamed Mahrous Ghaly,Chelsea,2014
+447,John,Stones,Everton,2014
+448,Kyle Andrew,Walker,Tottenham,2014
+449,Daniel Nii,Tackie Mensah Welbeck,Arsenal,2014
+450,Kurt Happy,Zouma,Chelsea,2014
+451,James Michael Edward,Ward-Prowse,Southampton,2014
+452,Łukasz Marek,Fabiański,Swansea,2014
+453,Adrián,San Miguel del Castillo,West Ham,2014
+454,Aaron William,Cresswell,West Ham,2014
+455,Joel Edward Philip,Ward,Crystal Palace,2014
+456,Nathan Benjamin,Aké,Chelsea,2014
+457,Fraser Gerard,Forster,Southampton,2014
+458,Daniel William John,Ings,Burnley,2014
+459,Jack Peter,Grealish,Aston Villa,2014
+460,Kieran John,Trippier,Burnley,2014
+461,Ashley Simon,Young,Manchester United,2014
+462,Alexander Chuka,Iwobi,Arsenal,2014
+463,Ross,Barkley,Everton,2014
+464,Jordan Lee,Pickford,Sunderland,2014
+465,Michael Vincent,Keane,Burnley,2014
+466,Séamus,Coleman,Everton,2014
+467,Wayne Robert,Hennessey,Crystal Palace,2014
+468,Dominic Ayodele,Solanke-Mitchell,Chelsea,2014
+469,Paul,Dummett,Newcastle,2014
+470,Javier,Manquillo Gaitán,Liverpool,2014
+471,Jack Frank,Porteous Cork,Swansea,2014
+472,Matthew Robert,Targett,Southampton,2014
+473,Timothy Michael,Krul,Newcastle,2014
+474,Craig,Dawson,West Brom,2014
+475,Jay Enrique,Rodríguez,Southampton,2014
+476,Jack,Robinson,Liverpool,2014
+477,Reece Frederick,James Burke,West Ham,2014
+478,Daniel,Potts,West Ham,2014
+479,Joshua Jon,Cullen,West Ham,2014
+480,Philippe,Coutinho Correia,Liverpool,2014
+481,Christian,Dannemann Eriksen,Tottenham,2014
+482,Erik Manuel,Lamela Cordero,Tottenham,2014
+483,Fernando Francisco,Reges,Manchester City,2014
+484,Raheem Shaquille,Sterling,Liverpool,2014
+485,Luke Paul Hoare,Shaw,Manchester United,2014
+486,Andreas Hugo,Hoelgebaum Pereira,Manchester United,2014
+487,Jesús Joaquín,Fernández Sáenz de la Torre,Liverpool,2014
+488,Jesús,Navas González,Manchester City,2014
+489,Willian,Borges da Silva,Chelsea,2014
+490,Adnan,Januzaj,Manchester United,2014
+491,Thomas David,Heaton,Burnley,2014
+492,Jacob Harry,Maguire,Hull City,2014
+493,Cheikhou,Kouyaté,West Ham,2014
+494,Jonathan Grant,Evans,Manchester United,2014
+495,Jonjo,Shelvey,Swansea,2014
+496,Christopher Grant,Wood,Leicester,2014
+497,Calum,Chambers,Arsenal,2014
+498,Harrison James,Reed,Southampton,2014
+499,Damián Emiliano,Martínez Romero,Arsenal,2014
+500,Radamel Falcao,García Zárate,Manchester United,2014
+501,Paulo Dino,Gazzaniga Farias,Southampton,2014
+502,Alberto,Moreno Pérez,Liverpool,2014
+503,Matija,Nastasić,Manchester City,2014
+504,Daley,Blind,Manchester United,2014
+505,Thibaut Nicolas Marc,Courtois,Chelsea,2014
+506,Ander,Herrera Agüera,Manchester United,2014
+507,Alexis Alejandro,Sánchez Sánchez,Arsenal,2014
+508,Gabriel Armando,de Abreu,Arsenal,2014
+509,Francis Joseph,Coquelin,Arsenal,2014
+510,Héctor,Bellerín Moruno,Arsenal,2014
+511,César,Azpilicueta Tanco,Chelsea,2014
+512,Andreas,Bødtker Christensen,Chelsea,2014
+513,Ruben Ira,Loftus-Cheek,Chelsea,2014
+514,Olivier Jonathan,Giroud,Arsenal,2014
+515,Étienne,René Capoue,Tottenham,2014
+516,Ayoze,Pérez Gutiérrez,Newcastle,2014
+517,Adlène,Guédioura,Crystal Palace,2014
+518,José Ángel,Pozo la Rosa,Manchester City,2014
+519,Álvaro,Negredo Sánchez,Manchester City,2014
+520,Moussa,Sissoko,Newcastle,2014
+521,Harry Edward,Kane,Tottenham,2014
+522,Dejan,Lovren,Liverpool,2014
+523,Serge David,Gnabry,Arsenal,2014
+524,Andrej,Kramarić,Leicester,2014
+525,Federico Julián,Fazio,Tottenham,2014
+526,Emre,Can,Liverpool,2014
+527,Juan Guillermo,Cuadrado Bello,Chelsea,2014
+528,Christopher Lloyd,Smalling,Manchester United,2014
+529,Romelu Menama,Lukaku Bolingoli,Everton,2014
+530,Cristian Esteban,Gamboa Luna,West Brom,2014
+531,Ainsley Cory,Maitland-Niles,Arsenal,2014
+532,Miloš,Veljković,Tottenham,2014
+533,Massadio,Haïdara,Newcastle,2014
+534,Marko,Arnautović,Stoke City,2014
+535,Mamadou,Sakho,Liverpool,2014
+536,Patrick John Miguel,van Aanholt,Sunderland,2014
+537,Reece Joel,Oxford,West Ham,2014
+538,Jérémie,Boga,Chelsea,2014
+539,Vito,Mannone,Sunderland,2014
+540,Nabil,Bentaleb,Tottenham,2014
+541,Faustino Marcos Alberto,Rojo,Manchester United,2014
+542,Nemanja,Matić,Chelsea,2014
+543,Mauricio Aníbal,Isla Isla,QPR,2014
+544,Carl Daniel,Jenkinson,West Ham,2014
+545,Chuba Amechi,Akpom,Arsenal,2014
+546,Bruno,Zuculini,Manchester City,2014
+547,Matthew Lee,James,Leicester,2014
+548,Carlos Alberto,Sánchez Moreno,Aston Villa,2014
+549,Federico,Fernández,Swansea,2014
+550,Andrew Philip,King,Leicester,2014
+551,Andreas,Weimann,Aston Villa,2014
+552,Jack Christian,Rodwell,Sunderland,2014
+553,Joseph Michael,Williams,Everton,2014
+554,Rémy Joseph,Cabella,Newcastle,2014
+555,Gastón Exequiel,Ramírez Pereyra,Hull City,2014
+556,Filip,Đuričić,Southampton,2014
+557,Thomas Christopher,Beadling,Sunderland,2014
+558,Facundo,Ferreyra,Newcastle,2014
+559,Marco,van Ginkel,Chelsea,2014
+560,Harry Billy,Winks,Tottenham,2014
+561,Omatsone Folarin,Aluko,Hull City,2014
+562,Daniel,Ward,Liverpool,2014
+563,Conor David,Coady,Liverpool,2014
+564,Marc Kevin,Albrighton,Leicester,2014
+565,Jamie Richard,Vardy,Leicester,2014
+566,Kevin,Finbarr Long,Burnley,2014
+567,Robert,Brady,Hull City,2014
+568,Ashley Luke,Barnes,Burnley,2014
+569,Alex Simon,McCarthy,QPR,2014
+570,Jack,Stephens,Southampton,2014
+571,Shane Patrick Michael,Duffy,Everton,2014
+572,Tyler,D'Whyte Roberts,West Brom,2014
+573,Ryan Graham,Ledson,Everton,2014
+574,Adam James,Armstrong,Newcastle,2014
+575,Gary,Gardner,Aston Villa,2014
+576,Lukas Isaac Paul,Jutkiewicz,Burnley,2014
+577,William David,Keane,Manchester United,2014
+578,Krystian,Bielik,Arsenal,2014
+579,Dominic Martin,Ball,Tottenham,2014
+580,Aaron James,Ramsey,Arsenal,2014
+581,David Joseph,Cornell,Swansea,2014
+582,Asmir,Begović,Stoke City,2014
+583,Frederick John,Woodman,Newcastle,2014
+584,Samuel James,Gallagher,Southampton,2014
+585,Benjamin John,Hamer,Leicester,2014
+586,Enda John,Stevens,Aston Villa,2014
+587,Jake Cyril,Livermore,Hull City,2014
+588,Dwight Devon Boyd,Gayle,Crystal Palace,2014
+589,Andre Jay,Green,Aston Villa,2014
+590,Jack Raymond,Colback,Newcastle,2014
+591,Kyle,Naughton,Swansea,2014
+592,Daniel Anthony,Johnson,Aston Villa,2014
+593,Callum Jack,Robinson,Aston Villa,2014
+594,Thomas Christopher,Ince,Hull City,2014
+595,Tyler Nathan,Blackett,Manchester United,2014
+596,Lewis Renard,Baker,Chelsea,2014
+597,Shane Kevin,Ferguson,Newcastle,2014
+598,Duncan,Watmore,Sunderland,2014
+599,Jak,Alnwick,Newcastle,2014
+600,Oluwasemilogo,Adesewo Ibidapo Ajayi,Arsenal,2014
+601,Jonjoe,Kenny,Everton,2014
+602,Nathaniel Nyakie,Chalobah,Burnley,2014
+603,Andrew Thomas,Carroll,West Ham,2014
+604,Martin Ronald,Kelly,Crystal Palace,2014
+605,Kyle Louis,Bartley,Swansea,2014
+606,Matthew,Phillips,QPR,2014
+607,Patrick James,Coleman McNair,Manchester United,2014
+608,Jay,Fulton,Swansea,2014
+609,Matthew Jacob,Grimes,Swansea,2014
+610,Barry Ryan,Bannan,Crystal Palace,2014
+611,Joseph Michael,Allen,Liverpool,2014
+612,Darnell Anthony,Furlong,QPR,2014
+613,Reece,James,Manchester United,2014
+614,George Christopher,Honeyman,Sunderland,2014
+615,Erik,Pieters,Stoke City,2014
+616,Yaya,Sanogo,Crystal Palace,2014
+617,Lewis Harry,Holtby,Tottenham,2014
+618,Alexander,Palmer,West Brom,2014
+619,Brendan Joel,Zibusiso Galloway,Everton,2014
+620,Filipe Luís,Kasmirski,Chelsea,2014
+621,Diego,da Silva Costa,Chelsea,2014
+622,Fernando Luiz,Roza,Manchester City,2014
+623,Rafael,Pereira da Silva,Manchester United,2014
+624,Guillermo,Varela Olivera,Manchester United,2014
+625,Fabio,Borini,Liverpool,2014
+626,Santiago,Cazorla González,Arsenal,2014
+627,Scott Harry Nathaniel,Arfield,Burnley,2014
+628,Chung-Yong,Lee,Crystal Palace,2014
+629,Christian,Benteke Liolo,Aston Villa,2014
+630,José Paulo,Bezzera Maciel Júnior,Tottenham,2014
+631,Eldin,Jakupović,Hull City,2014
+632,DeAndre Roselle,Yedlin,Tottenham,2014
+633,Sung-Yueng,Ki,Swansea,2014
+634,Ashley Roy,Westwood,Aston Villa,2014
+635,Bryan Josué,Oviedo Jiménez,Everton,2014
+636,Suk-Young,Yun,QPR,2014
+637,Enner Remberto,Valencia Lastra,West Ham,2014
+638,Eduardo Jesús,Vargas Rojas,QPR,2014
+639,Ravel Ryan,Morrison,West Ham,2014
+640,Ángel Fabián,Di María Hernández,Manchester United,2014
+641,Jordan Brian,Henderson,Liverpool,2014
+642,Sadio,Mané,Southampton,2014
+643,David,Ospina Ramírez,Arsenal,2014
+644,Benjamin Fernand Lucien,François Stambouli,Tottenham,2014
+645,Riyad Karim,Mahrez,Leicester,2014
+646,Victor,Moses,Stoke City,2014
+647,Sebastián,Coates Nión,Sunderland,2014
+648,José Miguel,da Rocha Fonte,Southampton,2014
+649,Javier,Hernández Balcázar,Manchester United,2014
+650,Cristian,Ceballos Prieto,Tottenham,2014
+651,Maya,Yoshida,Southampton,2014
+652,Modou,Secka Barrow,Swansea,2014
+653,Bradley Edwin,Guzan,Aston Villa,2014
+654,Luís Carlos,Almeida da Cunha,Manchester United,2014
+655,Carles,Gil de Pareja Vicent,Aston Villa,2014
+656,Sebastian Francisco,Lletget,West Ham,2014
+657,Sebastián Marcelo,Blanco,West Brom,2014
+658,Olivier Michel,Kemen,Newcastle,2014
+659,Eliaquim,Mangala,Manchester City,2014
+660,Nacer,Chadli,Tottenham,2014
+661,Toby Albertine Maurits,Alderweireld,Southampton,2014
+662,José Ángel,Esmoris Tasende,Manchester City,2014
+663,Alexander Mark David,Oxlade-Chamberlain,Arsenal,2014
+664,Dušan,Tadić,Southampton,2014
+665,Steven N'Kemboanza Mike Christ,Nzonzi,Stoke City,2014
+666,Edin,Džeko,Manchester City,2014
+667,Anga Dedryck,Boyata,Manchester City,2014
+668,Shinji,Kagawa,Manchester United,2014
+669,Dazet Wilfried,Armel Zaha,Crystal Palace,2014
+670,Jason Alan,Davidson,West Brom,2014
+671,Ritchie Ria Alfons,De Laet,Leicester,2014
+672,Isaac Scott,Hayden,Arsenal,2014
+673,Lazar,Marković,Liverpool,2014
+674,Leroy Johan,Fer,QPR,2014
+675,Thierry Winston Jordan,Ambrose,Manchester City,2014
+676,Mehdi,Abeid,Newcastle,2014
+677,Oluwaseyi Babajide,Ojo,Liverpool,2014
+678,Bafétimbi Fredius,Gomis,Swansea,2014
+679,Ľubomír,Šatka,Newcastle,2014
+680,Jan,Vertonghen,Tottenham,2014
+681,Simon Luc Hildebert,Mignolet,Liverpool,2014
+682,Steven,Davis,Southampton,2014
+683,Kasper Peter,Schmeichel,Leicester,2014
+684,Jack,Butland,Stoke City,2014
+685,Oscar,dos Santos Emboaba Júnior,Chelsea,2014
+686,Tyias Charles,Browning,Everton,2014
+687,Marouane,Fellaini-Bakkioui,Manchester United,2014
+688,Tetchi Jores Charlemagne,Ulrich Okore,Aston Villa,2014
+689,Mikaël Yann Mathieu,Mandron,Sunderland,2014
+690,James Patrick,McCarthy,Everton,2014
+691,Pape,N'Diaye Souaré,Crystal Palace,2014
+692,Charles Joseph John,Hart,Manchester City,2014
+693,Kieran,O'Neill Dowell,Everton,2014
+694,Kemar,Roofe,West Brom,2014
+695,Thomas Morris,Lawrence,Leicester,2014
+696,Bersant,Celina,Manchester City,2014
+697,Stephen Iain,Kingsley,Swansea,2014
+698,Marnick Danny Ingrid,Vermijl,Manchester United,2014
+699,John Alberto Fernando Andres L,Guidetti,Manchester City,2014
+700,Anderson Luis,de Carvalho,West Ham,2014
+701,Łukasz Józef,Podolski,Arsenal,2014
+702,Wilfried Guemiand,Bony,Manchester City,2014
+703,Fredrik Stensøe,Ulvestad,Burnley,2014
+704,Raphael Simon,Spiegel,West Ham,2014

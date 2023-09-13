@@ -1,0 +1,681 @@
+,first_name,last_name,team_name,season
+0,Mark,Noble,West Ham,2013
+1,Julián,Speroni,Crystal Palace,2013
+2,Andre,Wisdom,Liverpool,2013
+3,Nathan Luke,Baker,Aston Villa,2013
+4,Nathan,Dyer,Swansea,2013
+5,Wayne,Routledge,Swansea,2013
+6,Craig,Gardner,Sunderland,2013
+7,Modibo,Diakité,Sunderland,2013
+8,Jordon,Mutch,Cardiff,2013
+9,Juan,Torres Ruiz,Cardiff,2013
+10,Adilson,Tavares Varela,Sunderland,2013
+11,Brek,Shea,Stoke City,2013
+12,Steve,Sidwell,Fulham,2013
+13,Victor Chinedu,Anichebe,West Brom,2013
+14,Carlos Javier,Cuéllar Jiménez,Sunderland,2013
+15,Kevin,Nolan,West Ham,2013
+16,Tony,Hibbert,Everton,2013
+17,Tommy,Smith,Cardiff,2013
+18,Carlo,Nash,Norwich,2013
+19,Gregor,Zabret,Swansea,2013
+20,Nicholas David,Maynard,Cardiff,2013
+21,Elliott,Bennett,Norwich,2013
+22,Àngel,Rangel Zaragoza,Swansea,2013
+23,George,Thorne,West Brom,2013
+24,Lee,Cattermole,Sunderland,2013
+25,Jay Francis,Spearing,Bolton,2013
+26,Michael,Kightly,Stoke City,2013
+27,Abdulyussuf Adedeji Adeniyi,Oshilaja,Cardiff,2013
+28,Romain Grégoire,Clément Amalfitano,Newcastle,2013
+29,Cameron,Jerome,Crystal Palace,2013
+30,Simon,Lappin,Cardiff,2013
+31,Mason,Springthorpe,Everton,2013
+32,Liam,Rosenior,Hull City,2013
+33,Jerome,Thomas,Crystal Palace,2013
+34,Charlie Patrick,Ward,Stoke City,2013
+35,Charlie,Ward,Stoke City,2013
+36,Luciano,Becchio,Norwich,2013
+37,Luke,Moore,Swansea,2013
+38,Adam,Mitchell,Sunderland,2013
+39,Cameron,Gayle,West Brom,2013
+40,Hiram Kojo Kwarteng,Boateng,Crystal Palace,2013
+41,Scott,Dann,Crystal Palace,2013
+42,Glenn,Murray,Crystal Palace,2013
+43,Bradley,Johnson,Norwich,2013
+44,Danny,Graham,Hull City,2013
+45,Ryan,Tunnicliffe,Fulham,2013
+46,Billy,Jones,West Brom,2013
+47,Sammy,Ameobi,Newcastle,2013
+48,Craig Stephen,Noone,Cardiff,2013
+49,Michael,Turner,Norwich,2013
+50,Sylvain,Marveaux,Newcastle,2013
+51,Joseph Peter,Lewis,Cardiff,2013
+52,Stephen,Dobbie,Crystal Palace,2013
+53,Yoan,Gouffran,Newcastle,2013
+54,Peter,Whittingham,Cardiff,2013
+55,Florian,Marange,Crystal Palace,2013
+56,Adam,King,Swansea,2013
+57,Matt,Fryatt,Hull City,2013
+58,Garry,Monk,Swansea,2013
+59,Joe,Dudgeon,Hull City,2013
+60,Karim,El Ahmadi Al Aroos,Aston Villa,2013
+61,Jordan Nathaniel,Bowery,Aston Villa,2013
+62,Kyle Matthew,De Silva,Crystal Palace,2013
+63,Matthew John,Lowton,Aston Villa,2013
+64,Jason David Ian,Puncheon,Crystal Palace,2013
+65,Jed John,Steer,Aston Villa,2013
+66,Jack Paul,Hunt,Crystal Palace,2013
+67,Liam,Ridgewell,West Brom,2013
+68,Elliot Robert,Lee,West Ham,2013
+69,John Robert,Brayford,Cardiff,2013
+70,Donervon Joseph,Daniels,West Brom,2013
+71,Conor James,Grant,Everton,2013
+72,Papiss Demba,Cissé,Newcastle,2013
+73,Fernando Gabriel,Amorebieta Mardaras,Fulham,2013
+74,Grant,Holt,Aston Villa,2013
+75,Stuart Antony Alan,O'Keefe,Crystal Palace,2013
+76,Emmanuel,Mayuka,Southampton,2013
+77,Mahamadou,Diarra,Fulham,2013
+78,Steve,Harper,Hull City,2013
+79,Guilherme,do Prado Raymundo,Southampton,2013
+80,Thomas Lynn,James,Cardiff,2013
+81,Roger,Johnson,West Ham,2013
+82,Geoff,Cameron,Stoke City,2013
+83,Ryan,Taylor,Newcastle,2013
+84,Lloyd Richard,Jones,Liverpool,2013
+85,El Hadji,Ba,Sunderland,2013
+86,Wilson Roberto,Palacios Suazo,Stoke City,2013
+87,Yacouba,Sylla,Aston Villa,2013
+88,Modibo,Maïga,West Ham,2013
+89,Josmer Volmy,Altidore,Sunderland,2013
+90,Cody Joseph,Cropper,Southampton,2013
+91,Maynor Alexis,Figueroa Róchez,Hull City,2013
+92,Diego Alfredo,Lugano Morena,West Brom,2013
+93,Shola,Ameobi,Newcastle,2013
+94,Derek,Owusu Boateng,Fulham,2013
+95,Steven,Pienaar,Everton,2013
+96,Maurice,Edu,Stoke City,2013
+97,Clint,Dempsey,Fulham,2013
+98,Abdoulaye,Diagne-Fayé,Hull City,2013
+99,Joseph Phillip,Yobo,Norwich,2013
+100,Konstantinos,Mitroglou,Fulham,2013
+101,André Francisco,Moritz,Crystal Palace,2013
+102,Ryan,Shotton,Stoke City,2013
+103,Keiren,Westwood,Sunderland,2013
+104,Darron,Gibson,Everton,2013
+105,Paul,McShane,Hull City,2013
+106,John,O'Shea,Sunderland,2013
+107,Marc David,Wilson,Stoke City,2013
+108,Stephen Jude,Quinn,Hull City,2013
+109,David,Fox,Norwich,2013
+110,Alex,Bruce,Hull City,2013
+111,Ryan Stuart Clayton,Inniss,Crystal Palace,2013
+112,Emmanuel,Adebayor,Tottenham,2013
+113,Ricardo Jorge,Vaz Tê,West Ham,2013
+114,Zoltán,Gera,West Brom,2013
+115,Emmanuel Yaw,Frimpong,Arsenal,2013
+116,Kenwyne,Jones,Cardiff,2013
+117,Mikel,Arteta Amatriain,Arsenal,2013
+118,Giorgios,Karagounis,Fulham,2013
+119,Matthew,Parsons,Crystal Palace,2013
+120,Davide,Santon,Newcastle,2013
+121,Maarten,Stekelenburg,Fulham,2013
+122,Ciaran,Clark,Aston Villa,2013
+123,Shane Patrick,Long,Hull City,2013
+124,Josh,Murphy,Norwich,2013
+125,Glenn David,Whelan,Stoke City,2013
+126,Mikel John,Obi,Chelsea,2013
+127,Anthony Neil James,Pilkington,Norwich,2013
+128,David,Meyler,Hull City,2013
+129,Emanuele,Giaccherini,Sunderland,2013
+130,Robin,van Persie,Manchester United,2013
+131,Elsad,Zverotić,Fulham,2013
+132,Demba,Ba,Chelsea,2013
+133,Goran,Popov,West Brom,2013
+134,Jonathan,Walters,Stoke City,2013
+135,Dwight,Tiendalli,Swansea,2013
+136,Robert,Huth,Stoke City,2013
+137,Michael,Essien,Chelsea,2013
+138,Pablo Daniel,Osvaldo,Southampton,2013
+139,Damien,Duff,Fulham,2013
+140,Michel,Vorm,Swansea,2013
+141,Gareth,McAuley,West Brom,2013
+142,Graham,Dorrans,West Brom,2013
+143,Artur,Boruc,Southampton,2013
+144,Phil,Bardsley,Sunderland,2013
+145,Alexander Banor,Tettey,Norwich,2013
+146,Chris,Brunt,West Brom,2013
+147,James,Morrison,West Brom,2013
+148,Alan,Hutton,Aston Villa,2013
+149,Costel Fane,Pantilimon,Manchester City,2013
+150,Lee,Camp,West Brom,2013
+151,Ron Peter,Vlaar,Aston Villa,2013
+152,Jonathan,Parr,Crystal Palace,2013
+153,Aaron,Hughes,Fulham,2013
+154,James Neil,Alexander,Crystal Palace,2013
+155,Răzvan Dincă,Raț,West Ham,2013
+156,Steven,Reid,West Brom,2013
+157,George,McCartney,West Ham,2013
+158,Henrique Hilário,Meireles Alves Sampaio,Chelsea,2013
+159,Alex,Marrow,Crystal Palace,2013
+160,David Josué,Jiménez Silva,Manchester City,2013
+161,David,de Gea Quintana,Manchester United,2013
+162,Juan Manuel,Mata García,Manchester United,2013
+163,Branislav,Ivanović,Chelsea,2013
+164,Roberto,Soldado Rillo,Tottenham,2013
+165,Allan James,McGregor,Hull City,2013
+166,Russell,Martin,Norwich,2013
+167,Robert,Snodgrass,Norwich,2013
+168,Pablo,Hernández Domínguez,Swansea,2013
+169,Mark,Bunn,Norwich,2013
+170,Liam Robert,Bridcutt,Sunderland,2013
+171,George,Boyd,Hull City,2013
+172,Steven,Fletcher,Sunderland,2013
+173,Craig Ian,Conway,Cardiff,2013
+174,Daniel,Fox,Southampton,2013
+175,Steven Gordon,Whittaker,Norwich,2013
+176,Steven John,Naismith,Everton,2013
+177,Don,Cowie,Cardiff,2013
+178,Miguel,Pérez Cuesta,Swansea,2013
+179,Robert,Koren,Hull City,2013
+180,Gareth Frank,Bale,Tottenham,2013
+181,Ignacio,Monreal Eraso,Arsenal,2013
+182,Bengt Ulf Sebastian,Larsson,Sunderland,2013
+183,David Owen,Vaughan,Sunderland,2013
+184,Glyn Oliver,Myhill,West Brom,2013
+185,Neil John,Taylor,Swansea,2013
+186,Curtis Eugene,Davies,Hull City,2013
+187,Declan Christopher,John,Cardiff,2013
+188,Jonas,Olsson,West Brom,2013
+189,Lewis,Price,Crystal Palace,2013
+190,James,Collins,West Ham,2013
+191,Jonathan Peter,Williams,Crystal Palace,2013
+192,Lloyd Jeffrey,Isgrove,Southampton,2013
+193,Oussama,Assaidi,Stoke City,2013
+194,José Ángel,Gómez Campaña,Crystal Palace,2013
+195,Joe,Ledley,Crystal Palace,2013
+196,Philippe,Senderos,Fulham,2013
+197,Kim,Källström,Arsenal,2013
+198,Simon,Davies,Fulham,2013
+199,Darcy,Blake,Crystal Palace,2013
+200,Sascha,Riether,Fulham,2013
+201,Mesut,Özil,Arsenal,2013
+202,Buomesca,Tué Na Bangna,Fulham,2013
+203,Jordan Bernard,Rossiter,Liverpool,2013
+204,André,Schürrle,Chelsea,2013
+205,James,Grant Chester,Hull City,2013
+206,Daniel,Sánchez Ayala,Norwich,2013
+207,Ashley,Williams,Swansea,2013
+208,Charles Graham,Adam,Stoke City,2013
+209,Jerome,Sinclair,Liverpool,2013
+210,Elliot,Grandin,Crystal Palace,2013
+211,Fernando José,Torres Sanz,Chelsea,2013
+212,Wallace,Oliveira dos Santos,Chelsea,2013
+213,Per,Mertesacker,Arsenal,2013
+214,Marco,Borriello,West Ham,2013
+215,José Enrique,de la Sánchez Diaz,Liverpool,2013
+216,Andy,Wilkinson,Stoke City,2013
+217,Craig,Bellamy,Cardiff,2013
+218,Andrea,Dossena,Sunderland,2013
+219,John Arne,Semundseth Riise,Fulham,2013
+220,Sergio Leonel,Agüero del Castillo,Manchester City,2013
+221,Aleksandar,Kolarov,Manchester City,2013
+222,Martin,Škrtel,Liverpool,2013
+223,Francisco Javier,García Fernández,Manchester City,2013
+224,Jonás Manuel,Gutiérrez,Norwich,2013
+225,Ignacio Martín,Scocco,Sunderland,2013
+226,Fabricio,Coloccini,Newcastle,2013
+227,Pablo Javier,Zabaleta Girod,Manchester City,2013
+228,Mile,Jedinak,Crystal Palace,2013
+229,Claudio Ariel,Yacob,West Brom,2013
+230,David,N'Gog,Swansea,2013
+231,Bradley Scott,Jones,Liverpool,2013
+232,Santiago,Vergini,Sunderland,2013
+233,Christopher,Herd,Aston Villa,2013
+234,Matthew Anthony,Briggs,Fulham,2013
+235,Shay,Given,Aston Villa,2013
+236,Etien,Velikonja,Cardiff,2013
+237,Óscar Alfredo,Ustari,Sunderland,2013
+238,Mark,Schwarzer,Chelsea,2013
+239,Javier,Garrido Behovide,Norwich,2013
+240,Thomas,Vermaelen,Arsenal,2013
+241,Lucas,Pezzini Leiva,Liverpool,2013
+242,Eden Michael Walter,Hazard,Chelsea,2013
+243,Mousa Sidi Yaya,Dembélé,Tottenham,2013
+244,Rudy,Gestede,Cardiff,2013
+245,Darren,Fletcher,Manchester United,2013
+246,Andrew,Taylor,Cardiff,2013
+247,Aaron,Wilbraham,Crystal Palace,2013
+248,Kevin Antonio Joel Gislain,Mirallas y Castillo,Everton,2013
+249,Roland Conde,Lamah,Swansea,2013
+250,Timothy Matthew,Howard,Everton,2013
+251,Anderson Luis,de Abreu Oliveira,Manchester United,2013
+252,Remie,Streete,Newcastle,2013
+253,Stephen,Ireland,Stoke City,2013
+254,Winston Wiremu,Reid,West Ham,2013
+255,Jos,Hooiveld,Southampton,2013
+256,Kevin,McNaughton,Cardiff,2013
+257,Brede,Hangeland,Fulham,2013
+258,Ryan,Giggs,Manchester United,2013
+259,Nemanja,Vidic,Manchester United,2013
+260,Scott,Sinclair,West Brom,2013
+261,José Alberto,Cañas Ruiz Herrera,Swansea,2013
+262,Ramires,Santos do Nascimento,Chelsea,2013
+263,Ryan,Bennett,Norwich,2013
+264,Heurelho,da Silva Gomes,Tottenham,2013
+265,Connor Neil Ralph,Wickham,Sunderland,2013
+266,Daniel,Gosling,Newcastle,2013
+267,Jordon,Ibe,Liverpool,2013
+268,Joe,Bennett,Aston Villa,2013
+269,Matthew,Connolly,Cardiff,2013
+270,Thomas James,Carroll,Tottenham,2013
+271,Joshua Mark,McEachran,Chelsea,2013
+272,Benjamin Paul,Amos,Manchester United,2013
+273,Luke Samuel,Garbutt,Everton,2013
+274,Sandro,Raniere Guimarães Cordeiro,Tottenham,2013
+275,James Anthony,Wilson,Manchester United,2013
+276,Gaël,Bigirimana,Newcastle,2013
+277,Gerhard,Tremmel,Swansea,2013
+278,Dimitar,Ivanov Berbatov,Fulham,2013
+279,Sylvain,Distin,Everton,2013
+280,Yannick,Bolasie Yala,Crystal Palace,2013
+281,Ashkan,Dejagah,Fulham,2013
+282,Pablo Estífer,Armero,West Ham,2013
+283,Charalampos,Mavrias,Sunderland,2013
+284,George Christopher,Williams,Fulham,2013
+285,Dean William,Moxey,Crystal Palace,2013
+286,Ross Alan Richard Frank,Fitzsimons,Crystal Palace,2013
+287,Wesley,Hoolahan,Norwich,2013
+288,Nick,Powell,Manchester United,2013
+289,Jacob Luke,Butterfield,Norwich,2013
+290,Nick,Proschwitz,Hull City,2013
+291,Stephen,Sama,Liverpool,2013
+292,Samuel,Eto'o Fils,Chelsea,2013
+293,Youssouf Chafiq,Mulumbu Ngangu,West Brom,2013
+294,Leon,Britton,Swansea,2013
+295,Jernade Ronnel,Meade,Swansea,2013
+296,Joseph Martin,O'Brien,West Ham,2013
+297,Damien,Delaney,Crystal Palace,2013
+298,Larnell James,Cole,Fulham,2013
+299,Lee  Paul,Lucas,Swansea,2013
+300,Petr,Čech,Chelsea,2013
+301,Bryan Jafet,Ruiz González,Fulham,2013
+302,Nikica,Jelavić,Hull City,2013
+303,Lasse,Vigen Christensen,Fulham,2013
+304,Anders,Rosenkrantz Lindegaard,Manchester United,2013
+305,Graham Dylan,Burke,Aston Villa,2013
+306,Lacina,Emeghara Traoré,Everton,2013
+307,Yannick Anister,Sagbo-Latte,Hull City,2013
+308,Abdul,Razak,Manchester City,2013
+309,Arouna,Koné,Everton,2013
+310,Jamar Kasheef,Loza,Norwich,2013
+311,Joseph,Mason,Cardiff,2013
+312,Cheik Ismaël,Tioté,Newcastle,2013
+313,Guy Roland,Demel,West Ham,2013
+314,Jermaine,Pennant,Stoke City,2013
+315,Kolo Habib,Touré,Liverpool,2013
+316,Tomáš,Rosický,Arsenal,2013
+317,Mladen,Petrić,West Ham,2013
+318,Leo,Chambers,West Ham,2013
+319,Charles,Banya,Fulham,2013
+320,Luis Antonio,Valencia Mosquera,Manchester United,2013
+321,Nicklas,Bendtner,Arsenal,2013
+322,Andreas Evald,Cornelius,Cardiff,2013
+323,William Vitved,Kvist Jørgensen,Fulham,2013
+324,Jonathon Patrick,Flanagan,Liverpool,2013
+325,Markus,Rosenberg,West Brom,2013
+326,Mohamed Nagy Ismail,Afash,Hull City,2013
+327,Ben Howard,Turner,Cardiff,2013
+328,Liam,Agnew,Sunderland,2013
+329,Ibra,Sekajja,Crystal Palace,2013
+330,Kieran James Ricardo,Gibbs,Arsenal,2013
+331,Ahmed Eissa,El Mohamady Abdel Fattah,Hull City,2013
+332,Fraizer,Campbell,Cardiff,2013
+333,Thomas,Løvendahl Sørensen,Stoke City,2013
+334,Adam Joseph,Morgan,Liverpool,2013
+335,Micah,Richards,Manchester City,2013
+336,Antonio,Nocerino,West Ham,2013
+337,Leroy Halirou,Lita Bohari,Swansea,2013
+338,Daniel Munthe,Agger,Liverpool,2013
+339,Phil,Neville,Everton,2013
+340,Daniel Lee,Rose,Tottenham,2013
+341,Phil Anthony,Jones,Manchester United,2013
+342,Philip Nikodem,Jagielka,Everton,2013
+343,Theo James,Walcott,Arsenal,2013
+344,Thomas William,Cleverley,Manchester United,2013
+345,Andros Darryl,Townsend,Tottenham,2013
+346,Ryan Dominic,Bertrand,Aston Villa,2013
+347,Thomas Andrew,Huddlestone,Hull City,2013
+348,Ryan,Shawcross,Stoke City,2013
+349,Matt,Jarvis,West Ham,2013
+350,Darren,Bent,Fulham,2013
+351,Gabriel,Imuetinyan Agbonlahor,Aston Villa,2013
+352,Scott,Parker,Fulham,2013
+353,Kieran,Richardson,Fulham,2013
+354,Joleon,Lescott,Manchester City,2013
+355,Adam,Johnson,Sunderland,2013
+356,Leon,Osman,Everton,2013
+357,Richard,Wright,Manchester City,2013
+358,Carlton,Cole Okirie,West Ham,2013
+359,Kevin,Phillips,Crystal Palace,2013
+360,Daniel Andre,Sturridge,Liverpool,2013
+361,Jesse Ellis,Lingard,Manchester United,2013
+362,Gary,Cahill,Chelsea,2013
+363,Steven Vincent,Taylor,Newcastle,2013
+364,Leighton,Baines,Everton,2013
+365,Benjamin Anthony,Foster,West Brom,2013
+366,Jack,Wilshere,Arsenal,2013
+367,Aaron,Lennon,Tottenham,2013
+368,Peter,Crouch,Stoke City,2013
+369,Gareth,Barry,Everton,2013
+370,Ashley,Cole,Chelsea,2013
+371,Stewart,Downing,West Ham,2013
+372,Michael,Dawson,Tottenham,2013
+373,David Adam,Stockdale,Fulham,2013
+374,Steven,Roy Caulker,Cardiff,2013
+375,Wes,Brown,Sunderland,2013
+376,Michael,Carrick,Manchester United,2013
+377,Glen,Johnson,Liverpool,2013
+378,Joe,Cole,West Ham,2013
+379,Rio,Ferdinand,Manchester United,2013
+380,Fabian,Delph,Aston Villa,2013
+381,Jermain Colin,Defoe,Tottenham,2013
+382,Hatem,Ben Arfa,Newcastle,2013
+383,Ben William,Nugent,Cardiff,2013
+384,Adam,Campbell,Newcastle,2013
+385,Alex James,Wynter,Crystal Palace,2013
+386,Joshua Jordan,Passley,Fulham,2013
+387,Robert,Elliot,Newcastle,2013
+388,Ryan,McLaughlin,Liverpool,2013
+389,Kwesi,Appiah,Crystal Palace,2013
+390,Vurnon San Benito,Anita,Newcastle,2013
+391,Mathieu,Flamini,Arsenal,2013
+392,John,Terry,Chelsea,2013
+393,Aaron,McLean,Hull City,2013
+394,Rickie,Lambert,Southampton,2013
+395,Morgan,Amalfitano,West Brom,2013
+396,Mapou,Yanga-Mbiwa,Newcastle,2013
+397,Younes,Kaboul,Tottenham,2013
+398,Charles,N'Zogbia,Aston Villa,2013
+399,Jussi,Jääskeläinen,West Ham,2013
+400,Kévin,Théophile-Catherine,Cardiff,2013
+401,Laurent,Koscielny,Arsenal,2013
+402,Tiago Abiola Delfim,Almeida Ilori,Liverpool,2013
+403,Liam Christian James,O'Neil,West Brom,2013
+404,Ibou Omar,Touray,Everton,2013
+405,Morgan Fernand Gérard,Schneiderlin,Southampton,2013
+406,Luke,Daniels,West Brom,2013
+407,Gary,Hooper,Norwich,2013
+408,James Joseph,McClean,Sunderland,2013
+409,Jordan,Spence,West Ham,2013
+410,Jamie,Ness,Stoke City,2013
+411,Mathieu,Debuchy,Newcastle,2013
+412,Loïc Alex Teliére,Hubert Rémy,Newcastle,2013
+413,Conor Michael,McAleny,Everton,2013
+414,Gaël Dimitri,Clichy,Manchester City,2013
+415,Bacary,Sagna,Arsenal,2013
+416,Patrice,Evra,Manchester United,2013
+417,Yohan,Cabaye,Newcastle,2013
+418,Vassiriki Abou,Diaby,Arsenal,2013
+419,Nicolas,Anelka,West Brom,2013
+420,Stevan,Jovetić,Manchester City,2013
+421,Valentin,Roberge,Sunderland,2013
+422,Gary Alexis,Medel Soto,Cardiff,2013
+423,Gylfi Þór,Sigurðsson,Tottenham,2013
+424,Nicklas,Helenius Jensen,Aston Villa,2013
+425,Hallam Robert,Hope,Everton,2013
+426,Adrian Joseph,Mariappa,Crystal Palace,2013
+427,Samuel Luke,Johnstone,Manchester United,2013
+428,Ezekiel David,Fryers,Tottenham,2013
+429,Aiden John,McGeady,Everton,2013
+430,Haris,Vučkić,Newcastle,2013
+431,Christofer Gürkan,David,Fulham,2013
+432,Álvaro,Vázquez García,Swansea,2013
+433,Iago,Aspas Juncal,Liverpool,2013
+434,Marc,Muniesa Martínez,Stoke City,2013
+435,Jordi,Amat Maas,Swansea,2013
+436,Ondřej,Čelůstka,Sunderland,2013
+437,Aly,Cissokho,Liverpool,2013
+438,Libor,Kozák,Aston Villa,2013
+439,Kerim,Frei Koyunlu,Fulham,2013
+440,Victor,Mugubi Wanyama,Southampton,2013
+441,Vlad Iulian,Chiricheș,Tottenham,2013
+442,Wojciech Tomasz,Szczęsny,Arsenal,2013
+443,Joel,Robles Blázquez,Everton,2013
+444,Saido,Berahino,West Brom,2013
+445,Stéphane,Sessègnon,West Brom,2013
+446,Francisco,Santos da Silva Júnior,Everton,2013
+447,Matěj,Vydra,West Brom,2013
+448,Ashley Darel Jazz,Richards,Swansea,2013
+449,Leandro Jones Johan,Bacuna,Aston Villa,2013
+450,Adil,Nabi,West Brom,2013
+451,Tadanari,Lee,Southampton,2013
+452,Alexander,Büttner,Manchester United,2013
+453,Alexander,Kačaniklić,Fulham,2013
+454,Muamer,Tankovic,Fulham,2013
+455,Gabriel Antoine,Obertan,Newcastle,2013
+456,Gedion,Zelalem,Arsenal,2013
+457,Daniel Mark,Alfei,Swansea,2013
+458,Ruaridhri,Donnelly,Swansea,2013
+459,Gabriel Sebastian,Tamaș,West Brom,2013
+460,Adel,Taarabt,Fulham,2013
+461,Aron Einar,Malmquist Gunnarsson,Cardiff,2013
+462,Aleksandar,Tonev,Aston Villa,2013
+463,Samir,Nasri,Manchester City,2013
+464,Nathaniel Edwin,Clyne,Southampton,2013
+465,Mohamed,Diamé,West Ham,2013
+466,Sébastien Aymar,Bassong Nguena,Norwich,2013
+467,Filip,Kiss,Cardiff,2013
+468,Pajtim,Kasami,Fulham,2013
+469,Alejandro,Pozuelo Melero,Swansea,2013
+470,Magaye Serigne Falilou Dit Nel,Gueye,Everton,2013
+471,Antolín,Alcáraz Viveros,Everton,2013
+472,Owen,Garvan,Crystal Palace,2013
+473,Marvin,Emnes,Swansea,2013
+474,Alou,Diarra,West Ham,2013
+475,Marouane,Chamakh,Crystal Palace,2013
+476,Gnégnéri Yaya,Touré,Manchester City,2013
+477,Johan,Elmander,Norwich,2013
+478,Peter,Ramage,Crystal Palace,2013
+479,Jimmy,Kébé,Crystal Palace,2013
+480,Hugo Hadrien Dominique,Lloris,Tottenham,2013
+481,Benjamin Thomas,Davies,Swansea,2013
+482,Adam David,Lallana,Southampton,2013
+483,James Philip,Milner,Manchester City,2013
+484,Mohamed,Salah Hamed Mahrous Ghaly,Chelsea,2013
+485,John,Stones,Everton,2013
+486,Kyle Andrew,Walker,Tottenham,2013
+487,Kevin,De Bruyne,Chelsea,2013
+488,Daniel Nii,Tackie Mensah Welbeck,Manchester United,2013
+489,James Michael Edward,Ward-Prowse,Southampton,2013
+490,Łukasz Marek,Fabiański,Arsenal,2013
+491,Adrián,San Miguel del Castillo,West Ham,2013
+492,Wayne Robert,Hennessey,Crystal Palace,2013
+493,James Oliver Charles,Tomkins,West Ham,2013
+494,Joel Edward Philip,Ward,Crystal Palace,2013
+495,Nathan Benjamin,Aké,Chelsea,2013
+496,Jack Frank,Porteous Cork,Southampton,2013
+497,Nathan Daniel Jerome,Redmond,Norwich,2013
+498,Jay Enrique,Rodríguez,Southampton,2013
+499,Cauley,Woodrow,Fulham,2013
+500,Christian,Dannemann Eriksen,Tottenham,2013
+501,Raheem Shaquille,Sterling,Liverpool,2013
+502,Luke Paul Hoare,Shaw,Southampton,2013
+503,Ashley Simon,Young,Manchester United,2013
+504,Ross,Barkley,Everton,2013
+505,Willian,Borges da Silva,Chelsea,2013
+506,Jordan Lee,Pickford,Sunderland,2013
+507,Michael Vincent,Keane,Manchester United,2013
+508,Séamus,Coleman,Everton,2013
+509,Ryan,Marlowe Fredericks,Tottenham,2013
+510,Paul,Dummett,Newcastle,2013
+511,Matthew Robert,Targett,Southampton,2013
+512,Daniel Johnson,Burn,Fulham,2013
+513,Marcus,Bettinelli,Fulham,2013
+514,Timothy Michael,Krul,Newcastle,2013
+515,Craig,Dawson,West Brom,2013
+516,Jack,Robinson,Blackpool,2013
+517,Harrison James,Reed,Southampton,2013
+518,Daniel,Potts,West Ham,2013
+519,Pelly Ruddock,Mpanzu,West Ham,2013
+520,Philippe,Coutinho Correia,Liverpool,2013
+521,Paulo Dino,Gazzaniga Farias,Southampton,2013
+522,Erik Manuel,Lamela Cordero,Tottenham,2013
+523,Harry Edward,Kane,Tottenham,2013
+524,Matija,Nastasić,Manchester City,2013
+525,Francis Joseph,Coquelin,Arsenal,2013
+526,Héctor,Bellerín Moruno,Arsenal,2013
+527,Jesús,Navas González,Manchester City,2013
+528,Marcos,Alonso Mendoza,Sunderland,2013
+529,César,Azpilicueta Tanco,Chelsea,2013
+530,Olivier Jonathan,Giroud,Arsenal,2013
+531,Miloš,Veljković,Tottenham,2013
+532,Adnan,Januzaj,Manchester United,2013
+533,Jonathan Grant,Evans,Manchester United,2013
+534,Étienne,René Capoue,Tottenham,2013
+535,Marko,Arnautović,Stoke City,2013
+536,Jonjo,Shelvey,Swansea,2013
+537,Calum,Chambers,Southampton,2013
+538,Adlène,Guédioura,Crystal Palace,2013
+539,Álvaro,Negredo Sánchez,Manchester City,2013
+540,Moussa,Sissoko,Newcastle,2013
+541,Luuk,de Jong,Newcastle,2013
+542,Dejan,Lovren,Southampton,2013
+543,Nabil,Bentaleb,Tottenham,2013
+544,Serge David,Gnabry,Arsenal,2013
+545,Christopher Lloyd,Smalling,Manchester United,2013
+546,Nemanja,Matić,Chelsea,2013
+547,Romelu Menama,Lukaku Bolingoli,Everton,2013
+548,Jonathan Alexander,de Guzmán,Swansea,2013
+549,Luis Alberto,Romero Alconchel,Liverpool,2013
+550,Chuba Amechi,Akpom,Arsenal,2013
+551,Massadio,Haïdara,Newcastle,2013
+552,Apostolos,Vellios,Everton,2013
+553,Gerard,Deulofeu Lázaro,Everton,2013
+554,Mamadou,Sakho,Liverpool,2013
+555,Gastón Exequiel,Ramírez Pereyra,Southampton,2013
+556,Ricky,van Wolfswinkel,Norwich,2013
+557,Vito,Mannone,Sunderland,2013
+558,Jens David Joacim,Moberg Karlsson,Sunderland,2013
+559,Marco,van Ginkel,Chelsea,2013
+560,Harry Billy,Winks,Tottenham,2013
+561,Carl Daniel,Jenkinson,Arsenal,2013
+562,Curtis Edward,Good,Newcastle,2013
+563,Omatsone Folarin,Aluko,Hull City,2013
+564,David Joseph,Cornell,Swansea,2013
+565,Daniel,Ward,Liverpool,2013
+566,John Thomas Gordon,Ruddy,Norwich,2013
+567,Conor David,Coady,Liverpool,2013
+568,Marc Kevin,Albrighton,Aston Villa,2013
+569,Robert,Brady,Hull City,2013
+570,Shane Patrick Michael,Duffy,Everton,2013
+571,Neil Leonard,Dula Etheridge,Fulham,2013
+572,Andreas,Weimann,Aston Villa,2013
+573,Ryan Graham,Ledson,Everton,2013
+574,Jack Christian,Rodwell,Manchester City,2013
+575,Adam James,Armstrong,Newcastle,2013
+576,Gary,Gardner,Aston Villa,2013
+577,Janoi Denzil Naieme,Donacien,Aston Villa,2013
+578,Scott James,Wootton,Manchester United,2013
+579,Antonio Manuel,Luna Rodríguez,Aston Villa,2013
+580,Aaron James,Ramsey,Arsenal,2013
+581,Martin Ronald,Kelly,Liverpool,2013
+582,Asmir,Begović,Stoke City,2013
+583,Samuel James,Gallagher,Southampton,2013
+584,Joseph William,Ralls,Cardiff,2013
+585,Rhys James,Evitt-Healey,Cardiff,2013
+586,Simon William,Moore,Cardiff,2013
+587,Enda John,Stevens,Aston Villa,2013
+588,Jake Cyril,Livermore,Hull City,2013
+589,Dwight Devon Boyd,Gayle,Crystal Palace,2013
+590,Jack Raymond,Colback,Sunderland,2013
+591,Kyle,Naughton,Tottenham,2013
+592,Daniel Anthony,Johnson,Aston Villa,2013
+593,Callum Jack,Robinson,Aston Villa,2013
+594,Thomas Christopher,Ince,Crystal Palace,2013
+595,Lewis Renard,Baker,Chelsea,2013
+596,John David,Swift,Chelsea,2013
+597,Jak,Alnwick,Newcastle,2013
+598,Erik,Pieters,Stoke City,2013
+599,Thievy Guivane,Bifouma Koulossa,West Brom,2013
+600,Jesse Pekka,Joronen,Fulham,2013
+601,Fabio,Borini,Sunderland,2013
+602,Santiago,Cazorla González,Arsenal,2013
+603,David Luiz,Moreira Marinho,Chelsea,2013
+604,Dong-Won,Ji,Sunderland,2013
+605,Andrew Thomas,Carroll,West Ham,2013
+606,Sung-Yueng,Ki,Sunderland,2013
+607,Alex David,Pritchard,Tottenham,2013
+608,Kyle Louis,Bartley,Swansea,2013
+609,Jonathan Mark,Howson,Norwich,2013
+610,Tomáš,Kalas,Chelsea,2013
+611,Jay,Fulton,Swansea,2013
+612,Barry Ryan,Bannan,Crystal Palace,2013
+613,Joseph Michael,Allen,Liverpool,2013
+614,Yaya,Sanogo,Arsenal,2013
+615,Lewis Harry,Holtby,Fulham,2013
+616,Mats,Møller Dæhli,Cardiff,2013
+617,Emiliano,Viviano,Arsenal,2013
+618,Chu-Young,Park,Arsenal,2013
+619,Patrick John Joseph,Roberts,Fulham,2013
+620,Marcos Paulo,Mesquita Lopes,Manchester City,2013
+621,Luis Alberto,Suárez Díaz,Liverpool,2013
+622,Fernando Luiz,Roza,Manchester City,2013
+623,Rafael,Pereira da Silva,Manchester United,2013
+624,Guillermo,Varela Olivera,Manchester United,2013
+625,Sebastián,Coates Nión,Liverpool,2013
+626,José Miguel,da Rocha Fonte,Southampton,2013
+627,Javier,Hernández Balcázar,Manchester United,2013
+628,Christian,Benteke Liolo,Aston Villa,2013
+629,José Paulo,Bezzera Maciel Júnior,Tottenham,2013
+630,Eldin,Jakupović,Hull City,2013
+631,Ashley Roy,Westwood,Aston Villa,2013
+632,Maya,Yoshida,Southampton,2013
+633,Bryan Josué,Oviedo Jiménez,Everton,2013
+634,Fábio,Pereira da Silva,Cardiff,2013
+635,Bo-Kyung,Kim,Cardiff,2013
+636,Ravel Ryan,Morrison,West Ham,2013
+637,Bradley Edwin,Guzan,Aston Villa,2013
+638,Sebastian Francisco,Lletget,West Ham,2013
+639,Bradley Shaun,Smith,Liverpool,2013
+640,Nacer,Chadli,Tottenham,2013
+641,Jan,Vertonghen,Tottenham,2013
+642,Simon Luc Hildebert,Mignolet,Liverpool,2013
+643,Jordan Brian,Henderson,Liverpool,2013
+644,Alexander Mark David,Oxlade-Chamberlain,Arsenal,2013
+645,Moussa,Dembélé,Fulham,2013
+646,Steven N'Kemboanza Mike Christ,Nzonzi,Stoke City,2013
+647,Edin,Džeko,Manchester City,2013
+648,Anga Dedryck,Boyata,Manchester City,2013
+649,Victor,Moses,Liverpool,2013
+650,Shinji,Kagawa,Manchester United,2013
+651,Dazet Wilfried,Armel Zaha,Cardiff,2013
+652,Isaac Scott,Hayden,Arsenal,2013
+653,Kadeem Raymond,Mathurin-Harris,Cardiff,2013
+654,Leroy Johan,Fer,Norwich,2013
+655,Ryo,Miyaichi,Arsenal,2013
+656,João Carlos,Vilaça Teixeira,Liverpool,2013
+657,Hugo,Rodallega Martínez,Fulham,2013
+658,Luís Carlos,Almeida da Cunha,Manchester United,2013
+659,Ľubomír,Šatka,Newcastle,2013
+660,James Henry,Tavernier,Newcastle,2013
+661,Steven,Davis,Southampton,2013
+662,Jo Inge,Berget,Cardiff,2013
+663,Jack,Butland,Stoke City,2013
+664,Oscar,dos Santos Emboaba Júnior,Chelsea,2013
+665,Tyias Charles,Browning,Everton,2013
+666,Marouane,Fellaini-Bakkioui,Manchester United,2013
+667,Tetchi Jores Charlemagne,Ulrich Okore,Aston Villa,2013
+668,James Patrick,McCarthy,Everton,2013
+669,Charles Joseph John,Hart,Manchester City,2013
+670,Kemar,Roofe,West Brom,2013
+671,Thomas Morris,Lawrence,Manchester United,2013
+672,Martin Tony Waikwa,Olsson,Norwich,2013
+673,David James,Marshall,Cardiff,2013
+674,Łukasz Józef,Podolski,Arsenal,2013
+675,Magnus,Wolff Eikrem,Cardiff,2013
+676,Wilfried Guemiand,Bony,Swansea,2013
+677,Matthew,Kennedy,Everton,2013
+678,John Alberto Fernando Andres L,Guidetti,Stoke City,2013
+679,Raphael Simon,Spiegel,West Ham,2013
