@@ -44,8 +44,13 @@ def grid() -> Grid:
 ### TESTS ###
 ####################################################################################################################
 
-def test_get_six_random_indices():
+def test_get_six_random_indices(): 
     test_list = get_six_random_indices()
+    type_check = ""
+    for i in test_list:
+        if type(i)!= int:
+            type_check = "Error"
+    assert type_check == ""
     assert len(test_list) == 6
     assert type(test_list[0]) is int
 
