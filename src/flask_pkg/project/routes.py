@@ -89,7 +89,7 @@ def get_all_players():
 @main.get("/api/get_all_valid_player_guesses")
 def get_all_valid_player_guesses(): 
     # all_valid_players = Players.query(func.count(Players.full_name)).group_by(Players.full_name).filter(func.count(Players.full_name)>1).all()
-    player_count = db.func.count(Players.full_name).group_by(Players.full_name).having(player_count > 0).cte('player_counts')
+    player_count = db.func.count(Players.full_name).group_by(Players.full_name).having(player_count > 0).label("player_count")
     all_valid_players = db.select([Players.full_name, player_count]).all()
     all_valid_players_array = [player.as_dict() for player in all_valid_players]
     return jsonify(all_valid_players_array)
