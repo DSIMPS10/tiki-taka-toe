@@ -1,0 +1,676 @@
+,first_name,last_name,team_name,season
+0,Mark,Noble,West Ham,2012
+1,Isaiah,Brown,West Brom,2012
+2,Nathan Luke,Baker,Aston Villa,2012
+3,Wayne,Routledge,Swansea,2012
+4,Craig,Gardner,Sunderland,2012
+5,Csaba,Somogyi,Fulham,2012
+6,Gustavo Lucas,Domingues Piazón,Chelsea,2012
+7,Ali Abdullah Harib,Al Habsi,Wigan,2012
+8,Iván,Ramis Barrios,Wigan,2012
+9,Steve,Sidwell,Fulham,2012
+10,Clint,Hill,QPR,2012
+11,Stuart,Taylor,Reading,2012
+12,Victor Chinedu,Anichebe,Everton,2012
+13,Carlos Javier,Cuéllar Jiménez,Sunderland,2012
+14,Ronnie,Stam,Wigan,2012
+15,Kevin,Nolan,West Ham,2012
+16,Tommy,Smith,QPR,2012
+17,Titus Malachi,Bramble,Sunderland,2012
+18,Albert,Crusat Domene,Wigan,2012
+19,Rob,Hulse,QPR,2012
+20,Andre,Wisdom,Liverpool,2012
+21,Korey Alexander,Sheridan Smith,Norwich,2012
+22,Nathan,Dyer,Swansea,2012
+23,Samuel Edward,Hutchinson,Chelsea,2012
+24,Elliott,Bennett,Norwich,2012
+25,Callum Henry,McManaman,Wigan,2012
+26,Àngel,Rangel Zaragoza,Swansea,2012
+27,Sam,Baldock,West Ham,2012
+28,George,Moncur,West Ham,2012
+29,Jay Francis,Spearing,Liverpool,2012
+30,Esteban Félix,Granero Molina,QPR,2012
+31,Cameron,Jerome,Stoke City,2012
+32,Brek,Shea,Stoke City,2012
+33,Chinedum,Onuoha,QPR,2012
+34,Tony,Hibbert,Everton,2012
+35,Carlo,Nash,Stoke City,2012
+36,Luke,Moore,Swansea,2012
+37,Hogan,Ephraim,QPR,2012
+38,Andy,Marshall,Aston Villa,2012
+39,Adam,Mitchell,Sunderland,2012
+40,Nicholas David,Maynard,West Ham,2012
+41,Jose,Baxter,Everton,2012
+42,Benjamin,Watson,Wigan,2012
+43,Declan,Rudd,Norwich,2012
+44,Danny,Graham,Sunderland,2012
+45,Billy,Jones,West Brom,2012
+46,George,Thorne,West Brom,2012
+47,Lee,Cattermole,Sunderland,2012
+48,Michael,Kightly,Stoke City,2012
+49,Hope,Akpan,Reading,2012
+50,Romain Grégoire,Clément Amalfitano,Newcastle,2012
+51,Anton,Ferdinand,QPR,2012
+52,Leon,Barnett,Norwich,2012
+53,Florent,Cuvelier,Stoke City,2012
+54,Frazer,Richardson,Southampton,2012
+55,Simon,Lappin,Norwich,2012
+56,Mason,Springthorpe,Everton,2012
+57,Jerome,Thomas,West Brom,2012
+58,Luciano,Becchio,Norwich,2012
+59,Danny,Higginbotham,Stoke City,2012
+60,Andrew,Surman,Norwich,2012
+61,Jason David Ian,Puncheon,Southampton,2012
+62,Bradley,Johnson,Norwich,2012
+63,Dominic James,Samuel,Reading,2012
+64,Ryan,Tunnicliffe,Manchester United,2012
+65,Sammy,Ameobi,Newcastle,2012
+66,James,Vaughan,Norwich,2012
+67,Maximilian Andreas,Ehmer,QPR,2012
+68,Michael Grant,Harriman,QPR,2012
+69,Michael,Turner,Norwich,2012
+70,Sylvain,Marveaux,Newcastle,2012
+71,Stephen,Dobbie,Swansea,2012
+72,Yoan,Gouffran,Newcastle,2012
+73,Tom,Adeyemi,Norwich,2012
+74,Nile,Ranger,Newcastle,2012
+75,Alejandro Damián,Faurlin,QPR,2012
+76,Emmanuel,Mayuka,Southampton,2012
+77,Dean,Hammond,Southampton,2012
+78,Garry,Monk,Swansea,2012
+79,Nicholas,Bignall,Reading,2012
+80,Adam,Buxton,Wigan,2012
+81,Jordan Nathaniel,Bowery,Aston Villa,2012
+82,Georgie,Francomb,Norwich,2012
+83,Jobi,McAnuff,Reading,2012
+84,Marc-Antoine,Fortuné,West Brom,2012
+85,Matthew John,Lowton,Aston Villa,2012
+86,Jed John,Steer,Norwich,2012
+87,David Frank Llwyd,Jones,Wigan,2012
+88,Eric,Lichaj,Aston Villa,2012
+89,Liam,Ridgewell,West Brom,2012
+90,Garath James,McCleary,Reading,2012
+91,Elliot Robert,Lee,West Ham,2012
+92,Shaun,Cummings,Reading,2012
+93,Papiss Demba,Cissé,Newcastle,2012
+94,Ryan Anthony,Dickson,Southampton,2012
+95,Grant,Holt,Norwich,2012
+96,Alex,Tchuimeni-Nimely,Manchester City,2012
+97,Steve,Harper,Newcastle,2012
+98,Guilherme,do Prado Raymundo,Southampton,2012
+99,Federico,Bessone Luna,Swansea,2012
+100,Karim,El Ahmadi Al Aroos,Aston Villa,2012
+101,Nick,Arnold,Reading,2012
+102,Geoff,Cameron,Stoke City,2012
+103,Ryan,Taylor,Newcastle,2012
+104,Lloyd Richard,Jones,Liverpool,2012
+105,David,Fox,Norwich,2012
+106,Wilson Roberto,Palacios Suazo,Stoke City,2012
+107,Yacouba,Sylla,Aston Villa,2012
+108,Modibo,Maïga,West Ham,2012
+109,Armand,Traoré,QPR,2012
+110,Maynor Alexis,Figueroa Róchez,Wigan,2012
+111,Shola,Ameobi,Newcastle,2012
+112,Abdou Kader,Mangane,Sunderland,2012
+113,Steven,Pienaar,Everton,2012
+114,Maurice,Edu,Stoke City,2012
+115,Clint,Dempsey,Tottenham,2012
+116,Kenwyne,Jones,Stoke City,2012
+117,Mahamadou,Diarra,Fulham,2012
+118,Mike,Pollitt,Wigan,2012
+119,Dickson Paul,Etuhu,Fulham,2012
+120,Michael,Tonge,Stoke City,2012
+121,Ciaran,Clark,Aston Villa,2012
+122,Shane Patrick,Long,West Brom,2012
+123,Ryan,Shotton,Stoke City,2012
+124,Keiren,Westwood,Sunderland,2012
+125,Darron,Gibson,Everton,2012
+126,Anthony Neil James,Pilkington,Norwich,2012
+127,John,O'Shea,Sunderland,2012
+128,Alex,Pearce,Reading,2012
+129,Marc David,Wilson,Stoke City,2012
+130,Emmanuel,Adebayor,Tottenham,2012
+131,Ricardo Jorge,Vaz Tê,West Ham,2012
+132,Jonathan,Walters,Stoke City,2012
+133,Stephen Francis,Henderson,West Ham,2012
+134,Stephen,Kelly,Reading,2012
+135,Zoltán,Gera,West Brom,2012
+136,Emmanuel Yaw,Frimpong,Fulham,2012
+137,Mikel,Arteta Amatriain,Arsenal,2012
+138,Giorgios,Karagounis,Fulham,2012
+139,Jay,Tabb,Reading,2012
+140,Michel,Vorm,Swansea,2012
+141,Davide,Santon,Newcastle,2012
+142,Chris,Brunt,West Brom,2012
+143,Glenn David,Whelan,Stoke City,2012
+144,Mikel John,Obi,Chelsea,2012
+145,David,Meyler,Sunderland,2012
+146,Ron Peter,Vlaar,Aston Villa,2012
+147,Robin,van Persie,Manchester United,2012
+148,Demba,Ba,Chelsea,2012
+149,Goran,Popov,West Brom,2012
+150,Chris,Baird,Fulham,2012
+151,Ross,Turnbull,Chelsea,2012
+152,Dwight,Tiendalli,Swansea,2012
+153,Robert,Huth,Stoke City,2012
+154,Itay Menachem,Shechter,Swansea,2012
+155,Michael,Essien,Chelsea,2012
+156,Yossi Shai,Benayoun,Chelsea,2012
+157,Damien,Duff,Fulham,2012
+158,George,McCartney,West Ham,2012
+159,Carlo,Cudicini,Tottenham,2012
+160,Gareth,McAuley,West Brom,2012
+161,Daniel Filipe,Martins Carriço,Reading,2012
+162,James,McFarlane McArthur,Wigan,2012
+163,Artur,Boruc,Southampton,2012
+164,Phil,Bardsley,Sunderland,2012
+165,Alexander Banor,Tettey,Norwich,2012
+166,Costel Fane,Pantilimon,Manchester City,2012
+167,Lee,Camp,Norwich,2012
+168,Benjamin Neil,Reeves,Southampton,2012
+169,Aaron,Hughes,Fulham,2012
+170,Matthew,Kilgallon,Sunderland,2012
+171,James,McFadden,Sunderland,2012
+172,Steven,Reid,West Brom,2012
+173,Henrique Hilário,Meireles Alves Sampaio,Chelsea,2012
+174,Raul José,Trindade Meireles,Chelsea,2012
+175,Gary,Caldwell,Wigan,2012
+176,José,Bosingwa da Silva,QPR,2012
+177,Jason,Roberts,Reading,2012
+178,Paulo Renato,Rebocho Ferreira,Chelsea,2012
+179,Michael,Johnson,Manchester City,2012
+180,David Josué,Jiménez Silva,Manchester City,2012
+181,David,de Gea Quintana,Manchester United,2012
+182,Juan Manuel,Mata García,Chelsea,2012
+183,Branislav,Ivanović,Chelsea,2012
+184,Graham,Dorrans,West Brom,2012
+185,Russell,Martin,Norwich,2012
+186,Robert,Snodgrass,Norwich,2012
+187,Pablo,Hernández Domínguez,Swansea,2012
+188,James,Morrison,West Brom,2012
+189,Mark,Bunn,Norwich,2012
+190,Alan,Hutton,Aston Villa,2012
+191,Steven,Fletcher,Sunderland,2012
+192,Christopher Hugh,Martin,Norwich,2012
+193,Daniel,Fox,Southampton,2012
+194,Jamie,Mackie,QPR,2012
+195,Steven Gordon,Whittaker,Norwich,2012
+196,Steven John,Naismith,Everton,2012
+197,Nick,Blackman,Reading,2012
+198,Shaun,Maloney,Wigan,2012
+199,Miguel,Pérez Cuesta,Swansea,2012
+200,Gareth Frank,Bale,Tottenham,2012
+201,Ignacio,Monreal Eraso,Arsenal,2012
+202,Bengt Ulf Sebastian,Larsson,Sunderland,2012
+203,Jake William Trevor,Taylor,Reading,2012
+204,David Owen,Vaughan,Sunderland,2012
+205,Danny,Simpson,Newcastle,2012
+206,Glyn Oliver,Myhill,West Brom,2012
+207,Thomas Henry Alex,Robson-Kanu,Reading,2012
+208,Neil John,Taylor,Swansea,2012
+209,Jonas,Olsson,West Brom,2012
+210,Christopher Ross,Gunter,Reading,2012
+211,Steve,Morison,Norwich,2012
+212,James,Collins,West Ham,2012
+213,Gwion Dafydd Rhys,Edwards,Swansea,2012
+214,Lloyd Jeffrey,Isgrove,Southampton,2012
+215,Oussama,Assaidi,Liverpool,2012
+216,Philippe,Senderos,Fulham,2012
+217,Andy,Wilkinson,Stoke City,2012
+218,Dudley Junior,Campbell,QPR,2012
+219,Simon,Davies,Fulham,2012
+220,Marko,Marin,Chelsea,2012
+221,Sascha,Riether,Fulham,2012
+222,Jordi,Gómez García-Penche,Wigan,2012
+223,Ashley,Williams,Swansea,2012
+224,Charles Graham,Adam,Stoke City,2012
+225,Fernando José,Torres Sanz,Chelsea,2012
+226,Pavel,Pogrebnyak,Reading,2012
+227,Danny Sean,Guthrie,Reading,2012
+228,Andrea,Orlandi Stabilin,Swansea,2012
+229,Per,Mertesacker,Arsenal,2012
+230,José Enrique,de la Sánchez Diaz,Liverpool,2012
+231,Andrey,Arshavin,Arsenal,2012
+232,Nathan,Eccleston,Liverpool,2012
+233,Craig,Bellamy,Liverpool,2012
+234,Javier,Garrido Behovide,Norwich,2012
+235,John Arne,Semundseth Riise,Fulham,2012
+236,Emmerson Orlando,Boyce,Wigan,2012
+237,Thomas,Hitzlsperger,Everton,2012
+238,Ian,Harte,Reading,2012
+239,Mamady,Sidibé,Stoke City,2012
+240,Sergio Leonel,Agüero del Castillo,Manchester City,2012
+241,Aleksandar,Kolarov,Manchester City,2012
+242,Martin,Škrtel,Liverpool,2012
+243,Francisco Javier,García Fernández,Manchester City,2012
+244,Rafik,Halliche,Fulham,2012
+245,Jonás Manuel,Gutiérrez,Newcastle,2012
+246,Carlos Alberto,Tevez,Manchester City,2012
+247,Fabricio,Coloccini,Newcastle,2012
+248,Brett,Holman,Aston Villa,2012
+249,Pablo Javier,Zabaleta Girod,Manchester City,2012
+250,Claudio Ariel,Yacob,West Brom,2012
+251,Nigel,de Jong,Manchester City,2012
+252,Bradley Scott,Jones,Liverpool,2012
+253,Ján,Mucha,Everton,2012
+254,Christopher,Herd,Aston Villa,2012
+255,Shay,Given,Aston Villa,2012
+256,Kaspars,Gorkšs,Reading,2012
+257,Richard,Dunne,Aston Villa,2012
+258,Rafael,van der Vaart,Tottenham,2012
+259,Adrián,López Rodríguez,Wigan,2012
+260,Eden Michael Walter,Hazard,Chelsea,2012
+261,Mousa Sidi Yaya,Dembélé,Tottenham,2012
+262,Emanuel,Pogatetz,West Ham,2012
+263,Adam,Federici,Reading,2012
+264,Gary,O'Neil,West Ham,2012
+265,Kevin Antonio Joel Gislain,Mirallas y Castillo,Everton,2012
+266,Yassine,El Ghanassy,West Brom,2012
+267,Roland Conde,Lamah,Swansea,2012
+268,Matthew Anthony,Briggs,Fulham,2012
+269,Danny,Butterfield,Southampton,2012
+270,Remie,Streete,Newcastle,2012
+271,Stephen,Ireland,Aston Villa,2012
+272,Winston Wiremu,Reid,West Ham,2012
+273,Johan Danon,Djourou-Gbadjere,Arsenal,2012
+274,Jos,Hooiveld,Southampton,2012
+275,Mark,Schwarzer,Fulham,2012
+276,Tal,Ben Haim,QPR,2012
+277,Brede,Hangeland,Fulham,2012
+278,Ryan,Giggs,Manchester United,2012
+279,Marc,Tierney,Norwich,2012
+280,Thomas,Vermaelen,Arsenal,2012
+281,Stanislav,Manolev,Fulham,2012
+282,Lucas,Pezzini Leiva,Liverpool,2012
+283,Maicon Douglas,Sisenando,Manchester City,2012
+284,Ramires,Santos do Nascimento,Chelsea,2012
+285,Mikkel,Andersen,Reading,2012
+286,Heurelho,da Silva Gomes,Tottenham,2012
+287,Jordon,Ibe,Liverpool,2012
+288,Matthew,Connolly,QPR,2012
+289,Darren,Fletcher,Manchester United,2012
+290,Nuri,Şahin,Liverpool,2012
+291,Sandro,Raniere Guimarães Cordeiro,Tottenham,2012
+292,Timothy Matthew,Howard,Everton,2012
+293,Anderson Luis,de Abreu Oliveira,Manchester United,2012
+294,André Clarindo,dos Santos,Arsenal,2012
+295,Ji-Sung,Park,QPR,2012
+296,Júlio César,Soares de Espíndola,QPR,2012
+297,Sylvain,Distin,Everton,2012
+298,Nemanja,Vidic,Manchester United,2012
+299,Doniéber Alexander,Marangon,Liverpool,2012
+300,Scott,Sinclair,Manchester City,2012
+301,Stéphane,M'Bia Etoundi,QPR,2012
+302,Eyong Tarkang,Enoh,Fulham,2012
+303,Ryan,Bennett,Norwich,2012
+304,Connor Neil Ralph,Wickham,Sunderland,2012
+305,Daniel,Gosling,Newcastle,2012
+306,Brian Edward,Murphy,QPR,2012
+307,Joe,Bennett,Aston Villa,2012
+308,David Junior Wayne,Hoilett,QPR,2012
+309,Thomas James,Carroll,Tottenham,2012
+310,Joshua Mark,McEachran,Chelsea,2012
+311,Nick,Powell,Manchester United,2012
+312,Benjamin Paul,Amos,Manchester United,2012
+313,Gaël,Bigirimana,Newcastle,2012
+314,Alexandre Dimitri,Song-Billong,Arsenal,2012
+315,Mickaël,Tavares,Fulham,2012
+316,Gerhard,Tremmel,Swansea,2012
+317,Jean II,Makoun,Aston Villa,2012
+318,Dimitar,Ivanov Berbatov,Fulham,2012
+319,Paul,Scharner,Wigan,2012
+320,Ashkan,Dejagah,Fulham,2012
+321,Bryan Jafet,Ruiz González,Fulham,2012
+322,Jean André Emanuel,Beausejour Coliqueo,Wigan,2012
+323,Román,Golobart Benet,Wigan,2012
+324,Wesley,Hoolahan,Norwich,2012
+325,Jamie Thomas,Proctor,Swansea,2012
+326,Robert Kieran Dennis,Hall,West Ham,2012
+327,Jacob Luke,Butterfield,Norwich,2012
+328,Gervais Lombe Yao,Kouassi,Arsenal,2012
+329,Jordan David,Mustoe,Wigan,2012
+330,Youssouf Chafiq,Mulumbu Ngangu,West Brom,2012
+331,Abdul,Razak,Manchester City,2012
+332,Arouna,Koné,Wigan,2012
+333,Leon,Britton,Swansea,2012
+334,Joseph Martin,O'Brien,West Ham,2012
+335,Blair Vincent,Adams,Sunderland,2012
+336,Cheik Ismaël,Tioté,Newcastle,2012
+337,Guy Roland,Demel,West Ham,2012
+338,Lee  Paul,Lucas,Swansea,2012
+339,Alan,Tate,Swansea,2012
+340,Petr,Čech,Chelsea,2012
+341,Nikica,Jelavić,Everton,2012
+342,Curtis,Obeng,Swansea,2012
+343,Anders,Rosenkrantz Lindegaard,Manchester United,2012
+344,Graham Dylan,Burke,Aston Villa,2012
+345,Nathan Abayomi,Delfouneso,Aston Villa,2012
+346,Samir Badre,Carruthers,Aston Villa,2012
+347,Robert Samuel,Kiernan,Wigan,2012
+348,Federico,Macheda,Manchester United,2012
+349,James,Hurst,West Brom,2012
+350,Billy Steven,Knott,Sunderland,2012
+351,Jermaine,Pennant,Stoke City,2012
+352,Kolo Habib,Touré,Manchester City,2012
+353,Tomáš,Rosický,Arsenal,2012
+354,Matthias,Fanimo,West Ham,2012
+355,Mladen,Petrić,Fulham,2012
+356,Leo,Chambers,West Ham,2012
+357,Charles,Banya,Fulham,2012
+358,Jordan,Laidler,Sunderland,2012
+359,Radek,Cerný,QPR,2012
+360,Luis Antonio,Valencia Mosquera,Manchester United,2012
+361,Nicklas,Bendtner,Arsenal,2012
+362,Jonathon Patrick,Flanagan,Liverpool,2012
+363,Markus,Rosenberg,West Brom,2012
+364,Elliott,Ward,Norwich,2012
+365,Kieran James Ricardo,Gibbs,Arsenal,2012
+366,Ahmed Eissa,El Mohamady Abdel Fattah,Sunderland,2012
+367,Fraizer,Campbell,Sunderland,2012
+368,Simeon Alexander,Jackson,Norwich,2012
+369,Thomas,Løvendahl Sørensen,Stoke City,2012
+370,Kemy,Agustien,Swansea,2012
+371,Adam Joseph,Morgan,Liverpool,2012
+372,Lee,Barnard,Southampton,2012
+373,Micah,Richards,Manchester City,2012
+374,Joey,Barton,QPR,2012
+375,Leroy Halirou,Lita Bohari,Swansea,2012
+376,Andy,Johnson,QPR,2012
+377,Daniel Munthe,Agger,Liverpool,2012
+378,Liam,Marrs,Sunderland,2012
+379,David Lee,Ferguson,Sunderland,2012
+380,Thomas William,Cleverley,Manchester United,2012
+381,Andros Darryl,Townsend,QPR,2012
+382,Ryan Dominic,Bertrand,Chelsea,2012
+383,Thomas Andrew,Huddlestone,Tottenham,2012
+384,Ryan,Shawcross,Stoke City,2012
+385,Matt,Jarvis,West Ham,2012
+386,Darren,Bent,Aston Villa,2012
+387,Scott,Harrison,Sunderland,2012
+388,Gabriel,Imuetinyan Agbonlahor,Aston Villa,2012
+389,Scott,Parker,Tottenham,2012
+390,Kieran,Richardson,Fulham,2012
+391,Joleon,Lescott,Manchester City,2012
+392,Ryan,Mason,Tottenham,2012
+393,Adam,Johnson,Sunderland,2012
+394,Leon,Osman,Everton,2012
+395,Richard,Wright,Manchester City,2012
+396,Carlton,Cole Okirie,West Ham,2012
+397,Bobby,Zamora,QPR,2012
+398,Phil,Neville,Everton,2012
+399,Luke,Young,QPR,2012
+400,Daniel Lee,Rose,Sunderland,2012
+401,Phil Anthony,Jones,Manchester United,2012
+402,Robert,Green,QPR,2012
+403,Gary,Cahill,Chelsea,2012
+404,Leighton,Baines,Everton,2012
+405,Philip Nikodem,Jagielka,Everton,2012
+406,Theo James,Walcott,Arsenal,2012
+407,Jack,Wilshere,Arsenal,2012
+408,Peter,Crouch,Stoke City,2012
+409,Gareth,Barry,Manchester City,2012
+410,Ashley,Cole,Chelsea,2012
+411,Stewart,Downing,Liverpool,2012
+412,David Adam,Stockdale,Fulham,2012
+413,Wes,Brown,Sunderland,2012
+414,Michael,Carrick,Manchester United,2012
+415,Glen,Johnson,Liverpool,2012
+416,Rio,Ferdinand,Manchester United,2012
+417,Paul,Scholes,Manchester United,2012
+418,Michael,Owen,Stoke City,2012
+419,Jamie,Carragher,Liverpool,2012
+420,Daniel Andre,Sturridge,Liverpool,2012
+421,Fabian,Delph,Aston Villa,2012
+422,Jermain Colin,Defoe,Tottenham,2012
+423,Steven Vincent,Taylor,Newcastle,2012
+424,Benjamin Anthony,Foster,West Brom,2012
+425,Aaron,Lennon,Tottenham,2012
+426,Michael,Dawson,Tottenham,2012
+427,Jay,Bothroyd,QPR,2012
+428,Steven,Roy Caulker,Tottenham,2012
+429,John,Terry,Chelsea,2012
+430,Stephen,Warnock,Aston Villa,2012
+431,Callum,Driver,West Ham,2012
+432,Rickie,Lambert,Southampton,2012
+433,Joe,Cole,West Ham,2012
+434,Shaun,Wright-Phillips,QPR,2012
+435,Matthew,Upson,Stoke City,2012
+436,Jermaine,Jenas,QPR,2012
+437,Kieron,Dyer,QPR,2012
+438,Nicky,Shorey,Reading,2012
+439,David,Bentley,Tottenham,2012
+440,Hatem,Ben Arfa,Newcastle,2012
+441,Adam,Campbell,Newcastle,2012
+442,Robert,Elliot,Newcastle,2012
+443,Mathieu,Debuchy,Newcastle,2012
+444,Gunnar,Nielsen,Manchester City,2012
+445,Vurnon San Benito,Anita,Newcastle,2012
+446,Urby Vitorrio Diego,Emanuelson,Fulham,2012
+447,Vegard,Valgermo Forren,Southampton,2012
+448,Gaël Dimitri,Clichy,Manchester City,2012
+449,Bacary,Sagna,Arsenal,2012
+450,Patrice,Evra,Manchester United,2012
+451,Mapou,Yanga-Mbiwa,Newcastle,2012
+452,Younes,Kaboul,Tottenham,2012
+453,Charles,N'Zogbia,Aston Villa,2012
+454,Jussi,Jääskeläinen,West Ham,2012
+455,Louis,Saha,Sunderland,2012
+456,Mark,Gower,Swansea,2012
+457,Alex,Smith,Fulham,2012
+458,Frédéric Michel,Piquionne,West Ham,2012
+459,Charlie,Losasso,Reading,2012
+460,Laurent,Koscielny,Arsenal,2012
+461,Alfred John Momar,N'Diaye,Sunderland,2012
+462,Jem,Karacan,Reading,2012
+463,Jonathan,Forte,Southampton,2012
+464,Morgan Fernand Gérard,Schneiderlin,Southampton,2012
+465,Adrian Joseph,Mariappa,Reading,2012
+466,George,Evans,Manchester City,2012
+467,Luke,Daniels,West Brom,2012
+468,James Joseph,McClean,Sunderland,2012
+469,Jordan,Spence,West Ham,2012
+470,Jamie,Ness,Stoke City,2012
+471,James Robert,Perch,Newcastle,2012
+472,Loïc Alex Teliére,Hubert Rémy,QPR,2012
+473,Marcello,Trotta,Fulham,2012
+474,João Pedro,Pereira Silva,Everton,2012
+475,Simon,Church,Reading,2012
+476,Yohan,Cabaye,Newcastle,2012
+477,Vassiriki Abou,Diaby,Arsenal,2012
+478,William,Gallas,Tottenham,2012
+479,Jonathan Andrew,Henly,Reading,2012
+480,Wojciech Tomasz,Szczęsny,Arsenal,2012
+481,Joel,Robles Blázquez,Wigan,2012
+482,Mario,Barwuah Balotelli,Manchester City,2012
+483,Gylfi Þór,Sigurðsson,Tottenham,2012
+484,Ashley Darel Jazz,Richards,Swansea,2012
+485,Samuel Luke,Johnstone,Manchester United,2012
+486,Simon Jonathan,Dawkins,Aston Villa,2012
+487,Haris,Vučkić,Newcastle,2012
+488,Alexander,Büttner,Manchester United,2012
+489,Conor,Sammon,Wigan,2012
+490,Fraser Anderson,Fyvie,Wigan,2012
+491,Francisco,Jiménez Tejada,Newcastle,2012
+492,Eduard,Campabadal Claros,Wigan,2012
+493,Gabriel Antoine,Obertan,Newcastle,2012
+494,Daniel Stephen,Redmond,Wigan,2012
+495,Callum Neil,Morris,Wigan,2012
+496,Daniel Mark,Alfei,Swansea,2012
+497,Kerim,Frei Koyunlu,Fulham,2012
+498,Ruaridhri,Donnelly,Swansea,2012
+499,Jamie,McCormack,Wigan,2012
+500,Saido,Berahino,West Brom,2012
+501,Stéphane,Sessègnon,Sunderland,2012
+502,Francisco,Santos da Silva Júnior,Everton,2012
+503,Sébastien Aymar,Bassong Nguena,Norwich,2012
+504,Samba,Diakité,QPR,2012
+505,Adil,Nabi,West Brom,2012
+506,Tadanari,Lee,Southampton,2012
+507,Alexander,Kačaniklić,Fulham,2012
+508,Pajtim,Kasami,Fulham,2012
+509,Magaye Serigne Falilou Dit Nel,Gueye,Everton,2012
+510,Roque Luis,Santa Cruz Cantero,Manchester City,2012
+511,Benoît,Assou-Ekotto,Tottenham,2012
+512,Alou,Diarra,West Ham,2012
+513,Marouane,Chamakh,West Ham,2012
+514,Sébastien,Squillaci,Arsenal,2012
+515,Gabriel Sebastian,Tamaș,West Brom,2012
+516,Florent,Malouda,Chelsea,2012
+517,Djibril,Cissé,QPR,2012
+518,Darnel,Situ,Swansea,2012
+519,Jimmy,Kébé,Reading,2012
+520,Hugo Hadrien Dominique,Lloris,Tottenham,2012
+521,Benjamin Thomas,Davies,Swansea,2012
+522,Adam David,Lallana,Southampton,2012
+523,James Philip,Milner,Manchester City,2012
+524,Adel,Taarabt,QPR,2012
+525,John,Stones,Everton,2012
+526,Kevin,De Bruyne,Chelsea,2012
+527,Daniel Nii,Tackie Mensah Welbeck,Manchester United,2012
+528,James Michael Edward,Ward-Prowse,Southampton,2012
+529,Łukasz Marek,Fabiański,Arsenal,2012
+530,Samir,Nasri,Manchester City,2012
+531,James Oliver Charles,Tomkins,West Ham,2012
+532,Nathan Benjamin,Aké,Chelsea,2012
+533,Nathaniel Edwin,Clyne,Southampton,2012
+534,Mohamed,Diamé,West Ham,2012
+535,Karim,Rekik,Manchester City,2012
+536,Antolín,Alcáraz Viveros,Wigan,2012
+537,Danny,Seaborne,Southampton,2012
+538,Gnégnéri Yaya,Touré,Manchester City,2012
+539,Richard,Chaplow,Southampton,2012
+540,Philippe,Coutinho Correia,Liverpool,2012
+541,Kyle Andrew,Walker,Tottenham,2012
+542,Raheem Shaquille,Sterling,Liverpool,2012
+543,Luke Paul Hoare,Shaw,Southampton,2012
+544,Ashley Simon,Young,Manchester United,2012
+545,Jesús Joaquín,Fernández Sáenz de la Torre,Liverpool,2012
+546,Ross,Barkley,Everton,2012
+547,Adnan,Januzaj,Manchester United,2012
+548,Séamus,Coleman,Everton,2012
+549,Jonathan Grant,Evans,Manchester United,2012
+550,Jonjo,Shelvey,Liverpool,2012
+551,Jack Frank,Porteous Cork,Southampton,2012
+552,Calum,Chambers,Southampton,2012
+553,Timothy Michael,Krul,Newcastle,2012
+554,John,Egan,Sunderland,2012
+555,Craig,Dawson,West Brom,2012
+556,Jay Enrique,Rodríguez,Southampton,2012
+557,Jack,Robinson,Liverpool,2012
+558,Damián Emiliano,Martínez Romero,Arsenal,2012
+559,Daniel,Potts,West Ham,2012
+560,Stefan,Savić,Manchester City,2012
+561,Paulo Dino,Gazzaniga Farias,Southampton,2012
+562,Moussa,Sissoko,Newcastle,2012
+563,Harry Edward,Kane,Norwich,2012
+564,Matija,Nastasić,Manchester City,2012
+565,Serge David,Gnabry,Arsenal,2012
+566,Christopher Lloyd,Smalling,Manchester United,2012
+567,Romelu Menama,Lukaku Bolingoli,West Brom,2012
+568,Francis Joseph,Coquelin,Arsenal,2012
+569,Péter,Gulácsi,Liverpool,2012
+570,Denis,Suárez Fernández,Manchester City,2012
+571,José Manuel,Reina Páez,Liverpool,2012
+572,César,Azpilicueta Tanco,Chelsea,2012
+573,Andreas,Bødtker Christensen,Chelsea,2012
+574,Olivier Jonathan,Giroud,Arsenal,2012
+575,Massadio,Haïdara,Newcastle,2012
+576,Oriol,Romeu Vidal,Chelsea,2012
+577,Ignasi,Miquel Pons,Arsenal,2012
+578,Tiago Manuel,Dias Correia,Manchester United,2012
+579,Vito,Mannone,Arsenal,2012
+580,Carl Daniel,Jenkinson,Arsenal,2012
+581,Jonathan Alexander,de Guzmán,Swansea,2012
+582,Curtis Edward,Good,Newcastle,2012
+583,Apostolos,Vellios,Everton,2012
+584,Mauro,Boselli,Wigan,2012
+585,David Joseph,Cornell,Swansea,2012
+586,John Thomas Gordon,Ruddy,Norwich,2012
+587,Conor David,Coady,Liverpool,2012
+588,Marc Kevin,Albrighton,Aston Villa,2012
+589,Alex Simon,McCarthy,Reading,2012
+590,Jack,Stephens,Southampton,2012
+591,Shane Patrick Michael,Duffy,Everton,2012
+592,Neil Leonard,Dula Etheridge,Fulham,2012
+593,Andreas,Weimann,Aston Villa,2012
+594,Kyle,Naughton,Tottenham,2012
+595,Jack Christian,Rodwell,Manchester City,2012
+596,Gary,Gardner,Aston Villa,2012
+597,Shane Kevin,Ferguson,Newcastle,2012
+598,Scott James,Wootton,Manchester United,2012
+599,Gastón Exequiel,Ramírez Pereyra,Southampton,2012
+600,Aaron James,Ramsey,Arsenal,2012
+601,Fabio,Borini,Liverpool,2012
+602,Santiago,Cazorla González,Arsenal,2012
+603,Andrew Thomas,Carroll,West Ham,2012
+604,Martin Ronald,Kelly,Liverpool,2012
+605,Asmir,Begović,Stoke City,2012
+606,Sung-Yueng,Ki,Swansea,2012
+607,Sean Joseph,Morrison,Reading,2012
+608,Enda John,Stevens,Aston Villa,2012
+609,Kyle Louis,Bartley,Swansea,2012
+610,Jake Cyril,Livermore,Tottenham,2012
+611,Jonathan Mark,Howson,Norwich,2012
+612,Jack Raymond,Colback,Sunderland,2012
+613,Barry Ryan,Bannan,Aston Villa,2012
+614,Daniel Anthony,Johnson,Aston Villa,2012
+615,Joseph Michael,Allen,Liverpool,2012
+616,Jordan Gideon,Archer,Tottenham,2012
+617,Jak,Alnwick,Newcastle,2012
+618,Lewis Harry,Holtby,Tottenham,2012
+619,Chu-Young,Park,Arsenal,2012
+620,Marcos Paulo,Mesquita Lopes,Manchester City,2012
+621,Jordan Brian,Henderson,Liverpool,2012
+622,Victor,Moses,Chelsea,2012
+623,Sebastián,Coates Nión,Liverpool,2012
+624,José Miguel,da Rocha Fonte,Southampton,2012
+625,Javier,Hernández Balcázar,Manchester United,2012
+626,Dong-Won,Ji,Sunderland,2012
+627,Christian,Benteke Liolo,Aston Villa,2012
+628,Cristian,Ceballos Prieto,Tottenham,2012
+629,Ángelo José,Henríquez Iturra,Wigan,2012
+630,Ashley Roy,Westwood,Aston Villa,2012
+631,Maya,Yoshida,Southampton,2012
+632,Billy Louis,Sharp,Southampton,2012
+633,Derrick Shaun,Williams,Aston Villa,2012
+634,Bryan Josué,Oviedo Jiménez,Everton,2012
+635,Bradley Edwin,Guzan,Aston Villa,2012
+636,Sebastian Francisco,Lletget,West Ham,2012
+637,Roger Aníbal,Espinoza Ramírez,Wigan,2012
+638,Daniel John,Wilson,Liverpool,2012
+639,Kei Ansu,Kamara,Norwich,2012
+640,Jan,Vertonghen,Tottenham,2012
+641,Simon Luc Hildebert,Mignolet,Sunderland,2012
+642,Alexander Mark David,Oxlade-Chamberlain,Arsenal,2012
+643,Steven N'Kemboanza Mike Christ,Nzonzi,Stoke City,2012
+644,Edin,Džeko,Manchester City,2012
+645,Anga Dedryck,Boyata,Manchester City,2012
+646,James Henry,Tavernier,Newcastle,2012
+647,Steven,Davis,Southampton,2012
+648,Shinji,Kagawa,Manchester United,2012
+649,Glenville Adam James,Le Fondre,Reading,2012
+650,Steve Danny Marc,De Ridder,Southampton,2012
+651,Mikaël Yann Mathieu,Mandron,Sunderland,2012
+652,James Patrick,McCarthy,Wigan,2012
+653,Kemar,Roofe,West Brom,2012
+654,Mehdi,Abeid,Newcastle,2012
+655,Ryo,Miyaichi,Wigan,2012
+656,Marnick Danny Ingrid,Vermijl,Manchester United,2012
+657,Matthew,Kennedy,Everton,2012
+658,Luís Carlos,Almeida da Cunha,Manchester United,2012
+659,Jordan John,Obita,Reading,2012
+660,Luis Alberto,Suárez Díaz,Liverpool,2012
+661,Rafael,Pereira da Silva,Manchester United,2012
+662,David Luiz,Moreira Marinho,Chelsea,2012
+663,Gonzalo Alejandro,Jara Reyes,West Brom,2012
+664,Wellington,Pereira do Nascimento,West Ham,2012
+665,Oscar,dos Santos Emboaba Júnior,Chelsea,2012
+666,Tyias Charles,Browning,Everton,2012
+667,Marouane,Fellaini-Bakkioui,Everton,2012
+668,Charles Joseph John,Hart,Manchester City,2012
+669,Fábio,Pereira da Silva,QPR,2012
+670,Iago,Falqué Silva,Tottenham,2012
+671,Łukasz Józef,Podolski,Arsenal,2012
+672,Franco Matías,Di Santo,Wigan,2012
+673,Raphael Simon,Spiegel,West Ham,2012
+674,Hugo,Rodallega Martínez,Fulham,2012
