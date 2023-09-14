@@ -6,7 +6,7 @@ from flask import request, jsonify, render_template, redirect, url_for, Blueprin
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from .extensions import db
-from .models import Football_teams, Players
+from .models import Football_teams, Players, Guesses
 
 BASE = "http://127.0.0.1:5000/api/"
 
@@ -120,6 +120,15 @@ def post_players():
     db.session.add_all(players_to_add)
     db.session.commit()
     return player_jsons
+
+@main.post("/api/post_valid_player_combos")
+def post_valid_player_combos():
+    valid_player_jsons = request.get_json()
+    valid_player_dicts = json.loads(valid_player_jsons)  
+    valid_players_to_add = [Guesses(**row) for row in valid_player_dicts]
+    db.session.add_all(valid_players_to_add)
+    db.session.commit()
+    return valid_player_jsons
 
 #############################################################################################################################################################
 ### UPDATE ENDPOINTS ###
