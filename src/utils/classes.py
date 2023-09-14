@@ -59,7 +59,7 @@ class Guesses:
             }
     
     def __repr__(self):
-        return f'<{self.player}: [{self.team_combo}]>'
+        return f'<{self.player}: {self.team_combo}>'
     
     def __str__(self):
-        return f'<{self.player}: [{self.team_combo}]>'
+        return f'<{self.player}: {self.team_combo}>'

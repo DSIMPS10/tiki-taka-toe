@@ -59,6 +59,11 @@ def get_all_team_from_db() -> pd.DataFrame:
     df = pd.DataFrame.from_dict(all_teams)
     return df
 
+def get_all_guesses_from_db() -> pd.DataFrame:
+    all_guesses = get_request(BASE, f'get_players_from_guesses_table')
+    all_guesses_df = pd.DataFrame.from_dict(all_guesses)
+    return all_guesses_df
+
 def get_all_players_from_db() -> pd.DataFrame:
     all_players = get_request(BASE, f'get_all_players')
     players_df = pd.DataFrame.from_dict(all_players)

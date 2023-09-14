@@ -3,9 +3,9 @@ import random
 import numpy as np
 import logging
 
-from src.utils.classes import Team, Grid, Player
-from src.flask_pkg.project.routes import BASE, get_request, post_request
-from src.data.data_db_functions import get_all_players_from_db, get_all_team_from_db
+from utils.classes import Team, Grid, Player
+from flask_pkg.project.routes import BASE, get_request, post_request
+from data.data_db_functions import get_all_players_from_db, get_all_team_from_db
     
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
@@ -35,14 +35,13 @@ def get_teams_from_indices(six_indices:list[int])-> list[str]:
         team_names_list.append(team_name_dict["team_name"])
     return team_names_list
         
-def get_teams_for_selected_player_from_db(player_df: pd.DataFrame, player_name: str) -> list[str]:
-    #TODO: need to change player_df['Name'] to player_df['full_name'] 
+def get_teams_for_selected_player_from_db(guesses_df: pd.DataFrame, player_name: str) -> list[str]:
     '''
     Input: DataFrame of player info, and players full name
     Output: List of all teams the player has played for
     '''
     try:
-        teams: list = player_df.loc[player_df['Name'] == player_name]['Team'].values[0]  
+        teams: list[str] = guesses_df.loc[guesses_df['full_name'] == player_name]['team_name'].values.tolist()  
     except IndexError as e:
         print('Player not found in DB')
         teams = []
@@ -62,18 +61,17 @@ def get_teams_from_grid_index(team_df: pd.DataFrame, grid: Grid, pos_number):
     return selected_teams
 
     
-def compare_player(players_df: pd.DataFrame, player_name: str, selected_teams: list[str]) -> bool: 
+def compare_player(guesses_df: pd.DataFrame, player_name: str, selected_teams: list[str]) -> bool: 
     '''
     This function will return true if the player has played for both teams
     '''
     try:
         valid_guess = str(player_name)
-        print('yes')
     except ValueError:
         if not valid_guess:
             raise ValueError('empty input')
     else:
-        teams_of_player = get_teams_for_selected_player_from_db(players_df, valid_guess)
+        teams_of_player = get_teams_for_selected_player_from_db(guesses_df, valid_guess)
         if len(teams_of_player) == 0:
             return False
         else:
@@ -108,18 +106,9 @@ def create_footy_team_board() -> pd.DataFrame:
 
 def run_footy(move: int, team_df: pd.DataFrame) -> bool:
     ### INPUTS ###
-
-    # team_data = {"pos_1":["Tottenham","Chelsea"],
-    #         "pos_2":["West Ham","Liverpool"],
-    #         "pos_3": ["Man City","Bayern Munich"]}
-    # team_df = pd.DataFrame(team_data)
-    # players_data = {
-    # "Name": ['Raheem Sterling', 'Kai Havertz', 'Harry Kane'],
-    # "Team": [['Chelsea', 'Man City', 'Liverpool'], ['Chelsea','Arsenal'], ['Tottenham', 'Bayern Munich']]
-    #     }
-
-    players_df: pd.DataFrame = get_all_players_from_db()
-    players_df['full_name'] = players_df['full_name'].apply(str.lower)
+    # players_df: pd.DataFrame = get_all_players_from_db()
+    guesses_df: pd.DataFrame = get_all_players_from_db()
+    guesses_df['full_name'] = guesses_df['full_name'].apply(str.lower)
 
     grid = Grid()
 
@@ -129,7 +118,7 @@ def run_footy(move: int, team_df: pd.DataFrame) -> bool:
     print(f"Selected teams are: {selected_teams}")
 
     player_guess = input("Guess a player that played for both teams: ").lower()
-    answer: bool = compare_player(players_df, player_guess, selected_teams)
+    answer: bool = compare_player(guesses_df, player_guess, selected_teams)
 
     if answer: 
         print("Correct! That player did play for both teams.")

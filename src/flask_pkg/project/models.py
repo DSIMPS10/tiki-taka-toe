@@ -91,6 +91,7 @@ class Guesses(db.Model):
         
     def as_dict(self):
         return {
+            'id': self.id,
             'player':self.player,
             'teams':self.team_combo,
             'correct_guesses':self.correct_guesses

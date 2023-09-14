@@ -99,6 +99,12 @@ def get_all_valid_player_guesses():
     all_valid_players_array = [player.full_name for player in all_valid_players]
     return jsonify(all_valid_players_array)
 
+@main.get("/api/get_players_from_guesses_table")
+def get_players_from_guesses_table(): 
+    all_guesses = Guesses.query.all()
+    all_guesses_array = [player.as_dict() for player in all_guesses]
+    return jsonify(all_guesses_array)
+
 #############################################################################################################################################################
 ### POST ENDPOINTS ###
 #############################################################################################################################################################

@@ -1,7 +1,7 @@
 import logging
 from pandas import DataFrame
 
-from src.app import run_footy, create_footy_team_board
+from app import run_footy, create_footy_team_board
 
 ##########################################################################################################
 ### THE TIC TAC TOE GAME ###
