@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-from utils.classes import Team, Player 
+from utils.classes import Team, Player , Guesses
 from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
 
 
@@ -28,7 +28,7 @@ def post_teams_to_db(teams: list[Team]):
     return teams_posted
 
 def post_players_to_db(players: list[Player]):
-    # Convert activities to json
+    # Convert players to json
     players_array = [vars(player) for player in players] 
     activitity_json_players_str = json.dumps(players_array)  
     # Post request
@@ -36,18 +36,14 @@ def post_players_to_db(players: list[Player]):
     print(f"New players posted: {players_posted}")
     return players_posted
 
-def post_some_demo_teams():
-    chelsea = Team(team_name='Chelsea', league='Premiership', country='England')
-    tottenham = Team(team_name='Tottenham', league='Premiership', country='England')
-    arsenal = Team(team_name='Arsenal', league='Premiership', country='England')
-    teams_to_be_posted: Team = [chelsea, tottenham, arsenal]
-    teams_posted = post_teams_to_db(teams_to_be_posted)
-
-# def post_some_demo_players():
-#     sterling = Player(first_name='Raheem', last_name='Sterling', team_id='7')
-#     kane = Player(first_name='Harry', last_name='Kane', team_id='18')
-#     players_to_be_posted: Player = [sterling, kane]
-#     players_posted = post_players_to_db(players_to_be_posted)
+def post_valid_player_combos(valid_player_combos: list[Guesses]):
+    # Convert valid players to json
+    valid_player_combos_array = [vars(player_combo) for player_combo in valid_player_combos] 
+    activitity_json_players_str = json.dumps(valid_player_combos_array)  
+    # Post request
+    valid_player_combos_posted = post_request(BASE,"post_valid_player_combos",activitity_json_players_str)
+    print(f"New player combos posted: {valid_player_combos_posted}")
+    return valid_player_combos_posted
     
 ##########################################################################################################
 ### GET DATA FROM DB ###

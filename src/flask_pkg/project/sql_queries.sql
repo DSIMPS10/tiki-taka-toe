@@ -15,4 +15,11 @@ CREATE TABLE Players (
 	FOREIGN KEY (team_id)
       REFERENCES Football_teams (id)
 	);
+
+CREATE TABLE Guesses (
+    id serial PRIMARY KEY,
+    player VARCHAR (100),
+    team_combo text[],
+    correct_guesses INT
+	);
     
