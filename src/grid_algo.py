@@ -55,7 +55,7 @@ def count_frequency_of_club(list_of_teams,unique_combo_of_teams):
     count_of_team_list = sorted(count_dict.items(), key = lambda x:x[1], reverse=True)
     return count_of_team_list
 '''
-This is the returned count_of_team_list:
+This is the returned count_of_team_list. For teams a and x we should choose teams over 30. If we have brentford as team a for exmaple we will be screwed.
 
 [('Everton', 36), ('West Ham', 36), ('West Brom', 36), ('Aston Villa', 36), ('Crystal Palace', 36), ('Fulham', 34), ('Manchester United', 34), ('Liverpool', 33), ('Chelsea', 32), ('Burnley', 32), ('Manchester City', 32), ('Sunderland', 32), ('Newcastle', 32), ('Norwich', 32), ('Tottenham', 31), ('Stoke City', 31), ('Swansea', 31), ('Wolves', 29), ('Middlesbrough', 28), ('Bournemouth', 28), ('Leicester', 28), ('Watford', 28), ('Southampton', 28), ('QPR', 27), ('Arsenal', 27), ('Cardiff', 26), ('Hull City', 25), ('Brighton', 25), ('Wigan', 25), ('Bolton', 23), ('Sheffield Utd', 22), ('Blackburn', 21), ('Nottingham Forest', 21), ('Birmingham', 20), ('Huddersfield', 20), ('Blackpool', 16), ('Reading', 15), ('Leeds', 14), ('Luton', 13), ('Brentford', 9)]
 '''
@@ -118,33 +118,31 @@ def return_all_combo_for_three_team_names(unique_combo_of_teams, team_name_1, te
 
 def main():
     
-    club_count = count_frequency_of_club(list_of_teams,unique_combo_of_teams)
-    print(club_count)
+    #Step 1: Chose random team combo
+    #TODO make random_combo a selection of the top 10 teams. We should also randomise the ordering of x,y,z and a,b,c to switch it up.
+    random_combo = random.choice(unique_combo_of_teams)
+    print(random_combo)
+    #Step 2: Do first match
+    team_a = random_combo[0]
+    team_x = random_combo[1]
 
-    # #Step 1: Chose random team combo
-    # random_combo = random.choice(unique_combo_of_teams)
-    # print(random_combo)
-    # #Step 2: Do first match
-    # team_a = random_combo[0]
-    # team_x = random_combo[1]
+    possible_team_a_matches = return_all_combo_for_team_name(unique_combo_of_teams,team_a,team_x)
+    possible_team_x_matches = return_all_combo_for_team_name(unique_combo_of_teams,team_x,team_a)
+    #Step 3: next match
+    #TODO: When selecting team y there is no check to see if there is a match with team b.
+    possible_team_y_combo = random.choice(possible_team_a_matches)
+    team_y = [team_name for team_name in possible_team_y_combo if team_name != team_a][0]
+    possible_team_b_combo = random.choice(possible_team_x_matches)
+    team_b = [team_name for team_name in possible_team_b_combo if team_name != team_x][0]
 
-    # possible_team_a_matches = return_all_combo_for_team_name(unique_combo_of_teams,team_a,team_x)
-    # possible_team_x_matches = return_all_combo_for_team_name(unique_combo_of_teams,team_x,team_a)
-    # #Step 3: next match
-    # #TODO: When selecting team y there is no check to see if there is a match with team b
-    # possible_team_y_combo = random.choice(possible_team_a_matches)
-    # team_y = [team_name for team_name in possible_team_y_combo if team_name != team_a][0]
-    # possible_team_b_combo = random.choice(possible_team_x_matches)
-    # team_b = [team_name for team_name in possible_team_b_combo if team_name != team_x][0]
+    team_y_and_x_matches: list = return_all_combo_for_two_team_names(unique_combo_of_teams,team_x,team_y)
+    team_a_and_b_matches: list = return_all_combo_for_two_team_names(unique_combo_of_teams,team_a,team_b)
 
-    # team_y_and_x_matches: list = return_all_combo_for_two_team_names(unique_combo_of_teams,team_x,team_y)
-    # team_a_and_b_matches: list = return_all_combo_for_two_team_names(unique_combo_of_teams,team_a,team_b)
-
-    # #Step 4: 
-    # team_z = random.choice(team_a_and_b_matches)
-    # team_c = random.choice(team_y_and_x_matches)
-    # team_x_y_z_matches: list = return_all_combo_for_three_team_names(unique_combo_of_teams,team_x,team_y,team_z)
-    # team_a_b_c_matches: list = return_all_combo_for_three_team_names(unique_combo_of_teams,team_a,team_b, team_c)
+    #Step 4: 
+    team_z = random.choice(team_a_and_b_matches)
+    team_c = random.choice(team_y_and_x_matches)
+    team_x_y_z_matches: list = return_all_combo_for_three_team_names(unique_combo_of_teams,team_x,team_y,team_z)
+    team_a_b_c_matches: list = return_all_combo_for_three_team_names(unique_combo_of_teams,team_a,team_b, team_c)
 
     
 
