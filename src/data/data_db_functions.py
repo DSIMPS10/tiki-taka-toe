@@ -44,7 +44,8 @@ def post_valid_player_combos(valid_player_combos: list[Guesses]):
     valid_player_combos_posted = post_request(BASE,"post_valid_player_combos",activitity_json_players_str)
     print(f"New player combos posted: {valid_player_combos_posted}")
     return valid_player_combos_posted
-    
+
+
 ##########################################################################################################
 ### GET DATA FROM DB ###
 ##########################################################################################################
@@ -77,6 +78,11 @@ def get_player_info_from_name_db(full_name: str):
     player_info = get_request(BASE, f'get_player_info_from_name/{full_name}')
     players_df = pd.DataFrame.from_dict(player_info)
     return players_df
+
+def check_team_combo_has_matching_player(team_a: str, team_b: str) -> list[str]:
+    list_of_valid_players = get_request(BASE, f'check_team_combo_is_valid/{team_a}/{team_b}')
+    return list_of_valid_players
+    
 
 ##########################################################################################################
 ### UPDATE DATA FROM DB ###

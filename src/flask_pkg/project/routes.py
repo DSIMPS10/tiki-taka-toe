@@ -99,6 +99,16 @@ def get_all_valid_player_guesses():
     all_valid_players_array = [player.full_name for player in all_valid_players]
     return jsonify(all_valid_players_array)
 
+@main.get("/api/check_team_combo_is_valid/<string:team_a>/<string:team_b>")
+def check_team_combo_is_valid(team_a, team_b): 
+    sql = text(f"SELECT full_name, COUNT(full_name) FROM Players \
+                    WHERE team_name = '{team_a}' OR team_name = '{team_b}' \
+                    GROUP BY full_name \
+                    HAVING COUNT(full_name) >1")
+    check_combo_has_matching_player = db.session.execute(sql)
+    all_valid_players_array = [player.full_name for player in check_combo_has_matching_player]
+    return jsonify(all_valid_players_array)
+
 @main.get("/api/get_players_from_guesses_table")
 def get_players_from_guesses_table(): 
     all_guesses = Guesses.query.all()
