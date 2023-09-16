@@ -87,24 +87,28 @@ def find_a_grid_combo(unique_combo_of_teams: list):
         print('Runing another iteration...')
         iteration += 1
         
-def check_a_combo(team_a: str, team_b: str) -> bool:
+def check_a_combo(team_a: str, team_b: str) -> [bool, int]:
     combo_exists = False
     list_of_valid_players = check_team_combo_has_matching_player(team_a, team_b)
+    number_of_matching_players = len(list_of_valid_players)
     if len(list_of_valid_players) > 0:
         combo_exists = True
-    return combo_exists
+    return combo_exists, number_of_matching_players
 
 def check_all_combos(grid_dict: dict) -> bool:
+    combo_dict = {}
     combos = [[grid_dict['team_a'], grid_dict['team_x']], [grid_dict['team_a'], grid_dict['team_y']], [grid_dict['team_a'], grid_dict['team_z']],
               [grid_dict['team_b'], grid_dict['team_x']], [grid_dict['team_b'], grid_dict['team_y']], [grid_dict['team_b'], grid_dict['team_z']],
               [grid_dict['team_c'], grid_dict['team_x']], [grid_dict['team_c'], grid_dict['team_y']], [grid_dict['team_c'], grid_dict['team_z']]]
     for combo in combos:
-        valid = check_a_combo(combo[0], combo[1])
+        valid = check_a_combo(combo[0], combo[1])[0]
+        number_of_matching_players = check_a_combo(combo[0], combo[1])[1]
         if valid == False: 
             print(f'ERROR: {combo[0]} and {combo[1]} do not have matching player.')
-            return False
+            return False, None
+        combo_dict[f'{combo[0]}, {combo[1]}'] = number_of_matching_players
     print('All teams have matching players. This grid is valid!')
-    return True
+    return True, combo_dict
 
 def convert_grid_dict_to_pos_df(grid_dict: dict) -> DataFrame:
     data = {
@@ -122,9 +126,11 @@ def main() -> DataFrame:
         grid_combo: dict = find_a_grid_combo(unique_combo_of_teams)
         # Step 2: Check if grid is valid (i.e. all team combos have a player that has played for both.)
         is_grid_valid: bool = check_all_combos(grid_combo)
-        if is_grid_valid:
+        if is_grid_valid[0]:
             solved = True
-    print(grid_combo)
+            valid_grid_with_count = is_grid_valid[1]
+            print(f'Valid grid with number of correct matches for each combo: {valid_grid_with_count}')
+    # print(grid_combo)
     team_df = convert_grid_dict_to_pos_df(grid_combo)
     return team_df
         
