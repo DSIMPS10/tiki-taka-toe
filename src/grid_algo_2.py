@@ -89,12 +89,9 @@ def find_a_grid_combo(unique_combo_of_teams: list, level: str):
                         combo_count_dict = check_combos_and_level[1] 
                         print('6 potential teams at the right level were found!')
                         return True, correct_dict, combo_count_dict 
-                    else: 
-                        print('Runing another iteration...')
-                        # iteration += 1
-            print('Running new x y z combo iteration...')
+            print(f'Running new x y z combo iteration... {minor_iteration+1} of {len(x_y_z_combinations)}')
             minor_iteration += 1
-        print('Running new iteration from start team...')
+        print(f'Running new iteration from start team... {major_iteration+1} of {len(unique_combo_of_teams)}')
         major_iteration += 1
        
 def check_a_combo(team_a: str, team_b: str) -> [bool, int]:
@@ -134,50 +131,55 @@ def convert_grid_dict_to_pos_df(grid_dict: dict) -> DataFrame:
     return grid_df
 
 def check_level(level: str, combo_dict: dict):
-    level_dict = {
+    level_count_dict = {
         'easy': 3,
         'medium': 2,
         'hard': 1,
         'random': 1
         }
-    min_number: int = level_dict[level]
-    for combo, count in combo_dict.items():
-        if count < min_number:
-            return False
-    return True
+    level_av_dict = {
+        'easy': 40,
+        'medium': 25,
+        'hard': 1,
+        'random': 1
+        }
+    # level_type = 'COUNT'
+    level_type = 'AVE'
+    if level_type == 'COUNT':
+        # Get all combos to have over a certain number of matches
+        min_number: int = level_count_dict[level]
+        for combo, count in combo_dict.items():
+            if count < min_number:
+                return False
+        return True
+
+    if level_type == 'AVE':
+        total = 0
+        level_average: int = level_av_dict[level]
+        for combo, count in combo_dict.items():
+            total += count
+            if total > level_average:
+                print(f'Total matches: {total} (out of {level_av_dict[level]})')
+                return True
+        return False
         
 
 def main(level: str) -> DataFrame:
     solved = False
-    # iteration = 1
-    # while solved == False:
-    #     print(f'Iteration: {iteration}')
-        # Step 1: Find a valid grid
+    # Step 1: Run through iterations to find a grip
     grid_combo_tuple: dict = find_a_grid_combo(unique_combo_of_teams, level)
+    # Step 2: Use the valid grid
     grid_combo = grid_combo_tuple[1]
     combo_count = grid_combo_tuple[2]
     if grid_combo_tuple[0] == True:
         print(grid_combo)
         print(combo_count)
-        solved = True
-    # else: 
-    #     print('Runing another iteration...')
-    #     iteration += 1
-            
-        # # Step 2: Check if grid is valid (i.e. all team combos have a player that has played for both.)
-        # is_grid_valid: bool = check_all_combos(grid_combo)
-        # # Check level
-        # if is_grid_valid[0] and redo == False:
-        #     solved = True
-        #     valid_grid_with_count = is_grid_valid[1]
-        #     print(f'Valid grid with number of correct matches for each combo: {valid_grid_with_count}')
-        
-    # print(grid_combo)
+
     team_df = convert_grid_dict_to_pos_df(grid_combo)
     return team_df
         
 if __name__ == "__main__":
-    level = 'medium'
+    level = 'easy'
     grid_df = main(level)
     print(grid_df)
 
