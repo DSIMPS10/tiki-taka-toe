@@ -10,7 +10,9 @@ def find_a_grid_combo(unique_combo_of_teams: list, level: str):
     # Shuffle unique team combos
     random.shuffle(unique_combo_of_teams)
     solved = False
-    iteration = 1
+    major_iteration = 1
+    minor_iteration = 1
+
     while solved == False:
         # Step 1: chose a combo at random
         random_combo_index = random.choice(range(len(unique_combo_of_teams)))
@@ -32,7 +34,7 @@ def find_a_grid_combo(unique_combo_of_teams: list, level: str):
         random.shuffle(team_list_that_matches_team_a)
         x_y_z_combinations = list(combinations(team_list_that_matches_team_a, 3))
         for x_y_z_combo in x_y_z_combinations: # [x, y, z]
-            print(f'Iteration: {iteration}')
+            print(f'Iteration: {major_iteration}.{minor_iteration}')
             x_y_z_combo = list(x_y_z_combo)
             team_x = x_y_z_combo[0] # team name x
             team_y = x_y_z_combo[1] # team name y
@@ -91,9 +93,9 @@ def find_a_grid_combo(unique_combo_of_teams: list, level: str):
                         print('Runing another iteration...')
                         # iteration += 1
             print('Running new x y z combo iteration...')
-            iteration += 1
+            minor_iteration += 1
         print('Running new iteration from start team...')
-        iteration += 1
+        major_iteration += 1
        
 def check_a_combo(team_a: str, team_b: str) -> [bool, int]:
     combo_exists = False
