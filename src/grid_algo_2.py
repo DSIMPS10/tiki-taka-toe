@@ -138,10 +138,12 @@ def check_level(level: str, combo_dict: dict):
         'random': 1
         }
     level_av_dict = {
+        'very easy': 60,
         'easy': 40,
         'medium': 25,
-        'hard': 1,
-        'random': 1
+        'hard': 9,
+        'impossible': 1,
+        'random': 9
         }
     # level_type = 'COUNT'
     level_type = 'AVE'
@@ -158,9 +160,9 @@ def check_level(level: str, combo_dict: dict):
         level_average: int = level_av_dict[level]
         for combo, count in combo_dict.items():
             total += count
-            if total > level_average:
-                print(f'Total matches: {total} (out of {level_av_dict[level]})')
-                return True
+        if total > level_average:
+            print(f'Total matches: {total} (out of {level_av_dict[level]})')
+            return True
         return False
         
 
@@ -179,7 +181,7 @@ def main(level: str) -> DataFrame:
     return team_df
         
 if __name__ == "__main__":
-    level = 'easy'
+    level = 'impossible'
     grid_df = main(level)
     print(grid_df)
 
