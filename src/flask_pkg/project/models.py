@@ -113,10 +113,10 @@ class Grids(db.Model):
     max_matches = db.Column(db.Integer) #the max number of player matches out of the 9 combos
     #av_matches = db.Column(db.Decimal(8,2)) # 
     mode_matches = db.Column(db.Integer)
-    meadian_matches = db.Column(db.Integer)
+    median_matches = db.Column(db.Integer)
     percentage_completion = db.Column(db.Numeric(8,2)) #Percentage of completed games, either won or draw (9 combos)
 
-    def __init__(self, pos_a, pos_b, pos_c, pos_x, pos_y, pos_z, total_score, max_matches, min_matches, av_matches, mode_matches, percentage_completion):
+    def __init__(self, pos_a, pos_b, pos_c, pos_x, pos_y, pos_z, total_score, max_matches, min_matches, mode_matches,median_matches, percentage_completion):
         self.pos_a = pos_a,
         self.pos_b = pos_b
         self.pos_c = pos_c
@@ -128,7 +128,7 @@ class Grids(db.Model):
         self.min_matches = min_matches
         # self.av_matches = av_matches
         self.mode_matches = mode_matches
-        self.meadian_matches = meadian_matches
+        self.median_matches = median_matches
         self.percentage_completion = percentage_completion
     def as_dict(self):
         return {
@@ -144,7 +144,7 @@ class Grids(db.Model):
             'max_matches':self.max_matches,
             # 'av_matches':self.av_matches,
             'mode_matches':self.mode_matches,
-            'meadian_matches':self.meadian_matches,
+            'meadian_matches':self.median_matches,
             'percentage_completion':self.percentage_completion
             }
     def __repr__(self):
