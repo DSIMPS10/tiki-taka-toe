@@ -182,11 +182,3 @@ if __name__ == "__main__":
     level = 'easy'
     grid_df = main(level)
     print(grid_df)
-
-            
-            
-    
-    
-
-
-

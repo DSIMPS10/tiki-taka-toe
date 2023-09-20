@@ -75,9 +75,6 @@ class Players(db.Model):
     def __repr__(self):
         return f'<Players: {self.full_name}>'
 
-if __name__ == "__main__":
-    db.create_all()
-
 class Guesses(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     player = db.Column(db.String(100))
@@ -99,6 +96,55 @@ class Guesses(db.Model):
     
     def __repr__(self):
         return f'<{self.player}: [{self.team_combo}]>'
+    
+class Grids(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    pos_a = db.Column(db.String(100))
+    pos_b = db.Column(db.String(100))
+    pos_c = db.Column(db.String(100))
+    pos_x = db.Column(db.String(100))
+    pos_y = db.Column(db.String(100))
+    pos_z = db.Column(db.String(100))
+    total_score = db.Column(db.Integer)
+    min_matches = db.Column(db.Integer)
+    max_matches = db.Column(db.Integer)
+    av_matches = db.Column(db.Decimal(8,2))
+    mode_matches = db.Column(db.Integer)
+    percentage_completion = db.Column(db.Decimal(8,2))
+
+    def __init__(self, pos_a, pos_b, pos_c, pos_x, pos_y, pos_z, total_score, max_matches, min_matches, av_matches, mode_matches, percentage_completion):
+        self.pos_a = pos_a,
+        self.pos_b = pos_b
+        self.pos_c = pos_c
+        self.pos_x = pos_x
+        self.pos_y = pos_y
+        self.pos_z = pos_z
+        self.total_score = total_score
+        self.max_matches = max_matches
+        self.min_matches = min_matches
+        self.av_matches = av_matches
+        self.mode_matches = mode_matches
+        self.percentage_completion = percentage_completion
+   
+    def as_dict(self):
+        return {
+            'id': self.id,
+            'pos_a':self.pos_a,
+            'pos_b':self.pos_b,
+            'pos_c':self.pos_c,
+            'pos_x':self.pos_x,
+            'pos_y':self.pos_y,
+            'pos_z':self.pos_z,
+            'total_score':self.total_score,
+            'min_matches':self.min_matches,
+            'max_matches':self.max_matches,
+            'av_matches':self.av_matches,
+            'mode_matches':self.mode_matches,
+            'percentage_completion':self.percentage_completion
+            }
+    
+    def __repr__(self):
+        return f'<Grid {self.id} (score: {self.total_score})>'
 
 if __name__ == "__main__":
     db.create_all()
