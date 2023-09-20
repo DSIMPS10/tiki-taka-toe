@@ -128,13 +128,6 @@ def convert_to_grid_objects(grid_dict: dict)->Grid:
     grid_details = Grid(**grid_dict)
     return grid_details
     
-
-
-
-                    
-                    
-                    
-                    
         #             check_combos_and_level = check_all_combos(correct_dict, level)
         #             if check_combos_and_level[0] == True:
         #                 solved = True
