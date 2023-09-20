@@ -70,6 +70,18 @@ def restart_game(restart: str):
         for key in board_keys:
             theBoard[key] = " "
         game()
+
+def pass_move(move,turn,pass_dict):
+    turn_pass=False
+    if move == 'pass':
+        turn_pass = True
+        if turn == 'X':
+            print("Player X has passed")
+            pass_dict['pass_player_X'] = True
+        if turn == 'O':
+            print("Player O has passed")
+            pass_dict['pass_player_O']  = True
+    return turn_pass, pass_dict
     
 def check_move(move):
     try: 
@@ -92,6 +104,7 @@ def check_move(move):
 
 
 def game():
+    pass_move_dict = {'pass_player_X':False,'pass_player_O':False}
     turn = 'X'
     count = 0
     is_there_a_winner = False   
@@ -99,9 +112,19 @@ def game():
 
     while is_there_a_winner == False:
         print_board(theBoard,footy_team_board_df)
-        print("It's your turn " + turn + ". Choose a location?")
+        print("It's your turn " + turn + ". Choose a location? (type 'pass' if you cannot go)")
 
         move = input()
+        pass_move_passed = pass_move(move,turn,pass_move_dict)[0]
+        pass_move_dict = pass_move(move,turn,pass_move_dict)[1]
+        if pass_move_passed:
+            if pass_move_dict['pass_player_X'] is True and pass_move_dict['pass_player_O'] is True:
+                print("Both players have passed, restarting grid.")
+                restart_game("y")
+            else:
+                turn = switch_turn(turn)
+                continue
+
         if check_move(move):      
             move = str(move)
             if theBoard[move] == ' ':
