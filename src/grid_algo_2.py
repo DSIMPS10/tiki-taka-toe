@@ -1,19 +1,23 @@
 import random
+from statistics import mode,median
 from itertools import combinations
 from collections import Counter
 from pandas import DataFrame
+from utils.classes import Grid
 
 from data.data_db_functions import check_team_combo_has_matching_player
 from grid_algo import unique_combo_of_teams
 
-def find_a_grid_combo(unique_combo_of_teams: list, level: str):
+def find_a_grid_combo(unique_combo_of_teams: list): #, level: str
+    valid_grids = []
     # Shuffle unique team combos
     random.shuffle(unique_combo_of_teams)
     solved = False
     major_iteration = 1
     minor_iteration = 1
 
-    while solved == False:
+    # while solved == False:
+    for i in range(5):
         # Step 1: chose a combo at random
         random_combo_index = random.choice(range(len(unique_combo_of_teams)))
         random_combo = unique_combo_of_teams[random_combo_index]
@@ -83,16 +87,64 @@ def find_a_grid_combo(unique_combo_of_teams: list, level: str):
                         'team_y': team_y,
                         'team_z': team_z
                         }
-                    check_combos_and_level = check_all_combos(correct_dict, level)
-                    if check_combos_and_level[0] == True:
-                        solved = True
-                        combo_count_dict = check_combos_and_level[1] 
-                        print('6 potential teams at the right level were found!')
-                        return True, correct_dict, combo_count_dict 
-            print(f'Running new x y z combo iteration... {minor_iteration+1} of {len(x_y_z_combinations)}')
-            minor_iteration += 1
-        print(f'Running new iteration from start team... {major_iteration+1} of {len(unique_combo_of_teams)}')
-        major_iteration += 1
+                    
+                    # grid_obj = get_single_grid_info(correct_dict)
+                    valid_grids.append(correct_dict)
+                    i +=1
+                    if i == 5:
+                        break      
+    return valid_grids
+
+def get_single_grid_info(grid_dict: dict)->dict:
+    combo_dict = {}
+    combos = [[grid_dict['team_a'], grid_dict['team_x']], [grid_dict['team_a'], grid_dict['team_y']], [grid_dict['team_a'], grid_dict['team_z']],
+              [grid_dict['team_b'], grid_dict['team_x']], [grid_dict['team_b'], grid_dict['team_y']], [grid_dict['team_b'], grid_dict['team_z']],
+              [grid_dict['team_c'], grid_dict['team_x']], [grid_dict['team_c'], grid_dict['team_y']], [grid_dict['team_c'], grid_dict['team_z']]]
+    for combo in combos:
+        number_of_matching_players = check_a_combo(combo[0], combo[1])[1]
+        combo_dict[f'{combo[0]}, {combo[1]}'] = number_of_matching_players
+    total_count = 0
+    min_count = 1000
+    max_count = 0
+    for team_combo, match_count in combo_dict.items():
+        total_count+=match_count
+        if match_count < min_count:
+            min_count = match_count
+        if match_count > max_count:
+            max_count = match_count
+    list_of_values = [*combo_dict.values()]
+    list_of_values.sort()
+    grid_median = median(list_of_values)
+    grid_mode = mode(list_of_values)
+    grid_dict['total_score'] = total_count
+    grid_dict['max_matches'] = max_count
+    grid_dict['min_matches'] = min_count
+    grid_dict['mode_matches'] = grid_mode
+    grid_dict['median_matches'] = grid_median
+    grid_dict['percentage_completion'] = 0
+    return grid_dict
+
+def convert_to_grid_objects(grid_dict: dict)->Grid:
+    grid_details = Grid(**grid_dict)
+    return grid_details
+    
+
+
+
+                    
+                    
+                    
+                    
+        #             check_combos_and_level = check_all_combos(correct_dict, level)
+        #             if check_combos_and_level[0] == True:
+        #                 solved = True
+        #                 combo_count_dict = check_combos_and_level[1] 
+        #                 print('6 potential teams at the right level were found!')
+        #                 return True, correct_dict, combo_count_dict 
+        #     print(f'Running new x y z combo iteration... {minor_iteration+1} of {len(x_y_z_combinations)}')
+        #     minor_iteration += 1
+        # print(f'Running new iteration from start team... {major_iteration+1} of {len(unique_combo_of_teams)}')
+        # major_iteration += 1
        
 def check_a_combo(team_a: str, team_b: str) -> [bool, int]:
     combo_exists = False
@@ -138,10 +190,12 @@ def check_level(level: str, combo_dict: dict):
         'random': 1
         }
     level_av_dict = {
+        'very easy': 60,
         'easy': 40,
         'medium': 25,
-        'hard': 1,
-        'random': 1
+        'hard': 9,
+        'impossible': 1,
+        'random': 9
         }
     # level_type = 'COUNT'
     level_type = 'AVE'
@@ -158,27 +212,53 @@ def check_level(level: str, combo_dict: dict):
         level_average: int = level_av_dict[level]
         for combo, count in combo_dict.items():
             total += count
-            if total > level_average:
-                print(f'Total matches: {total} (out of {level_av_dict[level]})')
-                return True
+        if total > level_average:
+            print(f'Total matches: {total} (out of {level_av_dict[level]})')
+            return True
         return False
-        
 
-def main(level: str) -> DataFrame:
+def post_grid_to_db():
+    pass
+
+    
+
+def main() -> DataFrame: #level: str
+
+    valid_grids = find_a_grid_combo(unique_combo_of_teams)    
     solved = False
     # Step 1: Run through iterations to find a grip
-    grid_combo_tuple: dict = find_a_grid_combo(unique_combo_of_teams, level)
-    # Step 2: Use the valid grid
-    grid_combo = grid_combo_tuple[1]
-    combo_count = grid_combo_tuple[2]
-    if grid_combo_tuple[0] == True:
-        print(grid_combo)
-        print(combo_count)
+    # grid_combo_tuple: dict = find_a_grid_combo(unique_combo_of_teams, level)
+    # # Step 2: Use the valid grid
+    # grid_combo = grid_combo_tuple[1]
+    # combo_count = grid_combo_tuple[2]
+    # if grid_combo_tuple[0] == True:
+    #     print(grid_combo)
+    #     print(combo_count)
 
-    team_df = convert_grid_dict_to_pos_df(grid_combo)
-    return team_df
+    single_grid = get_single_grid_info(valid_grids[0])
+    test= Grid(**single_grid)
+    print(test)
+    test_grid_obj = convert_to_grid_objects(single_grid)
+    print(test_grid_obj)
+    
+    #team_df = convert_grid_dict_to_pos_df(grid_combo)
+    return test_grid_obj #team_df
         
 if __name__ == "__main__":
+<<<<<<< HEAD
     level = 'easy'
     grid_df = main(level)
     print(grid_df)
+=======
+    level = 'impossible'
+    grid_df = main() #level
+    print(grid_df)
+
+            
+            
+    
+    
+
+
+
+>>>>>>> d7caa23857efededfddbf21b2796c9107c1faac3
