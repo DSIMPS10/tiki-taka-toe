@@ -22,4 +22,19 @@ CREATE TABLE Guesses (
     team_combo text[],
     correct_guesses INT
 	);
-    
+
+CREATE TABLE Grids (
+    id serial PRIMARY KEY,
+    pos_a  VARCHAR(150),
+    pos_b  VARCHAR(150),
+    pos_c  VARCHAR(150),
+    pos_x  VARCHAR(150),
+    pos_y  VARCHAR(150),
+    pos_z  VARCHAR(150),
+    total_score INT NOT NULL,
+    max_matches INT NOT NULL,
+    min_matches INT NOT NULL,
+    mode_matches INT NOT NULL,
+    median_matches INT NOT NULL,
+    percentage_completion NUMERIC NOT NULL,
+	);

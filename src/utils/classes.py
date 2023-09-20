@@ -63,3 +63,40 @@ class Guesses:
     
     def __str__(self):
         return f'<{self.player}: {self.team_combo}>'
+    
+class Grid:
+    def __init__(self, team_a, team_b, team_c, team_x, team_y, team_z, total_score, max_matches, min_matches, mode_matches,median_matches, percentage_completion):
+        self.team_a = team_a,
+        self.team_b = team_b
+        self.team_c = team_c
+        self.team_x = team_x
+        self.team_y = team_y
+        self.team_z = team_z
+        self.total_score = total_score
+        self.max_matches = max_matches
+        self.min_matches = min_matches
+        # self.av_matches = av_matches
+        self.mode_matches = mode_matches
+        self.median_matches = median_matches
+        self.percentage_completion = percentage_completion
+    def as_dict(self):
+        return {
+            'team_a':self.team_a,
+            'team_b':self.team_b,
+            'team_c':self.team_c,
+            'team_x':self.team_x,
+            'team_y':self.team_y,
+            'team_z':self.team_z,
+            'total_score':self.total_score,
+            'min_matches':self.min_matches,
+            'max_matches':self.max_matches,
+            # 'av_matches':self.av_matches,
+            'mode_matches':self.mode_matches,
+            'meadian_matches':self.median_matches,
+            'percentage_completion':self.percentage_completion
+            }
+    def __repr__(self):
+        return f'<Grid score: {self.total_score})>'
+    
+    def __str__(self):
+        return f'<Grid score: {self.total_score})>'
