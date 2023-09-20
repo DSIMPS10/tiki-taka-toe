@@ -3,7 +3,7 @@ from statistics import mode,median
 from itertools import combinations
 from collections import Counter
 from pandas import DataFrame
-from utils.classes import Grid
+from utils.classes import FootyGrid
 
 from data.data_db_functions import check_team_combo_has_matching_player
 from grid_algo import unique_combo_of_teams
@@ -229,7 +229,7 @@ def main() -> DataFrame: #level: str
     #     print(combo_count)
 
     single_grid = get_single_grid_info(valid_grids[0])
-    test= Grid(**single_grid)
+    test= FootyGrid(**single_grid)
     print(test)
     test_grid_obj = convert_to_grid_objects(single_grid)
     print(test_grid_obj)
@@ -238,11 +238,6 @@ def main() -> DataFrame: #level: str
     return test_grid_obj #team_df
         
 if __name__ == "__main__":
-<<<<<<< HEAD
-    level = 'easy'
-    grid_df = main(level)
-    print(grid_df)
-=======
     level = 'impossible'
     grid_df = main() #level
     print(grid_df)
@@ -254,4 +249,3 @@ if __name__ == "__main__":
 
 
 
->>>>>>> d7caa23857efededfddbf21b2796c9107c1faac3
