@@ -79,6 +79,7 @@ class Grid:
         self.mode_matches = mode_matches
         self.median_matches = median_matches
         self.percentage_completion = percentage_completion
+        
     def as_dict(self):
         return {
             'team_a':self.team_a,
@@ -95,6 +96,10 @@ class Grid:
             'meadian_matches':self.median_matches,
             'percentage_completion':self.percentage_completion
             }
+        
+    def calculate_grid_average(self):
+        return round(self.total_score/9, 1)
+        
     def __repr__(self):
         return f'<Grid score: {self.total_score})>'
     
