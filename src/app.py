@@ -11,6 +11,8 @@ from data.data_db_functions import get_all_players_from_db, get_all_team_from_db
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
 ##########################################################################################################
 
+
+#TODO: Change this to get teams from grid
 def get_six_random_indices()->list:
     """
     Input: No input
@@ -98,7 +100,6 @@ def convert_print_grid_as_df(team_names_list: list[str]) -> pd.DataFrame:
 
 def create_footy_team_board() -> pd.DataFrame:
     six_indices = get_six_random_indices()
-    print(f'Six random indices: {six_indices}')
     team_names_list = get_teams_from_indices(six_indices)
     team_df = create_six_team_df_for_grid(team_names_list)
     print(team_df)

@@ -215,6 +215,7 @@ def run_complete_grid_process(team_a):
     grids_obj: list[FootyGrid] = [convert_to_grid_objects(grid_info) for grid_info in grid_info_for_all_combo]
     #Step 4: Post to DB
     post_valid_grids(grids_obj)
+    return print('All grids posted')
 
 
 def main() -> DataFrame: #level: str
