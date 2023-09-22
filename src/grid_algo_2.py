@@ -211,15 +211,15 @@ def select_grid_for_game(level: str):
     '''
     all_grids_df: DataFrame = get_all_grids_from_db()
     if level =='easy':
-        easy_grids_df = all_grids_df[all_grids_df['total_score'] >= 50]
+        easy_grids_df = all_grids_df.loc[all_grids_df['total_score'] >= 50]
         easy_grid = easy_grids_df.sample(n=1)
         return easy_grid
     if level =='medium':
-        medium_grids_df = all_grids_df[all_grids_df['total_score'] < 50 & all_grids_df['total_score'] >= 20]
+        medium_grids_df = all_grids_df.loc[(all_grids_df['total_score'] < 50) & (all_grids_df['total_score'] >= 20)]
         medium_grid = medium_grids_df.sample(n=1)
         return medium_grid
     if level =='hard':
-        hard_grids_df = all_grids_df[all_grids_df['total_score'] < 20]
+        hard_grids_df = all_grids_df.loc[all_grids_df['total_score'] < 20]
         hard_grid = hard_grids_df.sample(n=1)
         return hard_grid
 
@@ -251,7 +251,7 @@ def main() -> DataFrame: #level: str
     #     print(combo_count)
     # team_a = 'Arsenal'
     # run_complete_grid_process(team_a)
-    grid = select_grid_for_game('easy')
+    grid = select_grid_for_game('hard')
     print(grid)
 
     
@@ -260,7 +260,7 @@ def main() -> DataFrame: #level: str
 if __name__ == "__main__":
     level = 'impossible'
     grid_df = main() #level
-    print(grid_df)
+    #print(grid_df)
 
             
             
