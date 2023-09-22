@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-from utils.classes import Team, Player , Guesses
+from utils.classes import Team, Player , Guesses, FootyGrid
 from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
 
 
@@ -20,30 +20,39 @@ They are main POST and GET requestios
 def post_teams_to_db(teams: list[Team]):
     # Convert activities to json
     teams_array = [vars(team) for team in teams]       
-    activitity_json_str = json.dumps(teams_array)
+    teams_json_str = json.dumps(teams_array)
         
     # Post request
-    teams_posted = post_request(BASE,"post_teams",activitity_json_str)
+    teams_posted = post_request(BASE,"post_teams",teams_json_str)
     print(f"New teams posted: {teams_posted}")
     return teams_posted
 
 def post_players_to_db(players: list[Player]):
     # Convert players to json
     players_array = [vars(player) for player in players] 
-    activitity_json_players_str = json.dumps(players_array)  
+    players_json_str = json.dumps(players_array)  
     # Post request
-    players_posted = post_request(BASE,"post_players",activitity_json_players_str)
+    players_posted = post_request(BASE,"post_players",players_json_str)
     print(f"New players posted: {players_posted}")
     return players_posted
 
 def post_valid_player_combos(valid_player_combos: list[Guesses]):
     # Convert valid players to json
     valid_player_combos_array = [vars(player_combo) for player_combo in valid_player_combos] 
-    activitity_json_players_str = json.dumps(valid_player_combos_array)  
+    player_json_str = json.dumps(valid_player_combos_array)  
     # Post request
-    valid_player_combos_posted = post_request(BASE,"post_valid_player_combos",activitity_json_players_str)
+    valid_player_combos_posted = post_request(BASE,"post_valid_player_combos",player_json_str)
     print(f"New player combos posted: {valid_player_combos_posted}")
     return valid_player_combos_posted
+
+def post_valid_grids(valid_grids: list[FootyGrid]):
+    # Convert valid players to json
+    valid_grids_array = [vars(grid) for grid in valid_grids]
+    grids_json_str = json.dumps(valid_grids_array)  
+    # Post request
+    valid_grid_posted = post_request(BASE,"post_grids",grids_json_str)
+    print(f"New Grid posted: {valid_grid_posted}")
+    return valid_grid_posted
 
 
 ##########################################################################################################

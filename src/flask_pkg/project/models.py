@@ -99,77 +99,50 @@ class Guesses(db.Model):
     
 class Grids(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    pos_a = db.Column(db.String(100))
-    pos_b = db.Column(db.String(100))
-    pos_c = db.Column(db.String(100))
-    pos_x = db.Column(db.String(100))
-    pos_y = db.Column(db.String(100))
-    pos_z = db.Column(db.String(100))
-<<<<<<< HEAD
+    team_a = db.Column(db.String(100))
+    team_b = db.Column(db.String(100))
+    team_c = db.Column(db.String(100))
+    team_x = db.Column(db.String(100))
+    team_y = db.Column(db.String(100))
+    team_z = db.Column(db.String(100))
     total_score = db.Column(db.Integer)
     min_matches = db.Column(db.Integer)
     max_matches = db.Column(db.Integer)
-    av_matches = db.Column(db.Decimal(8,2))
-    mode_matches = db.Column(db.Integer)
-    percentage_completion = db.Column(db.Decimal(8,2))
-
-    def __init__(self, pos_a, pos_b, pos_c, pos_x, pos_y, pos_z, total_score, max_matches, min_matches, av_matches, mode_matches, percentage_completion):
-=======
-    total_score = db.Column(db.Integer) #sum off player matches across all 9 combos
-    min_matches = db.Column(db.Integer) #the minimum number of player matches out of the 9 combos
-    max_matches = db.Column(db.Integer) #the max number of player matches out of the 9 combos
-    #av_matches = db.Column(db.Decimal(8,2)) # 
-    mode_matches = db.Column(db.Integer)
     median_matches = db.Column(db.Integer)
-    percentage_completion = db.Column(db.Numeric(8,2)) #Percentage of completed games, either won or draw (9 combos)
+    mode_matches = db.Column(db.Integer)
+    percentage_completion = db.Column(db.Numeric(8,2))
 
-    def __init__(self, pos_a, pos_b, pos_c, pos_x, pos_y, pos_z, total_score, max_matches, min_matches, mode_matches,median_matches, percentage_completion):
->>>>>>> d7caa23857efededfddbf21b2796c9107c1faac3
-        self.pos_a = pos_a,
-        self.pos_b = pos_b
-        self.pos_c = pos_c
-        self.pos_x = pos_x
-        self.pos_y = pos_y
-        self.pos_z = pos_z
+    def __init__(self, team_a, team_b, team_c, team_x, team_y, team_z, total_score, max_matches, min_matches, median_matches, mode_matches, percentage_completion):
+        self.team_a = team_a,
+        self.team_b = team_b
+        self.team_c = team_c
+        self.team_x = team_x
+        self.team_y = team_y
+        self.team_z = team_z
         self.total_score = total_score
         self.max_matches = max_matches
         self.min_matches = min_matches
-<<<<<<< HEAD
-        self.av_matches = av_matches
-        self.mode_matches = mode_matches
-        self.percentage_completion = percentage_completion
-   
-=======
         # self.av_matches = av_matches
         self.mode_matches = mode_matches
         self.median_matches = median_matches
         self.percentage_completion = percentage_completion
->>>>>>> d7caa23857efededfddbf21b2796c9107c1faac3
     def as_dict(self):
         return {
             'id': self.id,
-            'pos_a':self.pos_a,
-            'pos_b':self.pos_b,
-            'pos_c':self.pos_c,
-            'pos_x':self.pos_x,
-            'pos_y':self.pos_y,
-            'pos_z':self.pos_z,
+            'team_a':self.team_a,
+            'team_b':self.team_b,
+            'team_c':self.team_c,
+            'team_x':self.team_x,
+            'team_y':self.team_y,
+            'team_z':self.team_z,
             'total_score':self.total_score,
             'min_matches':self.min_matches,
             'max_matches':self.max_matches,
-<<<<<<< HEAD
-            'av_matches':self.av_matches,
-            'mode_matches':self.mode_matches,
-            'percentage_completion':self.percentage_completion
-            }
-    
-=======
             # 'av_matches':self.av_matches,
             'mode_matches':self.mode_matches,
             'meadian_matches':self.median_matches,
             'percentage_completion':self.percentage_completion
             }
->>>>>>> d7caa23857efededfddbf21b2796c9107c1faac3
     def __repr__(self):
         return f'<Grid {self.id} (score: {self.total_score})>'
 

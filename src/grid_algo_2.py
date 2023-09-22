@@ -5,94 +5,88 @@ from collections import Counter
 from pandas import DataFrame
 from utils.classes import FootyGrid
 
-from data.data_db_functions import check_team_combo_has_matching_player
+from guesses import get_all_team_combos_process
+from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids
 from grid_algo import unique_combo_of_teams
 
-def find_a_grid_combo(unique_combo_of_teams: list): #, level: str
+def find_a_grid_combo(unique_combo_of_teams:list, team_a: str): #, level: str
     valid_grids = []
     # Shuffle unique team combos
     random.shuffle(unique_combo_of_teams)
-    solved = False
     major_iteration = 1
     minor_iteration = 1
+    # Step 1: chose a combo at random
+    # random_combo_index = random.choice(range(len(unique_combo_of_teams)))
+    # random_combo = unique_combo_of_teams[random_combo_index]
+    # team_a = random_combo[0]
+    print(f'Team A: {team_a}')
+    # unique_combo_of_teams.pop(random_combo_index)
+    # print(f'Number of unique team combos: {len(unique_combo_of_teams)}')
 
-    # while solved == False:
-    for i in range(5):
-        # Step 1: chose a combo at random
-        random_combo_index = random.choice(range(len(unique_combo_of_teams)))
-        random_combo = unique_combo_of_teams[random_combo_index]
-        team_a = random_combo[0]
-        print(f'Team A: {team_a}')
-        unique_combo_of_teams.pop(random_combo_index)
-        print(f'Number of unique team combos: {len(unique_combo_of_teams)}')
+    # Step 2: chose x,y,z that have a match with team a
+    team_list_that_matches_team_a = []
+    for combo in unique_combo_of_teams:
+        if combo[0] == team_a:
+            team_list_that_matches_team_a.append(combo[1])
+        if combo[1] == team_a:
+            team_list_that_matches_team_a.append(combo[0])
+    print(f'Number of teams that have a player match with team a: {len(team_list_that_matches_team_a)}')
+    # Step 3: get possible b and c teams that all have a match with x,y & z
+    random.shuffle(team_list_that_matches_team_a)
+    x_y_z_combinations = list(combinations(team_list_that_matches_team_a, 3))
+    for x_y_z_combo in x_y_z_combinations: # [x, y, z]
+        print(f'Iteration: {major_iteration}.{minor_iteration}')
+        x_y_z_combo = list(x_y_z_combo)
+        team_x = x_y_z_combo[0] # team name x
+        team_y = x_y_z_combo[1] # team name y
+        team_z = x_y_z_combo[2] # team name z
+        potential_b_or_c_team = []
+        potential_b_or_c_matching_comobo = []
+        valid_b_or_c_team = []
 
-        # Step 2: chose x,y,z that have a match with team a
-        team_list_that_matches_team_a = []
+        # Step 4: Get all combos that contain x, y and z teams
         for combo in unique_combo_of_teams:
-            if combo[0] == team_a:
-                team_list_that_matches_team_a.append(combo[1])
-            if combo[1] == team_a:
-                team_list_that_matches_team_a.append(combo[0])
-        print(f'Number of teams that have a player match with team a: {len(team_list_that_matches_team_a)}')
-        # Step 3: get possible b and c teams that all have a match with x,y & z
-        random.shuffle(team_list_that_matches_team_a)
-        x_y_z_combinations = list(combinations(team_list_that_matches_team_a, 3))
-        for x_y_z_combo in x_y_z_combinations: # [x, y, z]
-            print(f'Iteration: {major_iteration}.{minor_iteration}')
-            x_y_z_combo = list(x_y_z_combo)
-            team_x = x_y_z_combo[0] # team name x
-            team_y = x_y_z_combo[1] # team name y
-            team_z = x_y_z_combo[2] # team name z
-            potential_b_or_c_team = []
-            potential_b_or_c_matching_comobo = []
-            valid_b_or_c_team = []
-
-            # Step 4: Get all combos that contain x, y and z teams
-            for combo in unique_combo_of_teams:
-                if team_x in combo or team_y in combo or team_z in combo:
-                    potential_b_or_c_matching_comobo.append(combo)
-            print(f'Number of potential combos with b or c teams : {len(potential_b_or_c_matching_comobo)}')
-            # Step 5: Get all teams from combos that aren't x,y,z in list:
-            for match_combo in potential_b_or_c_matching_comobo:
-                for team in match_combo:
-                    if team != team_x and team != team_y and team != team_z and team != team_a:
-                        potential_b_or_c_team.append(team)
-            print(f'Number of potential b or c teams: {len(potential_b_or_c_team)}')
-            # Extra: Get unique teams by removing duplicates
-            unique_b_c_teams = list(set(potential_b_or_c_team))
-            print(f'Number of unique teams (out of 40): {len(unique_b_c_teams)}')
-            if len(potential_b_or_c_team) < 3:
-                pass
+            if team_x in combo or team_y in combo or team_z in combo:
+                potential_b_or_c_matching_comobo.append(combo)
+        print(f'Number of potential combos with b or c teams : {len(potential_b_or_c_matching_comobo)}')
+        # Step 5: Get all teams from combos that aren't x,y,z in list:
+        for match_combo in potential_b_or_c_matching_comobo:
+            for team in match_combo:
+                if team != team_x and team != team_y and team != team_z and team != team_a:
+                    potential_b_or_c_team.append(team)
+        print(f'Number of potential b or c teams: {len(potential_b_or_c_team)}')
+        # Extra: Get unique teams by removing duplicates
+        unique_b_c_teams = list(set(potential_b_or_c_team))
+        print(f'Number of unique teams (out of 40): {len(unique_b_c_teams)}')
+        if len(potential_b_or_c_team) < 3:
+            pass
+        else:
+            # Step 6: If a team appears 3 times it is match for a,b,c
+            counter_dict = Counter(potential_b_or_c_team)
+            for team,count in counter_dict.items():
+                if count == 3:
+                    #It therefore has all matches with x, y & z teams
+                    valid_b_or_c_team.append(team)
+            print(f'Number of valid b and c teams (i.e. matching x, y & z teams): {len(valid_b_or_c_team)}')
+            if len(valid_b_or_c_team) < 2:
+                print('Failed! Not enough matching teams. Restarting combo finder...')
             else:
-                # Step 6: If a team appears 3 times it is match for a,b,c
-                counter_dict = Counter(potential_b_or_c_team)
-                for team,count in counter_dict.items():
-                    if count == 3:
-                        #It therefore has all matches with x, y & z teams
-                        valid_b_or_c_team.append(team)
-                print(f'Number of valid b and c teams (i.e. matching x, y & z teams): {len(valid_b_or_c_team)}')
-                if len(valid_b_or_c_team) < 2:
-                    print('Failed! Not enough matching teams. Restarting combo finder...')
-                else:
-                    # Step 7: Get dict of valid teams for grid
-                    random.shuffle(valid_b_or_c_team)
-                    team_b = random.choice(valid_b_or_c_team)
-                    valid_b_or_c_team.remove(team_b)
-                    team_c = random.choice(valid_b_or_c_team)
-                    correct_dict = {
-                        'team_a': team_a,
-                        'team_b': team_b,
-                        'team_c': team_c,
-                        'team_x': team_x,
-                        'team_y': team_y,
-                        'team_z': team_z
-                        }
-                    
-                    # grid_obj = get_single_grid_info(correct_dict)
-                    valid_grids.append(correct_dict)
-                    i +=1
-                    if i == 5:
-                        break      
+                # Step 7: Get dict of valid teams for grid
+                random.shuffle(valid_b_or_c_team)
+                team_b = random.choice(valid_b_or_c_team)
+                valid_b_or_c_team.remove(team_b)
+                team_c = random.choice(valid_b_or_c_team)
+                correct_dict = {
+                    'team_a': team_a,
+                    'team_b': team_b,
+                    'team_c': team_c,
+                    'team_x': team_x,
+                    'team_y': team_y,
+                    'team_z': team_z
+                    }
+                print(correct_dict)
+                # grid_obj = get_single_grid_info(correct_dict)
+                valid_grids.append(correct_dict)    
     return valid_grids
 
 def get_single_grid_info(grid_dict: dict)->dict:
@@ -124,8 +118,8 @@ def get_single_grid_info(grid_dict: dict)->dict:
     grid_dict['percentage_completion'] = 0
     return grid_dict
 
-def convert_to_grid_objects(grid_dict: dict)->Grid:
-    grid_details = Grid(**grid_dict)
+def convert_to_grid_objects(grid_dict: dict)->FootyGrid:
+    grid_details = FootyGrid(**grid_dict)
     return grid_details
     
         #             check_combos_and_level = check_all_combos(correct_dict, level)
@@ -210,15 +204,23 @@ def check_level(level: str, combo_dict: dict):
             return True
         return False
 
-def post_grid_to_db():
-    pass
+def run_complete_grid_process(team_a): 
+    # Step 1: Based on a defined team_a (already chosen) find every possible combination of grids 
+    # Output: List of dictionaries of every possible grid combination
+    unique_combo_of_teams = get_all_team_combos_process()
+    grid_dicts: list[dict] = find_a_grid_combo(unique_combo_of_teams,team_a)
+    # Step 2: Create a list of all grid combos with all grid info to turn it into a class obj
+    grid_info_for_all_combo: list[dict] = [get_single_grid_info(grid_dict) for grid_dict in grid_dicts]
+    # Step 3: Turn the lists into Grid class obj
+    grids_obj: list[FootyGrid] = [convert_to_grid_objects(grid_info) for grid_info in grid_info_for_all_combo]
+    #Step 4: Post to DB
+    post_valid_grids(grids_obj)
 
-    
 
 def main() -> DataFrame: #level: str
 
-    valid_grids = find_a_grid_combo(unique_combo_of_teams)    
-    solved = False
+    # valid_grids = find_a_grid_combo(unique_combo_of_teams)    
+    # solved = False
     # Step 1: Run through iterations to find a grip
     # grid_combo_tuple: dict = find_a_grid_combo(unique_combo_of_teams, level)
     # # Step 2: Use the valid grid
@@ -227,12 +229,9 @@ def main() -> DataFrame: #level: str
     # if grid_combo_tuple[0] == True:
     #     print(grid_combo)
     #     print(combo_count)
+    team_a = 'Arsenal'
+    run_complete_grid_process(team_a)
 
-    single_grid = get_single_grid_info(valid_grids[0])
-    test= FootyGrid(**single_grid)
-    print(test)
-    test_grid_obj = convert_to_grid_objects(single_grid)
-    print(test_grid_obj)
     
     #team_df = convert_grid_dict_to_pos_df(grid_combo)
     return test_grid_obj #team_df

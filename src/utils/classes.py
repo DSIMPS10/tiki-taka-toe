@@ -66,7 +66,7 @@ class Guesses:
     
 class FootyGrid:
     def __init__(self, team_a, team_b, team_c, team_x, team_y, team_z, total_score, max_matches, min_matches, mode_matches,median_matches, percentage_completion):
-        self.team_a = team_a,
+        self.team_a = team_a
         self.team_b = team_b
         self.team_c = team_c
         self.team_x = team_x
