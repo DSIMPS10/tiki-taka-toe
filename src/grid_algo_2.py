@@ -6,7 +6,7 @@ from pandas import DataFrame
 from utils.classes import FootyGrid
 
 from guesses import get_all_team_combos_process
-from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids
+from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids, get_all_grids_from_db
 from grid_algo import unique_combo_of_teams
 
 def find_a_grid_combo(unique_combo_of_teams:list, team_a: str): #, level: str
@@ -204,6 +204,25 @@ def check_level(level: str, combo_dict: dict):
             return True
         return False
 
+
+def select_grid_for_game(level: str):
+    '''Updates existing logic of choosing 6 random teams for the game. Instead, this gets all grids from the DB and selects as random grid option based on
+    the input level, easy, medium, hard. These levels are chosen by filtering the DF imported by get_all_grids_from_db. 
+    '''
+    all_grids_df: DataFrame = get_all_grids_from_db()
+    if level =='easy':
+        easy_grids_df = all_grids_df[all_grids_df['total_score'] >= 50]
+        easy_grid = easy_grids_df.sample(n=1)
+        return easy_grid
+    if level =='medium':
+        medium_grids_df = all_grids_df[all_grids_df['total_score'] < 50 & all_grids_df['total_score'] >= 20]
+        medium_grid = medium_grids_df.sample(n=1)
+        return medium_grid
+    if level =='hard':
+        hard_grids_df = all_grids_df[all_grids_df['total_score'] < 20]
+        hard_grid = hard_grids_df.sample(n=1)
+        return hard_grid
+
 def run_complete_grid_process(team_a): 
     # Step 1: Based on a defined team_a (already chosen) find every possible combination of grids 
     # Output: List of dictionaries of every possible grid combination
@@ -230,12 +249,13 @@ def main() -> DataFrame: #level: str
     # if grid_combo_tuple[0] == True:
     #     print(grid_combo)
     #     print(combo_count)
-    team_a = 'Arsenal'
-    run_complete_grid_process(team_a)
+    # team_a = 'Arsenal'
+    # run_complete_grid_process(team_a)
+    grid = select_grid_for_game('easy')
+    print(grid)
 
     
     #team_df = convert_grid_dict_to_pos_df(grid_combo)
-    return  #team_df
         
 if __name__ == "__main__":
     level = 'impossible'

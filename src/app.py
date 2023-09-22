@@ -12,6 +12,9 @@ from data.data_db_functions import get_all_players_from_db, get_all_team_from_db
 ##########################################################################################################
 
 
+
+
+
 #TODO: Change this to get teams from grid
 def get_six_random_indices()->list:
     """
