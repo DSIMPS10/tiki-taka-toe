@@ -234,7 +234,7 @@ def main() -> DataFrame: #level: str
 
     
     #team_df = convert_grid_dict_to_pos_df(grid_combo)
-    return test_grid_obj #team_df
+    return  #team_df
         
 if __name__ == "__main__":
     level = 'impossible'

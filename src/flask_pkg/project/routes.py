@@ -77,8 +77,8 @@ def get_team_from_name(team_name):
 @main.get("/api/get_players_for_team_id/<string:team_id>")
 def get_players_for_team_id(team_id): 
     team_players = Players.query.filter(Players.team_id == team_id).all()
-    team_players_dict = team_players.as_dict() 
-    return jsonify(team_players_dict)
+    team_players_array = [player.as_dict() for player in team_players]
+    return jsonify(team_players_array)
 
 @main.get("/api/get_all_players")
 def get_all_players(): 
