@@ -152,6 +152,7 @@ def game():
     # Optional restart:
     restart = input("Do want to play Again?(y/n)")
     restart_game(restart)
+    
 
 if __name__ == "__main__":
     game()
