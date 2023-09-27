@@ -18,8 +18,9 @@ CREATE TABLE Players (
 
 CREATE TABLE Guesses (
     id serial PRIMARY KEY,
-    player VARCHAR (100),
-    team_combo text[],
+    full_name VARCHAR (100),
+    team_1 VARCHAR (100),
+    team_2 VARCHAR (100),
     correct_guesses INT
 	);
 

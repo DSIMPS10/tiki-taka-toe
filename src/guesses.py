@@ -64,23 +64,24 @@ def get_all_team_combos_process():
     unique_combos = get_all_unique_team_combo(list_of_combos)
     return unique_combos
 
-def post_valid_player_combos_process():
-    #test_list = ['James Oliver Charles Tomkins', 'Jean Philippe', 'Fábio Pereira da Silva', 'Darren Edward Andrew Randolph', 'Ademola Lookman Olajade Alade Aylola Lookman', 'Robert Huth', 'Kai Lukas Havertz', 'Kurt Happy Zouma', 'Ayoze Pérez Gutiérrez', 'Lazar Marković', 'Jeffrey Schlupp', 'Nathan Michael Collins', 'Hélder Wander Sousa de Azevedo e Costa', 'Sonny Tufail Perkins', 'Saido Berahino', 'Jesse Ellis Lingard']
-    #Step 1: Get valid players from db
-    valid_players: list[str] = get_valid_guesses_from_db()
-    #Step 2: Convert valid players name list to player df
-    valid_players_df: pd.DataFrame = get_player_info_from_name(valid_players)
-    #Step 3: Convert player df to guess df (melt?)
-    melted_dict: dict = melt_guesses_to_dict(valid_players_df)
-    #Step 4: Clean teams
-    guesses_dict = clean_teams(melted_dict)
-    # Step 5: Convert dict to guess objects
-    guess_list: list[Guesses] = convert_guess_dict_to_obj(guesses_dict)
-    print(guess_list)
-    # Step 6: Post guess list to guesses table
-    posted_combos = post_valid_player_combos(guess_list)
-    print(f'Posted player Combos: {posted_combos}')
-    return posted_combos
+#### 27.09 Not needed anymore: ####
+# def post_valid_player_combos_process():
+#     #test_list = ['James Oliver Charles Tomkins', 'Jean Philippe', 'Fábio Pereira da Silva', 'Darren Edward Andrew Randolph', 'Ademola Lookman Olajade Alade Aylola Lookman', 'Robert Huth', 'Kai Lukas Havertz', 'Kurt Happy Zouma', 'Ayoze Pérez Gutiérrez', 'Lazar Marković', 'Jeffrey Schlupp', 'Nathan Michael Collins', 'Hélder Wander Sousa de Azevedo e Costa', 'Sonny Tufail Perkins', 'Saido Berahino', 'Jesse Ellis Lingard']
+#     #Step 1: Get valid players from db
+#     valid_players: list[str] = get_valid_guesses_from_db()
+#     #Step 2: Convert valid players name list to player df
+#     valid_players_df: pd.DataFrame = get_player_info_from_name(valid_players)
+#     #Step 3: Convert player df to guess df (melt?)
+#     melted_dict: dict = melt_guesses_to_dict(valid_players_df)
+#     #Step 4: Clean teams
+#     guesses_dict = clean_teams(melted_dict)
+#     # Step 5: Convert dict to guess objects
+#     guess_list: list[Guesses] = convert_guess_dict_to_obj(guesses_dict)
+#     print(guess_list)
+#     # Step 6: Post guess list to guesses table
+#     posted_combos = post_valid_player_combos(guess_list)
+#     print(f'Posted player Combos: {posted_combos}')
+#     return posted_combos
 
 def get_all_valid_player_combos_db():
     guesses_df: pd.DataFrame = get_all_guesses_from_db()

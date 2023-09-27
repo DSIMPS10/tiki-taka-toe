@@ -1,4 +1,6 @@
 from flask_pkg.project.routes import BASE, get_request
+from data.data_db_functions import update_guesses_count_in_db, get_guess_from_db, post_guess_to_db
+from utils.classes import Guess
 
 ##########################################################################################################
 ### SCORING ###
@@ -60,17 +62,26 @@ def score_for_selected_player(player, player_guess_dict):
     return player_score
 
 
-def update_guesses_table(player,two_team_combo):
+def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
+    #Step 1: Create identifier
+    single_player_identifier= player_full_name+'~'+two_team_combo[0]+'~'+two_team_combo[1]
+    # Step 1: See if combo exists already
+    if get_guess_from_db(single_player_identifier):
+        update_guesses_count_in_db(single_player_identifier)
+    else:
+        new_guess = [Guess(full_name=player_full_name, team_1=two_team_combo[0], team_2=two_team_combo[1])]
+        post_guess_to_db(new_guess)
     
-    pass
+
+
 def scoring_process():
     '''
     Assumptions: A correct guess in an already formed grid
     Inputs:two teams and a string player guess
     '''
     #Step 1: Update the Guesses DB
-    sorted_team_combo = sorted(two_team_combo)
-    update_guesses_table(player_full_name: str, sorted_team_combo: list)
+    # sorted_team_combo = sorted(two_team_combo)
+    # update_guesses_table(player_full_name: str, sorted_team_combo: list)
 
 
     pass
@@ -78,7 +89,7 @@ def scoring_process():
 
 def main():
 
-    all_correct_answers('Tottenham','Manchester City')
+    update_guesses_table('Tom-Diamond',['Chelsea','Tottenham'])
 
 
 if __name__ == "__main__":

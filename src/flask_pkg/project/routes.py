@@ -86,13 +86,21 @@ def count_all_teams():
     total_teams_dict = {'team_count': teams_count}
     return jsonify(total_teams_dict)
 
-#### PLAYERS ####
+#### Guesses ####
 
-@main.get("/api/get_players_from_guesses_table")
-def get_players_from_guesses_table(): 
-    all_guesses = Guesses.query.all()
-    all_guesses_array = [player.as_dict() for player in all_guesses]
-    return jsonify(all_guesses_array)
+@main.get("/api/get_single_guess/<string:single_player_identifier>")
+def get_single_guess(single_player_identifier): 
+    player_name = single_player_identifier.split("~")[0] #Raheem-Shaquille-Sterling
+    team_1 = single_player_identifier.split("~")[1]
+    team_2 = single_player_identifier.split("~")[2] #Manchester-City or Chelsea    
+    single_guess = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()
+    result = {'exists': 'false'}
+    if single_guess is not None:
+        result['exists'] = 'true'
+    return json.dumps(result)
+
+
+#### PLAYERS ####
 
 @main.get("/api/get_player_info_from_name/<string:full_name>")
 def get_player_info_from_name(full_name): 
@@ -199,9 +207,9 @@ def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Sha
 
 @main.put("/api/update_guess_count/<string:identifier>")
 def update_guess_count(identifier): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea~Liverpool'    
-    player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
-    team_1 = identifier.split("~")[1].replace('-', ' ')
-    team_2 = identifier.split("~")[2].replace('-', ' ') #Manchester-City or Chelsea    
+    player_name = identifier.split("~")[0] #Raheem-Shaquille-Sterling
+    team_1 = identifier.split("~")[1]
+    team_2 = identifier.split("~")[2] #Manchester-City or Chelsea    
     updated_guess_count = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()
     current_count = updated_guess_count.correct_guesses
     updated_guess_count.correct_guesses = current_count + 1

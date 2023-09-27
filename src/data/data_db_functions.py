@@ -40,7 +40,7 @@ def post_players_to_db(players: list[Player]):
     print(f"New players posted: {players_posted}")
     return players_posted
 
-def post_valid_player_combos(valid_player_combos: list[Guesses]):
+def post_valid_player_combos(valid_player_combos: list[Guess]):
     # Convert valid players to json
     valid_player_combos_array = [vars(player_combo) for player_combo in valid_player_combos] 
     player_json_str = json.dumps(valid_player_combos_array)  
@@ -64,7 +64,11 @@ def post_valid_grids(valid_grids: list[FootyGrid]):
 
 def post_guess_to_db(guesses: list[Guess]):
     # Convert guess to json
-    guess_array = [vars(guess) for guess in guesses] 
+    guess_array = [vars(guess) for guess in guesses]
+    guess_dict = guess_array[0]
+    guess_dict['correct_guesses'] = 1
+    guess_array = [guess_dict]
+    print(guess_array)
     guess_json_str = json.dumps(guess_array)  
     # Post request
     guess_posted = post_request(BASE,"post_new_guess",guess_json_str)
@@ -95,6 +99,13 @@ def get_all_guesses_from_db() -> pd.DataFrame:
     all_guesses_df = pd.DataFrame.from_dict(all_guesses)
     return all_guesses_df
 
+def get_guess_from_db(single_player_identifier: str) -> bool:
+    single_guess_dict: dict = get_request(BASE, f'get_single_guess/{single_player_identifier}')
+    print(single_guess_dict)
+    if single_guess_dict['exists'] == 'true':
+        return True
+    else:
+        return False
 
 def get_valid_guesses_from_db()->list[str]:
     all_valid_guesses = get_request(BASE, f'get_all_valid_player_guesses')
