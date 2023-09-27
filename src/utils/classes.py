@@ -1,23 +1,23 @@
-class Grid:
-    def __init__(self):
-        self.one = [2,0] # bottom row, left
-        self.two =[2,1] # bottom row, middle
-        self.three =[2,2] # bottom row, right
-        self.four =[1,0] # middle row, left
-        self.five =[1,1] # middle row, middle
-        self.six =[1,2] # middle row, right
-        self.seven = [0,0] # top row, left
-        self.eight =[0,1] # top row, middle
-        self.nine =[0,2] # top row, right
+# class Grid:
+#     def __init__(self):
+#         self.one = [2,0] # bottom row, left
+#         self.two =[2,1] # bottom row, middle
+#         self.three =[2,2] # bottom row, right
+#         self.four =[1,0] # middle row, left
+#         self.five =[1,1] # middle row, middle
+#         self.six =[1,2] # middle row, right
+#         self.seven = [0,0] # top row, left
+#         self.eight =[0,1] # top row, middle
+#         self.nine =[0,2] # top row, right
 
-    def grid_to_list(self):
-        grid_list = [self.one ,self.two, self.three, self.four, self.five, self.six, self.seven, self.eight, self.nine]
-        return grid_list
+#     def grid_to_list(self):
+#         grid_list = [self.one ,self.two, self.three, self.four, self.five, self.six, self.seven, self.eight, self.nine]
+#         return grid_list
 
-    def number_to_index(self,number):
-        grid_list = self.grid_to_list()
-        index = number - 1
-        return grid_list[index]
+#     def number_to_index(self,number):
+#         grid_list = self.grid_to_list()
+#         index = number - 1
+#         return grid_list[index]
 
 class Team:
     def __init__(self, team_name, league, country):
@@ -93,7 +93,7 @@ class FootyGrid:
             'max_matches':self.max_matches,
             # 'av_matches':self.av_matches,
             'mode_matches':self.mode_matches,
-            'meadian_matches':self.median_matches,
+            'median_matches':self.median_matches,
             'percentage_completion':self.percentage_completion
             }
         

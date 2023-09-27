@@ -143,7 +143,7 @@ class Grids(db.Model):
             'max_matches':self.max_matches,
             # 'av_matches':self.av_matches,
             'mode_matches':self.mode_matches,
-            'meadian_matches':self.median_matches,
+            'median_matches':self.median_matches,
             'percentage_completion':self.percentage_completion
             }
     def __repr__(self):

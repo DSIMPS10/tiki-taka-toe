@@ -205,23 +205,7 @@ def check_level(level: str, combo_dict: dict):
         return False
 
 #TODO: CHANGE FUNCTIONS TO EASY, MEDIUM, HARD 
-def select_grid_for_game(level: str):
-    '''Updates existing logic of choosing 6 random teams for the game. Instead, this gets all grids from the DB and selects as random grid option based on
-    the input level, easy, medium, hard. These levels are chosen by filtering the DF imported by get_all_grids_from_db. 
-    '''
-    all_grids_df: DataFrame = get_all_grids_from_db()
-    if level =='easy':
-        easy_grids_df = all_grids_df.loc[all_grids_df['total_score'] >= 50]
-        easy_grid = easy_grids_df.sample(n=1)
-        return easy_grid
-    if level =='medium':
-        medium_grids_df = all_grids_df.loc[(all_grids_df['total_score'] < 50) & (all_grids_df['total_score'] >= 20)]
-        medium_grid = medium_grids_df.sample(n=1)
-        return medium_grid
-    if level =='hard':
-        hard_grids_df = all_grids_df.loc[all_grids_df['total_score'] < 20]
-        hard_grid = hard_grids_df.sample(n=1)
-        return hard_grid
+
 
 def run_complete_grid_process(team_a): 
     # Step 1: Based on a defined team_a (already chosen) find every possible combination of grids 

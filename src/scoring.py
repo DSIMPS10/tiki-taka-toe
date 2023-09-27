@@ -63,6 +63,7 @@ def score_for_selected_player(player, player_guess_dict):
 
 
 def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
+    two_team_combo = sorted(two_team_combo)
     #Step 1: Create identifier
     single_player_identifier= player_full_name+'~'+two_team_combo[0]+'~'+two_team_combo[1]
     # Step 1: See if combo exists already
