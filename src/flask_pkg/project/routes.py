@@ -43,6 +43,31 @@ def home():
 ### GET ENDPOINTS ###
 #############################################################################################################################################################
 
+#### TEAMS ####
+
+@main.get("/api/check_team_combo_is_valid/<string:team_a>/<string:team_b>")
+def check_team_combo_is_valid(team_a, team_b): 
+    sql = text(f"SELECT full_name, COUNT(full_name) FROM Players \
+                    WHERE team_name = '{team_a}' OR team_name = '{team_b}' \
+                    GROUP BY full_name \
+                    HAVING COUNT(full_name) >1")
+    check_combo_has_matching_player = db.session.execute(sql)
+    all_valid_players_array = [player.full_name for player in check_combo_has_matching_player]
+    return jsonify(all_valid_players_array)
+
+@main.get("/api/team_from_id/<int:team_id>")
+def get_team_from_id(team_id): 
+    team_info = Football_teams.query.filter(Football_teams.id == team_id).first()
+    # teams_array = [team.as_dict() for team in team_info]
+    team_info_dict = team_info.as_dict() 
+    return jsonify(team_info_dict)
+
+@main.get("/api/team_from_name/<string:team_name>")
+def get_team_from_name(team_name): 
+    team_info = Football_teams.query.filter(Football_teams.team_name == team_name).first()
+    team_info_dict = team_info.as_dict() 
+    return jsonify(team_info_dict)
+
 @main.get("/api/get_football_teams/<int:limit>")
 def get_teams(limit): 
     teams = Football_teams.query.order_by(Football_teams.team_name).limit(limit).all()
@@ -61,30 +86,21 @@ def count_all_teams():
     total_teams_dict = {'team_count': teams_count}
     return jsonify(total_teams_dict)
 
-@main.get("/api/team_from_id/<int:team_id>")
-def get_team_from_id(team_id): 
-    team_info = Football_teams.query.filter(Football_teams.id == team_id).first()
-    # teams_array = [team.as_dict() for team in team_info]
-    team_info_dict = team_info.as_dict() 
-    return jsonify(team_info_dict)
+#### Guesses ####
 
-@main.get("/api/team_from_name/<string:team_name>")
-def get_team_from_name(team_name): 
-    team_info = Football_teams.query.filter(Football_teams.team_name == team_name).first()
-    team_info_dict = team_info.as_dict() 
-    return jsonify(team_info_dict)
+@main.get("/api/get_single_guess/<string:single_player_identifier>")
+def get_single_guess(single_player_identifier): 
+    player_name = single_player_identifier.split("~")[0] #Raheem-Shaquille-Sterling
+    team_1 = single_player_identifier.split("~")[1]
+    team_2 = single_player_identifier.split("~")[2] #Manchester-City or Chelsea    
+    single_guess = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()
+    result = {'exists': 'false'}
+    if single_guess is not None:
+        result['exists'] = 'true'
+    return json.dumps(result)
 
-@main.get("/api/get_players_for_team_id/<string:team_id>")
-def get_players_for_team_id(team_id): 
-    team_players = Players.query.filter(Players.team_id == team_id).all()
-    team_players_dict = team_players.as_dict() 
-    return jsonify(team_players_dict)
 
-@main.get("/api/get_all_players")
-def get_all_players(): 
-    all_players = Players.query.all()
-    all_players_array = [player.as_dict() for player in all_players]
-    return jsonify(all_players_array)
+#### PLAYERS ####
 
 @main.get("/api/get_player_info_from_name/<string:full_name>")
 def get_player_info_from_name(full_name): 
@@ -99,21 +115,26 @@ def get_all_valid_player_guesses():
     all_valid_players_array = [player.full_name for player in all_valid_players]
     return jsonify(all_valid_players_array)
 
-@main.get("/api/check_team_combo_is_valid/<string:team_a>/<string:team_b>")
-def check_team_combo_is_valid(team_a, team_b): 
-    sql = text(f"SELECT full_name, COUNT(full_name) FROM Players \
-                    WHERE team_name = '{team_a}' OR team_name = '{team_b}' \
-                    GROUP BY full_name \
-                    HAVING COUNT(full_name) >1")
-    check_combo_has_matching_player = db.session.execute(sql)
-    all_valid_players_array = [player.full_name for player in check_combo_has_matching_player]
-    return jsonify(all_valid_players_array)
+@main.get("/api/get_players_for_team_id/<string:team_id>")
+def get_players_for_team_id(team_id): 
+    team_players = Players.query.filter(Players.team_id == team_id).all()
+    team_players_array = [player.as_dict() for player in team_players]
+    return jsonify(team_players_array)
 
-@main.get("/api/get_players_from_guesses_table")
-def get_players_from_guesses_table(): 
-    all_guesses = Guesses.query.all()
-    all_guesses_array = [player.as_dict() for player in all_guesses]
-    return jsonify(all_guesses_array)
+@main.get("/api/get_all_players")
+def get_all_players(): 
+    all_players = Players.query.all()
+    all_players_array = [player.as_dict() for player in all_players]
+    return jsonify(all_players_array)
+
+
+#### GRIDS ####
+
+@main.get("/api/get_all_grids")
+def get_players_from_grids_table(): 
+    all_grids = Grids.query.all()
+    all_grids_array = [grid.as_dict() for grid in all_grids]
+    return jsonify(all_grids_array)
 
 #############################################################################################################################################################
 ### POST ENDPOINTS ###
@@ -155,9 +176,22 @@ def post_grids():
     db.session.commit()
     return grid_jsons
 
+#### Guesses ####
+
+@main.post("/api/post_new_guess")
+def post_new_guess():
+    guess_jsons = request.get_json()
+    guess_dicts = json.loads(guess_jsons)  
+    guess_to_add = [Guesses(**row) for row in guess_dicts]
+    db.session.add_all(guess_to_add)
+    db.session.commit()
+    return guess_jsons
+
 #############################################################################################################################################################
 ### UPDATE ENDPOINTS ###
 #############################################################################################################################################################
+
+#### Player ####
 
 @main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
 def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
@@ -168,4 +202,18 @@ def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Sha
     db.session.commit()
     player_info_dict = updated_season_row.as_dict() 
     return jsonify(player_info_dict)
+
+#### Guesses ####
+
+@main.put("/api/update_guess_count/<string:identifier>")
+def update_guess_count(identifier): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea~Liverpool'    
+    player_name = identifier.split("~")[0] #Raheem-Shaquille-Sterling
+    team_1 = identifier.split("~")[1]
+    team_2 = identifier.split("~")[2] #Manchester-City or Chelsea    
+    updated_guess_count = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()
+    current_count = updated_guess_count.correct_guesses
+    updated_guess_count.correct_guesses = current_count + 1
+    db.session.commit()
+    updated_guess_dict = updated_guess_count.as_dict() 
+    return jsonify(updated_guess_dict)
      

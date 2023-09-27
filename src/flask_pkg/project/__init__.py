@@ -20,3 +20,6 @@ def create_app(config_class=DevelopmentConfig):
 ### RUN FROM CLI ###
 # From folder: flask_pkg
 # Run: flask --app project run --debug
+
+### For Windows ###
+# python -m flask --app project run --debug

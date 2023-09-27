@@ -6,7 +6,7 @@ from pandas import DataFrame
 from utils.classes import FootyGrid
 
 from guesses import get_all_team_combos_process
-from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids
+from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids, get_all_grids_from_db
 from grid_algo import unique_combo_of_teams
 
 def find_a_grid_combo(unique_combo_of_teams:list, team_a: str): #, level: str
@@ -204,6 +204,9 @@ def check_level(level: str, combo_dict: dict):
             return True
         return False
 
+#TODO: CHANGE FUNCTIONS TO EASY, MEDIUM, HARD 
+
+
 def run_complete_grid_process(team_a): 
     # Step 1: Based on a defined team_a (already chosen) find every possible combination of grids 
     # Output: List of dictionaries of every possible grid combination
@@ -215,6 +218,7 @@ def run_complete_grid_process(team_a):
     grids_obj: list[FootyGrid] = [convert_to_grid_objects(grid_info) for grid_info in grid_info_for_all_combo]
     #Step 4: Post to DB
     post_valid_grids(grids_obj)
+    return print('All grids posted')
 
 
 def main() -> DataFrame: #level: str
@@ -229,17 +233,18 @@ def main() -> DataFrame: #level: str
     # if grid_combo_tuple[0] == True:
     #     print(grid_combo)
     #     print(combo_count)
-    team_a = 'Arsenal'
-    run_complete_grid_process(team_a)
+    # team_a = 'Arsenal'
+    # run_complete_grid_process(team_a)
+    grid = select_grid_for_game('hard')
+    print(grid)
 
     
     #team_df = convert_grid_dict_to_pos_df(grid_combo)
-    return test_grid_obj #team_df
         
 if __name__ == "__main__":
     level = 'impossible'
     grid_df = main() #level
-    print(grid_df)
+    #print(grid_df)
 
             
             
