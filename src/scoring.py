@@ -59,6 +59,23 @@ def score_for_selected_player(player, player_guess_dict):
 
     return player_score
 
+
+def update_guesses_table(player,two_team_combo):
+    
+    pass
+def scoring_process():
+    '''
+    Assumptions: A correct guess in an already formed grid
+    Inputs:two teams and a string player guess
+    '''
+    #Step 1: Update the Guesses DB
+    sorted_team_combo = sorted(two_team_combo)
+    update_guesses_table(player_full_name: str, sorted_team_combo: list)
+
+
+    pass
+
+
 def main():
 
     all_correct_answers('Tottenham','Manchester City')

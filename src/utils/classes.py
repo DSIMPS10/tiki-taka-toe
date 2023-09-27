@@ -45,24 +45,24 @@ class Player:
     def __str__(self):
         return f'<Player: {self.full_name}>'
 
-class Guesses:
-    def __init__(self, player, team_combo,correct_guesses):
-        self.player = player
-        self.team_combo = team_combo
-        self.correct_guesses = correct_guesses
+class Guess:
+    def __init__(self, full_name,team_1,team_2):
+        self.full_name = full_name
+        self.team_1 = team_1
+        self.team_2 = team_2
         
     def as_dict(self):
         return {
-            'player':self.player,
-            'teams':self.team_combo,
-            'correct_guesses':self.correct_guesses
+            'full_name':self.full_name,
+            'team_1':self.team_1,
+            'team_2':self.team_2
             }
     
     def __repr__(self):
-        return f'<{self.player}: {self.team_combo}>'
+        return f'<{self.full_name}: {self.team_1},{self.team_2}>'
     
     def __str__(self):
-        return f'<{self.player}: {self.team_combo}>'
+        return f'<{self.full_name}: {self.team_1},{self.team_2}>'
     
 class FootyGrid:
     def __init__(self, team_a, team_b, team_c, team_x, team_y, team_z, total_score, max_matches, min_matches, mode_matches,median_matches, percentage_completion):

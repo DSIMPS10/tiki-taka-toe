@@ -77,25 +77,28 @@ class Players(db.Model):
 
 class Guesses(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    player = db.Column(db.String(100))
-    team_combo = db.Column(ARRAY(db.String))
+    full_name = db.Column(db.String(100))
+    team_1 = db.Column(db.String(100)) # Alphabetical order
+    team_2 = db.Column(db.String(100))
     correct_guesses = db.Column(db.Integer)
     
-    def __init__(self, player, team_combo,correct_guesses):
-        self.player = player
-        self.team_combo = team_combo
+    def __init__(self, full_name, team_1, team_2, correct_guesses):
+        self.full_name = full_name
+        self.team_1 = team_1
+        self.team_2 = team_2
         self.correct_guesses = correct_guesses
         
     def as_dict(self):
         return {
             'id': self.id,
-            'player':self.player,
-            'teams':self.team_combo,
+            'full_name':self.full_name,
+            'team_1':self.team_1,
+            'team_2':self.team_2,
             'correct_guesses':self.correct_guesses
             }
     
     def __repr__(self):
-        return f'<{self.player}: [{self.team_combo}]>'
+        return f'<{self.full_name}: [{self.team_1},{self.team_2}]>'
     
 class Grids(db.Model):
     id = db.Column(db.Integer, primary_key=True)

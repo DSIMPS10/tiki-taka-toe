@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-from utils.classes import Team, Player , Guesses, FootyGrid
+from utils.classes import Team, Player , Guess, FootyGrid
 from flask_pkg.project.routes import get_request, post_request,put_request, BASE 
 
 
@@ -59,6 +59,17 @@ def post_valid_grids(valid_grids: list[FootyGrid]):
     valid_grid_posted = post_request(BASE,"post_grids",grids_json_str)
     print(f"New Grid posted: {valid_grid_posted}")
     return valid_grid_posted
+
+#### GUESSES ####
+
+def post_guess_to_db(guesses: list[Guess]):
+    # Convert guess to json
+    guess_array = [vars(guess) for guess in guesses] 
+    guess_json_str = json.dumps(guess_array)  
+    # Post request
+    guess_posted = post_request(BASE,"post_new_guess",guess_json_str)
+    print(f"New guess posted: {guess_posted}")
+    return guess_posted
 
 
 ##########################################################################################################
@@ -120,9 +131,13 @@ def get_all_grids_from_db() -> pd.DataFrame:
 
 def update_player_first_season_in_db(single_player_identifier:str,first_season:int)->dict:
     single_player_identifier = single_player_identifier.replace(" ", "-")
-    print(single_player_identifier)
     updated_player = put_request(BASE,f'update_player_first_season/{single_player_identifier}/{first_season}')
     return updated_player
+
+def update_guesses_count_in_db(single_player_identifier:str)->dict:
+    single_player_identifier = single_player_identifier.replace(" ", "-")
+    updated_guess_count = put_request(BASE,f'update_guess_count/{single_player_identifier}')
+    return updated_guess_count
 
 def main():
     pass

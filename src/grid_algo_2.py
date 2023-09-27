@@ -204,7 +204,7 @@ def check_level(level: str, combo_dict: dict):
             return True
         return False
 
-
+#TODO: CHANGE FUNCTIONS TO EASY, MEDIUM, HARD 
 def select_grid_for_game(level: str):
     '''Updates existing logic of choosing 6 random teams for the game. Instead, this gets all grids from the DB and selects as random grid option based on
     the input level, easy, medium, hard. These levels are chosen by filtering the DF imported by get_all_grids_from_db. 

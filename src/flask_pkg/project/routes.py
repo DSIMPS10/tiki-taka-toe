@@ -168,9 +168,22 @@ def post_grids():
     db.session.commit()
     return grid_jsons
 
+#### Guesses ####
+
+@main.post("/api/post_new_guess")
+def post_new_guess():
+    guess_jsons = request.get_json()
+    guess_dicts = json.loads(guess_jsons)  
+    guess_to_add = [Guesses(**row) for row in guess_dicts]
+    db.session.add_all(guess_to_add)
+    db.session.commit()
+    return guess_jsons
+
 #############################################################################################################################################################
 ### UPDATE ENDPOINTS ###
 #############################################################################################################################################################
+
+#### Player ####
 
 @main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
 def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
@@ -181,4 +194,18 @@ def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Sha
     db.session.commit()
     player_info_dict = updated_season_row.as_dict() 
     return jsonify(player_info_dict)
+
+#### Guesses ####
+
+@main.put("/api/update_guess_count/<string:identifier>")
+def update_guess_count(identifier): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea~Liverpool'    
+    player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
+    team_1 = identifier.split("~")[1].replace('-', ' ')
+    team_2 = identifier.split("~")[2].replace('-', ' ') #Manchester-City or Chelsea    
+    updated_guess_count = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()
+    current_count = updated_guess_count.correct_guesses
+    updated_guess_count.correct_guesses = current_count + 1
+    db.session.commit()
+    updated_guess_dict = updated_guess_count.as_dict() 
+    return jsonify(updated_guess_dict)
      
