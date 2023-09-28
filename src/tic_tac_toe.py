@@ -1,9 +1,10 @@
 import logging
-from pandas import DataFrame
+from pandas import DataFrame, Index
+from tabulate import tabulate   
 
-from app import run_footy, create_footy_team_board
+from app.app import run_footy, create_footy_team_board
 from utils.classes import FootyGrid
-from scoring import update_guesses_table
+from app.scoring import update_guesses_table
 
 ##########################################################################################################
 ### THE TIC TAC TOE GAME ###
@@ -18,15 +19,27 @@ board_keys = []
 for key in theBoard:
     board_keys.append(key)
 
-def print_board(board,footy_team_obj: FootyGrid):
-    print('          ',footy_team_obj.team_a,'|', footy_team_obj.team_b,'|', footy_team_obj.team_c)
-    print(footy_team_obj.team_x, board['7'] + '      |       ' + board['8'] + '      |       ' + board['9'])
-    print('          ','---------+---------+----------')
-    print(footy_team_obj.team_y, board['4'] + '      |       ' + board['5'] + '      |       ' + board['6'])
-    print('          ','---------+---------+----------')
-    print(footy_team_obj.team_z, board['1'] + '      |       ' + board['2'] + '      |       '+ board['3'])
+def pretty_print_board(board,footy_team_obj: FootyGrid, pass_move_dict: dict):
+    board_df = DataFrame({
+        footy_team_obj.team_a: [' ', ' ', ' '],
+        footy_team_obj.team_b: [' ', ' ', ' '],
+        footy_team_obj.team_c: [' ', ' ', ' ']})
+    index = Index([footy_team_obj.team_x,footy_team_obj.team_y,footy_team_obj.team_z])
+    board_df = board_df.set_index(index)
+    board_df.iloc[0,0] = board['7']
+    board_df.iloc[0,1] = board['8']
+    board_df.iloc[0,2] = board['9']
+    board_df.iloc[1,0] = board['4']
+    board_df.iloc[1,1] = board['5']
+    board_df.iloc[1,2] = board['6']
+    board_df.iloc[2,0] = board['1']
+    board_df.iloc[2,1] = board['2']
+    board_df.iloc[2,2] = board['3']
+    print(tabulate(board_df, headers='keys', tablefmt='simple_grid', stralign='center'))
+    print(f'Passes: {pass_move_dict}')
+    print('\n')
 
-def check_winner(count: int, turn: int,footy_team_obj: FootyGrid):
+def check_winner(count: int, turn: int,footy_team_obj: FootyGrid, pass_move_dict: dict):
     is_there_a_winner: bool = False
     if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top             
         is_there_a_winner = True
@@ -53,7 +66,7 @@ def check_winner(count: int, turn: int,footy_team_obj: FootyGrid):
         return True
     
     if is_there_a_winner:
-        print_board(theBoard,footy_team_obj)
+        pretty_print_board(theBoard,footy_team_obj, pass_move_dict)
 
         print("\nGame Over.\n")                
         print(" **** " +turn + " won. ****")
@@ -88,7 +101,7 @@ def pass_move(move,turn,pass_dict):
 def check_move(move):
     try: 
         move = int(move)  
-        print(move)
+        print(f'Position selected: {move}')
     except ValueError as e:
         print('Please chose an INTEGER value (between 1 and 9)')  
         return False   
@@ -106,7 +119,7 @@ def check_move(move):
 
 
 def game():
-    level = input(f'Select your level: [easy, medium, hard]')
+    level = input(f'Select your level [easy, medium, hard]: ')
     pass_move_dict = {'pass_player_X':False,'pass_player_O':False}
     turn = 'X'
     count = 0
@@ -114,12 +127,13 @@ def game():
     footy_team_obj = create_footy_team_board(level)
 
     while is_there_a_winner == False:
-        print_board(theBoard,footy_team_obj)
+        pretty_print_board(theBoard,footy_team_obj, pass_move_dict)
         print("It's your turn " + turn + ". Choose a location? (type 'pass' if you cannot go)")
 
         move = input()
-        pass_move_passed = pass_move(move,turn,pass_move_dict)[0]
-        pass_move_dict = pass_move(move,turn,pass_move_dict)[1]
+        pass_move_func = pass_move(move,turn,pass_move_dict)
+        pass_move_passed = pass_move_func[0]
+        pass_move_dict = pass_move_func[1]
         if pass_move_passed:
             if pass_move_dict['pass_player_X'] is True and pass_move_dict['pass_player_O'] is True:
                 print("Both players have passed, restarting grid.")
@@ -131,8 +145,6 @@ def game():
         if check_move(move):      
             move = str(move)
             if theBoard[move] == ' ':
-                # theBoard[move] = turn
-                # count += 1
                 if run_footy(int(move), footy_team_obj):
                     theBoard[move] = turn
                     count += 1
@@ -148,8 +160,6 @@ def game():
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 3:
             is_there_a_winner = check_winner(count, turn, footy_team_obj)
-            # if is_there_a_winner:
-            #     break
         # Switch player after each go
         turn = switch_turn(turn)
   

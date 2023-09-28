@@ -1,7 +1,7 @@
 import pytest
 from pandas import DataFrame
 
-from src.app import (
+from src.app.app import (
     get_six_random_indices,
     get_teams_from_indices,
     get_teams_for_selected_player_from_db, 

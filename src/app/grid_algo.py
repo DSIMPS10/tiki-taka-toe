@@ -5,9 +5,9 @@ from collections import Counter
 from pandas import DataFrame
 from utils.classes import FootyGrid
 
-from guesses import get_all_team_combos_process
+from src.app.guesses import get_all_team_combos_process
 from data.data_db_functions import check_team_combo_has_matching_player, post_valid_grids, get_all_grids_from_db
-from grid_algo import unique_combo_of_teams
+from src.app.grid_algo import unique_combo_of_teams
 
 def find_a_grid_combo(unique_combo_of_teams:list, team_a: str): #, level: str
     valid_grids = []

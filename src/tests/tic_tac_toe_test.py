@@ -1,7 +1,7 @@
 import pytest
 from pandas import DataFrame
 
-import src.app as app
+import src.app.app as app
 from src.tic_tac_toe import (
     print_board,
     check_winner,
