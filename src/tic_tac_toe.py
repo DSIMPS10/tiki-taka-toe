@@ -4,7 +4,7 @@ from tabulate import tabulate
 
 from app.app import run_footy, create_footy_team_board
 from utils.classes import FootyGrid
-from app.scoring import update_guesses_table
+from src.scoring import update_guesses_table
 
 ##########################################################################################################
 ### THE TIC TAC TOE GAME ###

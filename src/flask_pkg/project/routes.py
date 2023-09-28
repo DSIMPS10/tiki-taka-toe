@@ -99,6 +99,14 @@ def get_single_guess(single_player_identifier):
         result['exists'] = 'true'
     return json.dumps(result)
 
+@main.get("/api/get_all_team_combo_guesses/<string:two_team_combo>")
+def get_all_team_combo_guesses(two_team_combo): 
+    team_1 = two_team_combo.split("~")[0]
+    team_2 = two_team_combo.split("~")[1] #Manchester-City or Chelsea    
+    all_existing_guesses = Guesses.query.filter_by(team_1=team_1,team_2=team_2).all()
+    all_existing_guesses_array = [guess.as_dict() for guess in all_existing_guesses]
+    return jsonify(all_existing_guesses_array)
+
 
 #### PLAYERS ####
 
@@ -207,7 +215,7 @@ def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Sha
 
 @main.put("/api/update_guess_count/<string:identifier>")
 def update_guess_count(identifier): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea~Liverpool'    
-    player_name = identifier.split("~")[0] #Raheem-Shaquille-Sterling
+    player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
     team_1 = identifier.split("~")[1]
     team_2 = identifier.split("~")[2] #Manchester-City or Chelsea    
     updated_guess_count = Guesses.query.filter_by(full_name=player_name, team_1=team_1,team_2=team_2).first()

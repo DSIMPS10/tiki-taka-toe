@@ -1,0 +1,150 @@
+from flask_pkg.project.routes import BASE, get_request
+from data.data_db_functions import (update_guesses_count_in_db, 
+                                    get_guess_from_db, 
+                                    post_guess_to_db, 
+                                    check_team_combo_has_matching_player,
+                                    get_all_valid_guesses)
+from utils.classes import Guess
+
+##########################################################################################################
+### SCORING ###
+##########################################################################################################
+
+def get_all_players_for_team_id(team_id):
+    team_players_dict = get_request(BASE, f'get_players_for_team_id/{team_id}')
+    return team_players_dict
+
+
+def find_duplicate_names(list_of_players):
+    # If a player is duplicated they have played for both teams
+    seen = set()
+    duplicates = []   
+    for name in list_of_players:
+        if name in seen:
+            duplicates.append(name)
+        else:
+            seen.add(name)
+    return duplicates
+
+
+def get_players_for_two_teams(team_players_dict_a, team_players_dict_b):
+    total_list = []
+    for player in team_players_dict_a:
+        total_list.append(player['full_name'])
+    for player in team_players_dict_b:
+        total_list.append(player['full_name'])
+    print(total_list)
+    correct_players = find_duplicate_names(total_list)
+    return correct_players
+
+
+def all_correct_answers(team_a, team_b) -> list:
+    team_a_dict = get_request(BASE, f'team_from_name/{team_a}')
+    team_b_dict = get_request(BASE, f'team_from_name/{team_b}')
+    team_id_a = team_a_dict['team_id']
+    team_id_b = team_b_dict['team_id']
+    team_a_players = get_all_players_for_team_id(team_id_a)
+    team_b_players = get_all_players_for_team_id(team_id_b)
+    correct_players = get_players_for_two_teams(team_a_players,team_b_players)
+    return correct_players
+
+
+#TODO: Get total number of guesses for each players
+def total_number_of_guess(all_possible_players) -> dict:
+    # Get guesses list of players from DB guesses table
+
+
+    # Ouput from GET request
+    player_guess_dict = {'player_a': 1,
+                        'player_b': 2,
+                        'player_c': 3}
+    
+    return player_guess_dict
+
+#TODO: Get the relative score of chosen player
+def score_for_selected_player(player, player_guess_dict):
+    player_score = 0
+    # Code to get the percentage score of each player based on number of guesses
+
+    return player_score
+
+
+def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
+    two_team_combo = sorted(two_team_combo)
+    #Step 1: Create identifier
+    single_player_identifier= player_full_name+'~'+two_team_combo[0]+'~'+two_team_combo[1]
+    # Step 1: See if combo exists already
+    if get_guess_from_db(single_player_identifier):
+        update_guesses_count_in_db(single_player_identifier)
+    else:
+        new_guess = [Guess(full_name=player_full_name, team_1=two_team_combo[0], team_2=two_team_combo[1])]
+        post_guess_to_db(new_guess)
+
+
+def get_guess_score(player_full_name: str,two_team_combo: list[str]):
+    # Step 1: get all valid players from players table
+    list_of_all_valid_players = check_team_combo_has_matching_player(two_team_combo[0], two_team_combo[1])
+    total_valid_count: int = len(list_of_all_valid_players)
+    print(f'The total number of valid players that could have been selected: {total_valid_count}')
+    
+    # Step 2: get all existing guesses for two team combo
+    all_valid_guesses = get_all_valid_guesses(two_team_combo)
+    # print(all_valid_guesses)
+    guesses_only_df = all_valid_guesses[['full_name', 'correct_guesses']]
+    guesses_only_df = guesses_only_df.set_index('full_name')
+    print(guesses_only_df)
+    scoring_dict = guesses_only_df.to_dict(orient='dict')['correct_guesses']
+    # print(scoring_dict)
+    
+    # Step 3: Assign a score
+    total_number_of_players_never_guessed = total_valid_count - len(guesses_only_df) # i.e. 0 correct guesses so far
+    print(f'The total number of players never guessed for this combo: {total_number_of_players_never_guessed}')
+    sum_of_all_guesses_for_team_combo = guesses_only_df['correct_guesses'].sum()
+    print(f'The total number of all guesses for this combo: {sum_of_all_guesses_for_team_combo}')
+    # Step 4: get number of guesses for selected player
+    selected_player_guess_count = scoring_dict[player_full_name]
+    print(f'The total number of guesses for selected player: {selected_player_guess_count}')
+    list_of_all_guesses = [*scoring_dict.values()]
+    total_number_of_players_never_guessed = 3 # Remove this!!!!
+    if total_number_of_players_never_guessed > 0:
+        for i in range(total_number_of_players_never_guessed):
+            list_of_all_guesses.append(0)
+            i +=1
+    list_of_all_guesses = sorted(list_of_all_guesses)
+    print(list_of_all_guesses)
+    
+def scoring_process():
+    '''
+    Assumptions: A correct guess in an already formed grid
+    Inputs:two teams and a string player guess
+    '''
+    #Step 1: Update the Guesses DB
+    # sorted_team_combo = sorted(two_team_combo)
+    # update_guesses_table(player_full_name: str, sorted_team_combo: list)
+
+
+    pass
+
+
+def main():
+    # update_guesses_table('Tom-Diamond',['Chelsea','Tottenham'])
+    manually_update_guesses = False
+    if manually_update_guesses: 
+        player_names = ['Fabio Borini', 'Raul José Trindade Meireles', 'Mohamed Salah Hamed Mahrous Ghaly', 'Daniel Andre Sturridge', 'Yossi Shai Benayoun', 'Raheem Shaquille Sterling', 'Victor Moses', 'Fernando José Torres Sanz', 'Joe Cole', 'Dominic Ayodele Solanke']
+        round_2_names = ['Mohamed Salah Hamed Mahrous Ghaly', 'Daniel Andre Sturridge', 'Yossi Shai Benayoun', 'Raheem Shaquille Sterling', 'Victor Moses', 'Fernando José Torres Sanz', 'Joe Cole']
+        round_3_names = ['Mohamed Salah Hamed Mahrous Ghaly', 'Daniel Andre Sturridge', 'Raheem Shaquille Sterling', 'Joe Cole']
+        round_4_names = ['Raheem Shaquille Sterling', 'Joe Cole']
+
+        two_team_combo = ['Chelsea', 'Liverpool']
+        for player in round_4_names:
+            update_guesses_table(player, two_team_combo)
+            
+    two_team_combo = ['Chelsea', 'Liverpool']
+    player_name = 'Raheem Shaquille Sterling'
+    get_guess_score(player_name, two_team_combo)
+
+
+if __name__ == "__main__":
+    main()
+
+    
