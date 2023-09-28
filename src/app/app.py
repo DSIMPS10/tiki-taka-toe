@@ -6,7 +6,7 @@ import logging
 from utils.classes import Team, Player, FootyGrid
 from flask_pkg.project.routes import BASE, get_request, post_request
 from data.data_db_functions import get_all_players_from_db, get_all_team_from_db, get_all_grids_from_db
-from src.scoring import update_guesses_table 
+from scoring import update_guesses_table 
 
    
 ##########################################################################################################

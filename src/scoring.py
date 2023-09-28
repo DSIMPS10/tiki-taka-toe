@@ -1,3 +1,5 @@
+import math
+
 from flask_pkg.project.routes import BASE, get_request
 from data.data_db_functions import (update_guesses_count_in_db, 
                                     get_guess_from_db, 
@@ -92,7 +94,7 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]):
     # print(all_valid_guesses)
     guesses_only_df = all_valid_guesses[['full_name', 'correct_guesses']]
     guesses_only_df = guesses_only_df.set_index('full_name')
-    print(guesses_only_df)
+    # print(guesses_only_df)
     scoring_dict = guesses_only_df.to_dict(orient='dict')['correct_guesses']
     # print(scoring_dict)
     
@@ -111,8 +113,25 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]):
             list_of_all_guesses.append(0)
             i +=1
     list_of_all_guesses = sorted(list_of_all_guesses)
-    print(list_of_all_guesses)
+    # print(list_of_all_guesses)
+    # percentage_guess = round(selected_player_guess_count/sum_of_all_guesses_for_team_combo,2)
+    # print(percentage_guess)
+    score = score_allocation(list_of_all_guesses, selected_player_guess_count)
+    set_score = set_score_allocation(list_of_all_guesses, selected_player_guess_count)
+
+    print(f'Score for {player_full_name} player: Overall - {score}, Unique - {set_score}')
     
+def score_allocation(list_of_scores: list[int], selected_score: int):
+    index_of_score = list_of_scores.index(selected_score)
+    score = len(list_of_scores)-index_of_score
+    return score
+    
+def set_score_allocation(list_of_scores: list[int], selected_score: int):
+    unique_score = set(list_of_scores)
+    index_of_score = list(unique_score).index(selected_score)
+    score = len(unique_score)-index_of_score
+    return score
+
 def scoring_process():
     '''
     Assumptions: A correct guess in an already formed grid
@@ -140,8 +159,13 @@ def main():
             update_guesses_table(player, two_team_combo)
             
     two_team_combo = ['Chelsea', 'Liverpool']
-    player_name = 'Raheem Shaquille Sterling'
-    get_guess_score(player_name, two_team_combo)
+    low_score_player_name = 'Raheem Shaquille Sterling'
+    med_score_player_name = 'Victor Moses'
+    high_score_player_name = 'Fabio Borini'
+    get_guess_score(low_score_player_name, two_team_combo)
+    get_guess_score(med_score_player_name, two_team_combo)
+    get_guess_score(high_score_player_name, two_team_combo)
+
 
 
 if __name__ == "__main__":
