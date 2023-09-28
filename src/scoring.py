@@ -39,38 +39,6 @@ def get_players_for_two_teams(team_players_dict_a, team_players_dict_b):
     correct_players = find_duplicate_names(total_list)
     return correct_players
 
-
-def all_correct_answers(team_a, team_b) -> list:
-    team_a_dict = get_request(BASE, f'team_from_name/{team_a}')
-    team_b_dict = get_request(BASE, f'team_from_name/{team_b}')
-    team_id_a = team_a_dict['team_id']
-    team_id_b = team_b_dict['team_id']
-    team_a_players = get_all_players_for_team_id(team_id_a)
-    team_b_players = get_all_players_for_team_id(team_id_b)
-    correct_players = get_players_for_two_teams(team_a_players,team_b_players)
-    return correct_players
-
-
-#TODO: Get total number of guesses for each players
-def total_number_of_guess(all_possible_players) -> dict:
-    # Get guesses list of players from DB guesses table
-
-
-    # Ouput from GET request
-    player_guess_dict = {'player_a': 1,
-                        'player_b': 2,
-                        'player_c': 3}
-    
-    return player_guess_dict
-
-#TODO: Get the relative score of chosen player
-def score_for_selected_player(player, player_guess_dict):
-    player_score = 0
-    # Code to get the percentage score of each player based on number of guesses
-
-    return player_score
-
-
 def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
     two_team_combo = sorted(two_team_combo)
     #Step 1: Create identifier
@@ -140,8 +108,6 @@ def scoring_process():
     #Step 1: Update the Guesses DB
     # sorted_team_combo = sorted(two_team_combo)
     # update_guesses_table(player_full_name: str, sorted_team_combo: list)
-
-
     pass
 
 
