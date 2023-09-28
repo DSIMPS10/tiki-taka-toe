@@ -109,7 +109,6 @@ def get_guess_from_db(single_player_identifier: str) -> bool:
 
 def get_all_valid_guesses(two_team_combo: list[str]) -> pd.DataFrame:
     two_team_combo = sorted(two_team_combo)
-    print(two_team_combo)
     two_team_combo = f'{two_team_combo[0]}~{two_team_combo[1]}'
     all_valid_guesses = get_request(BASE, f'get_all_team_combo_guesses/{two_team_combo}')
     all_valid_guesses_df = pd.DataFrame.from_dict(all_valid_guesses)

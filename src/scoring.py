@@ -39,11 +39,17 @@ def get_players_for_two_teams(team_players_dict_a, team_players_dict_b):
     correct_players = find_duplicate_names(total_list)
     return correct_players
 
+
 def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
+    '''
+    Function to update the guesses table with correct guess count based on a player and team combo
+    '''
+    
+    # Sort the team alphabetically
     two_team_combo = sorted(two_team_combo)
-    #Step 1: Create identifier
+    # Create custome player team identifier
     single_player_identifier= player_full_name+'~'+two_team_combo[0]+'~'+two_team_combo[1]
-    # Step 1: See if combo exists already
+    # Post new guess if it hasn't been already guessed, or update if it has 
     if get_guess_from_db(single_player_identifier):
         update_guesses_count_in_db(single_player_identifier)
     else:
@@ -51,7 +57,12 @@ def update_guesses_table(player_full_name: str,two_team_combo: list[str]):
         post_guess_to_db(new_guess)
 
 
-def get_guess_score(player_full_name: str,two_team_combo: list[str]):
+def get_guess_score(player_full_name: str,two_team_combo: list[str]) -> dict:
+    '''
+    Get the score of a correctly guess player for a two team combo
+    Outputs: dict with the score for player
+    '''
+    
     # Step 1: get all valid players from players table
     list_of_all_valid_players = check_team_combo_has_matching_player(two_team_combo[0], two_team_combo[1])
     total_valid_count: int = len(list_of_all_valid_players)
@@ -70,7 +81,7 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]):
     total_number_of_players_never_guessed = total_valid_count - len(guesses_only_df) # i.e. 0 correct guesses so far
     print(f'The total number of players never guessed for this combo: {total_number_of_players_never_guessed}')
     sum_of_all_guesses_for_team_combo = guesses_only_df['correct_guesses'].sum()
-    print(f'The total number of all guesses for this combo: {sum_of_all_guesses_for_team_combo}')
+    print(f'The total sum of all guesses for this combo: {sum_of_all_guesses_for_team_combo}')
     # Step 4: get number of guesses for selected player
     selected_player_guess_count = scoring_dict[player_full_name]
     print(f'The total number of guesses for selected player: {selected_player_guess_count}')
@@ -88,17 +99,27 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]):
     set_score = set_score_allocation(list_of_all_guesses, selected_player_guess_count)
 
     print(f'Score for {player_full_name} player: Overall - {score}, Unique - {set_score}')
+    return {'Selected player': player_full_name, 'Score': score}
+    
     
 def score_allocation(list_of_scores: list[int], selected_score: int):
+    '''
+    Get score based on total list of all guess counts by index
+    '''
     index_of_score = list_of_scores.index(selected_score)
     score = len(list_of_scores)-index_of_score
     return score
     
+    
 def set_score_allocation(list_of_scores: list[int], selected_score: int):
+    '''
+    Get a score based on the unique number of guess counts by index
+    '''
     unique_score = set(list_of_scores)
     index_of_score = list(unique_score).index(selected_score)
     score = len(unique_score)-index_of_score
     return score
+
 
 def scoring_process():
     '''
