@@ -6,7 +6,7 @@ import logging
 from utils.classes import Team, Player, FootyGrid
 from flask_pkg.project.routes import BASE, get_request, post_request
 from data.data_db_functions import get_all_players_from_db, get_all_team_from_db, get_all_grids_from_db
-from scoring import update_guesses_table 
+from scoring import update_guesses_table, get_guess_score 
 
    
 ##########################################################################################################
@@ -143,6 +143,7 @@ def create_footy_team_board(level:str) -> FootyGrid:
 
 def run_footy(move: int, footy_team_obj: FootyGrid) -> bool:
     ### INPUTS ###
+
     # players_df: pd.DataFrame = get_all_players_from_db()
     guesses_df: pd.DataFrame = get_all_players_from_db()
 
@@ -154,12 +155,14 @@ def run_footy(move: int, footy_team_obj: FootyGrid) -> bool:
     answer: bool = compare_player(guesses_df, player_guess, selected_teams)
 
     if answer: 
-        update_guesses_table(player_guess,selected_teams)
         print("Correct! That player did play for both teams.")
+        update_guesses_table(player_guess,selected_teams)
+        score = get_guess_score(player_guess,selected_teams)['Score']
     else:
         print("Incorrect, that player didn't play for both teams.")
+        score = 0
     
-    return answer
+    return answer, score
 
 
 def main():

@@ -35,7 +35,7 @@ def get_players_for_two_teams(team_players_dict_a, team_players_dict_b):
         total_list.append(player['full_name'])
     for player in team_players_dict_b:
         total_list.append(player['full_name'])
-    print(total_list)
+    #print(total_list)
     correct_players = find_duplicate_names(total_list)
     return correct_players
 
@@ -66,7 +66,7 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]) -> dict:
     # Step 1: get all valid players from players table
     list_of_all_valid_players = check_team_combo_has_matching_player(two_team_combo[0], two_team_combo[1])
     total_valid_count: int = len(list_of_all_valid_players)
-    print(f'The total number of valid players that could have been selected: {total_valid_count}')
+    #print(f'The total number of valid players that could have been selected: {total_valid_count}')
     
     # Step 2: get all existing guesses for two team combo
     all_valid_guesses = get_all_valid_guesses(two_team_combo)
@@ -79,14 +79,13 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]) -> dict:
     
     # Step 3: Assign a score
     total_number_of_players_never_guessed = total_valid_count - len(guesses_only_df) # i.e. 0 correct guesses so far
-    print(f'The total number of players never guessed for this combo: {total_number_of_players_never_guessed}')
+    #print(f'The total number of players never guessed for this combo: {total_number_of_players_never_guessed}')
     sum_of_all_guesses_for_team_combo = guesses_only_df['correct_guesses'].sum()
-    print(f'The total sum of all guesses for this combo: {sum_of_all_guesses_for_team_combo}')
+    #print(f'The total sum of all guesses for this combo: {sum_of_all_guesses_for_team_combo}')
     # Step 4: get number of guesses for selected player
     selected_player_guess_count = scoring_dict[player_full_name]
-    print(f'The total number of guesses for selected player: {selected_player_guess_count}')
+    #print(f'The total number of guesses for selected player: {selected_player_guess_count}')
     list_of_all_guesses = [*scoring_dict.values()]
-    total_number_of_players_never_guessed = 3 # Remove this!!!!
     if total_number_of_players_never_guessed > 0:
         for i in range(total_number_of_players_never_guessed):
             list_of_all_guesses.append(0)
@@ -96,11 +95,9 @@ def get_guess_score(player_full_name: str,two_team_combo: list[str]) -> dict:
     # percentage_guess = round(selected_player_guess_count/sum_of_all_guesses_for_team_combo,2)
     # print(percentage_guess)
     score = score_allocation(list_of_all_guesses, selected_player_guess_count)
-    set_score = set_score_allocation(list_of_all_guesses, selected_player_guess_count)
-
-    print(f'Score for {player_full_name} player: Overall - {score}, Unique - {set_score}')
+    if score > 10: score = 10
+    print(f'Score for {player_full_name} is: {score}')
     return {'Selected player': player_full_name, 'Score': score}
-    
     
 def score_allocation(list_of_scores: list[int], selected_score: int):
     '''

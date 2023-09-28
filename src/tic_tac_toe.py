@@ -2,7 +2,7 @@ import logging
 from pandas import DataFrame, Index
 from tabulate import tabulate   
 
-from app.app import run_footy, create_footy_team_board
+from app.game_logic import run_footy, create_footy_team_board
 from utils.classes import FootyGrid
 from scoring import update_guesses_table
 
@@ -19,7 +19,7 @@ board_keys = []
 for key in theBoard:
     board_keys.append(key)
 
-def pretty_print_board(board,footy_team_obj: FootyGrid, pass_move_dict: dict):
+def pretty_print_board(board,footy_team_obj: FootyGrid, pass_move_dict: dict, player_score_dict: dict):
     board_df = DataFrame({
         footy_team_obj.team_a: [' ', ' ', ' '],
         footy_team_obj.team_b: [' ', ' ', ' '],
@@ -37,9 +37,9 @@ def pretty_print_board(board,footy_team_obj: FootyGrid, pass_move_dict: dict):
     board_df.iloc[2,2] = board['3']
     print(tabulate(board_df, headers='keys', tablefmt='simple_grid', stralign='center'))
     print(f'Passes: {pass_move_dict}')
-    print('\n')
+    print(f'Scores: {player_score_dict}')
 
-def check_winner(count: int, turn: int,footy_team_obj: FootyGrid, pass_move_dict: dict):
+def check_winner(count: int, turn: int,footy_team_obj: FootyGrid, pass_move_dict: dict, player_score_dict: dict):
     is_there_a_winner: bool = False
     if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top             
         is_there_a_winner = True
@@ -66,8 +66,9 @@ def check_winner(count: int, turn: int,footy_team_obj: FootyGrid, pass_move_dict
         return True
     
     if is_there_a_winner:
-        pretty_print_board(theBoard,footy_team_obj, pass_move_dict)
-
+        print(f'Winner {turn} gets extra 20 points!!!')
+        player_score_dict[turn] += 20
+        pretty_print_board(theBoard,footy_team_obj, pass_move_dict,player_score_dict)
         print("\nGame Over.\n")                
         print(" **** " +turn + " won. ****")
 
@@ -121,13 +122,14 @@ def check_move(move):
 def game():
     level = input(f'Select your level [easy, medium, hard]: ')
     pass_move_dict = {'pass_player_X':False,'pass_player_O':False}
+    player_score_dict = {'X':0,'O':0}
     turn = 'X'
     count = 0
     is_there_a_winner = False   
     footy_team_obj = create_footy_team_board(level)
 
     while is_there_a_winner == False:
-        pretty_print_board(theBoard,footy_team_obj, pass_move_dict)
+        pretty_print_board(theBoard,footy_team_obj, pass_move_dict, player_score_dict)
         print("It's your turn " + turn + ". Choose a location? (type 'pass' if you cannot go)")
 
         move = input()
@@ -145,8 +147,13 @@ def game():
         if check_move(move):      
             move = str(move)
             if theBoard[move] == ' ':
-                if run_footy(int(move), footy_team_obj):
+                run_footy_func = run_footy(int(move), footy_team_obj)
+                correct_guess = run_footy_func[0]
+                if correct_guess:
+                    score = run_footy_func[1]
                     theBoard[move] = turn
+                    current_score = player_score_dict[turn]
+                    player_score_dict[turn] = current_score + score
                     count += 1
                 else:
                     turn = switch_turn(turn)
@@ -159,7 +166,7 @@ def game():
 
         # Now we will check if player X or O has won,for every move after 5 moves. 
         if count >= 3:
-            is_there_a_winner = check_winner(count, turn, footy_team_obj)
+            is_there_a_winner = check_winner(count, turn, footy_team_obj,pass_move_dict, player_score_dict)
         # Switch player after each go
         turn = switch_turn(turn)
   

@@ -68,11 +68,11 @@ def post_guess_to_db(guesses: list[Guess]):
     guess_dict = guess_array[0]
     guess_dict['correct_guesses'] = 1
     guess_array = [guess_dict]
-    print(guess_array)
+    #print(guess_array)
     guess_json_str = json.dumps(guess_array)  
     # Post request
     guess_posted = post_request(BASE,"post_new_guess",guess_json_str)
-    print(f"New guess posted: {guess_posted}")
+    #print(f"New guess posted: {guess_posted}")
     return guess_posted
 
 
@@ -101,7 +101,7 @@ def get_all_guesses_from_db() -> pd.DataFrame:
 
 def get_guess_from_db(single_player_identifier: str) -> bool:
     single_guess_dict: dict = get_request(BASE, f'get_single_guess/{single_player_identifier}')
-    print(single_guess_dict)
+    #print(single_guess_dict)
     if single_guess_dict['exists'] == 'true':
         return True
     else:
