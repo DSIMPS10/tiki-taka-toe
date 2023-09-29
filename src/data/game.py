@@ -99,6 +99,8 @@ def check_winner():
     if count == 9 and winner == False:
         messagebox.showinfo('Tika-taka-toe', 'The game is a draw, it is a tie.')
 
+def submit_choice(player):
+    pass
 
 def reset():
     global b1, b2, b3, b4, b5, b6, b7, b8, b9
@@ -117,18 +119,59 @@ def reset():
     b7 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b7))
     b8 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b8))
     b9 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b9))
+    
+    current_row = 0
+    title = Label(text='Tika Taka Toe',font=('Helvetica',20))
+    title.grid(row=current_row, column=0, columnspan=4)   
+    team_a_label = Label(text='Team A')
+    team_b_label = Label(text='Team B')
+    team_c_label = Label(text='Team C')
+    team_x_label = Label(text='Team X')
+    team_y_label = Label(text='Team Y')
+    team_z_label = Label(text='Team Z')
 
-    b1.grid(row=0, column=0)
-    b2.grid(row=0, column=1)
-    b3.grid(row=0, column=2)
-
-    b4.grid(row=1, column=0)
-    b5.grid(row=1, column=1)
-    b6.grid(row=1, column=2)
-
-    b7.grid(row=2, column=0)
-    b8.grid(row=2, column=1)
-    b9.grid(row=2, column=2)
+    current_row +=1
+    team_a_label.grid(row=current_row, column=1)
+    team_b_label.grid(row=current_row, column=2)
+    team_c_label.grid(row=current_row, column=3)
+    
+    current_row +=1
+    team_x_label.grid(row=current_row, column=0)
+    b1.grid(row=current_row, column=1)
+    b2.grid(row=current_row, column=2)
+    b3.grid(row=current_row, column=3)
+    
+    current_row +=1
+    team_y_label.grid(row=current_row, column=0)
+    b4.grid(row=current_row, column=1)
+    b5.grid(row=current_row, column=2)
+    b6.grid(row=current_row, column=3)
+    
+    current_row +=1
+    team_z_label.grid(row=current_row, column=0)
+    b7.grid(row=current_row, column=1)
+    b8.grid(row=current_row, column=2)
+    b9.grid(row=current_row, column=3)
+    
+    current_row +=2
+    teams_selected = Label(text='Teams selected: ',font=('Helvetica',15))
+    teams_selected.grid(row=current_row, column=0, columnspan=2)
+    
+    team_names = 'Chelsea, Tottenham'
+    teams = Label(text=team_names,font=('Helvetica',15))
+    teams.grid(row=current_row, column=2, columnspan=2)
+    
+    current_row +=1
+    player_guess_label = Label(text='Guess: ',font=('Helvetica',15))
+    player_guess_label.grid(row=current_row, column=1, columnspan=1)
+    
+    player_name = 'Raheem Sterling'
+    player = Entry(root)
+    player.grid(row=current_row, column=2, columnspan=2)
+    
+    submit_guess = Button(root, text='Submit', font=('Helvetica',10), height=3, width=6, bg='white', command=lambda: submit_choice(player))
+    submit_guess.grid(row=current_row, column=4)
+    
 
 menu = Menu(root)
 root.config(menu=menu)
@@ -137,6 +180,6 @@ options_menu = Menu(menu, tearoff=True)
 menu.add_cascade(label='Options', menu=options_menu)
 options_menu.add_command(label='Reset game', command=lambda: reset())
 
-reset() 
+# reset() 
 
 root.mainloop()
