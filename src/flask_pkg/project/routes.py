@@ -147,7 +147,7 @@ def get_players_from_grids_table():
 
 @main.get("/api/get_easy_grid")
 def get_easy_grid():
-    easy_grids = Grids.query.filter_by(Grids.total_score>=50).all() #filter_by().first()
+    easy_grids = Grids.query.filter(Grids.total_score>=50).all() #filter_by().first()
     easy_grids_array = [grid.as_dict() for grid in easy_grids]
     easy_grid = random.choice(easy_grids_array)
     return jsonify(easy_grid)
