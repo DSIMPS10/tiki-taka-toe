@@ -39,3 +39,8 @@ CREATE TABLE Grids (
     median_matches INT NOT NULL,
     percentage_completion NUMERIC NOT NULL,
 	);
+
+SELECT full_name, COUNT(full_name) FROM Players
+    WHERE team_name = 'Arsenal' OR team_name = 'Watford'
+    GROUP BY full_name
+    HAVING COUNT(full_name) >1;

@@ -44,7 +44,7 @@ def b_click(b: Button, number: int, teams: Label):
         count += 1 
         check_winner()
     else: 
-        messagebox.showerror('Tika-taka-tow', 'This location is already taken.\n Pick another location.')
+        messagebox.showerror('Tika-taka-toe', 'This location is already taken.\n Pick another location.')
 
 def disable_all_buttons():
     b1.config(state=DISABLED)
