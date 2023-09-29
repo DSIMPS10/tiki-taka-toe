@@ -1,6 +1,7 @@
 import requests
 from sqlalchemy import desc, func, text
 import json
+import random
 
 from flask import request, jsonify, render_template, redirect, url_for, Blueprint
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -145,10 +146,11 @@ def get_players_from_grids_table():
     return jsonify(all_grids_array)
 
 @main.get("/api/get_easy_grid")
-def get_easy_grid(): 
-    easy_grid = Grids.query.order_by(func.random()).filter_by(Grids.total_score>=50).first() #filter_by().first()
-    easy_grid_array = [easy_grid.as_dict()]
-    return jsonify(easy_grid_array)
+def get_easy_grid():
+    easy_grids = Grids.query.filter_by(Grids.total_score>=50).all() #filter_by().first()
+    easy_grids_array = [grid.as_dict() for grid in easy_grids]
+    easy_grid = random.choice(easy_grids_array)
+    return jsonify(easy_grid)
 
 @main.get("/api/get_medium_grid")
 def get_medium_grid():
