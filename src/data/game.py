@@ -8,8 +8,29 @@ root.title('Tika-taka-toe')
 clicked = True
 count = 0
 
-def b_click(b):
+def b_click(b: Button, number: int, teams: Label):
     global clicked, count
+
+    if number == 1: 
+        teams['text'] = 'Team A & Team X'
+    elif number == 2: 
+        teams['text'] = 'Team B & Team X'
+    elif number == 3: 
+        teams['text'] = 'Team C & Team X'
+    elif number == 4: 
+        teams['text'] = 'Team A & Team Y'
+    elif number == 5: 
+        teams['text'] = 'Team B & Team Y'
+    elif number == 6: 
+        teams['text'] = 'Team C & Team Y'  
+    elif number == 7: 
+        teams['text'] = 'Team A & Team Z'
+    elif number == 8: 
+        teams['text'] = 'Team B & Team Z'
+    elif number == 9: 
+        teams['text'] = 'Team C & Team Z'   
+        
+        
     if b['text'] == ' ' and clicked == True:
         b['text'] = 'X'
         b['bg'] = 'yellow'
@@ -99,8 +120,8 @@ def check_winner():
     if count == 9 and winner == False:
         messagebox.showinfo('Tika-taka-toe', 'The game is a draw, it is a tie.')
 
-def submit_choice(player):
-    pass
+def submit_choice(player: str, player_submitted: Label):
+    player_submitted['text'] = player
 
 def reset():
     global b1, b2, b3, b4, b5, b6, b7, b8, b9
@@ -108,17 +129,17 @@ def reset():
     clicked = True
     count = 0
     
-    b1 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b1))
-    b2 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b2))
-    b3 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b3))
+    b1 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b1, 1, teams))
+    b2 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b2, 2, teams))
+    b3 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='red', command=lambda: b_click(b3, 3, teams))
 
-    b4 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b4))
-    b5 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b5))
-    b6 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b6))
+    b4 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b4, 4, teams))
+    b5 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b5, 5, teams))
+    b6 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b6, 6, teams))
 
-    b7 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b7))
-    b8 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b8))
-    b9 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b9))
+    b7 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b7, 7, teams))
+    b8 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b8, 8, teams))
+    b9 = Button(root, text=' ', font=('Helvetica',20), height=3, width=6, bg='white', command=lambda: b_click(b9, 9, teams))
     
     current_row = 0
     title = Label(text='Tika Taka Toe',font=('Helvetica',20))
@@ -157,7 +178,7 @@ def reset():
     teams_selected = Label(text='Teams selected: ',font=('Helvetica',15))
     teams_selected.grid(row=current_row, column=0, columnspan=2)
     
-    team_names = 'Chelsea, Tottenham'
+    team_names = 'Select a square...'
     teams = Label(text=team_names,font=('Helvetica',15))
     teams.grid(row=current_row, column=2, columnspan=2)
     
@@ -172,14 +193,20 @@ def reset():
     submit_guess = Button(root, text='Submit', font=('Helvetica',10), height=3, width=6, bg='white', command=lambda: submit_choice(player))
     submit_guess.grid(row=current_row, column=4)
     
+    current_row +=1
+    player_submitted_label = Label(text='Player submitted: ',font=('Helvetica',15))
+    player_submitted_label.grid(row=current_row, column=1, columnspan=1)
+    player_submitted = Label(text=player,font=('Helvetica',15))
+    player_submitted.grid(row=current_row, column=3, columnspan=1)
+    
 
-menu = Menu(root)
+menu = Menu(root) 
 root.config(menu=menu)
 
 options_menu = Menu(menu, tearoff=True)
 menu.add_cascade(label='Options', menu=options_menu)
-options_menu.add_command(label='Reset game', command=lambda: reset())
+options_menu.add_command(label='Reset game', command=reset)
 
-# reset() 
+reset() 
 
 root.mainloop()
