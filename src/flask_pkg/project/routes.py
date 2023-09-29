@@ -156,7 +156,7 @@ def get_single_grid(level:str):
     elif level == 'hard':
         min_score = 0
         max_score = 20
-    grids = Grids.query.filter_by((Grids.total_score>min_score),(Grids.total_score<max_score)).all() #filter_by().first()
+    grids = Grids.query.filter((Grids.total_score>min_score)&(Grids.total_score<max_score)).all() #filter_by().first()
     grids_array = [grid.as_dict() for grid in grids]
     grid = random.choice(grids_array)
     return jsonify(grid)
