@@ -144,6 +144,24 @@ def get_players_from_grids_table():
     all_grids_array = [grid.as_dict() for grid in all_grids]
     return jsonify(all_grids_array)
 
+@main.get("/api/get_easy_grid")
+def get_easy_grid(): 
+    easy_grid = Grids.query.filter_by(Grids.total_score>=50).order_by(func.random()).first()
+    easy_grid_array = [easy_grid.as_dict()]
+    return jsonify(easy_grid_array)
+
+@main.get("/api/get_medium_grid")
+def get_medium_grid():
+    medium_grid = Grids.query.filter_by((Grids.total_score<50),(Grids.total_score>20)).order_by(func.random()).first()
+    medium_grid_array = [medium_grid.as_dict()]
+    return jsonify(medium_grid_array)
+
+@main.get("/api/get_hard_grid")
+def get_hard_grid(): 
+    hard_grid = Grids.query.filter_by(Grids.total_score<=20).order_by(func.random()).first()
+    hard_grid_array = [hard_grid.as_dict()]
+    return jsonify(hard_grid_array)
+
 #############################################################################################################################################################
 ### POST ENDPOINTS ###
 #############################################################################################################################################################
