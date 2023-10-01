@@ -141,6 +141,12 @@ def get_all_grids_from_db() -> pd.DataFrame:
     grids_df = pd.DataFrame.from_dict(all_grids)
     return grids_df
 
+def get_single_grid_from_db(level:str) -> dict:
+    grid = get_request(BASE, f'get_single_grid/{level}')
+    grids_df = pd.DataFrame.from_dict(grid)
+    return grids_df
+
+
 
 ##########################################################################################################
 ### UPDATE DATA FROM DB ###

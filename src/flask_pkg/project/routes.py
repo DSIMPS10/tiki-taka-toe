@@ -158,30 +158,8 @@ def get_single_grid(level:str):
         max_score = 20
     grids = Grids.query.filter((Grids.total_score>min_score)&(Grids.total_score<max_score)).all() #filter_by().first()
     grids_array = [grid.as_dict() for grid in grids]
-    grid = random.choice(grids_array)
+    grid = [random.choice(grids_array)]
     return jsonify(grid)
-
-
-@main.get("/api/get_easy_grid")
-def get_easy_grid():
-    easy_grids = Grids.query.filter(Grids.total_score>=50).all() #filter_by().first()
-    easy_grids_array = [grid.as_dict() for grid in easy_grids]
-    easy_grid = random.choice(easy_grids_array)
-    return jsonify(easy_grid)
-
-@main.get("/api/get_medium_grid")
-def get_medium_grid():
-    medium_grids = Grids.query.filter_by((Grids.total_score<50),(Grids.total_score>20)).all()
-    medium_grids_array = [grid.as_dict() for grid in medium_grids]
-    medium_grid = random.choice(medium_grids_array)
-    return jsonify(medium_grid)
-
-@main.get("/api/get_hard_grid")
-def get_hard_grid(): 
-    easy_grids = Grids.query.filter(Grids.total_score>=50).all() #filter_by().first()
-    easy_grids_array = [grid.as_dict() for grid in easy_grids]
-    easy_grid = random.choice(easy_grids_array)
-    return jsonify(hard_grid_array)
 
 #############################################################################################################################################################
 ### POST ENDPOINTS ###

@@ -5,32 +5,13 @@ import logging
 
 from utils.classes import Team, Player, FootyGrid
 from flask_pkg.project.routes import BASE, get_request, post_request
-from data.data_db_functions import get_all_players_from_db, get_all_team_from_db, get_all_grids_from_db
+from data.data_db_functions import get_all_players_from_db, get_all_team_from_db, get_all_grids_from_db, get_single_grid_from_db
 from scoring import update_guesses_table, get_guess_score 
 
    
 ##########################################################################################################
 ### THE TIC TAC TOE APP WITH THE FOOTBALL DATA ###
 ##########################################################################################################
-
-
-def select_grid_for_game(level: str)-> pd.DataFrame:
-    '''Updates existing logic of choosing 6 random teams for the game. Instead, this gets all grids from the DB and selects as random grid option based on
-    the input level, easy, medium, hard. These levels are chosen by filtering the DF imported by get_all_grids_from_db. 
-    '''
-    all_grids_df: pd.DataFrame = get_all_grids_from_db()
-    if level =='easy':
-        easy_grids_df = all_grids_df.loc[all_grids_df['total_score'] >= 50]
-        easy_grid = easy_grids_df.sample(n=1)
-        return easy_grid
-    if level =='medium':
-        medium_grids_df = all_grids_df.loc[(all_grids_df['total_score'] < 50) & (all_grids_df['total_score'] >= 20)]
-        medium_grid = medium_grids_df.sample(n=1)
-        return medium_grid
-    if level =='hard':
-        hard_grids_df = all_grids_df.loc[all_grids_df['total_score'] < 20]
-        hard_grid = hard_grids_df.sample(n=1)
-        return hard_grid
 
 def grid_to_footygrid(grid_df: pd.DataFrame)-> FootyGrid:
     grid_df = grid_df.drop(columns = ['id'])
@@ -136,8 +117,8 @@ def convert_print_grid_as_df(team_names_list: list[str]) -> pd.DataFrame:
 
 
 def create_footy_team_board(level:str) -> FootyGrid:
-    team_df: pd.DataFrame = select_grid_for_game(level)
-    grid_obj: FootyGrid = grid_to_footygrid(team_df)
+    grid_df = get_single_grid_from_db(level)
+    grid_obj: FootyGrid = grid_to_footygrid(grid_df)
     return grid_obj
 
 
@@ -166,9 +147,11 @@ def run_footy(move: int, footy_team_obj: FootyGrid) -> bool:
 
 
 def main():
-    footy_team_obj = FootyGrid(team_a='Chelsea', team_b='Arsenal', team_c='Tottenham', team_x='Fulham', team_y='Crystal Palace', team_z='Manchester City', total_score=100, max_matches=10, min_matches=1, mode_matches=4, median_matches=3, percentage_completion=0)
-    move = 1
-    answer: bool = run_footy(move, footy_team_obj)
+    # footy_team_obj = FootyGrid(team_a='Chelsea', team_b='Arsenal', team_c='Tottenham', team_x='Fulham', team_y='Crystal Palace', team_z='Manchester City', total_score=100, max_matches=10, min_matches=1, mode_matches=4, median_matches=3, percentage_completion=0)
+    # move = 1
+    # answer: bool = run_footy(move, footy_team_obj)
+    test = select_grid_for_game('easy')
+    print(test)
 
 
 if __name__ == "__main__":
