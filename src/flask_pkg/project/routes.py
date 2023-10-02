@@ -219,11 +219,21 @@ def post_new_guess():
 #### Player ####
 
 @main.put("/api/update_player_first_season/<string:identifier>/<int:first_season>")
-def update_player_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
+def update_player_first_season(identifier, first_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
     player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
     player_team = identifier.split("~")[1].replace('-', ' ') #Manchester-City or Chelsea    
     updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).first()
     updated_season_row.first_season = first_season
+    db.session.commit()
+    player_info_dict = updated_season_row.as_dict() 
+    return jsonify(player_info_dict)
+
+@main.put("/api/update_player_last_season/<string:identifier>/<int:last_season>")
+def update_player_last_season(identifier, last_season): #Identifier e.g. 'Raheem-Shaquille-Sterling~Chelsea'    
+    player_name = identifier.split("~")[0].replace('-', ' ') #Raheem-Shaquille-Sterling
+    player_team = identifier.split("~")[1].replace('-', ' ') #Manchester-City or Chelsea    
+    updated_season_row = Players.query.filter_by(full_name=player_name, team_name=player_team).first()
+    updated_season_row.last_season = last_season
     db.session.commit()
     player_info_dict = updated_season_row.as_dict() 
     return jsonify(player_info_dict)

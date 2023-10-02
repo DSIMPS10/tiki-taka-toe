@@ -13,8 +13,8 @@ class Football_teams(db.Model):
     league = db.Column(db.String(100))
     country = db.Column(db.String(100))
     
-    def __init__(self, id, team_name, league, country):
-        self.id = id
+    def __init__(self, team_name, league, country):
+        # self.id = id
         self.team_name = team_name
         self.league = league
         self.country = country

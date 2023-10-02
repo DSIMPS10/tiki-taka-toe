@@ -157,6 +157,11 @@ def update_player_first_season_in_db(single_player_identifier:str,first_season:i
     updated_player = put_request(BASE,f'update_player_first_season/{single_player_identifier}/{first_season}')
     return updated_player
 
+def update_player_last_season_in_db(single_player_identifier:str,last_season:int)->dict:
+    single_player_identifier = single_player_identifier.replace(" ", "-")
+    updated_player = put_request(BASE,f'update_player_last_season/{single_player_identifier}/{last_season}')
+    return updated_player
+
 def update_guesses_count_in_db(single_player_identifier:str)->dict:
     single_player_identifier = single_player_identifier.replace(" ", "-")
     updated_guess_count = put_request(BASE,f'update_guess_count/{single_player_identifier}')

@@ -38,8 +38,8 @@ def create_player_objects(player_df: pd.DataFrame) -> list[Player]:
     return players_list 
 
 def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
-    df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
-    df['identifier'] = df['first_name'].map(str)+'-'+df['last_name'].map(str)+'-'+df['team_name'].map(str) 
+    # df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
+    df['identifier'] = df['full_name'].map(str).replace(" ",'-')+'-'+df['team_name'].map(str) 
     return df
 
 def list_of_unique_player_teams(df: pd.DataFrame) -> list:
@@ -62,7 +62,7 @@ def create_cleaned_player_df(player_df: pd.DataFrame, unique_player_teams: list)
     for player_team in unique_player_teams:
         split_player = player_team.split('-')
         team = split_player[-1]
-        name = f'{split_player[0]} {split_player[1]}'
+        name = f'{split_player[0]}' # {split_player[1]}
         temp_df = player_df[player_df['identifier'] == player_team]
         first_season = temp_df['season'].min()
         last_season = temp_df['season'].max()
@@ -103,8 +103,10 @@ def convert_players_list_to_df(player_list: list[dict]) -> pd.DataFrame:
     Output: Cleaned dataframe with players (no duplicates) with max and min seasons
     '''
     df = pd.DataFrame(player_list)
+    print(f'df in convert_players_list_to_df{df}')
     # Adds full name and identifier column:
     player_df: pd.DataFrame = add_cols_to_df(df)
+    print(f'player_df in convert_players_list_to_df {player_df}')
     # List of unique players
     unique_player_teams: list[str] = list_of_unique_player_teams(df)
     print(f' unique player teams {unique_player_teams}')
