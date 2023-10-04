@@ -38,7 +38,7 @@ def create_player_objects(player_df: pd.DataFrame) -> list[Player]:
     return players_list 
 
 def add_cols_to_df(df: pd.DataFrame) -> pd.DataFrame:
-    # df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
+    df['full_name'] = df['first_name'].map(str)+' '+df['last_name'].map(str)
     df['identifier'] = df['full_name'].map(str).replace(" ",'-')+'-'+df['team_name'].map(str) 
     return df
 
@@ -92,7 +92,7 @@ def add_team_id_to_df(player_df_without_team_id: pd.DataFrame)-> pd.DataFrame:
     print(invalid_teams)
     invalid_team_df = player_df_without_team_id.loc[player_df_without_team_id['team_name'].isin(invalid_teams)]
     print(f'Invalid team df : {invalid_team_df}')
-    invalid_team_df.to_csv(f".\src\data\season_data\season_{season}_invalid.csv")
+    invalid_team_df.to_csv(f".\src\data\season_data\season_{season}_nationality_invalid.csv")
     player_df_without_team_id = player_df_without_team_id.loc[~player_df_without_team_id['team_name'].isin(invalid_teams)]
     player_df_with_team_id = player_df_without_team_id.merge(team_df, on = 'team_name', how='left')
     return player_df_with_team_id

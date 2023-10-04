@@ -103,13 +103,34 @@ def get_all_players_for_season_per_page(league_id, season, page):
         list_of_players.append(player_dict)   
     return list_of_players
 
+
+def get_all_players_nationalities_for_season_per_page(league_id, season, page):
+    conn.request("GET", f"/players?league={league_id}&season={season}&page={page}", headers=headers)
+    # conn.request("GET", f"/players?league={league_id}&season={season}", headers=headers)
+    res = conn.getresponse()
+    data = res.read()
+    decoded = data.decode("utf-8")
+    season_json = json.loads(decoded)
+    season_response = season_json['response']
+    list_of_players = []
+    for player in season_response:
+        player_dict = {}
+        player_info = player['player']
+        player_dict['first_name'] = player_info['firstname']
+        player_dict['last_name'] = player_info['lastname']
+        player_dict['team_name'] = player_info['nationality']
+        player_dict['season'] = season
+        list_of_players.append(player_dict)   
+    return list_of_players
+
 def get_all_players_for_a_season(season, league):
     # if (not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None)):
     #     ssl._create_default_https_context = ssl._create_unverified_context
     total_list = []
     total_pages = get_number_of_pages(league,season)
     for i in range(total_pages):
-        single_list = get_all_players_for_season_per_page(league, season, i+1)
+        #single_list = get_all_players_for_season_per_page(league, season, i+1)
+        single_list = get_all_players_nationalities_for_season_per_page(league, season, i+1)
         print(f'Current list: {single_list}')
         time.sleep(10)
         total_list += single_list

@@ -28,7 +28,7 @@ def add_players_to_db_process():
     '''
 
     #1. Get list of players from football API 
-    season = 2011
+    season = 2009
     prem_league = 39
     all_players_for_single_season: list = get_all_players_for_a_season(season, prem_league)
     season_df = pd.DataFrame(all_players_for_single_season) 
@@ -40,7 +40,7 @@ def add_players_to_db_process():
         pass
 
     #2. Create a cleaned players df from list 
-    players_df: pd.DataFrame = convert_players_list_to_df(all_players_for_single_season) #
+    players_df: pd.DataFrame = convert_players_list_to_df(all_players_for_single_season)
     # print(f'Players of the {season} season to be checked:{players_df}')
     
     #3. Get a dataframe of all players already in db and loop through each new player
@@ -80,17 +80,6 @@ def add_players_to_db_process():
     players_posted = post_players_to_db(players_to_post)
     print(f'Players posted: {players_posted}')
     return players_posted
-
-def get_players_from_db_process():
-    '''
-    Full process to get player data from db
-    By either team, league, id, name
-    '''
-    pass
-
-
-def check_if_player_is_in_db(all_players_in_db_df: pd.DataFrame, new_player_df: pd.DataFrame):
-    pass
 
 
 def main():

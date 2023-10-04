@@ -1,568 +1,1477 @@
-,first_name,last_name,team_name,season
-0,Ryan Henk,Donk,West Brom,2008
-1,Mark,Noble,West Ham,2008
-2,Wayne,Routledge,Aston Villa,2008
-3,Craig,Gardner,Aston Villa,2008
-4,Ali Abdullah Harib,Al Habsi,Bolton,2008
-5,Andréa,Mbuyi-Mutombo,Portsmouth,2008
-6,Nabil,El Zhar,Liverpool,2008
-7,Steve,Sidwell,Aston Villa,2008
-8,Stuart,Taylor,Aston Villa,2008
-9,Victor Chinedu,Anichebe,Everton,2008
-10,Wenxiang,Gu,Sheffield Utd,2008
-11,Carlos Javier,Cuéllar Jiménez,Aston Villa,2008
-12,Kevin,Nolan,Newcastle,2008
-13,Carlo,Nash,Everton,2008
-14,Titus Malachi,Bramble,Wigan,2008
-15,Jonathan,Greening,West Brom,2008
-16,Daniël,de Ridder,Wigan,2008
-17,Julio,Arca,Middlesbrough,2008
-18,Joe,Holt,Wigan,2008
-19,Mark,Doninger,Newcastle,2008
-20,Matthew,Bates,Middlesbrough,2008
-21,Martin,Cranie,Portsmouth,2008
-22,Callum Henry,McManaman,Wigan,2008
-23,Jay Francis,Spearing,Liverpool,2008
-24,James Robert,Wallace,Everton,2008
-25,Wálter Alberto,López Gasco,West Ham,2008
-26,Andrew,Davies,Stoke City,2008
-27,Justin,Hoyte,Middlesbrough,2008
-28,Chinedum,Onuoha,Manchester City,2008
-29,Leon,Barnett,West Brom,2008
-30,Jerome,Thomas,Portsmouth,2008
-31,Sherjill,MacDonald,West Brom,2008
-32,Frank,Wiafe Danquah,Newcastle,2008
-33,Seb,Hines,Middlesbrough,2008
-34,Tony,Hibbert,Everton,2008
-35,Luke,Moore,West Brom,2008
-36,Noé Elias,Pamarot,Portsmouth,2008
-37,Leon,Cort,Stoke City,2008
-38,Sean,Davis,Portsmouth,2008
-39,Craig,Fagan,Hull City,2008
-40,Nicholas Brett,Hunt,Bolton,2008
-41,Jose,Baxter,Everton,2008
-42,Carl,Dickinson,Stoke City,2008
-43,Wayne,Brown,Fulham,2008
-44,Benjamin,Watson,Wigan,2008
-45,Jonathan Martin,Grounds,Middlesbrough,2008
-46,Lee,Cattermole,Wigan,2008
-47,Grant,Leadbitter,Sunderland,2008
-48,Paul Michael,Downing,West Brom,2008
-49,Michael,Turner,Hull City,2008
-50,Jonathan,Franks,Middlesbrough,2008
-51,Anton,Ferdinand,Sunderland,2008
-52,Juan Carlos,Menseguez,West Brom,2008
-53,Nile,Ranger,Newcastle,2008
-54,Danny,Higginbotham,Stoke City,2008
-55,Marlon,Harewood,Aston Villa,2008
-56,Péter,Kurucz,West Ham,2008
-57,Jamie,Ashdown,Portsmouth,2008
-58,Dave,Kitson,Stoke City,2008
-59,Ian,Ashbee,Hull City,2008
-60,Kieran Ricardo,Agard,Everton,2008
-61,Jay-Alistaire Frederick,Simpson,West Brom,2008
-62,Marc-Antoine,Fortuné,West Brom,2008
-63,Nicky Lee,Featherstone,Hull City,2008
-64,Adam Stephen,Clayton,Manchester City,2008
-65,James,Vaughan,Everton,2008
-66,Dean,Marney,Hull City,2008
-67,Dorian,Dervite,Tottenham,2008
-68,Arnold,Mvuemba,Portsmouth,2008
-69,Jimmy,Walker,West Ham,2008
-70,Nigel,Reo-Coker,Aston Villa,2008
-71,Didier,Digard,Middlesbrough,2008
-72,Damien,Plessis,Liverpool,2008
-73,Djimi,Traoré,Portsmouth,2008
-74,Ricardo,Fuller,Stoke City,2008
-75,Nyron,Nosworthy,Sunderland,2008
-76,Marlon,King,Middlesbrough,2008
-77,Andy,Griffin,Stoke City,2008
-78,Richard,Eckersley,Manchester United,2008
-79,Julian,Gray,Fulham,2008
-80,Ben Peter Anthony,Tozer,Newcastle,2008
-81,Robert Steven,Milsom,Fulham,2008
-82,Tom,Soares,Stoke City,2008
-83,John Joseph,Bostock,Tottenham,2008
-84,Wilson Roberto,Palacios Suazo,Tottenham,2008
-85,Andranik,Timotian-Samarani,Fulham,2008
-86,Armand,Traoré,Portsmouth,2008
-87,John,Johnson,Middlesbrough,2008
-88,Mounir,El Haimour,Barnsley,2008
-89,Steve,Harper,Newcastle,2008
-90,Abdoulaye,Diagne-Fayé,Stoke City,2008
-91,Joseph Phillip,Yobo,Everton,2008
-92,Dickson Paul,Etuhu,Fulham,2008
-93,Salif Alassane,Diao,Stoke City,2008
-94,Michael,Chopra,Sunderland,2008
-95,Nwankwo Christian,Kanu,Portsmouth,2008
-96,Ibrahima,Sonko,Stoke City,2008
-97,Oluwaseyi George,Olofinjana,Stoke City,2008
-98,Papa Bouba,Diop,Portsmouth,2008
-99,Jimmy,Bullard,Hull City,2008
-100,Matthew Anthony,Derbyshire,Blackburn,2008
-101,Ryan,Taylor,Newcastle,2008
-102,Jonathan,Spector,West Ham,2008
-103,Maynor Alexis,Figueroa Róchez,Wigan,2008
-104,Ignacio María,González Gatti,Newcastle,2008
-105,Do-Heon,Kim,West Brom,2008
-106,Shola,Ameobi,Newcastle,2008
-107,Iain,Turner,Everton,2008
-108,Steed,Malbranque,Sunderland,2008
-109,Steven,Pienaar,Everton,2008
-110,Giovani,dos Santos Ramírez,Tottenham,2008
-111,Clint,Dempsey,Fulham,2008
-112,Kenwyne,Jones,Sunderland,2008
-113,Mike,Pollitt,Wigan,2008
-114,Habib,Beye,Newcastle,2008
-115,Diomansy,Kamara,Fulham,2008
-116,Steve,Simonsen,Stoke City,2008
-117,Akenhaton Carlos,Edwards,Sunderland,2008
-118,Nathan,Doyle,Hull City,2008
-119,Henri,Camara,Stoke City,2008
-120,Denílson,Pereira Neves,Arsenal,2008
-121,Michael,Tonge,Stoke City,2008
-122,Darron,Gibson,Manchester United,2008
-123,Paul,McShane,Sunderland,2008
-124,John,O'Shea,Manchester United,2008
-125,Marc David,Wilson,Portsmouth,2008
-126,Péter,Halmosi,Hull City,2008
-127,Filipe,Teixeira,West Brom,2008
-128,Emmanuel,Adebayor,Arsenal,2008
-129,Ricardo Jorge,Vaz Tê,Bolton,2008
-130,Zoltán,Gera,Fulham,2008
-131,Anderson,Silva de França,Barnsley,2008
-132,Emmanuel Yaw,Frimpong,Arsenal,2008
-133,Theofanis,Gekas,Portsmouth,2008
-134,Angelos,Basinas,Portsmouth,2008
-135,Mikel,Arteta Amatriain,Everton,2008
-136,Heiðar,Helguson,Bolton,2008
-137,Márton,Fülöp,Sunderland,2008
-138,Manuel,Almunia Rivero,Arsenal,2008
-139,Zurab,Khizanishvili,Blackburn,2008
-140,Ciaran,Clark,Aston Villa,2008
-141,Glenn David,Whelan,Stoke City,2008
-142,David,Meyler,Sunderland,2008
-143,Anthony,Stokes,Sunderland,2008
-144,Stephen,Kelly,Stoke City,2008
-145,Liam,Lawrence,Stoke City,2008
-146,Robert,Huth,Middlesbrough,2008
-147,Michael,Essien,Chelsea,2008
-148,Yossi Shai,Benayoun,Liverpool,2008
-149,Damien,Duff,Newcastle,2008
-150,Carlo,Cudicini,Tottenham,2008
-151,Keith,Andrews,Blackburn,2008
-152,David,Di Michele,West Ham,2008
-153,Andy,Reid,Sunderland,2008
-154,Andy,O'Brien,Bolton,2008
-155,Dean,Kiely,West Brom,2008
-156,Kevin,Kilbane,Hull City,2008
-157,George,Boateng,Hull City,2008
-158,Nick,Colgan,Sunderland,2008
-159,Caleb Colman,Folan,Hull City,2008
-160,Jacob,Mellis,Chelsea,2008
-161,Chris,Brunt,West Brom,2008
-162,Mikel John,Obi,Chelsea,2008
-163,Robin,van Persie,Arsenal,2008
-164,Aaron,Hughes,Fulham,2008
-165,Tomasz,Kuszczak,Manchester United,2008
-166,Chris,Baird,Fulham,2008
-167,Ross,Turnbull,Middlesbrough,2008
-168,Steven,Reid,Blackburn,2008
-169,George,McCartney,Sunderland,2008
-170,Henrique Hilário,Meireles Alves Sampaio,Chelsea,2008
-171,José,Bosingwa da Silva,Chelsea,2008
-172,Jason,Roberts,Blackburn,2008
-173,Wilfred,Bouma,Aston Villa,2008
-174,André,Ooijer,Blackburn,2008
-175,Aziza,Makukula,Bolton,2008
-176,Aaron,Mokoena,Blackburn,2008
-177,Mario,Melchiot,Wigan,2008
-178,Ricardo Sérgio,Rocha Azevedo,Tottenham,2008
-179,Collins,John,Fulham,2008
-180,Francesc,Fàbregas i Soler,Arsenal,2008
-181,Borja,Valero Iglesias,West Brom,2008
-182,Branislav,Ivanović,Chelsea,2008
-183,Graham,Dorrans,West Brom,2008
-184,Ricardo,Andrade Quaresma Bernardo,Chelsea,2008
-185,Kelvin,Etuhu,Manchester City,2008
-186,Phil,Bardsley,Sunderland,2008
-187,James,Morrison,West Brom,2008
-188,Alan,Hutton,Tottenham,2008
-189,Ben,Alnwick,Tottenham,2008
-190,Anderson Luís,de Souza,Chelsea,2008
-191,Robert,Koren,West Brom,2008
-192,Paulo Renato,Rebocho Ferreira,Chelsea,2008
-193,Yakubu,Aiyegbeni,Everton,2008
-194,Luís,Boa Morte Pereira,West Ham,2008
-195,John,Paintsil,Fulham,2008
-196,Cesar,Sanchez Dominguez,Tottenham,2008
-197,Craig,Beattie,West Brom,2008
-198,Richard,Hughes,Portsmouth,2008
-199,Michael,Johnson,Manchester City,2008
-200,Gareth Frank,Bale,Tottenham,2008
-201,Gélson da Conceição Tavares,Fernandes,Manchester City,2008
-202,Danny,Collins,Sunderland,2008
-203,Danny,Simpson,Blackburn,2008
-204,Glyn Oliver,Myhill,Hull City,2008
-205,Mark,Bunn,Blackburn,2008
-206,Curtis Eugene,Davies,Aston Villa,2008
-207,Jonas,Olsson,West Brom,2008
-208,Blerim,Džemaili,Bolton,2008
-209,Valon,Behrami,West Ham,2008
-210,Álvaro,Arbeloa Coca,Liverpool,2008
-211,Xabier,Alonso Olano,Liverpool,2008
-212,Dirk,Kuijt,Liverpool,2008
-213,Fábio,Aurélio Rodrigues,Liverpool,2008
-214,Simon,Davies,Fulham,2008
-215,Phillip,Degen,Liverpool,2008
-216,Richard,Kingson,Wigan,2008
-217,Pascal,Zuberbühler,Fulham,2008
-218,Jordy,Brouwer,Liverpool,2008
-219,Jason,Koumas,Wigan,2008
-220,Neal James,Eardley,Oldham,2008
-221,James,Grant Chester,Manchester United,2008
-222,Christopher Ross,Gunter,Tottenham,2008
-223,James,Collins,West Ham,2008
-224,Fernando José,Torres Sanz,Liverpool,2008
-225,Danny Sean,Guthrie,Newcastle,2008
-226,Won-Hee,Cho,Wigan,2008
-227,Roman,Pavlyuchenko,Tottenham,2008
-228,José Enrique,de la Sánchez Diaz,Newcastle,2008
-229,Giles,Barnes,Fulham,2008
-230,Robbie,Keane,Tottenham,2008
-231,Andrey,Arshavin,Arsenal,2008
-232,Andy,Wilkinson,Stoke City,2008
-233,Craig,Bellamy,Manchester City,2008
-234,Andrea,Dossena,Liverpool,2008
-235,Emmerson Orlando,Boyce,Wigan,2008
-236,Grétar Rafn,Steinsson,Bolton,2008
-237,Mamady,Sidibé,Stoke City,2008
-238,Michael,Ballack,Chelsea,2008
-239,El-Hadji Ousseynou,Diouf,Blackburn,2008
-240,Miroslav,Stoch,Chelsea,2008
-241,Martin,Škrtel,Liverpool,2008
-242,Jonás Manuel,Gutiérrez,Newcastle,2008
-243,Carlos Alberto,Tevez,Manchester United,2008
-244,Fabricio,Coloccini,Newcastle,2008
-245,Javier Alejandro,Mascherano,Liverpool,2008
-246,Pablo Javier,Zabaleta Girod,Manchester City,2008
-247,David,N'Gog,Liverpool,2008
-248,Nadir,Belhadj,Portsmouth,2008
-249,Nigel,de Jong,Manchester City,2008
-250,Ádám,Bogdán,Bolton,2008
-251,Stephen,Darby,Liverpool,2008
-252,Mark,Davies,Bolton,2008
-253,Alberto Mateus,Contreiras Gonçalves,Hull City,2008
-254,Javier,Garrido Behovide,Manchester City,2008
-255,Fabrice,Muamba,Bolton,2008
-256,Marek,Cech,West Brom,2008
-257,Albert,Riera Ortega,Liverpool,2008
-258,Rade,Prica,Sunderland,2008
-259,Leandro Honorato,Gláuber Berti,Manchester City,2008
-260,Shane Thomas,Lowry,Aston Villa,2008
-261,Emanuel,Pogatetz,Middlesbrough,2008
-262,Ishmael,Miller,West Brom,2008
-263,James,Sinclair,Bolton,2008
-264,Andrew,Taylor,Middlesbrough,2008
-265,Gary,O'Neil,Middlesbrough,2008
-266,Bradley Scott,Jones,Middlesbrough,2008
-267,Rhys,Williams,Middlesbrough,2008
-268,Tim,Cahill,Everton,2008
-269,Lewis,Buxton,Stoke City,2008
-270,Shay,Given,Manchester City,2008
-271,Brett,Emerton,Blackburn,2008
-272,Mark,Schwarzer,Fulham,2008
-273,Lucas,Neill,West Ham,2008
-274,Brede,Hangeland,Fulham,2008
-275,Richard,Dunne,Manchester City,2008
-276,Vince,Grella,Blackburn,2008
-277,Benjamin 'Benjani',Mwaruwari,Manchester City,2008
-278,Tamir,Cohen,Bolton,2008
-279,Daniel Olusola 'Danny',Shittu,Bolton,2008
-280,Lucas,Pezzini Leiva,Liverpool,2008
-281,Diego,Cavalieri,Liverpool,2008
-282,Heurelho,da Silva Gomes,Tottenham,2008
-283,Darren,Fletcher,Manchester United,2008
-284,Jarosław,Fojut,Bolton,2008
-285,Timothy Matthew,Howard,Everton,2008
-286,Anderson Luis,de Abreu Oliveira,Manchester United,2008
-287,Sébastien,Puygrenier,Bolton,2008
-288,Stephen,Ireland,Manchester City,2008
-289,Johan Danon,Djourou-Gbadjere,Arsenal,2008
-290,Ji-Sung,Park,Manchester United,2008
-291,Tal,Ben Haim,Sunderland,2008
-292,Ryan,Giggs,Manchester United,2008
-293,Nemanja,Vidic,Manchester United,2008
-294,Tuncay Volkan,Sanli,Middlesbrough,2008
-295,Rodrigo,Pereira Possebon,Manchester United,2008
-296,Cláudio Roberto,da Silva,Newcastle,2008
-297,Fredrik Olof Esaias,Stoor,Fulham,2008
-298,Robert,Sissons,Bolton,2008
-299,Afonso,Alves Martins Júnior,Middlesbrough,2008
-300,Scott,Sinclair,Chelsea,2008
-301,Daniel,Gosling,Everton,2008
-302,Felix Junior,Stanislas,West Ham,2008
-303,Joe,Bennett,Middlesbrough,2008
-304,Martyn Thomas,Waghorn,Sunderland,2008
-305,Benjamin Paul,Amos,Manchester United,2008
-306,Amaury Armindo,Bischoff,Arsenal,2008
-307,João,Alves de Assis Silva,Everton,2008
-308,Alexandre Dimitri,Song-Billong,Arsenal,2008
-309,Róbson,de Souza,Manchester City,2008
-310,Elano Ralph,Blumer,Manchester City,2008
-311,Dimitar,Ivanov Berbatov,Manchester United,2008
-312,Alex Rodrigo,Dias da Costa,Chelsea,2008
-313,Sylvain,Distin,Portsmouth,2008
-314,Stiliyan Alyoshev,Petrov,Aston Villa,2008
-315,Martin,Petrov,Manchester City,2008
-316,Gilberto,da Silva Melo,Tottenham,2008
-317,Juliano,Haus Belletti,Chelsea,2008
-318,Edwin,van der Sar,Manchester United,2008
-319,Geovanni,Deiberson Maurício Gómez,Hull City,2008
-320,Kevin-Prince,Boateng,Tottenham,2008
-321,Tamás,Kádár,Newcastle,2008
-322,Jianbin,Li,Sheffield Utd,2008
-323,Rhys,Taylor,Chelsea,2008
-324,Michael James,Woods,Chelsea,2008
-325,David Edward,Edgar,Newcastle,2008
-326,Gavin Andrew,Hoyte,Arsenal,2008
-327,Daryl Michael,Murphy,Sunderland,2008
-328,David James,Wheater,Middlesbrough,2008
-329,Kazenga,LuaLua,Newcastle,2008
-330,Jacob Luke,Butterfield,Barnsley,2008
-331,Temitope Ayoluwa,Obadeyi,Bolton,2008
-332,Youssouf Chafiq,Mulumbu Ngangu,West Brom,2008
-333,Michael Ian,Mancienne,Chelsea,2008
-334,Joseph Martin,O'Brien,Bolton,2008
-335,Liam,Miller,Sunderland,2008
-336,Hérita,N'Kongolo Ilunga,West Ham,2008
-337,Paul,Scharner,Wigan,2008
-338,Gérémi Sorele,N'Djitap Fotso,Newcastle,2008
-339,Keith,Treacy,Blackburn,2008
-340,Vedran,Ćorluka,Tottenham,2008
-341,William Henry,Atkinson,Hull City,2008
-342,Alan Christopher,Judge,Blackburn,2008
-343,Marek,Štěch,West Ham,2008
-344,Nathan Abayomi,Delfouneso,Aston Villa,2008
-345,Salomon Armand Magloire,Kalou,Chelsea,2008
-346,Jan,Laštůvka,West Ham,2008
-347,Ben,Sahar,Portsmouth,2008
-348,Eduardo,Alves da Silva,Arsenal,2008
-349,Jermaine,Pennant,Portsmouth,2008
-350,Matt,Duke,Hull City,2008
-351,Didier Yves,Drogba Tébily,Chelsea,2008
-352,Kolo Habib,Touré,Arsenal,2008
-353,Niko,Kranjčar,Portsmouth,2008
-354,Tomáš,Rosický,Arsenal,2008
-355,Roman,Bednár,West Brom,2008
-356,Emmanuel,Eboué,Arsenal,2008
-357,Alain Didier,Zokora-Déguy,Tottenham,2008
-358,John Paul,Kissock,Everton,2008
-359,Moustapha,Salifou,Aston Villa,2008
-360,Luis Antonio,Valencia Mosquera,Wigan,2008
-361,Nicklas,Bendtner,Arsenal,2008
-362,Petr,Čech,Chelsea,2008
-363,Segundo Alejandro,Castillo Nazareno,Everton,2008
-364,Kyel Romaine,Reid,West Ham,2008
-365,Kieran James Ricardo,Gibbs,Arsenal,2008
-366,Federico,Macheda,Manchester United,2008
-367,Ahmed Hossam Hussein,Abdelhamid,Wigan,2008
-368,Thomas,Løvendahl Sørensen,Stoke City,2008
-369,Micah,Richards,Manchester City,2008
-370,Jamie,O'Hara,Tottenham,2008
-371,Joey,Barton,Newcastle,2008
-372,Hossam El Sayed,Ghaly,Tottenham,2008
-373,Lars Christian,Jacobsen,Everton,2008
-374,Daniel Munthe,Agger,Liverpool,2008
-375,Peter,Rosenkrands Løvenkrands,Newcastle,2008
-376,Leon,Andreasen,Fulham,2008
-377,Mohamed Ali Abu El Yazid,Shawky,Middlesbrough,2008
-378,Savio,Nsereko,West Ham,2008
-379,Amr Hassan,Zaky Mansour,Wigan,2008
-380,Thomas Andrew,Huddlestone,Tottenham,2008
-381,David,Nugent,Portsmouth,2008
-382,Fraizer,Campbell,Tottenham,2008
-383,Ryan,Shawcross,Stoke City,2008
-384,Darren,Bent,Tottenham,2008
-385,Gabriel,Imuetinyan Agbonlahor,Aston Villa,2008
-386,Scott,Parker,West Ham,2008
-387,Kieran,Richardson,Sunderland,2008
-388,Joleon,Lescott,Everton,2008
-389,Adam,Johnson,Middlesbrough,2008
-390,Leon,Osman,Everton,2008
-391,Carlton,Cole Okirie,West Ham,2008
-392,Bobby,Zamora,Fulham,2008
-393,Andy,Johnson,Fulham,2008
-394,Phil,Neville,Everton,2008
-395,Luke,Young,Aston Villa,2008
-396,Jonathan,Woodgate,Tottenham,2008
-397,Danny,Murphy,Fulham,2008
-398,Zat,Knight,Aston Villa,2008
-399,Anthony,Gardner,Hull City,2008
-400,Daniel Lee,Rose,Tottenham,2008
-401,Gary,Cahill,Bolton,2008
-402,Daniel Noel,Drinkwater,Manchester United,2008
-403,Leighton,Baines,Everton,2008
-404,Philip Nikodem,Jagielka,Everton,2008
-405,Theo James,Walcott,Arsenal,2008
-406,Jack,Wilshere,Arsenal,2008
-407,Gareth,Barry,Aston Villa,2008
-408,Stewart,Downing,Middlesbrough,2008
-409,Alan,Smith,Newcastle,2008
-410,Paul,Konchesky,Fulham,2008
-411,Michael,Carrick,Manchester United,2008
-412,Rio,Ferdinand,Manchester United,2008
-413,Paul,Scholes,Manchester United,2008
-414,Michael,Owen,Newcastle,2008
-415,Jamie,Carragher,Liverpool,2008
-416,Emile,Heskey,Aston Villa,2008
-417,Owen Lee,Hargreaves,Manchester United,2008
-418,Tony,Stokes,West Ham,2008
-419,Shelton,Martis,West Brom,2008
-420,Daniel Andre,Sturridge,Manchester City,2008
-421,Robert,Green,West Ham,2008
-422,Steven Vincent,Taylor,Newcastle,2008
-423,Aaron,Lennon,Tottenham,2008
-424,Peter,Crouch,Portsmouth,2008
-425,Ashley,Cole,Chelsea,2008
-426,Michael,Dawson,Tottenham,2008
-427,David Adam,Stockdale,Fulham,2008
-428,Gianni Michel Eugene,Zuiverloon,West Brom,2008
-429,Stephen,Warnock,Blackburn,2008
-430,Wes,Brown,Manchester United,2008
-431,Glen,Johnson,Portsmouth,2008
-432,Paul,Robinson,Blackburn,2008
-433,Joe,Cole,Chelsea,2008
-434,Jermaine,Jenas,Tottenham,2008
-435,Kieron,Dyer,West Ham,2008
-436,Nicky,Shorey,Aston Villa,2008
-437,Ledley,King,Tottenham,2008
-438,Wayne,Bridge,Manchester City,2008
-439,James,Beattie,Stoke City,2008
-440,Jermain Colin,Defoe,Tottenham,2008
-441,Lee Robert,Martin,Manchester United,2008
-442,Joshua James,Payne,West Ham,2008
-443,Ryan Mark,Donaldson,Newcastle,2008
-444,Benjamin Anthony,Foster,Manchester United,2008
-445,John,Terry,Chelsea,2008
-446,Younes,Kaboul,Portsmouth,2008
-447,Shaun,Wright-Phillips,Manchester City,2008
-448,Charles,N'Zogbia,Wigan,2008
-449,Matthew,Upson,West Ham,2008
-450,Jussi,Jääskeläinen,Bolton,2008
-451,David,Dunn,Blackburn,2008
-452,Sami,Hyypia,Liverpool,2008
-453,David,Bentley,Tottenham,2008
-454,Teemu,Tainio,Sunderland,2008
-455,Tom,Craddock,Middlesbrough,2008
-456,Josh,Walker,Middlesbrough,2008
-457,Darius,Vassell,Manchester City,2008
-458,Michael,Ball,Manchester City,2008
-459,Toni,Kallio,Fulham,2008
-460,Bondz Bondzanga,N'Gala,West Ham,2008
-461,Zavon,Hines,West Ham,2008
-462,Henri,Lansbury,Arsenal,2008
-463,Jordan,Spence,West Ham,2008
-464,Anthony Randolph,Warner,Hull City,2008
-465,Isaiah,Osbourne,Aston Villa,2008
-466,Anthony,McMahon,Middlesbrough,2008
-467,Shaleum,Narval Logan,Manchester City,2008
-468,Gaël Dimitri,Clichy,Arsenal,2008
-469,Bacary,Sagna,Arsenal,2008
-470,Patrice,Evra,Manchester United,2008
-471,Julien,Faubert,West Ham,2008
-472,Vassiriki Abou,Diaby,Arsenal,2008
-473,Narcisse-Olivier,Kapo Obou,Wigan,2008
-474,Nicolas,Anelka,Chelsea,2008
-475,William,Gallas,Arsenal,2008
-476,Louis,Saha,Everton,2008
-477,Mikaël,Silvestre,Arsenal,2008
-478,Pascal,Chimbonda,Tottenham,2008
-479,Pedro Miguel,Cardoso Monteiro,West Brom,2008
-480,Wojciech Tomasz,Szczęsny,Arsenal,2008
-481,Ryan Guno,Babel,Liverpool,2008
-482,Frederick David,Sears,West Ham,2008
-483,Sébastien Aymar,Bassong Nguena,Newcastle,2008
-484,Morten,Gamst Pedersen,Blackburn,2008
-485,Tomasz Wojciech,Cywka,Wigan,2008
-486,Vladimír,Weiss,Manchester City,2008
-487,Aaron Brian,Doran Cogan,Blackburn,2008
-488,Francisco,Jiménez Tejada,Newcastle,2008
-489,Jay Aston,Emmanuel-Thomas,Arsenal,2008
-490,Jonathan Joseph,Routledge,Wigan,2008
-491,Roque Luis,Santa Cruz Cantero,Blackburn,2008
-492,John Chukwudi,Utaka,Portsmouth,2008
-493,Mark Leonard,Randall,Arsenal,2008
-494,Abdoulaye,Méïté,West Brom,2008
-495,Jérémie,Aliadière,Middlesbrough,2008
-496,Florent,Malouda,Chelsea,2008
-497,Gaël,Givet-Viaros,Blackburn,2008
-498,Bernard,Mendy,Hull City,2008
-499,John Alieu,Carew,Aston Villa,2008
-500,James Philip,Milner,Aston Villa,2008
-501,Adel,Taarabt,Tottenham,2008
-502,Daniel Nii,Tackie Mensah Welbeck,Manchester United,2008
-503,Łukasz Marek,Fabiański,Arsenal,2008
-504,Lassana,Diarra,Portsmouth,2008
-505,Samir,Nasri,Arsenal,2008
-506,James Oliver Charles,Tomkins,West Ham,2008
-507,Fraser Gerard,Forster,Newcastle,2008
-508,Jason Sean,Steele,Middlesbrough,2008
-509,Timothy Michael,Krul,Newcastle,2008
-510,Scott Paul,Carson,West Brom,2008
-511,Bradden,Inman,Newcastle,2008
-512,Ricardo Alberto,Silveira de Carvalho,Chelsea,2008
-513,Marvin,Emnes,Middlesbrough,2008
-514,Benoît,Assou-Ekotto,Tottenham,2008
-515,Johan,Elmander,Bolton,2008
-516,Kamil,Zayatte,Hull City,2008
-517,Djibril,Cissé,Sunderland,2008
-518,Carl,Hoefkens,West Brom,2008
-519,Ebi,Smolarek,Bolton,2008
-520,Luka,Modrić,Tottenham,2008
-521,Christopher Lloyd,Smalling,Fulham,2008
-522,Ashley Simon,Young,Aston Villa,2008
-523,Francis Joseph,Coquelin,Arsenal,2008
-524,Aaron James,Ramsey,Arsenal,2008
-525,José Manuel,Reina Páez,Liverpool,2008
-526,Jonathan Grant,Evans,Manchester United,2008
-527,Marc Kevin,Albrighton,Aston Villa,2008
-528,Matthew Lee,James,Manchester United,2008
-529,Christopher Grant,Wood,West Brom,2008
-530,Christopher Paul,Basham,Bolton,2008
-531,Jack Raymond,Colback,Sunderland,2008
-532,Romaine Theodore,Sawyers,West Brom,2008
-533,Jack Christian,Rodwell,Everton,2008
-534,Lukas Isaac Paul,Jutkiewicz,Everton,2008
-535,Chedwyn Michael,Evans,Manchester City,2008
-536,Ryan,Allsop,West Brom,2008
-537,Emiliano Adrián,Insúa Zapata,Liverpool,2008
-538,Zoran,Tošić,Manchester United,2008
-539,Vito,Mannone,Arsenal,2008
-540,Jordan Brian,Henderson,Sunderland,2008
-541,Rafael,Pereira da Silva,Manchester United,2008
-542,Cristiano Ronaldo,dos Santos Aveiro,Manchester United,2008
-543,Craig Sinclair,Gordon,Sunderland,2008
-544,Felipe Salvador,Caicedo Corozo,Manchester City,2008
-545,Kasper Peter,Schmeichel,Manchester City,2008
-546,Ritchie Ria Alfons,De Laet,Manchester United,2008
-547,Andrew Thomas,Carroll,Newcastle,2008
-548,Martin Ronald,Kelly,Liverpool,2008
-549,Asmir,Begović,Portsmouth,2008
-550,Charles Joseph John,Hart,Manchester City,2008
-551,Liam David Ian,Cooper,Hull City,2008
-552,Martin Tony Waikwa,Olsson,Blackburn,2008
-553,Corry John,Evans,Manchester United,2008
-554,Jonathan Chiedozie,Obika,Tottenham,2008
-555,Tomasz Mateusz,Kupisz,Wigan,2008
-556,Gaël Romeo,Kakuta Mambenga,Chelsea,2008
-557,Bradley Edwin,Guzan,Aston Villa,2008
-558,Luís Carlos,Almeida da Cunha,Manchester United,2008
-559,Carlos Alberto,Vela Garrido,Arsenal,2008
-560,Valeri,Emilov Bozhinov,Manchester City,2008
-561,Marouane,Fellaini-Bakkioui,Everton,2008
-562,Fábio,Pereira da Silva,Manchester United,2008
-563,Carlos Andrés,Villanueva Roland,Blackburn,2008
-564,Francisco,Mérida Pérez,Arsenal,2008
-565,Franco Matías,Di Santo,Chelsea,2008
-566,Hugo,Rodallega Martínez,Wigan,2008
+,full_name,team_name,season
+0,Dimitar Berbatov,Man Utd,2008
+1,Dimitar Berbatov,Bulgaria,2008
+2,Owen Hargreaves,Man Utd,2008
+3,Owen Hargreaves,England,2008
+4,Tomasz Kuszczak,Man Utd,2008
+5,Tomasz Kuszczak,Poland,2008
+6,Rio Ferdinand,Man Utd,2008
+7,Rio Ferdinand,England,2008
+8,Wayne Rooney,Man Utd,2008
+9,Wayne Rooney,England,2008
+10,Paul Scholes,Man Utd,2008
+11,Paul Scholes,England,2008
+12,Gary Neville,Man Utd,2008
+13,Gary Neville,England,2008
+14,Wes Brown,Man Utd,2008
+15,Wes Brown,England,2008
+16,Ryan Giggs,Man Utd,2008
+17,Ryan Giggs,Wales,2008
+18,Edwin van der Sar,Man Utd,2008
+19,Edwin van der Sar,Netherlands,2008
+20,John O'Shea,Man Utd,2008
+21,John O'Shea,Ireland,2008
+22,Darren Fletcher,Man Utd,2008
+23,Darren Fletcher,Scotland,2008
+24,Michael Carrick,Man Utd,2008
+25,Michael Carrick,England,2008
+26,Ji-sung Park,Man Utd,2008
+27,Ji-sung Park,"Korea, South",2008
+28,Patrice Evra,Man Utd,2008
+29,Patrice Evra,France,2008
+30,Cristiano Ronaldo,Man Utd,2008
+31,Cristiano Ronaldo,Portugal,2008
+32,Ben Foster,Man Utd,2008
+33,Ben Foster,England,2008
+34,Lee Martin,Man Utd,2008
+35,Lee Martin,England,2008
+36,Nemanja Vidic‎,Man Utd,2008
+37,Nemanja Vidic‎,Serbia,2008
+38,Anderson,Man Utd,2008
+39,Anderson,Brazil,2008
+40,Nani,Man Utd,2008
+41,Nani,Portugal,2008
+42,Fraizer Campbell,Man Utd,2008
+43,Fraizer Campbell,England,2008
+44,Jonny Evans,Man Utd,2008
+45,Jonny Evans,Northern Ireland,2008
+46,Darron Gibson,Man Utd,2008
+47,Darron Gibson,Ireland,2008
+48,Zoran Tosic,Man Utd,2008
+49,Zoran Tosic,Serbia,2008
+50,Federico Macheda,Man Utd,2008
+51,Federico Macheda,Italy,2008
+52,Fábio,Man Utd,2008
+53,Fábio,Brazil,2008
+54,Rafael,Man Utd,2008
+55,Rafael,Brazil,2008
+56,Danny Welbeck,Man Utd,2008
+57,Danny Welbeck,England,2008
+58,Rodrigo Possebon,Man Utd,2008
+59,Rodrigo Possebon,Italy,2008
+60,Carlos Tevez,Man Utd,2008
+61,Carlos Tevez,Argentina,2008
+62,Richard Eckersley,Man Utd,2008
+63,Richard Eckersley,England,2008
+64,Ron-Robert Zieler,Man Utd,2008
+65,Ron-Robert Zieler,Germany,2008
+66,David Gray,Man Utd,2008
+67,David Gray,Scotland,2008
+68,Ritchie De Laet,Man Utd,2008
+69,Ritchie De Laet,Belgium,2008
+70,Manucho,Man Utd,2008
+71,Manucho,Angola,2008
+72,Ben Amos,Man Utd,2008
+73,Ben Amos,England,2008
+74,James Chester,Man Utd,2008
+75,James Chester,Wales,2008
+76,Tom Cleverley,Man Utd,2008
+77,Tom Cleverley,England,2008
+78,Danny Drinkwater,Man Utd,2008
+79,Danny Drinkwater,England,2008
+80,Corry Evans,Man Utd,2008
+81,Corry Evans,Northern Ireland,2008
+82,Matty James,Man Utd,2008
+83,Matty James,England,2008
+84,Philipp Degen,Liverpool,2008
+85,Philipp Degen,Switzerland,2008
+86,Steven Gerrard,Liverpool,2008
+87,Steven Gerrard,England,2008
+88,Sami Hyypiä,Liverpool,2008
+89,Sami Hyypiä,Finland,2008
+90,Jamie Carragher,Liverpool,2008
+91,Jamie Carragher,England,2008
+92,Dirk Kuyt,Liverpool,2008
+93,Dirk Kuyt,Netherlands,2008
+94,Charles Itandje,Liverpool,2008
+95,Charles Itandje,Cameroon,2008
+96,Albert Riera,Liverpool,2008
+97,Albert Riera,Spain,2008
+98,Xabi Alonso,Liverpool,2008
+99,Xabi Alonso,Spain,2008
+100,Fábio Aurélio,Liverpool,2008
+101,Fábio Aurélio,Brazil,2008
+102,Fernando Torres,Liverpool,2008
+103,Fernando Torres,Spain,2008
+104,Pepe Reina,Liverpool,2008
+105,Pepe Reina,Spain,2008
+106,Yossi Benayoun,Liverpool,2008
+107,Yossi Benayoun,Israel,2008
+108,Ryan Babel,Liverpool,2008
+109,Ryan Babel,Netherlands,2008
+110,Javier Mascherano,Liverpool,2008
+111,Javier Mascherano,Argentina,2008
+112,Andrea Dossena,Liverpool,2008
+113,Andrea Dossena,Italy,2008
+114,Daniel Agger,Liverpool,2008
+115,Daniel Agger,Denmark,2008
+116,Martin Skrtel,Liverpool,2008
+117,Martin Skrtel,Slovakia,2008
+118,Álvaro Arbeloa,Liverpool,2008
+119,Álvaro Arbeloa,Spain,2008
+120,Stephen Darby,Liverpool,2008
+121,Stephen Darby,England,2008
+122,Nabil El Zhar,Liverpool,2008
+123,Nabil El Zhar,Morocco,2008
+124,David N'Gog,Liverpool,2008
+125,David N'Gog,France,2008
+126,Lucas Leiva,Liverpool,2008
+127,Lucas Leiva,Brazil,2008
+128,Emiliano Insúa,Liverpool,2008
+129,Emiliano Insúa,Argentina,2008
+130,Martin Hansen,Liverpool,2008
+131,Martin Hansen,Denmark,2008
+132,Krisztián Németh,Liverpool,2008
+133,Krisztián Németh,Hungary,2008
+134,Jay Spearing,Liverpool,2008
+135,Jay Spearing,England,2008
+136,Diego Cavalieri,Liverpool,2008
+137,Diego Cavalieri,Brazil,2008
+138,Damien Plessis,Liverpool,2008
+139,Damien Plessis,France,2008
+140,Andriy Voronin,Liverpool,2008
+141,Andriy Voronin,Ukraine,2008
+142,Robbie Keane,Liverpool,2008
+143,Robbie Keane,Ireland,2008
+144,Jermaine Pennant,Liverpool,2008
+145,Jermaine Pennant,England,2008
+146,Péter Gulácsi,Liverpool,2008
+147,Péter Gulácsi,Hungary,2008
+148,Martin Kelly,Liverpool,2008
+149,Martin Kelly,England,2008
+150,Michael Ballack,Chelsea,2008
+151,Michael Ballack,Germany,2008
+152,John Terry,Chelsea,2008
+153,John Terry,England,2008
+154,Frank Lampard,Chelsea,2008
+155,Frank Lampard,England,2008
+156,Ashley Cole,Chelsea,2008
+157,Ashley Cole,England,2008
+158,Nicolas Anelka,Chelsea,2008
+159,Nicolas Anelka,France,2008
+160,Joe Cole,Chelsea,2008
+161,Joe Cole,England,2008
+162,Didier Drogba,Chelsea,2008
+163,Didier Drogba,Cote d'Ivoire,2008
+164,Ricardo Quaresma,Chelsea,2008
+165,Ricardo Quaresma,Portugal,2008
+166,Florent Malouda,Chelsea,2008
+167,Florent Malouda,France,2008
+168,Michael Essien,Chelsea,2008
+169,Michael Essien,Ghana,2008
+170,Petr Cech,Chelsea,2008
+171,Petr Cech,Czech Republic,2008
+172,Juliano Belletti,Chelsea,2008
+173,Juliano Belletti,Brazil,2008
+174,Salomon Kalou,Chelsea,2008
+175,Salomon Kalou,Cote d'Ivoire,2008
+176,Deco,Chelsea,2008
+177,Deco,Portugal,2008
+178,Bosingwa,Chelsea,2008
+179,Bosingwa,Portugal,2008
+180,Ricardo Carvalho,Chelsea,2008
+181,Ricardo Carvalho,Portugal,2008
+182,Paulo Ferreira,Chelsea,2008
+183,Paulo Ferreira,Portugal,2008
+184,Hilário,Chelsea,2008
+185,Hilário,Portugal,2008
+186,Alex,Chelsea,2008
+187,Alex,Brazil,2008
+188,Michael Woods,Chelsea,2008
+189,Michael Woods,England,2008
+190,John Obi Mikel,Chelsea,2008
+191,John Obi Mikel,Nigeria,2008
+192,Scott Sinclair,Chelsea,2008
+193,Scott Sinclair,England,2008
+194,Mineiro,Chelsea,2008
+195,Mineiro,Brazil,2008
+196,Branislav Ivanovic,Chelsea,2008
+197,Branislav Ivanovic,Serbia,2008
+198,Michael Mancienne,Chelsea,2008
+199,Michael Mancienne,Seychelles,2008
+200,Miroslav Stoch,Chelsea,2008
+201,Miroslav Stoch,Slovakia,2008
+202,Rhys Taylor,Chelsea,2008
+203,Rhys Taylor,Wales,2008
+204,Franco Di Santo,Chelsea,2008
+205,Franco Di Santo,Argentina,2008
+206,Carlo Cudicini,Chelsea,2008
+207,Carlo Cudicini,Italy,2008
+208,Shaun Wright-Phillips,Chelsea,2008
+209,Shaun Wright-Phillips,England,2008
+210,Wayne Bridge,Chelsea,2008
+211,Wayne Bridge,England,2008
+212,Lee Sawyer,Chelsea,2008
+213,Lee Sawyer,England,2008
+214,Gaël Kakuta,Chelsea,2008
+215,Gaël Kakuta,DR Congo,2008
+216,Tomas Rosicky,Arsenal,2008
+217,Tomas Rosicky,Czech Republic,2008
+218,William Gallas,Arsenal,2008
+219,William Gallas,France,2008
+220,Kolo Touré,Arsenal,2008
+221,Kolo Touré,Cote d'Ivoire,2008
+222,Mikaël Silvestre,Arsenal,2008
+223,Mikaël Silvestre,France,2008
+224,Robin van Persie,Arsenal,2008
+225,Robin van Persie,Netherlands,2008
+226,Gaël Clichy,Arsenal,2008
+227,Gaël Clichy,France,2008
+228,Cesc Fàbregas,Arsenal,2008
+229,Cesc Fàbregas,Spain,2008
+230,Emmanuel Adebayor,Arsenal,2008
+231,Emmanuel Adebayor,Togo,2008
+232,Rui Fonte,Arsenal,2008
+233,Rui Fonte,Portugal,2008
+234,Emmanuel Eboué,Arsenal,2008
+235,Emmanuel Eboué,Cote d'Ivoire,2008
+236,Andrey Arshavin,Arsenal,2008
+237,Andrey Arshavin,Russia,2008
+238,Manuel Almunia,Arsenal,2008
+239,Manuel Almunia,Spain,2008
+240,Samir Nasri,Arsenal,2008
+241,Samir Nasri,France,2008
+242,Eduardo,Arsenal,2008
+243,Eduardo,Croatia,2008
+244,Abou Diaby,Arsenal,2008
+245,Abou Diaby,France,2008
+246,Bacary Sagna,Arsenal,2008
+247,Bacary Sagna,France,2008
+248,Alex Song,Arsenal,2008
+249,Alex Song,Cameroon,2008
+250,Lukasz Fabianski,Arsenal,2008
+251,Lukasz Fabianski,Poland,2008
+252,Amaury Bischoff,Arsenal,2008
+253,Amaury Bischoff,Portugal,2008
+254,Theo Walcott,Arsenal,2008
+255,Theo Walcott,England,2008
+256,Vito Mannone,Arsenal,2008
+257,Vito Mannone,Italy,2008
+258,Nicklas Bendtner,Arsenal,2008
+259,Nicklas Bendtner,Denmark,2008
+260,Johan Djourou,Arsenal,2008
+261,Johan Djourou,Switzerland,2008
+262,Carlos Vela,Arsenal,2008
+263,Carlos Vela,Mexico,2008
+264,Denílson,Arsenal,2008
+265,Denílson,Brazil,2008
+266,Kieran Gibbs,Arsenal,2008
+267,Kieran Gibbs,England,2008
+268,Abu Ogogo,Arsenal,2008
+269,Abu Ogogo,England,2008
+270,Aaron Ramsey,Arsenal,2008
+271,Aaron Ramsey,Wales,2008
+272,Jack Wilshere,Arsenal,2008
+273,Jack Wilshere,England,2008
+274,Wojciech Szczesny,Arsenal,2008
+275,Wojciech Szczesny,Poland,2008
+276,Gavin Hoyte,Arsenal,2008
+277,Gavin Hoyte,Trinidad and Tobago,2008
+278,Mark Randall,Arsenal,2008
+279,Mark Randall,England,2008
+280,Henri Lansbury,Arsenal,2008
+281,Henri Lansbury,England,2008
+282,Francis Coquelin,Arsenal,2008
+283,Francis Coquelin,France,2008
+284,Jay Emmanuel-Thomas,Arsenal,2008
+285,Jay Emmanuel-Thomas,England,2008
+286,Emmanuel Frimpong,Arsenal,2008
+287,Emmanuel Frimpong,Ghana,2008
+288,Fran Mérida,Arsenal,2008
+289,Fran Mérida,Spain,2008
+290,Jay Simpson,Arsenal,2008
+291,Jay Simpson,England,2008
+292,Justin Hoyte,Arsenal,2008
+293,Justin Hoyte,Trinidad and Tobago,2008
+294,Paul Rodgers,Arsenal,2008
+295,Paul Rodgers,England,2008
+296,Rene Steer,Arsenal,2008
+297,Rene Steer,England,2008
+298,Lars Jacobsen,Everton,2008
+299,Lars Jacobsen,Denmark,2008
+300,Joseph Yobo,Everton,2008
+301,Joseph Yobo,Nigeria,2008
+302,Phil Neville,Everton,2008
+303,Phil Neville,England,2008
+304,Tony Hibbert,Everton,2008
+305,Tony Hibbert,England,2008
+306,Leon Osman,Everton,2008
+307,Leon Osman,England,2008
+308,Andy van der Meyde,Everton,2008
+309,Andy van der Meyde,Netherlands,2008
+310,Carlo Nash,Everton,2008
+311,Carlo Nash,England,2008
+312,Louis Saha,Everton,2008
+313,Louis Saha,France,2008
+314,Joleon Lescott,Everton,2008
+315,Joleon Lescott,England,2008
+316,Tim Howard,Everton,2008
+317,Tim Howard,United States,2008
+318,Steven Pienaar,Everton,2008
+319,Steven Pienaar,South Africa,2008
+320,Mikel Arteta,Everton,2008
+321,Mikel Arteta,Spain,2008
+322,Yakubu Aiyegbeni,Everton,2008
+323,Yakubu Aiyegbeni,Nigeria,2008
+324,Nuno Valente,Everton,2008
+325,Nuno Valente,Portugal,2008
+326,Leighton Baines,Everton,2008
+327,Leighton Baines,England,2008
+328,Phil Jagielka,Everton,2008
+329,Phil Jagielka,England,2008
+330,Tim Cahill,Everton,2008
+331,Tim Cahill,Australia,2008
+332,James Vaughan,Everton,2008
+333,James Vaughan,England,2008
+334,Jô,Everton,2008
+335,Jô,Brazil,2008
+336,Segundo Castillo,Everton,2008
+337,Segundo Castillo,Ecuador,2008
+338,Victor Anichebe,Everton,2008
+339,Victor Anichebe,Nigeria,2008
+340,Marouane Fellaini,Everton,2008
+341,Marouane Fellaini,Belgium,2008
+342,Dan Gosling,Everton,2008
+343,Dan Gosling,England,2008
+344,Jose Baxter,Everton,2008
+345,Jose Baxter,England,2008
+346,Kieran Agard,Everton,2008
+347,Kieran Agard,England,2008
+348,John Irving,Everton,2008
+349,John Irving,England,2008
+350,Jack Rodwell,Everton,2008
+351,Jack Rodwell,England,2008
+352,Seamus Coleman,Everton,2008
+353,Seamus Coleman,Ireland,2008
+354,Iain Turner,Everton,2008
+355,Iain Turner,Scotland,2008
+356,Lukas Jutkiewicz,Everton,2008
+357,Lukas Jutkiewicz,England,2008
+358,John Paul Kissock,Everton,2008
+359,John Paul Kissock,England,2008
+360,James Wallace,Everton,2008
+361,James Wallace,England,2008
+362,Moustapha Salifou,Aston Villa,2008
+363,Moustapha Salifou,Togo,2008
+364,Emile Heskey,Aston Villa,2008
+365,Emile Heskey,England,2008
+366,Stiliyan Petrov,Aston Villa,2008
+367,Stiliyan Petrov,Bulgaria,2008
+368,Luke Young,Aston Villa,2008
+369,Luke Young,England,2008
+370,Gareth Barry,Aston Villa,2008
+371,Gareth Barry,England,2008
+372,James Milner,Aston Villa,2008
+373,James Milner,England,2008
+374,Brad Friedel,Aston Villa,2008
+375,Brad Friedel,United States,2008
+376,John Carew,Aston Villa,2008
+377,John Carew,Norway,2008
+378,Zat Knight,Aston Villa,2008
+379,Zat Knight,England,2008
+380,Wilfred Bouma,Aston Villa,2008
+381,Wilfred Bouma,Netherlands,2008
+382,Nicky Shorey,Aston Villa,2008
+383,Nicky Shorey,England,2008
+384,Steve Sidwell,Aston Villa,2008
+385,Steve Sidwell,England,2008
+386,Nigel Reo-Coker,Aston Villa,2008
+387,Nigel Reo-Coker,England,2008
+388,Ashley Young,Aston Villa,2008
+389,Ashley Young,England,2008
+390,Carlos Cuéllar,Aston Villa,2008
+391,Carlos Cuéllar,Spain,2008
+392,Curtis Davies,Aston Villa,2008
+393,Curtis Davies,England,2008
+394,Gabriel Agbonlahor,Aston Villa,2008
+395,Gabriel Agbonlahor,England,2008
+396,Craig Gardner,Aston Villa,2008
+397,Craig Gardner,England,2008
+398,Brad Guzan,Aston Villa,2008
+399,Brad Guzan,United States,2008
+400,Stephen O'Halloran,Aston Villa,2008
+401,Stephen O'Halloran,Ireland,2008
+402,Nathan Delfouneso,Aston Villa,2008
+403,Nathan Delfouneso,England,2008
+404,Stuart Taylor,Aston Villa,2008
+405,Stuart Taylor,England,2008
+406,Martin Laursen,Aston Villa,2008
+407,Martin Laursen,Denmark,2008
+408,Shaun Maloney,Aston Villa,2008
+409,Shaun Maloney,Scotland,2008
+410,Marlon Harewood,Aston Villa,2008
+411,Marlon Harewood,England,2008
+412,Wayne Routledge,Aston Villa,2008
+413,Wayne Routledge,England,2008
+414,Isaiah Osbourne,Aston Villa,2008
+415,Isaiah Osbourne,England,2008
+416,Marc Albrighton,Aston Villa,2008
+417,Marc Albrighton,England,2008
+418,Barry Bannan,Aston Villa,2008
+419,Barry Bannan,Scotland,2008
+420,Chris Herd,Aston Villa,2008
+421,Chris Herd,Australia,2008
+422,Eric Lichaj,Aston Villa,2008
+423,Eric Lichaj,United States,2008
+424,Shane Lowry,Aston Villa,2008
+425,Shane Lowry,Australia,2008
+426,Nathan Baker,Aston Villa,2008
+427,Nathan Baker,England,2008
+428,Elliot Parish,Aston Villa,2008
+429,Elliot Parish,England,2008
+430,Ciaran Clark,Aston Villa,2008
+431,Ciaran Clark,Ireland,2008
+432,Pascal Zuberbühler,Fulham,2008
+433,Pascal Zuberbühler,Switzerland,2008
+434,Danny Murphy,Fulham,2008
+435,Danny Murphy,England,2008
+436,Paul Konchesky,Fulham,2008
+437,Paul Konchesky,England,2008
+438,Mark Schwarzer,Fulham,2008
+439,Mark Schwarzer,Australia,2008
+440,Olivier Dacourt,Fulham,2008
+441,Olivier Dacourt,France,2008
+442,Aaron Hughes,Fulham,2008
+443,Aaron Hughes,Northern Ireland,2008
+444,Moritz Volz,Fulham,2008
+445,Moritz Volz,Germany,2008
+446,Simon Davies,Fulham,2008
+447,Simon Davies,Wales,2008
+448,Chris Baird,Fulham,2008
+449,Chris Baird,Northern Ireland,2008
+450,Bobby Zamora,Fulham,2008
+451,Bobby Zamora,England,2008
+452,Collins John,Fulham,2008
+453,Collins John,Netherlands,2008
+454,Diomansy Kamara,Fulham,2008
+455,Diomansy Kamara,Senegal,2008
+456,Julian Gray,Fulham,2008
+457,Julian Gray,England,2008
+458,Erik Nevland,Fulham,2008
+459,Erik Nevland,Norway,2008
+460,Dickson Etuhu,Fulham,2008
+461,Dickson Etuhu,Nigeria,2008
+462,Andy Johnson,Fulham,2008
+463,Andy Johnson,England,2008
+464,Zoltán Gera,Fulham,2008
+465,Zoltán Gera,Hungary,2008
+466,Fredrik Stoor Siekkinen,Fulham,2008
+467,Fredrik Stoor Siekkinen,Sweden,2008
+468,Brede Hangeland,Fulham,2008
+469,Brede Hangeland,Norway,2008
+470,Clint Dempsey,Fulham,2008
+471,Clint Dempsey,United States,2008
+472,John Paintsil,Fulham,2008
+473,John Paintsil,Ghana,2008
+474,Toni Kallio,Fulham,2008
+475,Toni Kallio,Finland,2008
+476,Giles Barnes,Fulham,2008
+477,Giles Barnes,Jamaica,2008
+478,Eddie Johnson,Fulham,2008
+479,Eddie Johnson,United States,2008
+480,Elliot Omozusi,Fulham,2008
+481,Elliot Omozusi,England,2008
+482,Rob Milsom,Fulham,2008
+483,Rob Milsom,England,2008
+484,Adam Watts,Fulham,2008
+485,Adam Watts,England,2008
+486,Joe Anderson,Fulham,2008
+487,Joe Anderson,England,2008
+488,David Stockdale,Fulham,2008
+489,David Stockdale,England,2008
+490,Chris Smalling,Fulham,2008
+491,Chris Smalling,England,2008
+492,Courtney Harris,Fulham,2008
+493,Courtney Harris,England,2008
+494,Reece Jones,Fulham,2008
+495,Reece Jones,Wales,2008
+496,Ki-hyeon Seol,Fulham,2008
+497,Ki-hyeon Seol,"Korea, South",2008
+498,Jimmy Bullard,Fulham,2008
+499,Jimmy Bullard,England,2008
+500,Leon Andreasen,Fulham,2008
+501,Leon Andreasen,Denmark,2008
+502,Andranik Teymourian,Fulham,2008
+503,Andranik Teymourian,Iran,2008
+504,Adrian Leijer,Fulham,2008
+505,Adrian Leijer,Australia,2008
+506,Wayne Brown,Fulham,2008
+507,Wayne Brown,England,2008
+508,Robbie Keane,Tottenham,2008
+509,Robbie Keane,Ireland,2008
+510,Carlo Cudicini,Tottenham,2008
+511,Carlo Cudicini,Italy,2008
+512,David Bentley,Tottenham,2008
+513,David Bentley,England,2008
+514,Jonathan Woodgate,Tottenham,2008
+515,Jonathan Woodgate,England,2008
+516,Ledley King,Tottenham,2008
+517,Ledley King,England,2008
+518,Jermaine Jenas,Tottenham,2008
+519,Jermaine Jenas,England,2008
+520,Jermain Defoe,Tottenham,2008
+521,Jermain Defoe,England,2008
+522,Alan Hutton,Tottenham,2008
+523,Alan Hutton,Scotland,2008
+524,Michael Dawson,Tottenham,2008
+525,Michael Dawson,England,2008
+526,Darren Bent,Tottenham,2008
+527,Darren Bent,England,2008
+528,Didier Zokora,Tottenham,2008
+529,Didier Zokora,Cote d'Ivoire,2008
+530,Tom Huddlestone,Tottenham,2008
+531,Tom Huddlestone,England,2008
+532,Aaron Lennon,Tottenham,2008
+533,Aaron Lennon,England,2008
+534,Roman Pavlyuchenko,Tottenham,2008
+535,Roman Pavlyuchenko,Russia,2008
+536,Benoît Assou-Ekotto,Tottenham,2008
+537,Benoît Assou-Ekotto,Cameroon,2008
+538,Gilberto,Tottenham,2008
+539,Gilberto,Brazil,2008
+540,Pascal Chimbonda,Tottenham,2008
+541,Pascal Chimbonda,Guadeloupe,2008
+542,Heurelho Gomes,Tottenham,2008
+543,Heurelho Gomes,Brazil,2008
+544,Ben Alnwick,Tottenham,2008
+545,Ben Alnwick,England,2008
+546,Luka Modric,Tottenham,2008
+547,Luka Modric,Croatia,2008
+548,Vedran Corluka,Tottenham,2008
+549,Vedran Corluka,Croatia,2008
+550,Jamie O'Hara,Tottenham,2008
+551,Jamie O'Hara,England,2008
+552,Gareth Bale,Tottenham,2008
+553,Gareth Bale,Wales,2008
+554,Chris Gunter,Tottenham,2008
+555,Chris Gunter,Wales,2008
+556,Adel Taarabt,Tottenham,2008
+557,Adel Taarabt,Morocco,2008
+558,Danny Rose,Tottenham,2008
+559,Danny Rose,England,2008
+560,Wilson Palacios,Tottenham,2008
+561,Wilson Palacios,Honduras,2008
+562,Ryan Mason,Tottenham,2008
+563,Ryan Mason,England,2008
+564,Fraizer Campbell,Tottenham,2008
+565,Fraizer Campbell,England,2008
+566,Jonathan Obika,Tottenham,2008
+567,Jonathan Obika,England,2008
+568,Oscar Jansson,Tottenham,2008
+569,Oscar Jansson,Sweden,2008
+570,Adam Smith,Tottenham,2008
+571,Adam Smith,England,2008
+572,Dean Parrett,Tottenham,2008
+573,Dean Parrett,England,2008
+574,Giovani dos Santos,Tottenham,2008
+575,Giovani dos Santos,Mexico,2008
+576,John Bostock,Tottenham,2008
+577,John Bostock,Trinidad and Tobago,2008
+578,Dimitar Berbatov,Tottenham,2008
+579,Dimitar Berbatov,Bulgaria,2008
+580,Hossam Ghaly,Tottenham,2008
+581,Hossam Ghaly,Egypt,2008
+582,César Sánchez,Tottenham,2008
+583,César Sánchez,Spain,2008
+584,Ricardo Rocha,Tottenham,2008
+585,Ricardo Rocha,Portugal,2008
+586,Kevin-Prince Boateng,Tottenham,2008
+587,Kevin-Prince Boateng,Ghana,2008
+588,Dorian Dervite,Tottenham,2008
+589,Dorian Dervite,France,2008
+590,Calum Butcher,Tottenham,2008
+591,Calum Butcher,England,2008
+592,Andros Townsend,Tottenham,2008
+593,Andros Townsend,England,2008
+594,Kieron Dyer,West Ham,2008
+595,Kieron Dyer,England,2008
+596,Carlton Cole,West Ham,2008
+597,Carlton Cole,England,2008
+598,Matthew Upson,West Ham,2008
+599,Matthew Upson,England,2008
+600,Luís Boa Morte,West Ham,2008
+601,Luís Boa Morte,Portugal,2008
+602,Scott Parker,West Ham,2008
+603,Scott Parker,England,2008
+604,Lucas Neill,West Ham,2008
+605,Lucas Neill,Australia,2008
+606,David Di Michele,West Ham,2008
+607,David Di Michele,Italy,2008
+608,Diego Tristán,West Ham,2008
+609,Diego Tristán,Spain,2008
+610,Radoslav Kovac,West Ham,2008
+611,Radoslav Kovac,Czech Republic,2008
+612,Rob Green,West Ham,2008
+613,Rob Green,England,2008
+614,James Collins,West Ham,2008
+615,James Collins,Wales,2008
+616,Danny Gabbidon,West Ham,2008
+617,Danny Gabbidon,Wales,2008
+618,Dean Ashton,West Ham,2008
+619,Dean Ashton,England,2008
+620,Hérita Ilunga,West Ham,2008
+621,Hérita Ilunga,DR Congo,2008
+622,Valon Behrami,West Ham,2008
+623,Valon Behrami,Switzerland,2008
+624,Jonathan Spector,West Ham,2008
+625,Jonathan Spector,United States,2008
+626,Jan Lastuvka,West Ham,2008
+627,Jan Lastuvka,Czech Republic,2008
+628,Mark Noble,West Ham,2008
+629,Mark Noble,England,2008
+630,Savio Nsereko,West Ham,2008
+631,Savio Nsereko,Germany,2008
+632,Wálter López,West Ham,2008
+633,Wálter López,Uruguay,2008
+634,Jack Collison,West Ham,2008
+635,Jack Collison,Wales,2008
+636,James Tomkins,West Ham,2008
+637,James Tomkins,England,2008
+638,Zavon Hines,West Ham,2008
+639,Zavon Hines,Jamaica,2008
+640,Freddie Sears,West Ham,2008
+641,Freddie Sears,England,2008
+642,Josh Payne,West Ham,2008
+643,Josh Payne,England,2008
+644,Junior Stanislas,West Ham,2008
+645,Junior Stanislas,England,2008
+646,Craig Bellamy,West Ham,2008
+647,Craig Bellamy,Wales,2008
+648,George McCartney,West Ham,2008
+649,George McCartney,Northern Ireland,2008
+650,Matthew Etherington,West Ham,2008
+651,Matthew Etherington,England,2008
+652,Lee Bowyer,West Ham,2008
+653,Lee Bowyer,England,2008
+654,Calum Davenport,West Ham,2008
+655,Calum Davenport,England,2008
+656,Hayden Mullins,West Ham,2008
+657,Hayden Mullins,England,2008
+658,Julien Faubert,West Ham,2008
+659,Julien Faubert,Martinique,2008
+660,Kyel Reid,West Ham,2008
+661,Kyel Reid,England,2008
+662,Jimmy Walker,West Ham,2008
+663,Jimmy Walker,England,2008
+664,Jordan Spence,West Ham,2008
+665,Jordan Spence,England,2008
+666,Marek Stech,West Ham,2008
+667,Marek Stech,Czech Republic,2008
+668,Joe Widdowson,West Ham,2008
+669,Joe Widdowson,England,2008
+670,Péter Kurucz,West Ham,2008
+671,Péter Kurucz,Hungary,2008
+672,Bondz N'Gala,West Ham,2008
+673,Bondz N'Gala,England,2008
+674,Martin Petrov,Man City,2008
+675,Martin Petrov,Bulgaria,2008
+676,Dietmar Hamann,Man City,2008
+677,Dietmar Hamann,Germany,2008
+678,Shay Given,Man City,2008
+679,Shay Given,Ireland,2008
+680,Darius Vassell,Man City,2008
+681,Darius Vassell,England,2008
+682,Craig Bellamy,Man City,2008
+683,Craig Bellamy,Wales,2008
+684,Shaun Wright-Phillips,Man City,2008
+685,Shaun Wright-Phillips,England,2008
+686,Wayne Bridge,Man City,2008
+687,Wayne Bridge,England,2008
+688,Danny Mills,Man City,2008
+689,Danny Mills,England,2008
+690,Richard Dunne,Man City,2008
+691,Richard Dunne,Ireland,2008
+692,Valeri Bozhinov,Man City,2008
+693,Valeri Bozhinov,Bulgaria,2008
+694,Nigel de Jong,Man City,2008
+695,Nigel de Jong,Netherlands,2008
+696,Michael Ball,Man City,2008
+697,Michael Ball,England,2008
+698,Vincent Kompany,Man City,2008
+699,Vincent Kompany,Belgium,2008
+700,Benjani,Man City,2008
+701,Benjani,Zimbabwe,2008
+702,Robinho,Man City,2008
+703,Robinho,Brazil,2008
+704,Kasper Schmeichel,Man City,2008
+705,Kasper Schmeichel,Denmark,2008
+706,Pablo Zabaleta,Man City,2008
+707,Pablo Zabaleta,Argentina,2008
+708,Elano,Man City,2008
+709,Elano,Brazil,2008
+710,Gelson Fernandes,Man City,2008
+711,Gelson Fernandes,Switzerland,2008
+712,Javier Garrido,Man City,2008
+713,Javier Garrido,Spain,2008
+714,Nedum Onuoha,Man City,2008
+715,Nedum Onuoha,England,2008
+716,Micah Richards,Man City,2008
+717,Micah Richards,England,2008
+718,Stephen Ireland,Man City,2008
+719,Stephen Ireland,Ireland,2008
+720,Gláuber,Man City,2008
+721,Gláuber,Brazil,2008
+722,Felipe Caicedo,Man City,2008
+723,Felipe Caicedo,Ecuador,2008
+724,Joe Hart,Man City,2008
+725,Joe Hart,England,2008
+726,Michael Johnson,Man City,2008
+727,Michael Johnson,England,2008
+728,Kelvin Etuhu,Man City,2008
+729,Kelvin Etuhu,Nigeria,2008
+730,Daniel Sturridge,Man City,2008
+731,Daniel Sturridge,England,2008
+732,Shay Logan,Man City,2008
+733,Shay Logan,England,2008
+734,Ched Evans,Man City,2008
+735,Ched Evans,Wales,2008
+736,Adam Clayton,Man City,2008
+737,Adam Clayton,England,2008
+738,Nery Castillo,Man City,2008
+739,Nery Castillo,Mexico,2008
+740,Tal Ben Haim,Man City,2008
+741,Tal Ben Haim,Israel,2008
+742,Jô,Man City,2008
+743,Jô,Brazil,2008
+744,Vedran Corluka,Man City,2008
+745,Vedran Corluka,Croatia,2008
+746,Ryan McGivern,Man City,2008
+747,Ryan McGivern,Northern Ireland,2008
+748,Vladimir Weiss,Man City,2008
+749,Vladimir Weiss,Slovakia,2008
+750,Paul Scharner,Wigan,2008
+751,Paul Scharner,Austria,2008
+752,Titus Bramble,Wigan,2008
+753,Titus Bramble,England,2008
+754,Mario Melchiot,Wigan,2008
+755,Mario Melchiot,Netherlands,2008
+756,Chris Kirkland,Wigan,2008
+757,Chris Kirkland,England,2008
+758,Jason Koumas,Wigan,2008
+759,Jason Koumas,Wales,2008
+760,Mido,Wigan,2008
+761,Mido,Egypt,2008
+762,Erik Edman,Wigan,2008
+763,Erik Edman,Sweden,2008
+764,Olivier Kapo,Wigan,2008
+765,Olivier Kapo,France,2008
+766,Antoine Sibierski,Wigan,2008
+767,Antoine Sibierski,France,2008
+768,Richard Kingson,Wigan,2008
+769,Richard Kingson,Ghana,2008
+770,Michael Brown,Wigan,2008
+771,Michael Brown,England,2008
+772,Ben Watson,Wigan,2008
+773,Ben Watson,England,2008
+774,Daniël de Ridder,Wigan,2008
+775,Daniël de Ridder,Netherlands,2008
+776,Emmerson Boyce,Wigan,2008
+777,Emmerson Boyce,Barbados,2008
+778,Charles N'Zogbia,Wigan,2008
+779,Charles N'Zogbia,France,2008
+780,Mike Pollitt,Wigan,2008
+781,Mike Pollitt,England,2008
+782,Antonio Valencia,Wigan,2008
+783,Antonio Valencia,Ecuador,2008
+784,Won-hee Cho,Wigan,2008
+785,Won-hee Cho,"Korea, South",2008
+786,Lee Cattermole,Wigan,2008
+787,Lee Cattermole,England,2008
+788,Hugo Rodallega,Wigan,2008
+789,Hugo Rodallega,Colombia,2008
+790,Amr Zaki,Wigan,2008
+791,Amr Zaki,Egypt,2008
+792,Tomasz Cywka,Wigan,2008
+793,Tomasz Cywka,Poland,2008
+794,Tomasz Kupisz,Wigan,2008
+795,Tomasz Kupisz,Poland,2008
+796,Lewis Montrose,Wigan,2008
+797,Lewis Montrose,England,2008
+798,Maynor Figueroa,Wigan,2008
+799,Maynor Figueroa,Honduras,2008
+800,Emile Heskey,Wigan,2008
+801,Emile Heskey,England,2008
+802,Carlo Nash,Wigan,2008
+803,Carlo Nash,England,2008
+804,Henri Camara,Wigan,2008
+805,Henri Camara,Senegal,2008
+806,Kevin Kilbane,Wigan,2008
+807,Kevin Kilbane,Ireland,2008
+808,Rachid Bouaouzan,Wigan,2008
+809,Rachid Bouaouzan,Netherlands,2008
+810,Ryan Taylor,Wigan,2008
+811,Ryan Taylor,England,2008
+812,Wilson Palacios,Wigan,2008
+813,Wilson Palacios,Honduras,2008
+814,Joe Holt,Wigan,2008
+815,Joe Holt,England,2008
+816,Callum McManaman,Wigan,2008
+817,Callum McManaman,England,2008
+818,Jon Routledge,Wigan,2008
+819,Jon Routledge,England,2008
+820,James Beattie,Stoke City,2008
+821,James Beattie,England,2008
+822,Thomas Sörensen,Stoke City,2008
+823,Thomas Sörensen,Denmark,2008
+824,Danny Pugh,Stoke City,2008
+825,Danny Pugh,England,2008
+826,Andy Griffin,Stoke City,2008
+827,Andy Griffin,England,2008
+828,Steve Simonsen,Stoke City,2008
+829,Steve Simonsen,England,2008
+830,Salif Diao,Stoke City,2008
+831,Salif Diao,Senegal,2008
+832,Danny Higginbotham,Stoke City,2008
+833,Danny Higginbotham,Gibraltar,2008
+834,Dominic Matteo,Stoke City,2008
+835,Dominic Matteo,Scotland,2008
+836,Matthew Etherington,Stoke City,2008
+837,Matthew Etherington,England,2008
+838,Henri Camara,Stoke City,2008
+839,Henri Camara,Senegal,2008
+840,Rory Delap,Stoke City,2008
+841,Rory Delap,Ireland,2008
+842,Amdy Faye,Stoke City,2008
+843,Amdy Faye,Senegal,2008
+844,Abdoulaye Faye,Stoke City,2008
+845,Abdoulaye Faye,Senegal,2008
+846,Glenn Whelan,Stoke City,2008
+847,Glenn Whelan,Ireland,2008
+848,Michael Tonge,Stoke City,2008
+849,Michael Tonge,England,2008
+850,Andy Wilkinson,Stoke City,2008
+851,Andy Wilkinson,England,2008
+852,Richard Cresswell,Stoke City,2008
+853,Richard Cresswell,England,2008
+854,Ricardo Fuller,Stoke City,2008
+855,Ricardo Fuller,Jamaica,2008
+856,Mamady Sidibé,Stoke City,2008
+857,Mamady Sidibé,Mali,2008
+858,Tom Soares,Stoke City,2008
+859,Tom Soares,England,2008
+860,Seyi Olofinjana,Stoke City,2008
+861,Seyi Olofinjana,Nigeria,2008
+862,Liam Lawrence,Stoke City,2008
+863,Liam Lawrence,Ireland,2008
+864,Carl Dickinson,Stoke City,2008
+865,Carl Dickinson,England,2008
+866,Ibrahima Sonko,Stoke City,2008
+867,Ibrahima Sonko,Senegal,2008
+868,Leon Cort,Stoke City,2008
+869,Leon Cort,Guyana,2008
+870,Ryan Shawcross,Stoke City,2008
+871,Ryan Shawcross,England,2008
+872,Nat Wedderburn,Stoke City,2008
+873,Nat Wedderburn,England,2008
+874,Marc Grocott,Stoke City,2008
+875,Marc Grocott,England,2008
+876,Jimmy Phillips,Stoke City,2008
+877,Jimmy Phillips,England,2008
+878,Andrew Davies,Stoke City,2008
+879,Andrew Davies,England,2008
+880,Vincent Péricard,Stoke City,2008
+881,Vincent Péricard,France,2008
+882,Lewis Buxton,Stoke City,2008
+883,Lewis Buxton,England,2008
+884,Stephen Kelly,Stoke City,2008
+885,Stephen Kelly,Ireland,2008
+886,Dave Kitson,Stoke City,2008
+887,Dave Kitson,England,2008
+888,Jon Parkin,Stoke City,2008
+889,Jon Parkin,England,2008
+890,Ritchie De Laet,Stoke City,2008
+891,Ritchie De Laet,Belgium,2008
+892,Demar Phillips,Stoke City,2008
+893,Demar Phillips,Jamaica,2008
+894,Ryan Shotton,Stoke City,2008
+895,Ryan Shotton,England,2008
+896,Andrew O'Brien,Bolton,2008
+897,Andrew O'Brien,Ireland,2008
+898,Jussi Jääskeläinen,Bolton,2008
+899,Jussi Jääskeläinen,Finland,2008
+900,Jlloyd Samuel,Bolton,2008
+901,Jlloyd Samuel,Trinidad and Tobago,2008
+902,Kevin Davies,Bolton,2008
+903,Kevin Davies,England,2008
+904,Gavin McCann,Bolton,2008
+905,Gavin McCann,England,2008
+906,Johan Elmander,Bolton,2008
+907,Johan Elmander,Sweden,2008
+908,Ebi Smolarek,Bolton,2008
+909,Ebi Smolarek,Poland,2008
+910,Riga Mustapha,Bolton,2008
+911,Riga Mustapha,Netherlands,2008
+912,Ariza Makukula,Bolton,2008
+913,Ariza Makukula,Portugal,2008
+914,Sébastien Puygrenier,Bolton,2008
+915,Sébastien Puygrenier,France,2008
+916,Ricardo Gardner,Bolton,2008
+917,Ricardo Gardner,Jamaica,2008
+918,Matthew Taylor,Bolton,2008
+919,Matthew Taylor,England,2008
+920,Ricardo Vaz Tê,Bolton,2008
+921,Ricardo Vaz Tê,Portugal,2008
+922,Blerim Dzemaili,Bolton,2008
+923,Blerim Dzemaili,Switzerland,2008
+924,Danny Shittu,Bolton,2008
+925,Danny Shittu,Nigeria,2008
+926,Nicky Hunt,Bolton,2008
+927,Nicky Hunt,England,2008
+928,Tamir Cohen,Bolton,2008
+929,Tamir Cohen,Israel,2008
+930,Ali Al-Habsi,Bolton,2008
+931,Ali Al-Habsi,Oman,2008
+932,Gary Cahill,Bolton,2008
+933,Gary Cahill,England,2008
+934,Grétar Steinsson,Bolton,2008
+935,Grétar Steinsson,Iceland,2008
+936,Joey O'Brien,Bolton,2008
+937,Joey O'Brien,Ireland,2008
+938,Fabrice Muamba,Bolton,2008
+939,Fabrice Muamba,England,2008
+940,Mark Davies,Bolton,2008
+941,Mark Davies,England,2008
+942,James Sinclair,Bolton,2008
+943,James Sinclair,England,2008
+944,Zoltán Harsányi,Bolton,2008
+945,Zoltán Harsányi,Slovakia,2008
+946,Ádám Bogdán,Bolton,2008
+947,Ádám Bogdán,Hungary,2008
+948,Chris Basham,Bolton,2008
+949,Chris Basham,England,2008
+950,Tope Obadeyi,Bolton,2008
+951,Tope Obadeyi,England,2008
+952,Heidar Helguson,Bolton,2008
+953,Heidar Helguson,Iceland,2008
+954,Ian Walker,Bolton,2008
+955,Ian Walker,England,2008
+956,Kevin Nolan,Bolton,2008
+957,Kevin Nolan,England,2008
+958,Jaroslaw Fojut,Bolton,2008
+959,Jaroslaw Fojut,Poland,2008
+960,Robert Sissons,Bolton,2008
+961,Robert Sissons,England,2008
+962,Nwankwo Kanu,Portsmouth,2008
+963,Nwankwo Kanu,Nigeria,2008
+964,Laurén,Portsmouth,2008
+965,Laurén,Cameroon,2008
+966,Jermaine Pennant,Portsmouth,2008
+967,Jermaine Pennant,England,2008
+968,Sol Campbell,Portsmouth,2008
+969,Sol Campbell,England,2008
+970,Sylvain Distin,Portsmouth,2008
+971,Sylvain Distin,France,2008
+972,Jerome Thomas,Portsmouth,2008
+973,Jerome Thomas,England,2008
+974,Djimi Traoré,Portsmouth,2008
+975,Djimi Traoré,Mali,2008
+976,David James,Portsmouth,2008
+977,David James,England,2008
+978,Hermann Hreidarsson,Portsmouth,2008
+979,Hermann Hreidarsson,Iceland,2008
+980,Glen Johnson,Portsmouth,2008
+981,Glen Johnson,England,2008
+982,Sean Davis,Portsmouth,2008
+983,Sean Davis,England,2008
+984,Peter Crouch,Portsmouth,2008
+985,Peter Crouch,England,2008
+986,Linvoy Primus,Portsmouth,2008
+987,Linvoy Primus,England,2008
+988,Papa Bouba Diop,Portsmouth,2008
+989,Papa Bouba Diop,Senegal,2008
+990,John Utaka,Portsmouth,2008
+991,John Utaka,Nigeria,2008
+992,Noé Pamarot,Portsmouth,2008
+993,Noé Pamarot,France,2008
+994,Richard Hughes,Portsmouth,2008
+995,Richard Hughes,Scotland,2008
+996,Angelos Basinas,Portsmouth,2008
+997,Angelos Basinas,Greece,2008
+998,Jamie Ashdown,Portsmouth,2008
+999,Jamie Ashdown,England,2008
+1000,Hayden Mullins,Portsmouth,2008
+1001,Hayden Mullins,England,2008
+1002,Theofanis Gekas,Portsmouth,2008
+1003,Theofanis Gekas,Greece,2008
+1004,Niko Kranjcar,Portsmouth,2008
+1005,Niko Kranjcar,Croatia,2008
+1006,Arnold Mvuemba,Portsmouth,2008
+1007,Arnold Mvuemba,DR Congo,2008
+1008,Nadir Belhadj,Portsmouth,2008
+1009,Nadir Belhadj,Algeria,2008
+1010,Younès Kaboul,Portsmouth,2008
+1011,Younès Kaboul,France,2008
+1012,Martin Cranie,Portsmouth,2008
+1013,Martin Cranie,England,2008
+1014,Marc Wilson,Portsmouth,2008
+1015,Marc Wilson,Ireland,2008
+1016,Armand Traoré,Portsmouth,2008
+1017,Armand Traoré,Senegal,2008
+1018,Asmir Begovic,Portsmouth,2008
+1019,Asmir Begovic,Bosnia-Herzegovina,2008
+1020,David Nugent,Portsmouth,2008
+1021,David Nugent,England,2008
+1022,Pelé,Portsmouth,2008
+1023,Pelé,Portugal,2008
+1024,Jermain Defoe,Portsmouth,2008
+1025,Jermain Defoe,England,2008
+1026,Pedro Mendes,Portsmouth,2008
+1027,Pedro Mendes,Portugal,2008
+1028,Glen Little,Portsmouth,2008
+1029,Glen Little,England,2008
+1030,Lassana Diarra,Portsmouth,2008
+1031,Lassana Diarra,France,2008
+1032,Ben Sahar,Portsmouth,2008
+1033,Ben Sahar,Israel,2008
+1034,Roque Santa Cruz,Blackburn,2008
+1035,Roque Santa Cruz,Paraguay,2008
+1036,Benni McCarthy,Blackburn,2008
+1037,Benni McCarthy,South Africa,2008
+1038,Stephen Warnock,Blackburn,2008
+1039,Stephen Warnock,England,2008
+1040,El-Hadji Diouf,Blackburn,2008
+1041,El-Hadji Diouf,Senegal,2008
+1042,Paul Robinson,Blackburn,2008
+1043,Paul Robinson,England,2008
+1044,Jason Roberts,Blackburn,2008
+1045,Jason Roberts,Grenada,2008
+1046,Tugay Kerimoglu,Blackburn,2008
+1047,Tugay Kerimoglu,Turkey,2008
+1048,David Dunn,Blackburn,2008
+1049,David Dunn,England,2008
+1050,André Ooijer,Blackburn,2008
+1051,André Ooijer,Netherlands,2008
+1052,Brett Emerton,Blackburn,2008
+1053,Brett Emerton,Australia,2008
+1054,Aaron Mokoena,Blackburn,2008
+1055,Aaron Mokoena,South Africa,2008
+1056,Gaël Givet,Blackburn,2008
+1057,Gaël Givet,France,2008
+1058,Vince Grella,Blackburn,2008
+1059,Vince Grella,Australia,2008
+1060,Steven Reid,Blackburn,2008
+1061,Steven Reid,Ireland,2008
+1062,Keith Andrews,Blackburn,2008
+1063,Keith Andrews,Ireland,2008
+1064,Zurab Khizanishvili,Blackburn,2008
+1065,Zurab Khizanishvili,Georgia,2008
+1066,Jason Brown,Blackburn,2008
+1067,Jason Brown,Wales,2008
+1068,Morten Gamst Pedersen,Blackburn,2008
+1069,Morten Gamst Pedersen,Norway,2008
+1070,Ryan Nelsen,Blackburn,2008
+1071,Ryan Nelsen,New Zealand,2008
+1072,Christopher Samba,Blackburn,2008
+1073,Christopher Samba,Congo,2008
+1074,Danny Simpson,Blackburn,2008
+1075,Danny Simpson,England,2008
+1076,Martin Olsson,Blackburn,2008
+1077,Martin Olsson,Sweden,2008
+1078,Bryan Hodge,Blackburn,2008
+1079,Bryan Hodge,Scotland,2008
+1080,Mark Bunn,Blackburn,2008
+1081,Mark Bunn,England,2008
+1082,Carlos Villanueva,Blackburn,2008
+1083,Carlos Villanueva,Chile,2008
+1084,Keith Treacy,Blackburn,2008
+1085,Keith Treacy,Ireland,2008
+1086,Robbie Fowler,Blackburn,2008
+1087,Robbie Fowler,England,2008
+1088,Johann Vogel,Blackburn,2008
+1089,Johann Vogel,Switzerland,2008
+1090,Paul Gallagher,Blackburn,2008
+1091,Paul Gallagher,Scotland,2008
+1092,Matt Derbyshire,Blackburn,2008
+1093,Matt Derbyshire,England,2008
+1094,Gavin Gunning,Blackburn,2008
+1095,Gavin Gunning,Ireland,2008
+1096,Alan Judge,Blackburn,2008
+1097,Alan Judge,Ireland,2008
+1098,Tony Kane,Blackburn,2008
+1099,Tony Kane,Northern Ireland,2008
+1100,Andy Haworth,Blackburn,2008
+1101,Andy Haworth,England,2008
+1102,Marcus Marshall,Blackburn,2008
+1103,Marcus Marshall,England,2008
+1104,Aaron Doran,Blackburn,2008
+1105,Aaron Doran,Ireland,2008
+1106,Dwight Yorke,Sunderland,2008
+1107,Dwight Yorke,Trinidad and Tobago,2008
+1108,Kieran Richardson,Sunderland,2008
+1109,Kieran Richardson,England,2008
+1110,Steed Malbranque,Sunderland,2008
+1111,Steed Malbranque,France,2008
+1112,Anton Ferdinand,Sunderland,2008
+1113,Anton Ferdinand,England,2008
+1114,George McCartney,Sunderland,2008
+1115,George McCartney,Northern Ireland,2008
+1116,Djibril Cissé,Sunderland,2008
+1117,Djibril Cissé,France,2008
+1118,Calum Davenport,Sunderland,2008
+1119,Calum Davenport,England,2008
+1120,Teemu Tainio,Sunderland,2008
+1121,Teemu Tainio,Finland,2008
+1122,David Connolly,Sunderland,2008
+1123,David Connolly,Ireland,2008
+1124,Andy Reid,Sunderland,2008
+1125,Andy Reid,Ireland,2008
+1126,Craig Gordon,Sunderland,2008
+1127,Craig Gordon,Scotland,2008
+1128,Nick Colgan,Sunderland,2008
+1129,Nick Colgan,Ireland,2008
+1130,Dean Whitehead,Sunderland,2008
+1131,Dean Whitehead,England,2008
+1132,Grant Leadbitter,Sunderland,2008
+1133,Grant Leadbitter,England,2008
+1134,David Healy,Sunderland,2008
+1135,David Healy,Northern Ireland,2008
+1136,Nyron Nosworthy,Sunderland,2008
+1137,Nyron Nosworthy,Jamaica,2008
+1138,Phil Bardsley,Sunderland,2008
+1139,Phil Bardsley,Scotland,2008
+1140,Márton Fülöp,Sunderland,2008
+1141,Márton Fülöp,Hungary,2008
+1142,Tal Ben Haim,Sunderland,2008
+1143,Tal Ben Haim,Israel,2008
+1144,Robbie Weir,Sunderland,2008
+1145,Robbie Weir,Northern Ireland,2008
+1146,Paul McShane,Sunderland,2008
+1147,Paul McShane,Ireland,2008
+1148,Danny Collins,Sunderland,2008
+1149,Danny Collins,Wales,2008
+1150,Kenwyne Jones,Sunderland,2008
+1151,Kenwyne Jones,Trinidad and Tobago,2008
+1152,Daryl Murphy,Sunderland,2008
+1153,Daryl Murphy,Ireland,2008
+1154,Carlos Edwards,Sunderland,2008
+1155,Carlos Edwards,Trinidad and Tobago,2008
+1156,Peter Hartley,Sunderland,2008
+1157,Peter Hartley,England,2008
+1158,Greg Halford,Sunderland,2008
+1159,Greg Halford,England,2008
+1160,Jean-Yves M'voto,Sunderland,2008
+1161,Jean-Yves M'voto,France,2008
+1162,Jamie Chandler,Sunderland,2008
+1163,Jamie Chandler,England,2008
+1164,David Dowson,Sunderland,2008
+1165,David Dowson,England,2008
+1166,Martyn Waghorn,Sunderland,2008
+1167,Martyn Waghorn,England,2008
+1168,Rade Prica,Sunderland,2008
+1169,Rade Prica,Sweden,2008
+1170,Michael Chopra,Sunderland,2008
+1171,Michael Chopra,England,2008
+1172,El-Hadji Diouf,Sunderland,2008
+1173,El-Hadji Diouf,Senegal,2008
+1174,Danny Higginbotham,Sunderland,2008
+1175,Danny Higginbotham,Gibraltar,2008
+1176,Liam Miller,Sunderland,2008
+1177,Liam Miller,Ireland,2008
+1178,Darren Ward,Sunderland,2008
+1179,Darren Ward,Wales,2008
+1180,Pascal Chimbonda,Sunderland,2008
+1181,Pascal Chimbonda,Guadeloupe,2008
+1182,Anthony Stokes,Sunderland,2008
+1183,Anthony Stokes,Ireland,2008
+1184,Jack Colback,Sunderland,2008
+1185,Jack Colback,England,2008
+1186,Jordan Henderson,Sunderland,2008
+1187,Jordan Henderson,England,2008
+1188,Michael Kay,Sunderland,2008
+1189,Michael Kay,England,2008
+1190,Nathan Luscombe,Sunderland,2008
+1191,Nathan Luscombe,England,2008
+1192,David Meyler,Sunderland,2008
+1193,David Meyler,Ireland,2008
+1194,Nick Barmby,Hull City,2008
+1195,Nick Barmby,England,2008
+1196,Dean Windass,Hull City,2008
+1197,Dean Windass,England,2008
+1198,George Boateng,Hull City,2008
+1199,George Boateng,Netherlands,2008
+1200,Richard García,Hull City,2008
+1201,Richard García,Australia,2008
+1202,Bernard Mendy,Hull City,2008
+1203,Bernard Mendy,France,2008
+1204,Boaz Myhill,Hull City,2008
+1205,Boaz Myhill,Wales,2008
+1206,Craig Fagan,Hull City,2008
+1207,Craig Fagan,England,2008
+1208,Bryan Hughes,Hull City,2008
+1209,Bryan Hughes,England,2008
+1210,Anthony Gardner,Hull City,2008
+1211,Anthony Gardner,England,2008
+1212,Dean Marney,Hull City,2008
+1213,Dean Marney,England,2008
+1214,Kevin Kilbane,Hull City,2008
+1215,Kevin Kilbane,Ireland,2008
+1216,Péter Halmosi,Hull City,2008
+1217,Péter Halmosi,Hungary,2008
+1218,Daniel Cousin,Hull City,2008
+1219,Daniel Cousin,Gabon,2008
+1220,Geovanni,Hull City,2008
+1221,Geovanni,Brazil,2008
+1222,Michael Turner,Hull City,2008
+1223,Michael Turner,England,2008
+1224,Nathan Doyle,Hull City,2008
+1225,Nathan Doyle,England,2008
+1226,Jimmy Bullard,Hull City,2008
+1227,Jimmy Bullard,England,2008
+1228,Sam Ricketts,Hull City,2008
+1229,Sam Ricketts,Wales,2008
+1230,Kamil Zayatte,Hull City,2008
+1231,Kamil Zayatte,Guinea,2008
+1232,Ian Ashbee,Hull City,2008
+1233,Ian Ashbee,England,2008
+1234,Andy Dawson,Hull City,2008
+1235,Andy Dawson,England,2008
+1236,Ryan France,Hull City,2008
+1237,Ryan France,England,2008
+1238,Matt Duke,Hull City,2008
+1239,Matt Duke,England,2008
+1240,Matty Plummer,Hull City,2008
+1241,Matty Plummer,England,2008
+1242,Nicky Featherstone,Hull City,2008
+1243,Nicky Featherstone,England,2008
+1244,Caleb Folan,Hull City,2008
+1245,Caleb Folan,Ireland,2008
+1246,Manucho,Hull City,2008
+1247,Manucho,Angola,2008
+1248,John Welsh,Hull City,2008
+1249,John Welsh,England,2008
+1250,Stelios Giannakopoulos,Hull City,2008
+1251,Stelios Giannakopoulos,Greece,2008
+1252,Tony Warner,Hull City,2008
+1253,Tony Warner,Trinidad and Tobago,2008
+1254,Wayne Brown,Hull City,2008
+1255,Wayne Brown,England,2008
+1256,Marlon King,Hull City,2008
+1257,Marlon King,Jamaica,2008
+1258,Paul McShane,Hull City,2008
+1259,Paul McShane,Ireland,2008
+1260,Will Atkinson,Hull City,2008
+1261,Will Atkinson,England,2008
+1262,Liam Cooper,Hull City,2008
+1263,Liam Cooper,Scotland,2008
+1264,Michael Owen,Newcastle,2008
+1265,Michael Owen,England,2008
+1266,Mark Viduka,Newcastle,2008
+1267,Mark Viduka,Australia,2008
+1268,Damien Duff,Newcastle,2008
+1269,Damien Duff,Ireland,2008
+1270,Shola Ameobi,Newcastle,2008
+1271,Shola Ameobi,Nigeria,2008
+1272,Joey Barton,Newcastle,2008
+1273,Joey Barton,England,2008
+1274,Njitap Geremi,Newcastle,2008
+1275,Njitap Geremi,Cameroon,2008
+1276,Nicky Butt,Newcastle,2008
+1277,Nicky Butt,England,2008
+1278,Steve Harper,Newcastle,2008
+1279,Steve Harper,England,2008
+1280,Alan Smith,Newcastle,2008
+1281,Alan Smith,England,2008
+1282,Habib Bèye,Newcastle,2008
+1283,Habib Bèye,Senegal,2008
+1284,Kevin Nolan,Newcastle,2008
+1285,Kevin Nolan,England,2008
+1286,Cláudio Caçapa,Newcastle,2008
+1287,Cláudio Caçapa,Brazil,2008
+1288,Obafemi Martins,Newcastle,2008
+1289,Obafemi Martins,Nigeria,2008
+1290,Fabricio Coloccini,Newcastle,2008
+1291,Fabricio Coloccini,Argentina,2008
+1292,Peter Lövenkrands,Newcastle,2008
+1293,Peter Lövenkrands,Denmark,2008
+1294,Danny Guthrie,Newcastle,2008
+1295,Danny Guthrie,England,2008
+1296,Steven Taylor,Newcastle,2008
+1297,Steven Taylor,England,2008
+1298,Jonás Gutiérrez,Newcastle,2008
+1299,Jonás Gutiérrez,Argentina,2008
+1300,Tim Krul,Newcastle,2008
+1301,Tim Krul,Netherlands,2008
+1302,Ryan Taylor,Newcastle,2008
+1303,Ryan Taylor,England,2008
+1304,Sébastien Bassong,Newcastle,2008
+1305,Sébastien Bassong,Cameroon,2008
+1306,Xisco,Newcastle,2008
+1307,Xisco,Spain,2008
+1308,José Enrique,Newcastle,2008
+1309,José Enrique,Spain,2008
+1310,David Edgar,Newcastle,2008
+1311,David Edgar,Canada,2008
+1312,Ignacio González,Newcastle,2008
+1313,Ignacio González,Uruguay,2008
+1314,Andy Carroll,Newcastle,2008
+1315,Andy Carroll,England,2008
+1316,Fraser Forster,Newcastle,2008
+1317,Fraser Forster,England,2008
+1318,Kazenga LuaLua,Newcastle,2008
+1319,Kazenga LuaLua,DR Congo,2008
+1320,Nile Ranger,Newcastle,2008
+1321,Nile Ranger,England,2008
+1322,Tamás Kádár,Newcastle,2008
+1323,Tamás Kádár,Hungary,2008
+1324,Shay Given,Newcastle,2008
+1325,Shay Given,Ireland,2008
+1326,Charles N'Zogbia,Newcastle,2008
+1327,Charles N'Zogbia,France,2008
+1328,James Milner,Newcastle,2008
+1329,James Milner,England,2008
+1330,Ryan Donaldson,Newcastle,2008
+1331,Ryan Donaldson,England,2008
+1332,Mark Doninger,Newcastle,2008
+1333,Mark Doninger,England,2008
+1334,Frank Wiafe,Newcastle,2008
+1335,Frank Wiafe,Netherlands,2008
+1336,Ben Tozer,Newcastle,2008
+1337,Ben Tozer,England,2008
+1338,Brad Inman,Newcastle,2008
+1339,Brad Inman,Australia,2008
+1340,Emanuel Pogatetz,Middlesbrough,2008
+1341,Emanuel Pogatetz,Austria,2008
+1342,Robert Huth,Middlesbrough,2008
+1343,Robert Huth,Germany,2008
+1344,Jérémie Aliadière,Middlesbrough,2008
+1345,Jérémie Aliadière,France,2008
+1346,Julio Arca,Middlesbrough,2008
+1347,Julio Arca,Argentina,2008
+1348,Chris Riggott,Middlesbrough,2008
+1349,Chris Riggott,England,2008
+1350,Gary O'Neil,Middlesbrough,2008
+1351,Gary O'Neil,England,2008
+1352,Brad Jones,Middlesbrough,2008
+1353,Brad Jones,Australia,2008
+1354,Stewart Downing,Middlesbrough,2008
+1355,Stewart Downing,England,2008
+1356,Tuncay Sanli,Middlesbrough,2008
+1357,Tuncay Sanli,Turkey,2008
+1358,Justin Hoyte,Middlesbrough,2008
+1359,Justin Hoyte,Trinidad and Tobago,2008
+1360,Marlon King,Middlesbrough,2008
+1361,Marlon King,Jamaica,2008
+1362,Afonso Alves,Middlesbrough,2008
+1363,Afonso Alves,Brazil,2008
+1364,Matthew Bates,Middlesbrough,2008
+1365,Matthew Bates,England,2008
+1366,Tony McMahon,Middlesbrough,2008
+1367,Tony McMahon,England,2008
+1368,Andrew Taylor,Middlesbrough,2008
+1369,Andrew Taylor,England,2008
+1370,Ross Turnbull,Middlesbrough,2008
+1371,Ross Turnbull,England,2008
+1372,David Wheater,Middlesbrough,2008
+1373,David Wheater,England,2008
+1374,Adam Johnson,Middlesbrough,2008
+1375,Adam Johnson,England,2008
+1376,Marvin Emnes,Middlesbrough,2008
+1377,Marvin Emnes,Netherlands,2008
+1378,Mohamed Shawky,Middlesbrough,2008
+1379,Mohamed Shawky,Egypt,2008
+1380,Josh Walker,Middlesbrough,2008
+1381,Josh Walker,England,2008
+1382,Didier Digard,Middlesbrough,2008
+1383,Didier Digard,France,2008
+1384,Graeme Owens,Middlesbrough,2008
+1385,Graeme Owens,England,2008
+1386,Jonathan Grounds,Middlesbrough,2008
+1387,Jonathan Grounds,England,2008
+1388,Jason Steele,Middlesbrough,2008
+1389,Jason Steele,England,2008
+1390,Nathan Porritt,Middlesbrough,2008
+1391,Nathan Porritt,England,2008
+1392,John Johnson,Middlesbrough,2008
+1393,John Johnson,England,2008
+1394,Rhys Williams,Middlesbrough,2008
+1395,Rhys Williams,Australia,2008
+1396,Joe Bennett,Middlesbrough,2008
+1397,Joe Bennett,England,2008
+1398,Jonathan Franks,Middlesbrough,2008
+1399,Jonathan Franks,England,2008
+1400,Mido,Middlesbrough,2008
+1401,Mido,Egypt,2008
+1402,Tom Craddock,Middlesbrough,2008
+1403,Tom Craddock,England,2008
+1404,Seb Hines,Middlesbrough,2008
+1405,Seb Hines,England,2008
+1406,Dean Kiely,West Brom,2008
+1407,Dean Kiely,Ireland,2008
+1408,Neil Clement,West Brom,2008
+1409,Neil Clement,England,2008
+1410,Jonathan Greening,West Brom,2008
+1411,Jonathan Greening,England,2008
+1412,Luke Moore,West Brom,2008
+1413,Luke Moore,England,2008
+1414,Abdoulaye Méïté,West Brom,2008
+1415,Abdoulaye Méïté,Cote d'Ivoire,2008
+1416,Filipe Teixeira,West Brom,2008
+1417,Filipe Teixeira,Portugal,2008
+1418,Marc-Antoine Fortuné,West Brom,2008
+1419,Marc-Antoine Fortuné,French Guiana,2008
+1420,Juan Carlos Menseguez,West Brom,2008
+1421,Juan Carlos Menseguez,Argentina,2008
+1422,Craig Beattie,West Brom,2008
+1423,Craig Beattie,Scotland,2008
+1424,Carl Hoefkens,West Brom,2008
+1425,Carl Hoefkens,Belgium,2008
+1426,Paul Robinson,West Brom,2008
+1427,Paul Robinson,England,2008
+1428,Pelé,West Brom,2008
+1429,Pelé,Cape Verde,2008
+1430,Scott Carson,West Brom,2008
+1431,Scott Carson,England,2008
+1432,Marek Cech,West Brom,2008
+1433,Marek Cech,Slovakia,2008
+1434,Shelton Martis,West Brom,2008
+1435,Shelton Martis,Curacao,2008
+1436,Jonas Olsson,West Brom,2008
+1437,Jonas Olsson,Sweden,2008
+1438,Roman Bednar,West Brom,2008
+1439,Roman Bednar,Czech Republic,2008
+1440,Robert Koren,West Brom,2008
+1441,Robert Koren,Slovenia,2008
+1442,Gianni Zuiverloon,West Brom,2008
+1443,Gianni Zuiverloon,Netherlands,2008
+1444,Do-heon Kim,West Brom,2008
+1445,Do-heon Kim,"Korea, South",2008
+1446,James Morrison,West Brom,2008
+1447,James Morrison,Scotland,2008
+1448,Leon Barnett,West Brom,2008
+1449,Leon Barnett,England,2008
+1450,Graham Dorrans,West Brom,2008
+1451,Graham Dorrans,Scotland,2008
+1452,Chris Brunt,West Brom,2008
+1453,Chris Brunt,Northern Ireland,2008
+1454,Ryan Donk,West Brom,2008
+1455,Ryan Donk,Suriname,2008
+1456,Ishmael Miller,West Brom,2008
+1457,Ishmael Miller,England,2008
+1458,Borja Valero,West Brom,2008
+1459,Borja Valero,Spain,2008
+1460,Jay Simpson,West Brom,2008
+1461,Jay Simpson,England,2008
+1462,Youssouf Mulumbu,West Brom,2008
+1463,Youssouf Mulumbu,DR Congo,2008
+1464,Ryan Allsop,West Brom,2008
+1465,Ryan Allsop,England,2008
+1466,Sherjill MacDonald,West Brom,2008
+1467,Sherjill MacDonald,Netherlands,2008
+1468,Bartosz Slusarski,West Brom,2008
+1469,Bartosz Slusarski,Poland,2008
+1470,Chris Wood,West Brom,2008
+1471,Chris Wood,New Zealand,2008
+1472,Paul Downing,West Brom,2008
+1473,Paul Downing,England,2008
+1474,Romaine Sawyers,West Brom,2008
+1475,Romaine Sawyers,St. Kitts & Nevis,2008

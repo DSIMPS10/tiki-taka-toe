@@ -64,7 +64,7 @@ def add_players_to_db_process(season: int, league_id: str):
     all_players_for_single_season: list = get_all_players_for_season(season, league_id)
     season_df = pd.DataFrame(all_players_for_single_season) 
     try:
-        season_df.to_csv(f".\src\data\season_data\season_{season}.csv")
+        season_df.to_csv(f".\src\data\season_data\season_{season}_nationality.csv")
     except Exception as e:
         print("Couldn't save csv, likely a path error")
     finally:
@@ -114,7 +114,7 @@ def add_players_to_db_process(season: int, league_id: str):
 
 
 def main():
-    add_players_to_db_process(2007,'GB1')
+    add_players_to_db_process(2008,'GB1')
 
 
 if __name__ == "__main__":
