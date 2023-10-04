@@ -17,7 +17,7 @@ from utils.cert_helpers import (fixing_SSL_error)
 ### PLAYERS ###
 ##########################################################################################################
 
-def add_players_to_db_process():
+def add_players_to_db_process(season: int):
     '''
     Full process to add a list of players to the database
     Step 1: Get data
@@ -28,7 +28,6 @@ def add_players_to_db_process():
     '''
 
     #1. Get list of players from football API 
-    season = 2009
     prem_league = 39
     all_players_for_single_season: list = get_all_players_for_a_season(season, prem_league)
     season_df = pd.DataFrame(all_players_for_single_season) 
@@ -83,13 +82,8 @@ def add_players_to_db_process():
 
 
 def main():
-
-    add_players_to_db_process()
-
-    # all_players_in_db_df = get_all_players_from_db()
-    # all_players_in_db_df['identifier'] = all_players_in_db_df['full_name'].map(str)+' '+all_players_in_db_df['team_name'].map(str)
-    # print(all_players_in_db_df['identifier'].head())
-    # print(all_players_in_db_df[all_players_in_db_df['full_name']=='Dom Simpson'])
+    season=2011
+    add_players_to_db_process(season)
 
 
 if __name__ == "__main__":
