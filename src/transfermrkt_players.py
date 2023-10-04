@@ -5,6 +5,7 @@ import os
 from utils.classes import Player
 from data.data_db_functions import (post_players_to_db,
                                     update_player_first_season_in_db,
+                                    update_player_last_season_in_db,
                                     get_all_players_from_db)
 from data.data_helper_functions import(convert_players_list_to_df,
                                     create_player_objects,
@@ -60,7 +61,7 @@ def add_players_to_db_process(season: int, league_id: str):
     '''
 
     #1. Get list of players from football API 
-    all_players_for_single_season: list = [{'full_name': 'Thiago Silva', 'team_name': 'Chelsea','nationality': 'Brazil','season': 2022}] #get_all_players_for_season(season, league_id)
+    all_players_for_single_season: list = get_all_players_for_season(season, league_id)
     season_df = pd.DataFrame(all_players_for_single_season) 
     try:
         season_df.to_csv(f".\src\data\season_data\season_{season}.csv")
@@ -96,7 +97,7 @@ def add_players_to_db_process(season: int, league_id: str):
             print(players_to_upload_to_db_df)
         elif len(combo_match_df)  == 1:
             # The season needs to be updated
-            new_season_data = update_player_first_season_in_db(single_player_identifier,season)
+            new_season_data = update_player_last_season_in_db(single_player_identifier,season)
             print(f'Season info to be updated: {new_season_data}')
         elif len(combo_match_df)  > 1:
             # There is a duplicate ERROR
@@ -113,7 +114,7 @@ def add_players_to_db_process(season: int, league_id: str):
 
 
 def main():
-    add_players_to_db_process(1992,'GB1')
+    add_players_to_db_process(2007,'GB1')
 
 
 if __name__ == "__main__":

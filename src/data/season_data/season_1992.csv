@@ -1,2 +1,1281 @@
-,full_name,team_name,nationality,season
-0,Thiago Silva,Chelsea,Brazil,2022
+,full_name,team_name,season
+0,Peter Schmeichel,Man Utd,1992
+1,Peter Schmeichel,Denmark,1992
+2,Paul Scholes,Man Utd,1992
+3,Paul Scholes,England,1992
+4,Lee Sharpe,Man Utd,1992
+5,Lee Sharpe,England,1992
+6,Eric Cantona,Man Utd,1992
+7,Eric Cantona,France,1992
+8,Steve Bruce,Man Utd,1992
+9,Steve Bruce,England,1992
+10,Dion Dublin,Man Utd,1992
+11,Dion Dublin,England,1992
+12,Mark Hughes,Man Utd,1992
+13,Mark Hughes,Wales,1992
+14,Denis Irwin,Man Utd,1992
+15,Denis Irwin,Ireland,1992
+16,Brian McClair,Man Utd,1992
+17,Brian McClair,Scotland,1992
+18,Pat McGibbon,Man Utd,1992
+19,Pat McGibbon,Northern Ireland,1992
+20,Colin Murdock,Man Utd,1992
+21,Colin Murdock,Northern Ireland,1992
+22,Gary Pallister,Man Utd,1992
+23,Gary Pallister,England,1992
+24,Paul Parker,Man Utd,1992
+25,Paul Parker,England,1992
+26,Nicky Butt,Man Utd,1992
+27,Nicky Butt,England,1992
+28,Darren Ferguson,Man Utd,1992
+29,Darren Ferguson,Scotland,1992
+30,Ryan Giggs,Man Utd,1992
+31,Ryan Giggs,Wales,1992
+32,Paul Ince,Man Utd,1992
+33,Paul Ince,England,1992
+34,Andrey Kanchelskis,Man Utd,1992
+35,Andrey Kanchelskis,Russia,1992
+36,Bryan Robson,Man Utd,1992
+37,Bryan Robson,England,1992
+38,Les Sealey,Man Utd,1992
+39,Les Sealey,England,1992
+40,Gary Walsh,Man Utd,1992
+41,Gary Walsh,England,1992
+42,Lee Martin,Man Utd,1992
+43,Lee Martin,England,1992
+44,Gary Neville,Man Utd,1992
+45,Gary Neville,England,1992
+46,Clayton Blackmore,Man Utd,1992
+47,Clayton Blackmore,Wales,1992
+48,Mike Phelan,Man Utd,1992
+49,Mike Phelan,England,1992
+50,Neil Webb,Man Utd,1992
+51,Neil Webb,England,1992
+52,Colin McKee,Man Utd,1992
+53,Colin McKee,Scotland,1992
+54,David Beckham,Man Utd,1992
+55,David Beckham,England,1992
+56,Keith Gillespie,Man Utd,1992
+57,Keith Gillespie,Northern Ireland,1992
+58,Mark Robins,Man Utd,1992
+59,Mark Robins,England,1992
+60,Danny Wallace,Man Utd,1992
+61,Danny Wallace,England,1992
+62,Fraser Digby,Man Utd,1992
+63,Fraser Digby,England,1992
+64,Kevin Pilkington,Man Utd,1992
+65,Kevin Pilkington,England,1992
+66,Craig Lawton,Man Utd,1992
+67,Craig Lawton,Wales,1992
+68,Brian Carey,Man Utd,1992
+69,Brian Carey,Ireland,1992
+70,Russell Beardsmore,Man Utd,1992
+71,Russell Beardsmore,England,1992
+72,Nigel Spink,Aston Villa,1992
+73,Nigel Spink,England,1992
+74,Earl Barrett,Aston Villa,1992
+75,Earl Barrett,England,1992
+76,Steve Staunton,Aston Villa,1992
+77,Steve Staunton,Ireland,1992
+78,Paul McGrath,Aston Villa,1992
+79,Paul McGrath,Ireland,1992
+80,Kevin Richardson,Aston Villa,1992
+81,Kevin Richardson,England,1992
+82,Tony Daley,Aston Villa,1992
+83,Tony Daley,England,1992
+84,Garry Parker,Aston Villa,1992
+85,Garry Parker,England,1992
+86,Ray Houghton,Aston Villa,1992
+87,Ray Houghton,Ireland,1992
+88,Dalian Atkinson,Aston Villa,1992
+89,Dalian Atkinson,England,1992
+90,Dwight Yorke,Aston Villa,1992
+91,Dwight Yorke,Trinidad and Tobago,1992
+92,Ugo Ehiogu,Aston Villa,1992
+93,Ugo Ehiogu,England,1992
+94,Frank McAvennie,Aston Villa,1992
+95,Frank McAvennie,Scotland,1992
+96,Dean Saunders,Aston Villa,1992
+97,Dean Saunders,Wales,1992
+98,David Farrell,Aston Villa,1992
+99,David Farrell,England,1992
+100,Mark Bosnich,Aston Villa,1992
+101,Mark Bosnich,Australia,1992
+102,Neil Cox,Aston Villa,1992
+103,Neil Cox,England,1992
+104,Matthias Breitkreutz,Aston Villa,1992
+105,Matthias Breitkreutz,Germany,1992
+106,Stefan Beinlich,Aston Villa,1992
+107,Stefan Beinlich,Germany,1992
+108,Martin Carruthers,Aston Villa,1992
+109,Martin Carruthers,England,1992
+110,Michael Oakes,Aston Villa,1992
+111,Michael Oakes,England,1992
+112,Steve Froggatt,Aston Villa,1992
+113,Steve Froggatt,England,1992
+114,Cyrille Regis,Aston Villa,1992
+115,Cyrille Regis,England,1992
+116,Shaun Teale,Aston Villa,1992
+117,Shaun Teale,England,1992
+118,Les Sealey,Aston Villa,1992
+119,Les Sealey,England,1992
+120,Neil Davis,Aston Villa,1992
+121,Neil Davis,England,1992
+122,Mark Blake,Aston Villa,1992
+123,Mark Blake,England,1992
+124,Bryan Small,Aston Villa,1992
+125,Bryan Small,England,1992
+126,Henrik Larsen,Aston Villa,1992
+127,Henrik Larsen,Denmark,1992
+128,Dariusz Kubicki,Aston Villa,1992
+129,Dariusz Kubicki,Poland,1992
+130,Mark Blake,Aston Villa,1992
+131,Mark Blake,England,1992
+132,Bryan Gunn,Norwich,1992
+133,Bryan Gunn,Scotland,1992
+134,Mark Bowen,Norwich,1992
+135,Mark Bowen,Wales,1992
+136,Gary Megson,Norwich,1992
+137,Gary Megson,England,1992
+138,Ruel Fox,Norwich,1992
+139,Ruel Fox,Montserrat,1992
+140,Rob Newman,Norwich,1992
+141,Rob Newman,England,1992
+142,Chris Sutton,Norwich,1992
+143,Chris Sutton,England,1992
+144,David Phillips,Norwich,1992
+145,David Phillips,Wales,1992
+146,Mark Robins,Norwich,1992
+147,Mark Robins,England,1992
+148,Colin Woodthorpe,Norwich,1992
+149,Colin Woodthorpe,England,1992
+150,Darren Beckford,Norwich,1992
+151,Darren Beckford,England,1992
+152,Andy Johnson,Norwich,1992
+153,Andy Johnson,Wales,1992
+154,David Smith,Norwich,1992
+155,David Smith,England,1992
+156,Efan Ekoku,Norwich,1992
+157,Efan Ekoku,Nigeria,1992
+158,Ian Butterworth,Norwich,1992
+159,Ian Butterworth,England,1992
+160,Ian Crook,Norwich,1992
+161,Ian Crook,England,1992
+162,Ian Culverhouse,Norwich,1992
+163,Ian Culverhouse,England,1992
+164,Jeremy Goss,Norwich,1992
+165,Jeremy Goss,Wales,1992
+166,John Polston,Norwich,1992
+167,John Polston,England,1992
+168,Mark Walton,Norwich,1992
+169,Mark Walton,Wales,1992
+170,Daryl Sutch,Norwich,1992
+171,Daryl Sutch,England,1992
+172,Lee Power,Norwich,1992
+173,Lee Power,Ireland,1992
+174,Andy Marshall,Norwich,1992
+175,Andy Marshall,England,1992
+176,Rob Ullathorne,Norwich,1992
+177,Rob Ullathorne,England,1992
+178,Jason Minett,Norwich,1992
+179,Jason Minett,England,1992
+180,Bobby Mimms,Blackburn,1992
+181,Bobby Mimms,England,1992
+182,David May,Blackburn,1992
+183,David May,England,1992
+184,Alan Wright,Blackburn,1992
+185,Alan Wright,England,1992
+186,Tim Sherwood,Blackburn,1992
+187,Tim Sherwood,England,1992
+188,Colin Hendry,Blackburn,1992
+189,Colin Hendry,Scotland,1992
+190,Kevin Moran,Blackburn,1992
+191,Kevin Moran,Ireland,1992
+192,Stuart Ripley,Blackburn,1992
+193,Stuart Ripley,England,1992
+194,Mark Atkins,Blackburn,1992
+195,Mark Atkins,England,1992
+196,Alan Shearer,Blackburn,1992
+197,Alan Shearer,England,1992
+198,Mike Newell,Blackburn,1992
+199,Mike Newell,England,1992
+200,Chris Price,Blackburn,1992
+201,Chris Price,England,1992
+202,Jason Wilcox,Blackburn,1992
+203,Jason Wilcox,England,1992
+204,Roy Wegerle,Blackburn,1992
+205,Roy Wegerle,United States,1992
+206,Keith Hill,Blackburn,1992
+207,Keith Hill,England,1992
+208,Gordon Cowans,Blackburn,1992
+209,Gordon Cowans,England,1992
+210,Nicky Marker,Blackburn,1992
+211,Nicky Marker,England,1992
+212,Patrik Andersson,Blackburn,1992
+213,Patrik Andersson,Sweden,1992
+214,Henning Berg,Blackburn,1992
+215,Henning Berg,Norway,1992
+216,Steve Livingstone,Blackburn,1992
+217,Steve Livingstone,England,1992
+218,Lee Makel,Blackburn,1992
+219,Lee Makel,England,1992
+220,Graeme Le Saux,Blackburn,1992
+221,Graeme Le Saux,England,1992
+222,Kevin Gallacher,Blackburn,1992
+223,Kevin Gallacher,Scotland,1992
+224,Matt Dickins,Blackburn,1992
+225,Matt Dickins,England,1992
+226,Tony Dobson,Blackburn,1992
+227,Tony Dobson,England,1992
+228,Frank Talia,Blackburn,1992
+229,Frank Talia,Australia,1992
+230,Chris Price,Blackburn,1992
+231,Chris Price,England,1992
+232,Richard Brown,Blackburn,1992
+233,Richard Brown,England,1992
+234,Simon Ireland,Blackburn,1992
+235,Simon Ireland,England,1992
+236,Jan Stejskal,QPR,1992
+237,Jan Stejskal,Czech Republic,1992
+238,Clive Wilson,QPR,1992
+239,Clive Wilson,England,1992
+240,Ray Wilkins,QPR,1992
+241,Ray Wilkins,England,1992
+242,Darren Peacock,QPR,1992
+243,Darren Peacock,England,1992
+244,Alan McDonald,QPR,1992
+245,Alan McDonald,Northern Ireland,1992
+246,Andy Impey,QPR,1992
+247,Andy Impey,England,1992
+248,Les Ferdinand,QPR,1992
+249,Les Ferdinand,England,1992
+250,Andy Sinton,QPR,1992
+251,Andy Sinton,England,1992
+252,Tony Roberts,QPR,1992
+253,Tony Roberts,Wales,1992
+254,Rufus Brevett,QPR,1992
+255,Rufus Brevett,England,1992
+256,Karl Ready,QPR,1992
+257,Karl Ready,Wales,1992
+258,Gary Penrice,QPR,1992
+259,Gary Penrice,England,1992
+260,Garry Thompson,QPR,1992
+261,Garry Thompson,England,1992
+262,Danny Maddix,QPR,1992
+263,Danny Maddix,Jamaica,1992
+264,Ian Holloway,QPR,1992
+265,Ian Holloway,England,1992
+266,David Bardsley,QPR,1992
+267,David Bardsley,England,1992
+268,Dennis Bailey,QPR,1992
+269,Dennis Bailey,England,1992
+270,Peter Caldwell,QPR,1992
+271,Peter Caldwell,England,1992
+272,Simon Barker,QPR,1992
+273,Simon Barker,England,1992
+274,Justin Channing,QPR,1992
+275,Justin Channing,England,1992
+276,Bradley Allen,QPR,1992
+277,Bradley Allen,England,1992
+278,Devon White,QPR,1992
+279,Devon White,England,1992
+280,Maurice Doyle,QPR,1992
+281,Maurice Doyle,England,1992
+282,Michael Meaker,QPR,1992
+283,Michael Meaker,Wales,1992
+284,Gary Waddock,QPR,1992
+285,Gary Waddock,Ireland,1992
+286,Brian Law,QPR,1992
+287,Brian Law,Wales,1992
+288,Alan McCarthy,QPR,1992
+289,Alan McCarthy,Wales,1992
+290,Tony Witter,QPR,1992
+291,Tony Witter,England,1992
+292,Michael Thomas,Liverpool,1992
+293,Michael Thomas,England,1992
+294,Stig Inge Björnebye,Liverpool,1992
+295,Stig Inge Björnebye,Norway,1992
+296,Ronny Rosenthal,Liverpool,1992
+297,Ronny Rosenthal,Israel,1992
+298,David Burrows,Liverpool,1992
+299,David Burrows,England,1992
+300,Ian Rush,Liverpool,1992
+301,Ian Rush,Wales,1992
+302,Steve Harkness,Liverpool,1992
+303,Steve Harkness,England,1992
+304,Rob Jones,Liverpool,1992
+305,Rob Jones,England,1992
+306,Steve Nicol,Liverpool,1992
+307,Steve Nicol,Scotland,1992
+308,Torben Piechnik,Liverpool,1992
+309,Torben Piechnik,Denmark,1992
+310,Phil Charnock,Liverpool,1992
+311,Phil Charnock,England,1992
+312,Steve McManaman,Liverpool,1992
+313,Steve McManaman,England,1992
+314,David James,Liverpool,1992
+315,David James,England,1992
+316,Ronnie Whelan,Liverpool,1992
+317,Ronnie Whelan,Ireland,1992
+318,Mark Wright,Liverpool,1992
+319,Mark Wright,England,1992
+320,John Barnes,Liverpool,1992
+321,John Barnes,England,1992
+322,Nigel Clough,Liverpool,1992
+323,Nigel Clough,England,1992
+324,Jan Mölby,Liverpool,1992
+325,Jan Mölby,Denmark,1992
+326,Jamie Redknapp,Liverpool,1992
+327,Jamie Redknapp,England,1992
+328,Paul Stewart,Liverpool,1992
+329,Paul Stewart,England,1992
+330,Mike Hooper,Liverpool,1992
+331,Mike Hooper,England,1992
+332,Tony Warner,Liverpool,1992
+333,Tony Warner,Trinidad and Tobago,1992
+334,Don Hutchison,Liverpool,1992
+335,Don Hutchison,Scotland,1992
+336,Mark Walters,Liverpool,1992
+337,Mark Walters,England,1992
+338,István Kozma,Liverpool,1992
+339,István Kozma,Hungary,1992
+340,Bruce Grobbelaar,Liverpool,1992
+341,Bruce Grobbelaar,Zimbabwe,1992
+342,Tony Cousins,Liverpool,1992
+343,Tony Cousins,Ireland,1992
+344,Robbie Fowler,Liverpool,1992
+345,Robbie Fowler,England,1992
+346,Lee Jones,Liverpool,1992
+347,Lee Jones,Wales,1992
+348,Nick Tanner,Liverpool,1992
+349,Nick Tanner,England,1992
+350,Dean Saunders,Liverpool,1992
+351,Dean Saunders,Wales,1992
+352,Mike Marsh,Liverpool,1992
+353,Mike Marsh,England,1992
+354,Viv Anderson,Sheff Wed,1992
+355,Viv Anderson,England,1992
+356,Julian Watts,Sheff Wed,1992
+357,Julian Watts,England,1992
+358,Chris Bart-Williams,Sheff Wed,1992
+359,Chris Bart-Williams,England,1992
+360,Mike Williams,Sheff Wed,1992
+361,Mike Williams,England,1992
+362,Mark Bright,Sheff Wed,1992
+363,Mark Bright,England,1992
+364,Trevor Francis,Sheff Wed,1992
+365,Trevor Francis,England,1992
+366,John Harkes,Sheff Wed,1992
+367,John Harkes,United States,1992
+368,Chris Woods,Sheff Wed,1992
+369,Chris Woods,England,1992
+370,David Hirst,Sheff Wed,1992
+371,David Hirst,England,1992
+372,Nigel Worthington,Sheff Wed,1992
+373,Nigel Worthington,Northern Ireland,1992
+374,Graham Hyde,Sheff Wed,1992
+375,Graham Hyde,England,1992
+376,Ryan Anthony Jones,Sheff Wed,1992
+377,Ryan Anthony Jones,Wales,1992
+378,Phil King,Sheff Wed,1992
+379,Phil King,England,1992
+380,Roland Nilsson,Sheff Wed,1992
+381,Roland Nilsson,Sweden,1992
+382,Carlton Palmer,Sheff Wed,1992
+383,Carlton Palmer,England,1992
+384,Nigel Pearson,Sheff Wed,1992
+385,Nigel Pearson,England,1992
+386,Kevin Pressman,Sheff Wed,1992
+387,Kevin Pressman,England,1992
+388,John Sheridan,Sheff Wed,1992
+389,John Sheridan,Ireland,1992
+390,Peter Shirtliff,Sheff Wed,1992
+391,Peter Shirtliff,England,1992
+392,Chris Waddle,Sheff Wed,1992
+393,Chris Waddle,England,1992
+394,Paul Warhurst,Sheff Wed,1992
+395,Paul Warhurst,England,1992
+396,Gordon Watson,Sheff Wed,1992
+397,Gordon Watson,England,1992
+398,Nigel Jemson,Sheff Wed,1992
+399,Nigel Jemson,England,1992
+400,Simon Stewart,Sheff Wed,1992
+401,Simon Stewart,England,1992
+402,Paul Williams,Sheff Wed,1992
+403,Paul Williams,England,1992
+404,Danny Wilson,Sheff Wed,1992
+405,Danny Wilson,Northern Ireland,1992
+406,Marlon Beresford,Sheff Wed,1992
+407,Marlon Beresford,England,1992
+408,Lance Key,Sheff Wed,1992
+409,Lance Key,England,1992
+410,David Johnson,Sheff Wed,1992
+411,David Johnson,England,1992
+412,Chris Day,Tottenham,1992
+413,Chris Day,England,1992
+414,Teddy Sheringham,Tottenham,1992
+415,Teddy Sheringham,England,1992
+416,Gordon Durie,Tottenham,1992
+417,Gordon Durie,Scotland,1992
+418,Darren Anderton,Tottenham,1992
+419,Darren Anderton,England,1992
+420,Vinny Samways,Tottenham,1992
+421,Vinny Samways,England,1992
+422,Stephen Robinson,Tottenham,1992
+423,Stephen Robinson,Northern Ireland,1992
+424,Gerry McMahon,Tottenham,1992
+425,Gerry McMahon,Northern Ireland,1992
+426,David Howells,Tottenham,1992
+427,David Howells,England,1992
+428,Nick Barmby,Tottenham,1992
+429,Nick Barmby,England,1992
+430,Pat van den Hauwe,Tottenham,1992
+431,Pat van den Hauwe,Wales,1992
+432,Gary Mabbutt,Tottenham,1992
+433,Gary Mabbutt,England,1992
+434,Terry Fenwick,Tottenham,1992
+435,Terry Fenwick,England,1992
+436,Justin Edinburgh,Tottenham,1992
+437,Justin Edinburgh,England,1992
+438,Sol Campbell,Tottenham,1992
+439,Sol Campbell,England,1992
+440,Gudni Bergsson,Tottenham,1992
+441,Gudni Bergsson,Iceland,1992
+442,Dean Austin,Tottenham,1992
+443,Dean Austin,England,1992
+444,Ian Walker,Tottenham,1992
+445,Ian Walker,England,1992
+446,Erik Thorstvedt,Tottenham,1992
+447,Erik Thorstvedt,Norway,1992
+448,Neil Ruddock,Tottenham,1992
+449,Neil Ruddock,England,1992
+450,Kevin Watson,Tottenham,1992
+451,Kevin Watson,England,1992
+452,Stuart Nethercott,Tottenham,1992
+453,Stuart Nethercott,England,1992
+454,Jason Cundy,Tottenham,1992
+455,Jason Cundy,England,1992
+456,Lee Hodges,Tottenham,1992
+457,Lee Hodges,England,1992
+458,Nayim,Tottenham,1992
+459,Nayim,Spain,1992
+460,John Hendry,Tottenham,1992
+461,John Hendry,Scotland,1992
+462,Dave Tuttle,Tottenham,1992
+463,Dave Tuttle,England,1992
+464,Paul Allen,Tottenham,1992
+465,Paul Allen,England,1992
+466,Andy Gray,Tottenham,1992
+467,Andy Gray,England,1992
+468,Andy Turner,Tottenham,1992
+469,Andy Turner,Ireland,1992
+470,Steve Sedgley,Tottenham,1992
+471,Steve Sedgley,England,1992
+472,Kevin Dearden,Tottenham,1992
+473,Kevin Dearden,England,1992
+474,Danny Hill,Tottenham,1992
+475,Danny Hill,England,1992
+476,Paul Moran,Tottenham,1992
+477,Paul Moran,England,1992
+478,David McDonald,Tottenham,1992
+479,David McDonald,Ireland,1992
+480,Jeff Minton,Tottenham,1992
+481,Jeff Minton,England,1992
+482,David White,Man City,1992
+483,David White,England,1992
+484,Michel Vonk,Man City,1992
+485,Michel Vonk,Netherlands,1992
+486,Tony Coton,Man City,1992
+487,Tony Coton,England,1992
+488,Martyn Margetson,Man City,1992
+489,Martyn Margetson,Wales,1992
+490,Andy Dibble,Man City,1992
+491,Andy Dibble,Wales,1992
+492,Keith Curle,Man City,1992
+493,Keith Curle,England,1992
+494,Ray Ranson,Man City,1992
+495,Ray Ranson,England,1992
+496,Ian Brightwell,Man City,1992
+497,Ian Brightwell,England,1992
+498,Terry Phelan,Man City,1992
+499,Terry Phelan,Ireland,1992
+500,Steve McMahon,Man City,1992
+501,Steve McMahon,England,1992
+502,Paul Lake,Man City,1992
+503,Paul Lake,England,1992
+504,Garry Flitcroft,Man City,1992
+505,Garry Flitcroft,England,1992
+506,Peter Reid,Man City,1992
+507,Peter Reid,England,1992
+508,Steve Lomas,Man City,1992
+509,Steve Lomas,Northern Ireland,1992
+510,Kare Ingebrigtsen,Man City,1992
+511,Kare Ingebrigtsen,Norway,1992
+512,Fitzroy Simpson,Man City,1992
+513,Fitzroy Simpson,Jamaica,1992
+514,Mike Sheron,Man City,1992
+515,Mike Sheron,England,1992
+516,Niall Quinn,Man City,1992
+517,Niall Quinn,Ireland,1992
+518,David Brightwell,Man City,1992
+519,David Brightwell,England,1992
+520,Andy Hill,Man City,1992
+521,Andy Hill,England,1992
+522,Rick Holden,Man City,1992
+523,Rick Holden,England,1992
+524,Adie Mike,Man City,1992
+525,Adie Mike,England,1992
+526,Michael Quigley,Man City,1992
+527,Michael Quigley,England,1992
+528,David Kerr,Man City,1992
+529,David Kerr,Scotland,1992
+530,David Seaman,Arsenal,1992
+531,David Seaman,England,1992
+532,Tony Adams,Arsenal,1992
+533,Tony Adams,England,1992
+534,Ian Wright,Arsenal,1992
+535,Ian Wright,England,1992
+536,Steve Bould,Arsenal,1992
+537,Steve Bould,England,1992
+538,Martin Keown,Arsenal,1992
+539,Martin Keown,England,1992
+540,Andy Linighan,Arsenal,1992
+541,Andy Linighan,England,1992
+542,Steve Morrow,Arsenal,1992
+543,Steve Morrow,Northern Ireland,1992
+544,David O'Leary,Arsenal,1992
+545,David O'Leary,Ireland,1992
+546,Colin Pates,Arsenal,1992
+547,Colin Pates,England,1992
+548,Lee Dixon,Arsenal,1992
+549,Lee Dixon,England,1992
+550,Nigel Winterburn,Arsenal,1992
+551,Nigel Winterburn,England,1992
+552,John Jensen,Arsenal,1992
+553,John Jensen,Denmark,1992
+554,Jimmy Carter,Arsenal,1992
+555,Jimmy Carter,England,1992
+556,Anders Limpar,Arsenal,1992
+557,Anders Limpar,Sweden,1992
+558,Ray Parlour,Arsenal,1992
+559,Ray Parlour,England,1992
+560,David Rocastle,Arsenal,1992
+561,David Rocastle,England,1992
+562,Ian Selley,Arsenal,1992
+563,Ian Selley,England,1992
+564,Paul Merson,Arsenal,1992
+565,Paul Merson,England,1992
+566,Kevin Campbell,Arsenal,1992
+567,Kevin Campbell,England,1992
+568,Paul Davis,Arsenal,1992
+569,Paul Davis,England,1992
+570,Alan Miller,Arsenal,1992
+571,Alan Miller,England,1992
+572,Gavin McGowan,Arsenal,1992
+573,Gavin McGowan,England,1992
+574,Scott Marshall,Arsenal,1992
+575,Scott Marshall,Scotland,1992
+576,Pal Lydersen,Arsenal,1992
+577,Pal Lydersen,Norway,1992
+578,Neil Heaney,Arsenal,1992
+579,Neil Heaney,England,1992
+580,David Hillier,Arsenal,1992
+581,David Hillier,England,1992
+582,Paul Shaw,Arsenal,1992
+583,Paul Shaw,England,1992
+584,Paul Dickov,Arsenal,1992
+585,Paul Dickov,Scotland,1992
+586,Alan Smith,Arsenal,1992
+587,Alan Smith,England,1992
+588,Jim Will,Arsenal,1992
+589,Jim Will,Scotland,1992
+590,Mark Flatts,Arsenal,1992
+591,Mark Flatts,England,1992
+592,Perry Groves,Arsenal,1992
+593,Perry Groves,England,1992
+594,Dave Beasant,Chelsea,1992
+595,Dave Beasant,England,1992
+596,Dennis Wise,Chelsea,1992
+597,Dennis Wise,England,1992
+598,Alec Chamberlain,Chelsea,1992
+599,Alec Chamberlain,England,1992
+600,David Hopkin,Chelsea,1992
+601,David Hopkin,Scotland,1992
+602,Kevin Hitchcock,Chelsea,1992
+603,Kevin Hitchcock,England,1992
+604,Nigel Spackman,Chelsea,1992
+605,Nigel Spackman,England,1992
+606,Dmitriy Kharin,Chelsea,1992
+607,Dmitriy Kharin,Russia,1992
+608,Andy Townsend,Chelsea,1992
+609,Andy Townsend,Ireland,1992
+610,Graham Stuart,Chelsea,1992
+611,Graham Stuart,England,1992
+612,Mal Donaghy,Chelsea,1992
+613,Mal Donaghy,Northern Ireland,1992
+614,Tony Cascarino,Chelsea,1992
+615,Tony Cascarino,Ireland,1992
+616,Robert Fleck,Chelsea,1992
+617,Robert Fleck,Scotland,1992
+618,Gareth Hall,Chelsea,1992
+619,Gareth Hall,Wales,1992
+620,Mick Harford,Chelsea,1992
+621,Mick Harford,England,1992
+622,Erland Johnsen,Chelsea,1992
+623,Erland Johnsen,Norway,1992
+624,Steve Livingstone,Chelsea,1992
+625,Steve Livingstone,England,1992
+626,Neil Shipperley,Chelsea,1992
+627,Neil Shipperley,England,1992
+628,Ken Monkou,Chelsea,1992
+629,Ken Monkou,Netherlands,1992
+630,John Spencer,Chelsea,1992
+631,John Spencer,Scotland,1992
+632,Andy Myers,Chelsea,1992
+633,Andy Myers,England,1992
+634,Frank Sinclair,Chelsea,1992
+635,Frank Sinclair,Jamaica,1992
+636,Anthony Barness,Chelsea,1992
+637,Anthony Barness,England,1992
+638,Steve Clarke,Chelsea,1992
+639,Steve Clarke,Scotland,1992
+640,Ian Pearce,Chelsea,1992
+641,Ian Pearce,England,1992
+642,Vinnie Jones,Chelsea,1992
+643,Vinnie Jones,Wales,1992
+644,Graeme Le Saux,Chelsea,1992
+645,Graeme Le Saux,England,1992
+646,Craig Burley,Chelsea,1992
+647,Craig Burley,Scotland,1992
+648,Eddie Newton,Chelsea,1992
+649,Eddie Newton,England,1992
+650,Darren Barnard,Chelsea,1992
+651,Darren Barnard,Wales,1992
+652,Damian Matthew,Chelsea,1992
+653,Damian Matthew,England,1992
+654,David Lee,Chelsea,1992
+655,David Lee,England,1992
+656,Joe Allon,Chelsea,1992
+657,Joe Allon,England,1992
+658,Nick Colgan,Chelsea,1992
+659,Nick Colgan,Ireland,1992
+660,Gerry Peyton,Chelsea,1992
+661,Gerry Peyton,Ireland,1992
+662,Paul Elliott,Chelsea,1992
+663,Paul Elliott,England,1992
+664,Neil Sullivan,MK Dons,1992
+665,Neil Sullivan,Scotland,1992
+666,Hans Segers,MK Dons,1992
+667,Hans Segers,Netherlands,1992
+668,Warren Barton,MK Dons,1992
+669,Warren Barton,England,1992
+670,Dean Blackwell,MK Dons,1992
+671,Dean Blackwell,England,1992
+672,Chris Perry,MK Dons,1992
+673,Chris Perry,England,1992
+674,John Scales,MK Dons,1992
+675,John Scales,England,1992
+676,Brian McAllister,MK Dons,1992
+677,Brian McAllister,Scotland,1992
+678,Terry Phelan,MK Dons,1992
+679,Terry Phelan,Ireland,1992
+680,Neal Ardley,MK Dons,1992
+681,Neal Ardley,England,1992
+682,Stewart Castledine,MK Dons,1992
+683,Stewart Castledine,England,1992
+684,Robbie Earle,MK Dons,1992
+685,Robbie Earle,Jamaica,1992
+686,Peter Fear,MK Dons,1992
+687,Peter Fear,England,1992
+688,Vinnie Jones,MK Dons,1992
+689,Vinnie Jones,Wales,1992
+690,Andy Clarke,MK Dons,1992
+691,Andy Clarke,England,1992
+692,Terry Gibson,MK Dons,1992
+693,Terry Gibson,England,1992
+694,Dean Holdsworth,MK Dons,1992
+695,Dean Holdsworth,England,1992
+696,Paul Miller,MK Dons,1992
+697,Paul Miller,England,1992
+698,Scott Fitzgerald,MK Dons,1992
+699,Scott Fitzgerald,Ireland,1992
+700,Lawrie Sanchez,MK Dons,1992
+701,Lawrie Sanchez,Northern Ireland,1992
+702,Gary Elkins,MK Dons,1992
+703,Gary Elkins,England,1992
+704,Roger Joseph,MK Dons,1992
+705,Roger Joseph,England,1992
+706,Gerald Dobbs,MK Dons,1992
+707,Gerald Dobbs,England,1992
+708,Greg Berry,MK Dons,1992
+709,Greg Berry,England,1992
+710,Steve Anthrobus,MK Dons,1992
+711,Steve Anthrobus,England,1992
+712,John Fashanu,MK Dons,1992
+713,John Fashanu,England,1992
+714,Alan McLeary,MK Dons,1992
+715,Alan McLeary,England,1992
+716,Steve Cotterill,MK Dons,1992
+717,Steve Cotterill,England,1992
+718,Steve Talboys,MK Dons,1992
+719,Steve Talboys,England,1992
+720,Paul McGee,MK Dons,1992
+721,Paul McGee,Ireland,1992
+722,Paul Kee,MK Dons,1992
+723,Paul Kee,Northern Ireland,1992
+724,Aidan Newhouse,MK Dons,1992
+725,Aidan Newhouse,England,1992
+726,Justin Skinner,MK Dons,1992
+727,Justin Skinner,England,1992
+728,Gary Ablett,Everton,1992
+729,Gary Ablett,England,1992
+730,Dave Watson,Everton,1992
+731,Dave Watson,England,1992
+732,Neville Southall,Everton,1992
+733,Neville Southall,Wales,1992
+734,Peter Beardsley,Everton,1992
+735,Peter Beardsley,England,1992
+736,Barry Horne,Everton,1992
+737,Barry Horne,Wales,1992
+738,Matt Jackson,Everton,1992
+739,Matt Jackson,England,1992
+740,Andy Hinchcliffe,Everton,1992
+741,Andy Hinchcliffe,England,1992
+742,John Ebbrell,Everton,1992
+743,John Ebbrell,England,1992
+744,Tony Cottee,Everton,1992
+745,Tony Cottee,England,1992
+746,Ian Snodin,Everton,1992
+747,Ian Snodin,England,1992
+748,Paul Rideout,Everton,1992
+749,Paul Rideout,England,1992
+750,Mark Ward,Everton,1992
+751,Mark Ward,England,1992
+752,Martin Keown,Everton,1992
+753,Martin Keown,England,1992
+754,Robert Warzycha,Everton,1992
+755,Robert Warzycha,Poland,1992
+756,Preki,Everton,1992
+757,Preki,United States,1992
+758,Peter Beagrie,Everton,1992
+759,Peter Beagrie,England,1992
+760,Stuart Barlow,Everton,1992
+761,Stuart Barlow,England,1992
+762,Mo Johnston,Everton,1992
+763,Mo Johnston,Scotland,1992
+764,Kenny Sansom,Everton,1992
+765,Kenny Sansom,England,1992
+766,David Unsworth,Everton,1992
+767,David Unsworth,England,1992
+768,Paul Holmes,Everton,1992
+769,Paul Holmes,England,1992
+770,Iain Jenkins,Everton,1992
+771,Iain Jenkins,Northern Ireland,1992
+772,Jason Kearton,Everton,1992
+773,Jason Kearton,Australia,1992
+774,Alan Harper,Everton,1992
+775,Alan Harper,England,1992
+776,Gerry Peyton,Everton,1992
+777,Gerry Peyton,Ireland,1992
+778,Billy Kenny,Everton,1992
+779,Billy Kenny,England,1992
+780,Neil Moore,Everton,1992
+781,Neil Moore,England,1992
+782,Paul Beesley,Sheff Utd,1992
+783,Paul Beesley,England,1992
+784,Andy Scott,Sheff Utd,1992
+785,Andy Scott,England,1992
+786,Carl Bradshaw,Sheff Utd,1992
+787,Carl Bradshaw,England,1992
+788,Paul Simon Tracey,Sheff Utd,1992
+789,Paul Simon Tracey,Northern Ireland,1992
+790,Franz Carr,Sheff Utd,1992
+791,Franz Carr,England,1992
+792,Tom Cowan,Sheff Utd,1992
+793,Tom Cowan,Scotland,1992
+794,Brian Deane,Sheff Utd,1992
+795,Brian Deane,England,1992
+796,Kevin Gage,Sheff Utd,1992
+797,Kevin Gage,England,1992
+798,Brian Gayle,Sheff Utd,1992
+799,Brian Gayle,England,1992
+800,Glyn Hodges,Sheff Utd,1992
+801,Glyn Hodges,Wales,1992
+802,Alan Kelly,Sheff Utd,1992
+803,Alan Kelly,Ireland,1992
+804,John Pemberton,Sheff Utd,1992
+805,John Pemberton,England,1992
+806,Simon Tracey,Sheff Utd,1992
+807,Simon Tracey,England,1992
+808,David Barnes,Sheff Utd,1992
+809,David Barnes,England,1992
+810,John Gannon,Sheff Utd,1992
+811,John Gannon,England,1992
+812,Alan McLeary,Sheff Utd,1992
+813,Alan McLeary,England,1992
+814,Mike Lake,Sheff Utd,1992
+815,Mike Lake,England,1992
+816,Alan Cork,Sheff Utd,1992
+817,Alan Cork,England,1992
+818,Ian Bryson,Sheff Utd,1992
+819,Ian Bryson,Scotland,1992
+820,Charlie Hartfield,Sheff Utd,1992
+821,Charlie Hartfield,England,1992
+822,Adrian Littlejohn,Sheff Utd,1992
+823,Adrian Littlejohn,England,1992
+824,Mitch Ward,Sheff Utd,1992
+825,Mitch Ward,England,1992
+826,Paul Rogers,Sheff Utd,1992
+827,Paul Rogers,England,1992
+828,Dane Whitehouse,Sheff Utd,1992
+829,Dane Whitehouse,England,1992
+830,Jamie Hoyland,Sheff Utd,1992
+831,Jamie Hoyland,England,1992
+832,Chris Kamara,Sheff Utd,1992
+833,Chris Kamara,England,1992
+834,Jim Leighton,Sheff Utd,1992
+835,Jim Leighton,Scotland,1992
+836,Steve Ogrizovic,Coventry,1992
+837,Steve Ogrizovic,England,1992
+838,Jonathan Gould,Coventry,1992
+839,Jonathan Gould,Scotland,1992
+840,Brian Borrows,Coventry,1992
+841,Brian Borrows,England,1992
+842,Peter Atherton,Coventry,1992
+843,Peter Atherton,England,1992
+844,Paul Williams,Coventry,1992
+845,Paul Williams,England,1992
+846,Keith Rowland,Coventry,1992
+847,Keith Rowland,Northern Ireland,1992
+848,Phil Babb,Coventry,1992
+849,Phil Babb,Ireland,1992
+850,Leigh Jenkinson,Coventry,1992
+851,Leigh Jenkinson,Wales,1992
+852,Stewart Robson,Coventry,1992
+853,Stewart Robson,England,1992
+854,Willie Boland,Coventry,1992
+855,Willie Boland,Ireland,1992
+856,Peter Ndlovu,Coventry,1992
+857,Peter Ndlovu,Zimbabwe,1992
+858,Roy Wegerle,Coventry,1992
+859,Roy Wegerle,United States,1992
+860,Kevin Gallacher,Coventry,1992
+861,Kevin Gallacher,Scotland,1992
+862,Kenny Sansom,Coventry,1992
+863,Kenny Sansom,England,1992
+864,Peter Billing,Coventry,1992
+865,Peter Billing,England,1992
+866,David Busst,Coventry,1992
+867,David Busst,England,1992
+868,Sean Flynn,Coventry,1992
+869,Sean Flynn,England,1992
+870,Micky Gynn,Coventry,1992
+871,Micky Gynn,England,1992
+872,Lee Hurst,Coventry,1992
+873,Lee Hurst,England,1992
+874,Lloyd McGrath,Coventry,1992
+875,Lloyd McGrath,England,1992
+876,Andy Pearce,Coventry,1992
+877,Andy Pearce,England,1992
+878,Micky Quinn,Coventry,1992
+879,Micky Quinn,England,1992
+880,David Rennie,Coventry,1992
+881,David Rennie,Scotland,1992
+882,Robert Rosario,Coventry,1992
+883,Robert Rosario,England,1992
+884,David Smith,Coventry,1992
+885,David Smith,England,1992
+886,John Williams,Coventry,1992
+887,John Williams,England,1992
+888,Terry Fleming,Coventry,1992
+889,Terry Fleming,England,1992
+890,Tony Sheridan,Coventry,1992
+891,Tony Sheridan,Ireland,1992
+892,Craig Middleton,Coventry,1992
+893,Craig Middleton,England,1992
+894,Chris Greenman,Coventry,1992
+895,Chris Greenman,England,1992
+896,Paul Williams,Coventry,1992
+897,Paul Williams,Northern Ireland,1992
+898,Frank Yallop,Ipswich,1992
+899,Frank Yallop,Canada,1992
+900,Jason Dozzell,Ipswich,1992
+901,Jason Dozzell,England,1992
+902,Craig Forrest,Ipswich,1992
+903,Craig Forrest,Canada,1992
+904,Boncho Genchev,Ipswich,1992
+905,Boncho Genchev,Bulgaria,1992
+906,Gavin Johnson,Ipswich,1992
+907,Gavin Johnson,England,1992
+908,Chris Kiwomya,Ipswich,1992
+909,Chris Kiwomya,England,1992
+910,Neil Thompson,Ipswich,1992
+911,Neil Thompson,England,1992
+912,John Wark,Ipswich,1992
+913,John Wark,Scotland,1992
+914,Phil Whelan,Ipswich,1992
+915,Phil Whelan,England,1992
+916,Geraint Williams,Ipswich,1992
+917,Geraint Williams,Wales,1992
+918,Clive Baker,Ipswich,1992
+919,Clive Baker,England,1992
+920,David Gregory,Ipswich,1992
+921,David Gregory,England,1992
+922,David Linighan,Ipswich,1992
+923,David Linighan,England,1992
+924,Simon Milton,Ipswich,1992
+925,Simon Milton,England,1992
+926,Andy Petterson,Ipswich,1992
+927,Andy Petterson,Australia,1992
+928,Mick Stockwell,Ipswich,1992
+929,Mick Stockwell,England,1992
+930,Eddie Youds,Ipswich,1992
+931,Eddie Youds,England,1992
+932,Lee Durrant,Ipswich,1992
+933,Lee Durrant,England,1992
+934,Paul Goddard,Ipswich,1992
+935,Paul Goddard,England,1992
+936,Steve Whitton,Ipswich,1992
+937,Steve Whitton,England,1992
+938,Vlado Bozinoski,Ipswich,1992
+939,Vlado Bozinoski,Australia,1992
+940,Glenn Pennyfather,Ipswich,1992
+941,Glenn Pennyfather,England,1992
+942,Jason Winters,Ipswich,1992
+943,Jason Winters,England,1992
+944,Steve Palmer,Ipswich,1992
+945,Steve Palmer,England,1992
+946,Adam Tanner,Ipswich,1992
+947,Adam Tanner,England,1992
+948,John Lukic,Leeds,1992
+949,John Lukic,England,1992
+950,David Batty,Leeds,1992
+951,David Batty,England,1992
+952,Tony Dorigo,Leeds,1992
+953,Tony Dorigo,England,1992
+954,David Rocastle,Leeds,1992
+955,David Rocastle,England,1992
+956,Gary McAllister,Leeds,1992
+957,Gary McAllister,Scotland,1992
+958,Gary Speed,Leeds,1992
+959,Gary Speed,Wales,1992
+960,Gordon Strachan,Leeds,1992
+961,Gordon Strachan,Scotland,1992
+962,Eric Cantona,Leeds,1992
+963,Eric Cantona,France,1992
+964,Steve Hodge,Leeds,1992
+965,Steve Hodge,England,1992
+966,Jon Newsome,Leeds,1992
+967,Jon Newsome,England,1992
+968,Mark Beeney,Leeds,1992
+969,Mark Beeney,England,1992
+970,Chris Fairclough,Leeds,1992
+971,Chris Fairclough,England,1992
+972,Gary Kelly,Leeds,1992
+973,Gary Kelly,Ireland,1992
+974,Kevin Sharp,Leeds,1992
+975,Kevin Sharp,Canada,1992
+976,David Wetherall,Leeds,1992
+977,David Wetherall,England,1992
+978,Chris Whyte,Leeds,1992
+979,Chris Whyte,England,1992
+980,Frank Strandli,Leeds,1992
+981,Frank Strandli,Norway,1992
+982,Mark Tinkler,Leeds,1992
+983,Mark Tinkler,England,1992
+984,Lee Chapman,Leeds,1992
+985,Lee Chapman,England,1992
+986,Carl-Steven Shutt,Leeds,1992
+987,Carl-Steven Shutt,England,1992
+988,Noel Whelan,Leeds,1992
+989,Noel Whelan,England,1992
+990,Rob Bowman,Leeds,1992
+991,Rob Bowman,England,1992
+992,Scott Sellars,Leeds,1992
+993,Scott Sellars,England,1992
+994,Rod Wallace,Leeds,1992
+995,Rod Wallace,England,1992
+996,Mervyn Day,Leeds,1992
+997,Mervyn Day,England,1992
+998,Paul Pettinger,Leeds,1992
+999,Paul Pettinger,England,1992
+1000,Dylan Kerr,Leeds,1992
+1001,Dylan Kerr,England,1992
+1002,Jamie Forrester,Leeds,1992
+1003,Jamie Forrester,England,1992
+1004,Ray Wallace,Leeds,1992
+1005,Ray Wallace,England,1992
+1006,Mel Sterland,Leeds,1992
+1007,Mel Sterland,England,1992
+1008,Imre Varadi,Leeds,1992
+1009,Imre Varadi,England,1992
+1010,David Kerslake,Leeds,1992
+1011,David Kerslake,England,1992
+1012,Tim Flowers,Southampton,1992
+1013,Tim Flowers,England,1992
+1014,Ian Andrews,Southampton,1992
+1015,Ian Andrews,England,1992
+1016,Francis Benali,Southampton,1992
+1017,Francis Benali,England,1992
+1018,Jason Dodd,Southampton,1992
+1019,Jason Dodd,England,1992
+1020,Matthew Bound,Southampton,1992
+1021,Matthew Bound,England,1992
+1022,Derek Allan,Southampton,1992
+1023,Derek Allan,Scotland,1992
+1024,Jeff Kenna,Southampton,1992
+1025,Jeff Kenna,Ireland,1992
+1026,Ken Monkou,Southampton,1992
+1027,Ken Monkou,Netherlands,1992
+1028,Matt Le Tissier,Southampton,1992
+1029,Matt Le Tissier,England,1992
+1030,Perry Groves,Southampton,1992
+1031,Perry Groves,England,1992
+1032,Neil Maddison,Southampton,1992
+1033,Neil Maddison,England,1992
+1034,Glenn Cockerill,Southampton,1992
+1035,Glenn Cockerill,England,1992
+1036,Tommy Widdrington,Southampton,1992
+1037,Tommy Widdrington,England,1992
+1038,Kerry Dixon,Southampton,1992
+1039,Kerry Dixon,England,1992
+1040,Paul Moody,Southampton,1992
+1041,Paul Moody,England,1992
+1042,David Speedie,Southampton,1992
+1043,David Speedie,Scotland,1992
+1044,Iain Dowie,Southampton,1992
+1045,Iain Dowie,Northern Ireland,1992
+1046,Richard Hall,Southampton,1992
+1047,Richard Hall,England,1992
+1048,Steve Wood,Southampton,1992
+1049,Steve Wood,England,1992
+1050,Micky Adams,Southampton,1992
+1051,Micky Adams,England,1992
+1052,Kevin Moore,Southampton,1992
+1053,Kevin Moore,England,1992
+1054,Terry Hurlock,Southampton,1992
+1055,Terry Hurlock,England,1992
+1056,Nicky Banger,Southampton,1992
+1057,Nicky Banger,England,1992
+1058,David Lee,Southampton,1992
+1059,David Lee,England,1992
+1060,Lee Powell,Southampton,1992
+1061,Lee Powell,Wales,1992
+1062,Neal Bartlett,Southampton,1992
+1063,Neal Bartlett,England,1992
+1064,Paul Gerrard,Oldham Athletic,1992
+1065,Paul Gerrard,England,1992
+1066,Craig Fleming,Oldham Athletic,1992
+1067,Craig Fleming,England,1992
+1068,Richard Jobson,Oldham Athletic,1992
+1069,Richard Jobson,England,1992
+1070,Chris Makin,Oldham Athletic,1992
+1071,Chris Makin,England,1992
+1072,Neil McDonald,Oldham Athletic,1992
+1073,Neil McDonald,England,1992
+1074,Neil Pointon,Oldham Athletic,1992
+1075,Neil Pointon,England,1992
+1076,Steve Redmond,Oldham Athletic,1992
+1077,Steve Redmond,England,1992
+1078,Gunnar Halle,Oldham Athletic,1992
+1079,Gunnar Halle,Norway,1992
+1080,Andy Ritchie,Oldham Athletic,1992
+1081,Andy Ritchie,England,1992
+1082,Paul Bernard,Oldham Athletic,1992
+1083,Paul Bernard,Scotland,1992
+1084,Mike Milligan,Oldham Athletic,1992
+1085,Mike Milligan,Ireland,1992
+1086,Darren Beckford,Oldham Athletic,1992
+1087,Darren Beckford,England,1992
+1088,Ian Marshall,Oldham Athletic,1992
+1089,Ian Marshall,England,1992
+1090,Graeme Sharp,Oldham Athletic,1992
+1091,Graeme Sharp,Scotland,1992
+1092,Neil Adams,Oldham Athletic,1992
+1093,Neil Adams,England,1992
+1094,Andy Barlow,Oldham Athletic,1992
+1095,Andy Barlow,England,1992
+1096,Mark Brennan,Oldham Athletic,1992
+1097,Mark Brennan,England,1992
+1098,Jon Hallworth,Oldham Athletic,1992
+1099,Jon Hallworth,England,1992
+1100,Nick Henry,Oldham Athletic,1992
+1101,Nick Henry,England,1992
+1102,Paul Moulden,Oldham Athletic,1992
+1103,Paul Moulden,England,1992
+1104,Ian Olney,Oldham Athletic,1992
+1105,Ian Olney,England,1992
+1106,Neil Tolson,Oldham Athletic,1992
+1107,Neil Tolson,England,1992
+1108,John Keeley,Oldham Athletic,1992
+1109,John Keeley,England,1992
+1110,Roger Palmer,Oldham Athletic,1992
+1111,Roger Palmer,England,1992
+1112,Ian Gray,Oldham Athletic,1992
+1113,Ian Gray,England,1992
+1114,Willie Donachie,Oldham Athletic,1992
+1115,Willie Donachie,Scotland,1992
+1116,Orpheo Keizerweerd,Oldham Athletic,1992
+1117,Orpheo Keizerweerd,Netherlands,1992
+1118,Nigel Martyn,Crystal Palace,1992
+1119,Nigel Martyn,England,1992
+1120,Dean Gordon,Crystal Palace,1992
+1121,Dean Gordon,England,1992
+1122,Gareth Southgate,Crystal Palace,1992
+1123,Gareth Southgate,England,1992
+1124,Chris Coleman,Crystal Palace,1992
+1125,Chris Coleman,Wales,1992
+1126,Simon Rodger,Crystal Palace,1992
+1127,Simon Rodger,England,1992
+1128,John Salako,Crystal Palace,1992
+1129,John Salako,England,1992
+1130,Richard Shaw,Crystal Palace,1992
+1131,Richard Shaw,England,1992
+1132,Paul Williams,Crystal Palace,1992
+1133,Paul Williams,England,1992
+1134,Andy Thorn,Crystal Palace,1992
+1135,Andy Thorn,England,1992
+1136,Darren Patterson,Crystal Palace,1992
+1137,Darren Patterson,Northern Ireland,1992
+1138,Ricky Newman,Crystal Palace,1992
+1139,Ricky Newman,England,1992
+1140,George Ndah,Crystal Palace,1992
+1141,George Ndah,Nigeria,1992
+1142,Eddie McGoldrick,Crystal Palace,1992
+1143,Eddie McGoldrick,Ireland,1992
+1144,Chris Armstrong,Crystal Palace,1992
+1145,Chris Armstrong,England,1992
+1146,Bobby Bowry,Crystal Palace,1992
+1147,Bobby Bowry,St. Kitts & Nevis,1992
+1148,Mark Bright,Crystal Palace,1992
+1149,Mark Bright,England,1992
+1150,Stan Collymore,Crystal Palace,1992
+1151,Stan Collymore,England,1992
+1152,John Humphrey,Crystal Palace,1992
+1153,John Humphrey,England,1992
+1154,Simon Osborn,Crystal Palace,1992
+1155,Simon Osborn,England,1992
+1156,Geoff Thomas,Crystal Palace,1992
+1157,Geoff Thomas,England,1992
+1158,Andy Woodman,Crystal Palace,1992
+1159,Andy Woodman,England,1992
+1160,Paul Heald,Crystal Palace,1992
+1161,Paul Heald,England,1992
+1162,Eric Young,Crystal Palace,1992
+1163,Eric Young,Wales,1992
+1164,Lee Sinnott,Crystal Palace,1992
+1165,Lee Sinnott,England,1992
+1166,Andy Barnes,Crystal Palace,1992
+1167,Andy Barnes,England,1992
+1168,Stuart Massey,Crystal Palace,1992
+1169,Stuart Massey,England,1992
+1170,Grant Watts,Crystal Palace,1992
+1171,Grant Watts,England,1992
+1172,Paul Williams,Crystal Palace,1992
+1173,Paul Williams,England,1992
+1174,Paul Mortimer,Crystal Palace,1992
+1175,Paul Mortimer,England,1992
+1176,Stephen Pears,Middlesbrough,1992
+1177,Stephen Pears,England,1992
+1178,Alan Kernaghan,Middlesbrough,1992
+1179,Alan Kernaghan,Ireland,1992
+1180,Gary Parkinson,Middlesbrough,1992
+1181,Gary Parkinson,England,1992
+1182,Jimmy Phillips,Middlesbrough,1992
+1183,Jimmy Phillips,England,1992
+1184,Derek Whyte,Middlesbrough,1992
+1185,Derek Whyte,Scotland,1992
+1186,Curtis Fleming,Middlesbrough,1992
+1187,Curtis Fleming,Ireland,1992
+1188,Chris Morris,Middlesbrough,1992
+1189,Chris Morris,Ireland,1992
+1190,Robbie Mustoe,Middlesbrough,1992
+1191,Robbie Mustoe,England,1992
+1192,Graham Kavanagh,Middlesbrough,1992
+1193,Graham Kavanagh,Ireland,1992
+1194,Alan Moore,Middlesbrough,1992
+1195,Alan Moore,Ireland,1992
+1196,Craig Hignett,Middlesbrough,1992
+1197,Craig Hignett,England,1992
+1198,Paul Wilkinson,Middlesbrough,1992
+1199,Paul Wilkinson,England,1992
+1200,Willie Falconer,Middlesbrough,1992
+1201,Willie Falconer,Scotland,1992
+1202,John Hendrie,Middlesbrough,1992
+1203,John Hendrie,Scotland,1992
+1204,Bernie Slaven,Middlesbrough,1992
+1205,Bernie Slaven,Ireland,1992
+1206,Tommy Wright,Middlesbrough,1992
+1207,Tommy Wright,Scotland,1992
+1208,Andy Peake,Middlesbrough,1992
+1209,Andy Peake,England,1992
+1210,Jonathan Gittens,Middlesbrough,1992
+1211,Jonathan Gittens,England,1992
+1212,Ian Ironside,Middlesbrough,1992
+1213,Ian Ironside,England,1992
+1214,Ben Roberts,Middlesbrough,1992
+1215,Ben Roberts,England,1992
+1216,Jamie Pollock,Middlesbrough,1992
+1217,Jamie Pollock,England,1992
+1218,Brian Horne,Middlesbrough,1992
+1219,Brian Horne,England,1992
+1220,Andy Collett,Middlesbrough,1992
+1221,Andy Collett,England,1992
+1222,Mark Proctor,Middlesbrough,1992
+1223,Mark Proctor,England,1992
+1224,Nicky Mohan,Middlesbrough,1992
+1225,Nicky Mohan,England,1992
+1226,Chris Kamara,Middlesbrough,1992
+1227,Chris Kamara,England,1992
+1228,Dwight Marshall,Middlesbrough,1992
+1229,Dwight Marshall,England,1992
+1230,Mark Crossley,Nottm Forest,1992
+1231,Mark Crossley,Wales,1992
+1232,Andy Marriott,Nottm Forest,1992
+1233,Andy Marriott,Wales,1992
+1234,Stuart Pearce,Nottm Forest,1992
+1235,Stuart Pearce,England,1992
+1236,Craig Armstrong,Nottm Forest,1992
+1237,Craig Armstrong,England,1992
+1238,Gary Charles,Nottm Forest,1992
+1239,Gary Charles,England,1992
+1240,Carl Tiler,Nottm Forest,1992
+1241,Carl Tiler,England,1992
+1242,Steve Chettle,Nottm Forest,1992
+1243,Steve Chettle,England,1992
+1244,Nigel Clough,Nottm Forest,1992
+1245,Nigel Clough,England,1992
+1246,Teddy Sheringham,Nottm Forest,1992
+1247,Teddy Sheringham,England,1992
+1248,Roy Keane,Nottm Forest,1992
+1249,Roy Keane,Ireland,1992
+1250,Scot Gemmill,Nottm Forest,1992
+1251,Scot Gemmill,Scotland,1992
+1252,Ian Woan,Nottm Forest,1992
+1253,Ian Woan,England,1992
+1254,Thorvaldur Örlygsson,Nottm Forest,1992
+1255,Thorvaldur Örlygsson,Iceland,1992
+1256,Steve Stone,Nottm Forest,1992
+1257,Steve Stone,England,1992
+1258,Neil Webb,Nottm Forest,1992
+1259,Neil Webb,England,1992
+1260,Ian Kilford,Nottm Forest,1992
+1261,Ian Kilford,England,1992
+1262,Gary Bannister,Nottm Forest,1992
+1263,Gary Bannister,England,1992
+1264,Kingsley Black,Nottm Forest,1992
+1265,Kingsley Black,Northern Ireland,1992
+1266,Lee Glover,Nottm Forest,1992
+1267,Lee Glover,Scotland,1992
+1268,Brian Laws,Nottm Forest,1992
+1269,Brian Laws,England,1992
+1270,Robert Rosario,Nottm Forest,1992
+1271,Robert Rosario,England,1992
+1272,Brett Williams,Nottm Forest,1992
+1273,Brett Williams,England,1992
+1274,Ray McKinnon,Nottm Forest,1992
+1275,Ray McKinnon,Scotland,1992
+1276,Terry Wilson,Nottm Forest,1992
+1277,Terry Wilson,Scotland,1992
+1278,Gary Crosby,Nottm Forest,1992
+1279,Gary Crosby,England,1992
