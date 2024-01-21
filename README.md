@@ -28,7 +28,7 @@ The app and API for the Tiki Taka Toe football grid guessing game.
 
 1. Change `cwd` to tiki-taka-toe/src folder
 2. Run the file `tic_tac_toe.py` (can be done in the terminal)
-3. Select level by typing one of the options: easy/medium/hard (will choose a grid with a corresponding level of dificulty)
+3. Select level by typing one of the options: `easy/medium/hard` (will choose a grid with a corresponding level of dificulty)
 4. A grid will appear with 6 teams (and a dictionary containing info on the grid selected)
 5. Chose a position on the grid to guess a player for (index starts at 1 in the bottom left square)
 6. Type in the index and the 2 corresponding teams will be printed out to guess a player for.
