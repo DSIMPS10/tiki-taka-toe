@@ -12,7 +12,7 @@ The app and API for the Tiki Taka Toe football grid guessing game.
 
 - The API can run locally to connect to the Elephant SQL Postgres database
 - The code for the flaks API is stored in the `flask_pkg` folder
-- A `.env` file in the `flask_pkg` folder containing credentials for the database connection is required
+- A `.env` file in the `flask_pkg` folder containing credentials for the database connection is required (see the `dotenv_example` file for the format required)
 
 #### API steps:
 
